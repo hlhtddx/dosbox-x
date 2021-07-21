@@ -79,7 +79,7 @@ Suivant
 .
 
 :SAVE
-Sauvez
+Sauver
 .
 
 :EXIT
@@ -87,7 +87,7 @@ Sortie
 .
 
 :CAPTURE
-Capture
+Capturer
 .
 
 :SAVE_CONFIGURATION
@@ -99,7 +99,7 @@ Enregistrer le fichier de langue
 .
 
 :SAVE_RESTART
-Sauvegarde et redémarrage
+Sauver, redémarrer
 .
 
 :PASTE_CLIPBOARD
@@ -107,7 +107,7 @@ Coller le presse-papiers
 .
 
 :APPEND_HISTORY
-Ajouter l'historique
+Ajouter à l'historique
 .
 
 :EXECUTE_NOW
@@ -155,19 +155,19 @@ Visitez la page d'accueil
 .
 
 :GET_STARTED
-Pour commencer
+Pour démarrer
 .
 
 :CDROM_SUPPORT
-Support de CD-ROM
+Support du CD-ROM
 .
 
 :DRIVE_INFORMATION
-Informations sur l'entraînement
+Informations sur le lecteur
 .
 
 :MOUNTED_DRIVE_NUMBER
-Numéros d'entraînement montés
+Nombre de lecteurs montés
 .
 
 :IDE_CONTROLLER_ASSIGNMENT
@@ -183,7 +183,7 @@ Volumes actuels de la table de mixage
 .
 
 :CURRENT_SBCONFIG
-Configuration de Sound Blaster
+Configuration Sound Blaster
 .
 
 :CURRENT_MIDICONFIG
@@ -207,31 +207,31 @@ Introduction
 .
 
 :CONFIGURE_GROUP
-Choisissez un groupe de paramètres à configurer :
+Choisissez des paramètres à configurer :
 .
 
 :SHOW_ADVOPT
-Afficher les options avancées
+Options avancées
 .
 
 :USE_PRIMARYCONFIG
-Utiliser le fichier de configuration principal
+Fichier principal
 .
 
 :USE_PORTABLECONFIG
-Utiliser un fichier de configuration portable
+Fichier portable
 .
 
 :USE_USERCONFIG
-Utiliser le fichier de configuration de l'utilisateur
+Fichier utilisateur
 .
 
 :CONFIG_SAVETO
-Entrez le nom de fichier pour le fichier de configuration à enregistrer :
+Entrez le nom de fichier pour le fichier de configuration à sauvegarder:
 .
 
 :CONFIG_SAVEALL
-Sauvegarder toutes les options de configuration (y compris les options avancées) dans le fichier de configuration.
+Sauvegarder toutes les options de configuration (y compris avancées).
 .
 
 :LANG_FILENAME
@@ -249,7 +249,7 @@ Vous pouvez également exécuter Windows 3.x et 95/98 à l'intérieur de la mach
 .
 
 :DRIVE
-Entraînement
+Lecteur
 .
 
 :TYPE
@@ -261,7 +261,7 @@ Type
 .
 
 :DRIVE_NUMBER
-Numéro de l'entraînement
+Numéro du lecteur
 .
 
 :DISK_NAME
@@ -1625,22 +1625,22 @@ Pour régler la vitesse du processeur émulé, utilisez ←[31mhost+Plus←[37m 
 .
 
 :SHELL_STARTUP_TEXT1
-Tapez ←[32mHELP←[37m pour voir la liste des commandes du shell, ←[32mINTRO←[37m pour une brève introduction.
-Vous pouvez également effectuer diverses tâches dans DOSBox-X par l'intermédiaire des menus ←[33mdrop-down←[37m.
+Tapez ←[32mHELP←[37m pour voir les commandes du shell, ←[32mINTRO←[37m pour une introduction.   
+Vous pouvez effectuer des tâches par l'intermédiaire des menus ←[33mdéroulants←[37m.  
 .
 
 :SHELL_STARTUP_EXAMPLE
-←[32mExemple←[37m : Essayez de sélectionner l'option de sortie ←[33mTrueType font←[37m ou ←[33mOpenGL pixel-perfect←[37m.
+←[32mExemple←[37m : Sélectionnez l'option ←[33mpolice TrueType←[37m ou ←[33mOpenGL pixel-parfait←[37m.    
 .
 
 :SHELL_STARTUP_HEAD2
-←[36mUtilisation des raccourcis par défaut :                                                   ←[37m
+←[36mUtilisation des raccourcis par défaut :                                     ←[37m
 .
 
 :SHELL_STARTUP_TEXT2
-- passer du mode fenêtré au mode plein écran avec la combinaison de touches ←[31mF11 ←[37m+ ←[31mF←[37m ←[37m
-- lancer ←[33mConfiguration Tool←[37m en utilisant ←[31mF11 ←[37m+ ←[31mC←[37m←[37m, et ←[33mMapper Editor←[37m en utilisant ←[31mF11 ←[37m+ ←[31mM←[37m ←[37m
-- augmenter ou diminuer la vitesse d'émulation avec ←[31mF11 ←[37m+ ←[31mPlus←[37m←[37m ou ←[31mF11 ←[37m+ ←[31mMinus←[37m ←[37m
+- passer du mode fenêtré au plein écran avec les touches ←[31mF11 ←[37m+ ←[31mF←[37m            ←[37m
+- ←[33ml'outil de configuration avec ←[37m←[31mF11 ←[37m+ ←[31mC←[37m←[37m, ←[33ml'éditeur de mappages avec ←[37m←[31mF11 ←[37m+ ←[31mM ←[37m←[37m
+- régler la vitesse d'émulation avec ←[31mF11 ←[37m+ ←[31mPlus←[37m←[37m ou ←[31mF11 ←[37m+ ←[31mMinus←[37m ←[37m             
 .
 
 :SHELL_STARTUP_CGA
@@ -1659,13 +1659,13 @@ Utilisez ←[31mCtrl+F8←[37m pour activer le mélange horizontal (uniquement e
 .
 
 :SHELL_STARTUP_HEAD3
-←[36mDOSBox-X project on the web :                                                ←[37m
+←[36mLe projet DOSBox-X sur Internet:                                            ←[37m
 .
 
 :SHELL_STARTUP_TEXT3
-←[32mPage d'accueil du projet←[37m : ←[33mhttps://dosbox-x.com/ ←[36mÉmulations DOS complètes←[37m
-←[32mGuides d'utilisation sur Wiki←[37m : ←[33mhttps://dosbox-x.com/wiki←[32m ←[36mDOS, Windows 3.x et 9x←[37m
-←[32mIssue ou suggestion←[37m : ←[33mhttps://github.com/joncampbell123/dosbox-x/issues ←[37m
+←[32mPage d'accueil du projet←[37m : ←[33mhttps://dosbox-x.com/ ←[36mÉmulation DOS complète  ←[37m   
+←[32mManuel utilisateur (Wiki)←[37m : ←[33mhttps://dosbox-x.com/wiki←[32m ←[36mDOS, Windows 3.x et 9x←[37m
+←[32mProblèmes ou suggestions←[37m : ←[33mhttps://github.com/joncampbell123/dosbox-x/issues←[37m
 .
 
 :SHELL_STARTUP_LAST
@@ -2262,7 +2262,7 @@ Cacher/afficher la barre de menu
 .
 
 :MENU:MainMenu
-Principal
+Fichier
 .
 
 :MENU:MainSendKey
@@ -3050,7 +3050,7 @@ Aller à la dernière page
 .
 
 :MENU:DriveMenu
-Entraînement
+Lecteurs
 .
 
 :MENU:drive_mountauto
@@ -3182,7 +3182,7 @@ Commandes DOS
 .
 
 :MENU:DebugMenu
-Déboguer
+Débogage
 .
 
 :MENU:HelpDebugMenu
@@ -3566,23 +3566,23 @@ Convertir en touches Ctrl+W/Z
 .
 
 :MENU:wheel_guest
-Activation pour les systèmes invités également
+Activer aussi pour les systèmes invités
 .
 
 :MENU:doublebuf
-Double mise en mémoire tampon (plein écran)
+Mise en mémoire tampon double (plein écran)
 .
 
 :MENU:alwaysontop
-Toujours au top
+Toujours au dessus
 .
 
 :MENU:highdpienable
-Activation du DPI élevé
+Activer les DPIs élevés
 .
 
 :MENU:sync_host_datetime
-Synchronisation de la date et de l'heure de l'hôte
+Synchronizer la date et l'heure de l'hôte
 .
 
 :MENU:shell_config_commands
@@ -3606,19 +3606,19 @@ Afficher l'état du disque IDE ou du CD
 .
 
 :MENU:print_textscreen
-Impression de l'écran texte DOS
+Imprimer l'écran de texte DOS
 .
 
 :MENU:pc98_use_uskb
-Utiliser la disposition du clavier américain
+Utiliser la disposition clavier US
 .
 
 :MAPPER:caprawopl
-Enregistrement de la sortie FM/OPL
+Enregistrer la sortie FM/OPL
 .
 
 :MAPPER:copyall
-Copier dans le presse-papiers
+Copier vers le presse-papiers
 .
 
 :MAPPER:cycauto
@@ -3630,11 +3630,11 @@ Afficher le débogueur
 .
 
 :MAPPER:decsize
-Diminuer la taille du TTF
+Diminuer la taille TTF
 .
 
 :MAPPER:dynamic
-CPU : noyau dynamique
+CPU: noyau dynamique
 .
 
 :MAPPER:fastedit
@@ -3642,7 +3642,7 @@ Mode d'édition rapide
 .
 
 :MAPPER:full
-CPU : full core
+CPU: noyau entier
 .
 
 :MAPPER:incsize
@@ -3650,7 +3650,7 @@ Augmenter la taille du TTF
 .
 
 :MAPPER:loadmap
-Chargement du fichier de mappage
+Charger un fichier de mappage
 .
 
 :MAPPER:nextslot
@@ -3658,7 +3658,7 @@ Emplacement de sauvegarde suivant
 .
 
 :MAPPER:normal
-CPU : noyau normal
+CPU : coeur normal
 .
 
 :MAPPER:paste
@@ -3686,15 +3686,15 @@ Redémarrer le système DOS
 .
 
 :MAPPER:recmtwave
-Enregistrement vers M.T. AVI
+Enregistrer vers M.T. AVI
 .
 
 :MAPPER:recvoldown
-Diminuer le volume de l'enregistrement
+Diminuer le volume d'enregistrement
 .
 
 :MAPPER:recvolup
-Augmenter le volume de récréation
+Augmenter le volume d'enregistrement
 .
 
 :MAPPER:rescanall
@@ -3710,7 +3710,7 @@ Afficher les informations sur l'état
 .
 
 :MAPPER:simple
-CPU : simple cœur
+CPU : coeur simple
 .
 
 :MAPPER:togmenu
