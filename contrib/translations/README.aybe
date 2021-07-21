@@ -1,0 +1,10 @@
+lng_po_converter transforms lng to po syntax:
+https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html#PO-Files
+
+most of the stuff looks okay but some needs rework
+
+the .po files have been saved in poedit so they get formatted once and generate .mo files
+
+ensure 'vcpkg install gettext' WARNING: this takes a LOT of time
+
+the translation file should be put in en\LC_MESSAGES\dosbox-x.mo
