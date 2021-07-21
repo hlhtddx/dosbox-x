@@ -220,15 +220,39 @@ void LoadMessageFile(const char * fname) {
     update_bindbutton_text();
     dos.loaded_codepage=cp;
 }
-
+#define GETTEXT 1
+#if GETTEXT
+#include <libintl.h>
+#include <locale.h>
+#include <cassert>
+static bool gettext_initialized = false;
+#endif
 const char * MSG_Get(char const * msg) {
-	for(itmb tel=Lang.begin();tel!=Lang.end();++tel){
+#if GETTEXT
+
+    if(!gettext_initialized)
+    {
+        const auto path = _getcwd(nullptr, 0);
+
+        setlocale(LC_ALL, "en-US");
+        bindtextdomain(PACKAGE, path);
+        textdomain(PACKAGE);
+
+        gettext_initialized = true;
+    }
+
+    const auto text = gettext(msg);
+
+    return text;
+#else
+    for(itmb tel=Lang.begin();tel!=Lang.end();++tel){
 		if((*tel).name==msg)
 		{
 			return  (*tel).val.c_str();
 		}
 	}
 	return msg;
+#endif
 }
 
 bool MSG_Write(const char * location, const char * name) {
