@@ -1,0 +1,3628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DOSBox-X\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"X-Generator: aybe\n"
+
+# :DOSBOX-X:LANGUAGE:Simplified Chinese
+# :DOSBOX-X:CODEPAGE:936
+# :DOSBOX-X:VERSION:0.83.16
+# :DOSBOX-X:REMARK:建议使用简体中文DOS/V模式或者TTF输出选项和代码页936配合中文TTF字体以直接支持中文显示和打印
+
+msgid "AUTOEXEC_CONFIGFILE_HELP"
+msgstr ""
+"Lines in this section will be run at startup.\n"
+"You can put your MOUNT lines here.\n"
+
+msgid "CONFIGFILE_INTRO"
+msgstr ""
+"# This is the configuration file for DOSBox-X %s. (Please use the latest version of DOSBox-X)\n"
+"# Lines starting with a # are comment lines and are ignored by DOSBox-X.\n"
+"# They are used to (briefly) document the effect of each option.\n"
+"# To write out ALL options, use command 'config -all' with -wc or -writeconf options.\n"
+
+msgid "CONFIG_SUGGESTED_VALUES"
+msgstr "Possible values"
+
+msgid "CONFIG_ADVANCED_OPTION"
+msgstr "Advanced option (see full configuration reference file [dosbox-x.reference.full.conf] for more details)"
+
+msgid "CONFIG_TOOL"
+msgstr "DOSBox-X 配置工具"
+
+msgid "CONFIG_TOOL_EXIT"
+msgstr "退出配置工具"
+
+msgid "MAPPER_EDITOR_EXIT"
+msgstr "退出按键编辑"
+
+msgid "SAVE_MAPPER_FILE"
+msgstr "保存按键配置文件"
+
+msgid "WARNING"
+msgstr "警告"
+
+msgid "YES"
+msgstr "是"
+
+msgid "NO"
+msgstr "否"
+
+msgid "OK"
+msgstr "确定"
+
+msgid "CANCEL"
+msgstr "取消"
+
+msgid "CLOSE"
+msgstr "关闭"
+
+msgid "UPDATE"
+msgstr "更新"
+
+msgid "ADD"
+msgstr "加入"
+
+msgid "DEL"
+msgstr "删除"
+
+msgid "NEXT"
+msgstr "下个"
+
+msgid "SAVE"
+msgstr "保存"
+
+msgid "EXIT"
+msgstr "退出"
+
+msgid "CAPTURE"
+msgstr "捕获"
+
+msgid "SAVE_CONFIGURATION"
+msgstr "保存配置"
+
+msgid "SAVE_LANGUAGE"
+msgstr "保存语言文件"
+
+msgid "SAVE_RESTART"
+msgstr "保存并重启动"
+
+msgid "PASTE_CLIPBOARD"
+msgstr "粘贴剪贴板文字"
+
+msgid "APPEND_HISTORY"
+msgstr "附加历史"
+
+msgid "EXECUTE_NOW"
+msgstr "立即执行"
+
+msgid "ADDITION_CONTENT"
+msgstr "附加内容:"
+
+msgid "CONTENT"
+msgstr "内容:"
+
+msgid "EDIT_FOR"
+msgstr "编辑 %s"
+
+msgid "HELP_FOR"
+msgstr "%s 的帮助"
+
+msgid "CONFIGURATION_FOR"
+msgstr "%s 的配置"
+
+msgid "CONFIGURATION"
+msgstr "配置"
+
+msgid "SETTINGS"
+msgstr "设置"
+
+msgid "LOGGING_OUTPUT"
+msgstr "DOSBox-X记录显示"
+
+msgid "CODE_OVERVIEW"
+msgstr "代码概览"
+
+msgid "VISIT_HOMEPAGE"
+msgstr "访问主页"
+
+msgid "GET_STARTED"
+msgstr "轻松上手"
+
+msgid "CDROM_SUPPORT"
+msgstr "光盘支持"
+
+msgid "DRIVE_INFORMATION"
+msgstr "驱动器信息"
+
+msgid "MOUNTED_DRIVE_NUMBER"
+msgstr "已分配的驱动器号"
+
+msgid "IDE_CONTROLLER_ASSIGNMENT"
+msgstr "IDE 控制器状态"
+
+msgid "HELP_COMMAND"
+msgstr "DOS 命令帮助"
+
+msgid "CURRENT_VOLUME"
+msgstr "当前混音器音量"
+
+msgid "CURRENT_SBCONFIG"
+msgstr "声卡配置信息"
+
+msgid "CURRENT_MIDICONFIG"
+msgstr "MIDI 设备配置信息"
+
+msgid "CREATE_IMAGE"
+msgstr "创建空白磁盘镜像"
+
+msgid "NETWORK_LIST"
+msgstr "网络接口列表"
+
+msgid "PRINTER_LIST"
+msgstr "打印机设备列表"
+
+msgid "INTRODUCTION"
+msgstr "介绍"
+
+msgid "CONFIGURE_GROUP"
+msgstr "选择设置组进行配置:"
+
+msgid "SHOW_ADVOPT"
+msgstr ""
+"显示高级选项\n"
+"..\n"
+":USE_PRIMARYCONFIG\n"
+"使用主配置文件\n"
+
+msgid "USE_PORTABLECONFIG"
+msgstr "使用程序目录配置文件"
+
+msgid "USE_USERCONFIG"
+msgstr "使用用户配置文件"
+
+msgid "CONFIG_SAVETO"
+msgstr "输入要保存的配置文件的文件名:"
+
+msgid "CONFIG_SAVEALL"
+msgstr "保存所有（包括高级）选项到配置文件"
+
+msgid "LANG_FILENAME"
+msgstr "输入语言文件的文件名:"
+
+msgid "LANG_LANGNAME"
+msgstr "语言名称(可选):"
+
+msgid "INTRO_MESSAGE"
+msgstr ""
+"欢迎使用 DOSBox-X, 自由免费且完整的 DOS 模拟器.\n"
+"DOSBox-X 模拟 DOS 命令行让您觉得好像在真正使用 DOS.\n"
+"您也可以在 DOS 虚拟机中运行 Windows 3.x 和 Windows 95/98.\n"
+
+msgid "DRIVE"
+msgstr "驱动器"
+
+msgid "TYPE"
+msgstr "类型"
+
+msgid "LABEL"
+msgstr "标签"
+
+msgid "DRIVE_NUMBER"
+msgstr "驱动器号"
+
+msgid "DISK_NAME"
+msgstr "磁盘名称"
+
+msgid "IDE_POSITION"
+msgstr "IDE 位置"
+
+msgid "SWAP_SLOT"
+msgstr "交换点"
+
+msgid "EMPTY_SLOT"
+msgstr "空档"
+
+msgid "SLOT"
+msgstr "存档"
+
+msgid "PREVIOUS_PAGE"
+msgstr "< 上一页"
+
+msgid "NEXT_PAGE"
+msgstr "       下一页 >"
+
+msgid "SELECT_EVENT"
+msgstr "选择要修改的事件."
+
+msgid "SELECT_DIFFERENT_EVENT"
+msgstr "选择另一个事件或者按加入/删除/下个按钮."
+
+msgid "PRESS_JOYSTICK_KEY"
+msgstr "按键盘上的键/游戏杆按钮或者移动游戏杆."
+
+msgid "CAPTURE_ENABLED"
+msgstr "捕获已启用. 按 ESC 键停止捕获."
+
+msgid "MAPPER_FILE_SAVED"
+msgstr "按键配置文件已保存"
+
+msgid "AUTO_CYCLE_MAX"
+msgstr "自动选择周期 [最大]"
+
+msgid "AUTO_CYCLE_AUTO"
+msgstr "自动选择周期 [自动]"
+
+msgid "AUTO_CYCLE_OFF"
+msgstr "自动选择周期 [关闭]"
+
+msgid "PROGRAM_CONFIG_PROPERTY_ERROR"
+msgstr ""
+"找不到该段落或属性.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_NO_PROPERTY"
+msgstr ""
+"属性 %s 在段落 %s 中无法找到.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SET_SYNTAX"
+msgstr ""
+"选项 -set 的语法不正确.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_NOCONFIGFILE"
+msgstr ""
+"没有加载配置文件!\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PRIMARY_CONF"
+msgstr ""
+"主配置文件: \n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_ADDITIONAL_CONF"
+msgstr ""
+"附加配置文件:\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_GLOBAL_CONF"
+msgstr ""
+"\n"
+"全局配置文件:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_CONFDIR"
+msgstr ""
+"DOSBox-X %s 用户配置文件目录: \n"
+"%s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_WORKDIR"
+msgstr ""
+"DOSBox-X 的工作目录: \n"
+"%s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_FILE_ERROR"
+msgstr ""
+"\n"
+"无法打开文件 %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_FILE_WHICH"
+msgstr ""
+"写入配置文件 %s\n"
+"\n"
+
+msgid "PROGRAM_LANGUAGE_FILE_WHICH"
+msgstr ""
+"已写入语言文件 %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_USAGE"
+msgstr ""
+"DOSBox-X 命令行配置工具. 支持的选项为:\n"
+"-wc (或 -writeconf) 不带参数: 写入加载的主配置文件.\n"
+"-wc (或 -writeconf) 加文件名: 写入配置目录中的配置文件.\n"
+"-wl (或 -writelang) 加文件名: 将文字写入语言文件.\n"
+"-ln (或 -langname) 显示 (不带参数) 或指定语言名称.\n"
+"-wcp [文件名] 将配置文件写入程序目录 (dosbox-x.conf 或指定文件名).\n"
+"-wcd 写入配置目录中的默认配置文件.\n"
+"-all, -mod 与 -wc, -wcp, 或 -wcd 一起使用以写入所有/修改过的配置选项.\n"
+"-wcboot, -wcpboot, 或 -wcdboot 将在写入配置文件后自动重启 DOSBox-X.\n"
+"-bootconf (或 -bc) 重启 DOSBox-X 并加载指定的配置文件 (或加载的主配置文件).\n"
+"-norem 与 -wc, -wcp, 或 -wcd 一起使用时不写入配置文件的注释.\n"
+"-l 列出 DOSBox-X 的配置参数.\n"
+"-h, -help, -? 显示此帮助; 加入 "sections" 一词以显示段落列表.\n"
+"-h, -help, -? 段落 / 属性 显示指定段落或属性的信息.\n"
+"-axclear 清除 [autoexec] 段落.\n"
+"-axadd [行] 加入指定行至 [autoexec] 段落.\n"
+"-axtype 显示 [autoexec] 段落中的内容.\n"
+"-avistart, -avistop 开始或结束记录 AVI.\n"
+"-securemode 启用安全模式, 将禁用挂载驱动器等功能.\n"
+"-startmapper 启动 DOSBox-X 的按键配置工具.\n"
+"-gui 启动图形界面的配置工具.\n"
+"-get "段落 属性" 返回指定属性的值 （并设置 CONFIG 环境变量).\n"
+"-set (或 -setf 强制设置) "段落 属性=值" 设置指定属性的值.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_PROPHLP"
+msgstr ""
+"属性 "%s" 的目的 (包含在 "%s" 段落中):\n"
+"%s\n"
+"\n"
+"可能的值: %s\n"
+"默认值: %s\n"
+"当前值: %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_LINEHLP"
+msgstr ""
+"段落 "%s" 的目的:\n"
+"%s\n"
+"当前值:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_NOCHANGE"
+msgstr ""
+"该属性不能在运行时改变.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_POSINT"
+msgstr "正整数"
+
+msgid "PROGRAM_CONFIG_HLP_SECTHLP"
+msgstr ""
+"段落 %s 包含以下属性:\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_SECTLIST"
+msgstr ""
+"DOSBox-X 配置文件包含以下段落:\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECURE_ON"
+msgstr ""
+"切换至安全模式.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECURE_DISALLOW"
+msgstr ""
+"This operation is not permitted in secure mode.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECTION_ERROR"
+msgstr ""
+"段落 %s 不存在.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_VALUE_ERROR"
+msgstr ""
+""%s" 不是属性 %s 的合法值.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PROPERTY_DUPLICATE"
+msgstr ""
+"可能有其它段落包含同样的属性名称.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_GET_SYNTAX"
+msgstr ""
+"正确的语法: config -get "段落 属性".\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PRINT_STARTUP"
+msgstr ""
+"\n"
+"DOSBox-X 是用以下命令行参数启动:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_MISSINGPARAM"
+msgstr "缺少参数."
+
+msgid "PROGRAM_MOUSE_INSTALL"
+msgstr ""
+"安装在 PS/2 端口.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_VERTICAL"
+msgstr ""
+"已启用反转Y轴.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_VERTICAL_BACK"
+msgstr ""
+"已禁用反转Y轴.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_UNINSTALL"
+msgstr ""
+"驱动程序已成功卸载...\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_ERROR"
+msgstr ""
+"已经安装在 PS/2 端口.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_NOINSTALLED"
+msgstr ""
+"驱动程序未安装.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_HELP"
+msgstr ""
+"启用或禁用鼠标.\n"
+"\n"
+"MOUSE [/?] [/U] [/V]\n"
+"  /U: 卸载\n"
+"  /V: 反转Y轴\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_CDROMS_FOUND"
+msgstr ""
+"找到的光驱: %d\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_FORMAT"
+msgstr ""
+"%-5s  %-58s %-12s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_ELTORITO"
+msgstr ""
+"驱动器 %c 挂载为光盘的启动软盘\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_RAMDRIVE"
+msgstr ""
+"驱动器 %c 挂载为内存盘\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_2"
+msgstr ""
+"驱动器 %c 挂载为 %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_1"
+msgstr ""
+"当前已挂载的驱动器为:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_FORMAT"
+msgstr ""
+"%-5s  %-47s  %-12s  %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_NUMBER_FORMAT"
+msgstr ""
+"%-12s  %-40s  %-12s  %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_2"
+msgstr ""
+"当前已挂载的驱动器号为:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_1"
+msgstr ""
+"当前已挂载的 FAT/ISO 驱动器为:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_NONE"
+msgstr ""
+"没有已挂载的驱动器\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ERROR_1"
+msgstr ""
+"目录 %s 不存在.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ERROR_2"
+msgstr ""
+"%s 不是目录\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_IMGMOUNT"
+msgstr ""
+"要挂载镜像文件, 请使用 [34;1mIMGMOUNT[0m 而不是 [34;1mMOUNT[0m 命令.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ILL_TYPE"
+msgstr ""
+"非法类型 %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ALREADY_MOUNTED"
+msgstr ""
+"驱动器 %c 已挂载为 %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_USAGE"
+msgstr ""
+"挂载主机系统中的目录或驱动器为 DOSBox-X 驱动器.\n"
+"用法: [34;1m[32;1mMOUNT[0m [37;1m驱动器[0m [36;1m主机目录[0m [选项][0m\n"
+" [37;1m驱动器[0m            主机目录或驱动器将被挂载的盘符.\n"
+" [36;1m主机目录[0m          主机系统中要被挂载的目录或驱动器.\n"
+" [选项]            挂载选项. 支持以下选项:\n"
+" -t                指定所挂载驱动器的显现类型.\n"
+"                   支持的驱动器类型为: dir, floppy, cdrom, overlay\n"
+"                   (其中 'overlay' 将重定向挂载驱动器中的写操作至另一个目录)\n"
+" -label [名称]     设置驱动器的标签名称 (全部大写)\n"
+" -ro               以只读方式挂载驱动器.\n"
+" -pr               指定路径为相对于配置文件所在目录.\n"
+" -cd               显示包含光驱号的主机光驱列表.\n"
+" -usecd [驱动器号] 支持直接硬件模拟比如 CD 音频播放.\n"
+" -ioctl            使用最低级别的硬件访问 (与 -usecd 选项一起使用).\n"
+" -aspi             使用已安装的 ASPI 层 (与 -usecd 选项一起使用).\n"
+" -freesize [大小]  指定驱动器中的剩余磁盘工间 (单位: MB, 或软盘: KB).\n"
+" -nocachedir       启用即时更新而不使用驱动器缓存.\n"
+" -z 驱动器         将虚拟驱动器 Z: 移动到另一个盘符.\n"
+" -o                将驱动器报告为: local, remote.\n"
+" -q                安静模式 (不显示消息).\n"
+" -u                卸载驱动器.\n"
+" [32;1m-examples         显示用法举例.[0m\n"
+"输入不带参数的 MOUNT 命令将显示已挂载的驱动器列表.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_EXAMPLE"
+msgstr ""
+"一个 MOUNT 命令的基本例子:\n"
+"\n"
+"[32;1mMOUNT c %s[0m\n"
+"\n"
+"此命令将主机目录 %s 呈现为 DOSBox-X 中的 C 盘驱动器.\n"
+"此目录必须在主机系统中存在. 如果目录包含空格, 请将它用双引号包含起来.\n"
+"例如: %s\n"
+"\n"
+"更多 MOUNT 命令的使用举例:\n"
+"\n"
+"[32;1mMOUNT[0m                             - 列出所有已挂载的驱动器\n"
+"[32;1mMOUNT -cd[0m                         - 列出本机所有光盘驱动器\n"
+"[32;1mMOUNT d %s[0m            - 将驱动器 D 挂载为指定目录\n"
+"[32;1mMOUNT c %s -t cdrom[0m      - 将驱动器 C: 以光驱方式挂载为指定目录\n"
+"[32;1mMOUNT c %s -ro[0m           - 将驱动器 C: 以只读方式挂载\n"
+"[32;1mMOUNT c %s -label TEST[0m   - 挂载驱动器 C: 并给予标签 TEST\n"
+"[32;1mMOUNT c %s -nocachedir [0m  - 挂载驱动器 C: 且不使用驱动器缓存\n"
+"[32;1mMOUNT c %s -freesize 128[0m - 挂载驱动器 C: 并报告剩余磁盘空间为 128MB\n"
+"[32;1mMOUNT c %s -u[0m            - 强制挂载驱动器 C: 即使之前已挂载\n"
+"[32;1mMOUNT c %s -t overlay[0m  - 将覆盖目录作用于已挂载的驱动器 C:\n"
+"[32;1mMOUNT c -u[0m                        - 卸载驱动器 C:\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NOT_MOUNTED"
+msgstr ""
+"驱动器 %c 未挂载.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_SUCCESS"
+msgstr ""
+"驱动器 %c 已成功卸载.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NUMBER_SUCCESS"
+msgstr ""
+"驱动器号 %c 已成功卸载.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NO_VIRTUAL"
+msgstr ""
+"不能卸载虚拟驱动器.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_WARNING_WIN"
+msgstr ""
+"警告: 不建议挂载 C 盘根目录.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_WARNING_OTHER"
+msgstr ""
+"警告: 不建议挂载文件系统根目录.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_PHYSFS_ERROR"
+msgstr ""
+"无法挂载 PhysFS 驱动器.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_NO_BASE"
+msgstr ""
+"请先挂载普通目录然后在上面加上覆盖目录.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_INCOMPAT_BASE"
+msgstr ""
+"覆盖目录与指定的驱动器不兼容.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_MIXED_BASE"
+msgstr "覆盖目录需与原驱动器所指定的定位方式相同，不能混合相对路径和绝对路径."
+
+msgid "PROGRAM_MOUNT_OVERLAY_SAME_AS_BASE"
+msgstr ""
+"覆盖目录不能与原驱动器的目录相同.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_ERROR"
+msgstr ""
+"创建覆盖目录时发生错误.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_STATUS"
+msgstr ""
+"覆盖目录 %s 已挂载于驱动器 %c 上.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_ALLOC"
+msgstr ""
+"%d 字节已分配.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_DEALLOC"
+msgstr ""
+"%d 字节已释放.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_DEALLOCALL"
+msgstr ""
+"已释放使用的内存.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_ERROR"
+msgstr ""
+"内存分配错误.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_HELP"
+msgstr ""
+"减少可用的常规内存或 XMS/EMS 内存.\n"
+"\n"
+"LOADFIX [-xms] [-ems] [-{ram}] [{程序}] [{选项}]\n"
+"LOADFIX -f [-xms] [-ems]\n"
+"\n"
+"  -xms        从 XMS 内存中而不是常规内存中分配内存\n"
+"  -ems        从 EMS 内存中而不是常规内存中分配内存\n"
+"  -{ram}      指定要分配的内存大小（单位:千字节)\n"
+"                 常规内存默认为 64kb ; XMS或EMS内存默认为 1MB\n"
+"  -a          自动分配足够的内存以充满低端 64KB 内存\n"
+"  -f (或 -d)  释放此前分配的内存\n"
+"  {程序}      运行指定的程序\n"
+"  {选项}      程序选项 (如果有)\n"
+"\n"
+"举例:\n"
+"  [32;1mLOADFIX game.exe[0m     分配 64KB 常规内存并运行 game.exe\n"
+"  [32;1mLOADFIX -a[0m           自动分配足够的常规内存\n"
+"  [32;1mLOADFIX -128[0m         分配 128KB 常规内存\n"
+"  [32;1mLOADFIX -xms[0m         分配 1MB XMS 内存\n"
+"  [32;1mLOADFIX -f[0m           释放已分配的常规内存\n"
+"\n"
+
+msgid "MSCDEX_SUCCESS"
+msgstr ""
+"MSCDEX 已安装.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_MULTIPLE_CDROMS"
+msgstr ""
+"MSCDEX 错误: 多个光盘的驱动器字母应保持连续.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_NOT_SUPPORTED"
+msgstr ""
+"MSCDEX 错误: 尚未支持.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_PATH"
+msgstr ""
+"MSCDEX: 指定的位置并非光驱.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_OPEN"
+msgstr ""
+"MSCDEX 错误: 非法文件或无法打开文件.\n"
+"\n"
+
+msgid "MSCDEX_TOO_MANY_DRIVES"
+msgstr ""
+"MSCDEX 错误: 光驱数量过多 (最多5个). MSCDEX 安装失败.\n"
+"\n"
+
+msgid "MSCDEX_LIMITED_SUPPORT"
+msgstr ""
+"MSCDEX: 挂载子目录: 有限支持.\n"
+"\n"
+
+msgid "MSCDEX_INVALID_FILEFORMAT"
+msgstr ""
+"MSCDEX 错误: 文件并非 ISO/CUE 镜像文件或含有错误.\n"
+"\n"
+
+msgid "MSCDEX_UNKNOWN_ERROR"
+msgstr ""
+"MSCDEX 错误: 未知错误.\n"
+"\n"
+
+msgid "PROGRAM_RESCAN_SUCCESS"
+msgstr ""
+"驱动器缓存已清除.\n"
+"\n"
+
+msgid "PROGRAM_INTRO"
+msgstr ""
+"[2J[32;1m欢迎使用 DOSBox-X[0m, 支持声音和图像且开放源代码的 x86 模拟器.\n"
+"DOSBox-X 创建一个 DOS 环境让您仿佛正在使用原本的 DOS 系统.\n"
+"\n"
+"[31;1mDOSBox-X 如果遇到错误将会在未警告的情况下停止运行或退出![0m\n"
+"\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_UP"
+msgstr "       DOSBox-X 介绍"
+
+msgid "PROGRAM_INTRO_MENU_BASIC"
+msgstr "基本挂载 "
+
+msgid "PROGRAM_INTRO_MENU_CDROM"
+msgstr "光驱支持 "
+
+msgid "PROGRAM_INTRO_MENU_USAGE"
+msgstr "使用 "
+
+msgid "PROGRAM_INTRO_MENU_INFO"
+msgstr "信息 "
+
+msgid "PROGRAM_INTRO_MENU_QUIT"
+msgstr "退出 "
+
+msgid "PROGRAM_INTRO_MENU_BASIC_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[KMOUNT 允许您将连接真实硬件与 DOSBox-X 的虚拟电脑连接起来.[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_CDROM_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[K如果在 DOSBox-X 中挂载光盘, 您需要在挂载它们时指定更多的选项.[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_USAGE_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[K您可以提供给 DOSBox-X 的命令行参数概述.[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_INFO_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[K怎样获得关于 DOSBox-X 的更多信息.[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_QUIT_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[K退出 DOSBox-X 介绍.[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_TOP"
+msgstr ""
+"[2J[32;1m这儿提供您可以提供给 DOSBox-X 的命令行参数的概述.[0m\n"
+"Windows 用户必须打开 cmd.exe 或者编辑 DOSBox-X.exe 的快捷方式以使用它们.\n"
+"\n"
+"dosbox-x [name] [-exit] [-version] [-fastlaunch] [-fullscreen]\n"
+"         [-conf 配置文件] [-lang 语言文件] [-machine 机器类型]\n"
+"         [-startmapper] [-noautoexec] [-scaler 缩放器 | -forcescaler 缩放器]\n"
+"         [-noconsole] [-c 命令] [-set <段落 属性=值>]\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_1"
+msgstr ""
+"[33;1m  名称[0m\n"
+"	如果指定的名称为目录将自动挂载为驱动器 C:.\n"
+"	如果指定的名称为可执行文件将自动将其所在的目录挂载为 C: 并执行该程序.\n"
+"\n"
+"[33;1m  -exit[0m\n"
+"	当 DOS 程序运行结束后 DOSBox-X 将自动关闭自身.\n"
+"\n"
+"[33;1m  -version[0m\n"
+"	输出版本信息并退出. 特别对于前台程序有用.\n"
+"\n"
+"[33;1m  -fastlaunch[0m\n"
+"	启动快速启动方式 (跳过 BIOS 和欢迎屏幕).\n"
+"\n"
+"[33;1m  -fullscreen[0m\n"
+"	以全屏幕方式启动 DOSBox-X.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_2"
+msgstr ""
+"[33;1m  -conf[0m 配置文件\n"
+"	以指定配置文件中的设置启动 DOSBox-X.\n"
+"	查看帮助文档取得更详细信息.\n"
+"\n"
+"[33;1m  -lang[0m 语言文件\n"
+"	以指定的语言文件启动 DOSBox-X.\n"
+"\n"
+"[33;1m  -noconsole[0m (仅 Windows)\n"
+"	不显示控制台窗口. 输出将重定向到 stdout.txt 及 stderr.txt.\n"
+"\n"
+"[33;1m  -machine[0m 机器类型\n"
+"	启动 DOSBox-X 并模拟指定的机器类型. 合法值包括:\n"
+"	hercules, cga, cga_mono, mcga, mda, pcjr, tandy, ega, vga, vgaonly,\n"
+"	pc98, vesa_nolfb, vesa_oldvbe, svga_paradise, svga_s3 (默认值).\n"
+"	机器类型将同时影响视频和可用声卡.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_3"
+msgstr ""
+"[33;1m  -startmapper[0m\n"
+"	启动后直接进入按键编辑. 特别适用于出现键盘问题的用户.\n"
+"\n"
+"[33;1m  -noautoexec[0m\n"
+"	跳过调入的配置文件中的 [autoexec] 段落.\n"
+"\n"
+"[33;1m  -c[0m 命令\n"
+"	在启动程序前先执行指定的命令. 可以用多个 -c 参数指定多个命令.\n"
+"	命令可以为内部程序, DOS 命令或且已挂载驱动器中的可执行文件.\n"
+"\n"
+"[33;1m  -set[0m <段落 属性=值>\n"
+"	强制设置配置选项 (覆盖配置文件中相应的选项).\n"
+"	可以用多个 -set 参数指定多个选项.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_INFO"
+msgstr ""
+"[32;1m信息:[0m\n"
+"\n"
+"关于基本挂载的信息, 请输入 [34;1mintro mount[0m\n"
+"关于光驱支持的信息, 请输入 [34;1mintro cdrom[0m\n"
+"关于特殊按键的信息, 请输入 [34;1mintro special[0m\n"
+"关于使用的信息, 请输入 [34;1mintro usage[0m\n"
+"\n"
+"关于最新版本的 DOSBox-X, 请访问其主页:[34;1m\n"
+"\n"
+"[34;1mhttps://dosbox-x.com/[0m 或 [34;1mhttp://dosbox-x.software[0m\n"
+"\n"
+"关于 DOSBox-X 的更多信息, 请访问其 Wiki 系统:\n"
+"\n"
+"[34;1mhttps://dosbox-x.com/wiki[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MOUNT_START"
+msgstr ""
+"[32;1m以下为帮助您上手的一些命令:[0m\n"
+"您必须先将包含文件的目录挂载为驱动器以使用里面的文件.\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MOUNT_EXST_WINDOWS"
+msgstr "[32mmount c c:\dosgames\[37m 将创建驱动器 C: 并包含 c:\dosgames 中的内容.       "
+
+msgid "PROGRAM_INTRO_MOUNT_EXEN_WINDOWS"
+msgstr "c:\dosgames\[37m 为一个例子. 您可以将其替换为您自己的游戏目录.             [37m "
+
+msgid "PROGRAM_INTRO_MOUNT_EXST_OTHER"
+msgstr "[32mmount c ~/dosgames[37m 将创建驱动器 C: 并包含 ~/dosgames 中的内容.          "
+
+msgid "PROGRAM_INTRO_MOUNT_EXEN_OTHER"
+msgstr "[32m~/dosgames[37m 为一个例子. 您可以将其替换为您自己的游戏目录.               [37m "
+
+msgid "PROGRAM_INTRO_MOUNT_END"
+msgstr ""
+"当挂载成功后您可以输入 [34;1mc:[0m 命令进入您刚挂载的驱动器 C:.\n"
+"输入 [34;1mdir[0m 命令将显示其中的内容. [34;1mcd[0m 命令将允许您进入一个目录 (驱动器列表\n"
+"中以 [33;1m[][0m 标识). 您可以运行以 [31m.exe .bat[0m 及 [31m.com[0m 结尾的程序及文件.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_CDROM"
+msgstr ""
+"[2J[32;1m如何在 DOSBox-X 中挂载真实/虚拟光驱:[0m\n"
+"DOSBox-X 提供多层次的光驱模拟.\n"
+"\n"
+"[33m基本层次[0m支持所有光驱及普通目录.\n"
+"它将安装 MSCDEX 并将文件标识为只读.\n"
+"这对于大部分游戏通常已经足够:\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom[0m   或   [34;1mmount d C:\example -t cdrom[0m\n"
+"如果不行的话您可以需要让 DOSBox-X 给予光驱特定的标签:\n"
+"[34;1mmount d C:\example -t cdrom -label CDLABEL[0m\n"
+"\n"
+"[33m中间层次[0m加入一些底层支持.\n"
+"故它仅支持光驱 (非普通目录):\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom -usecd [33m0[0m\n"
+"\n"
+"[33m最后层次[0m将依赖于您所用的操作系统:\n"
+"对于 [1mWindows 2000[0m, [1mWindows XP[0m 及 [1mLinux[0m:\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom -usecd [33m0 [34m-ioctl[0m\n"
+"对于 [1mWindows 9x[0m 并安装有 ASPI 层:\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom -usecd [33m0 [34m-aspi[0m\n"
+"\n"
+"将 [0;31mD:\[0m 替换为您的光驱所在盘符.\n"
+"替换 [34;1m-usecd [33m0[0m 中的 [33;1m0[0m 为当您输入以下命令时显示的光驱号:\n"
+"[34;1mmount -cd[0m\n"
+"\n"
+
+msgid "PROGRAM_BOOT_NOT_EXIST"
+msgstr ""
+"失败: 启动盘文件不存在.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_NOT_OPEN"
+msgstr ""
+"失败: 无法打开启动盘文件.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_WRITE_PROTECTED"
+msgstr ""
+"镜像文件处于只读状态! 将以写保护方式启动.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_PRINT_ERROR"
+msgstr ""
+"此命令将使 DOSBox-X 从软盘或硬盘镜像中启动.\n"
+"\n"
+"您可以在此命令中使用多个软盘镜像文件, 并可通过菜单选项进行交换.\n"
+""驱动器:"将从指定的已挂载的驱动器启动. 如果没有指定驱动器盘符,\n"
+"将默认从驱动器 A： 启动. 如果没有指定参数将试着从当前驱动器启动.\n"
+"只支持从以下驱动器盘符中启动: A:, C:, 以及 D:. 如果要从硬盘驱动\n"
+"器 (C: 或 D:) 中启动, 请保证镜像文件已用 [34;1mIMGMOUNT[0m 命令挂载.\n"
+"\n"
+"此命令的语法为如下之一:\n"
+"\n"
+"[34;1mBOOT [驱动器盘符:][0m\n"
+"\n"
+"[34;1mBOOT diskimg1.img [diskimg2.img ...] [-L 驱动器盘符][0m\n"
+"\n"
+"说明: 如果镜像文件以冒号 (:) 开头将以写保护方式启动, 如果以下配置选项已启用:\n"
+"leading colon write protect image = true\n"
+"\n"
+"举例:\n"
+"\n"
+"[32;1mBOOT A:[0m       - 从驱动器 A: 启动, 如果该驱动器已挂载并能启动.\n"
+"[32;1mBOOT :DOS.IMG[0m - 以写保护模式从软盘镜像文件 DOS.IMG 启动.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_UNABLE"
+msgstr ""
+"无法从驱动器 %c 启动.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_IMAGE_OPEN"
+msgstr ""
+"正在打开镜像文件: %s\n"
+"\n"
+
+msgid "PROGRAM_BOOT_IMAGE_NOT_OPEN"
+msgstr ""
+"无法打开 %s\n"
+"\n"
+
+msgid "PROGRAM_BOOT_CART_WO_PCJR"
+msgstr "找到 PCjr 卡带, 但机器类型并非 PCjr"
+
+msgid "PROGRAM_BOOT_CART_LIST_CMDS"
+msgstr "Available PCjr cartridge commandos:%s"
+
+msgid "PROGRAM_BOOT_CART_NO_CMDS"
+msgstr "No PCjr cartridge commandos found"
+
+msgid "PROGRAM_LOADROM_HELP"
+msgstr ""
+"调用指定的 ROM 镜像文件.\n"
+"\n"
+"LOADROM 镜像文件\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_SPECIFY_FILE"
+msgstr ""
+"必须指定要调入的 ROM 文件.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_CANT_OPEN"
+msgstr ""
+"ROM 文件无法存取.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_TOO_LARGE"
+msgstr ""
+"ROM 文件太大.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_INCOMPATIBLE"
+msgstr ""
+"此机器类型不支持视频 BIOS.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_UNRECOGNIZED"
+msgstr ""
+"ROM 文件无法识别.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_BASIC_LOADED"
+msgstr ""
+"BASIC ROM 已调入.\n"
+"\n"
+
+msgid "PROGRAM_BIOSTEST_HELP"
+msgstr ""
+"启动指定的 BIOS 镜像文件以运行 CPU 测试 BIOS.\n"
+"\n"
+"BIOSTEST 镜像文件\n"
+"\n"
+
+msgid "VHD_ERROR_OPENING"
+msgstr ""
+"无法打开指定的 VHD 文件.\n"
+"\n"
+
+msgid "VHD_INVALID_DATA"
+msgstr ""
+"指定的 VHD 文件已损坏而无法打开.\n"
+"\n"
+
+msgid "VHD_UNSUPPORTED_TYPE"
+msgstr ""
+"指定的 VHD 文件属于未支持的类型.\n"
+"\n"
+
+msgid "VHD_ERROR_OPENING_PARENT"
+msgstr ""
+"指定的 VHD 文件的父文件无法找到.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_DATA"
+msgstr ""
+"指定的 VHD 文件的父文件已损坏而无法打开.\n"
+"\n"
+
+msgid "VHD_PARENT_UNSUPPORTED_TYPE"
+msgstr ""
+"指定的 VHD 文件的父文件属于未支持的类型.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_MATCH"
+msgstr ""
+"指定的 VHD 文件的父文件不包含所需的标识.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_DATE"
+msgstr ""
+"指定的 VHD 文件的父文件已改变而无法打开.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY_DRIVE"
+msgstr ""
+"必须指定要挂载的驱动器盘符.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY2"
+msgstr ""
+"必须指定驱动器号 (0 to %d) 来挂载镜像文件 (0,1=fda,fdb;2,3=hda,hdb).\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_INVALID_IMAGE"
+msgstr ""
+"无法载入指定的镜像文件.\n"
+"请检查路径是否正确以镜像文件是否可以访问.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_DYNAMIC_VHD_UNSUPPORTED"
+msgstr ""
+"不支持动态 VHD 文件.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_INVALID_GEOMETRY"
+msgstr ""
+"无法获得镜像文件中的驱动器参数.\n"
+"请使用选项 -size bps,spc,hpc,cyl 指定驱动器参数.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_AUTODET_VALUES"
+msgstr ""
+"自动检测镜像文件中的驱动器参数: -size %u,%u,%u,%u\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_TYPE_UNSUPPORTED"
+msgstr ""
+"不支持类型 "%s". 请指定 "hdd" 或 "floppy" 或 "iso".\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_FORMAT_UNSUPPORTED"
+msgstr ""
+"不支持格式 "%s". 请指定 "fat" 或 "iso" 或 "none".\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY_FILE"
+msgstr ""
+"必须指定要挂载的镜像文件.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_FILE_NOT_FOUND"
+msgstr ""
+"镜像文件找不到.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_DEFAULT_NOT_FOUND"
+msgstr ""
+"镜像文件找不到: IMGMAKE.IMG.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MOUNT"
+msgstr ""
+"要挂载目录, 请使用 [34;1mMOUNT[0m 而不是 [34;1mIMGMOUNT[0m 命令.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_ALREADY_MOUNTED"
+msgstr ""
+"指定的驱动器已挂载.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_ALREADY_MOUNTED_NUMBER"
+msgstr ""
+"驱动器号 %d 已挂载.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_CANT_CREATE"
+msgstr ""
+"无法从指定的镜像文件创建驱动器.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_CANT_CREATE_PHYSFS"
+msgstr ""
+"无法创建 PhysFS 驱动器.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MOUNT_NUMBER"
+msgstr ""
+"驱动器号 %d 挂载为 %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_NON_LOCAL_DRIVE"
+msgstr ""
+"镜像文件必须在主机的本地或网络驱动器上.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MULTIPLE_NON_CUEISO_FILES"
+msgstr ""
+"只在使用 CUE/ISO 镜像文件时支持多个文件.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_HELP"
+msgstr ""
+"挂载软盘, 硬盘或光盘镜像文件.\n"
+"[32;1mIMGMOUNT[0m [37;1m驱动器[0m [36;1m文件[0m [-ro] [-t floppy] [-fs fat] [-size ss,s,h,c]\n"
+"[32;1mIMGMOUNT[0m [37;1m驱动器[0m [36;1m文件[0m [-ro] [-t hdd] [-fs fat] [-size ss,s,h,c] [-ide 控制器]\n"
+"[32;1mIMGMOUNT[0m [37;1m驱动器号[0m [36;1m文件[0m [-ro] [-fs none] [-size ss,s,h,c] [-reservecyl #]\n"
+"[32;1mIMGMOUNT[0m [37;1m驱动器[0m [36;1m文件[0m [-t iso] [-fs iso]\n"
+"[32;1mIMGMOUNT[0m [37;1m驱动器[0m [-t floppy] -bootcd 光驱盘符 (或 -el-torito 光驱盘符)\n"
+"[32;1mIMGMOUNT[0m [37;1m驱动器[0m -t ram -size 大小\n"
+"[32;1mIMGMOUNT[0m -u [37;1m驱动器|驱动器号[0m (or [32;1mIMGMOUNT[0m [37;1m驱动器|驱动器号[0m [36;1m文件[0m [选项] -u)\n"
+" [37;1m驱动器[0m               镜像文件所要挂载的驱动器盘符.\n"
+" [37;1m驱动器号[0m            所要挂载的驱动器号, 其中 0-1 为软驱, 2-5 为硬驱.\n"
+" [36;1m文件[0m                镜像文件名, 如果未指定将使用 [33;1mIMGMAKE.IMG[0m.\n"
+" -t iso              镜像文件类型为光盘.\n"
+" -t hdd              镜像文件类型为硬盘; 支持 VHD 及 HDI 镜像文件.\n"
+" -t floppy|ram       镜像文件类型为软盘或内存驱动器.\n"
+" -fs iso             文件系统为 ISO 9660 (自动假设为 .iso/.cue 文件).\n"
+" -fs fat             文件系统为 FAT - 支持 FAT12, FAT16 及 FAT32.\n"
+" -fs none            不检测文件系统 (提供驱动器号时自动假设).\n"
+" -reservecyl #       在 BIOS 中报告使用比实际更少的驻面数目.\n"
+" -ide 控制器         指定 IDE 控制器 (1m, 1s, 2m, 2s) 以挂载驱动器.\n"
+" -size size|ss,s,h,c 指定大小 (单位: KB), 或扇区数和 CHS 参数.\n"
+" -bootcd 光驱盘符    指定加载启动软盘镜像所用的光盘驱动器盘符.\n"
+" -ro                 以只读方式挂载镜像文件 (或用':'前缀表示只读).\n"
+" -u                  卸载驱动器或驱动器号.\n"
+" [32;1m-examples           显示用法举例.[0m\n"
+
+msgid "PROGRAM_IMGMOUNT_EXAMPLE"
+msgstr ""
+"一些关于 IMGMOUNT 命令的举例:\n"
+"\n"
+"  [32;1mIMGMOUNT[0m                       - 列出已挂载的 FAT/ISO 驱动器和驱动器号\n"
+"  [32;1mIMGMOUNT C[0m                     - 将硬盘镜像文件 [33;1mIMGMAKE.IMG[0m 挂载为驱动器 C:\n"
+"  [32;1mIMGMOUNT C c:\image.img[0m        - 将硬盘镜像文件 c:\image.img 挂载为驱动器 C:\n"
+"  [32;1mIMGMOUNT D c:\files\game.iso[0m   - 将光盘镜像文件 c:\files\game.iso 挂载为 D:\n"
+"  [32;1mIMGMOUNT D cdaudio.cue[0m         - 将 cue/bin 配对中的 cue 文件挂载为光驱 D:\n"
+"  [32;1mIMGMOUNT 0 dos.ima[0m             - 将软盘镜像文件 dos.ima 挂载为驱动器号 0\n"
+"                                   ([33;1mBOOT A:[0m 将从该驱动器中启动, 如果能启动)\n"
+"  [32;1mIMGMOUNT A -ro dos.ima[0m         - 将软盘镜像 dos.ima 以只读方式挂载为驱动器 A:\n"
+"  [32;1mIMGMOUNT A :dsk1.img dsk2.img[0m  - 将软盘镜像文件 dsk1.img 和 dsk2.img 挂载为\n"
+"                                   驱动器 A:, 可在菜单中用 "交换软盘镜像" 选项\n"
+"                                   进行交换, 其中 dsk1.img 镜像文件为只读\n"
+"  [32;1mIMGMOUNT A -bootcd D[0m           - 从光驱 D: 中挂载启动软盘镜像为驱动器 A:\n"
+"  [32;1mIMGMOUNT C -t ram -size 10000[0m  - 将硬盘驱动器 C: 挂载为 10MB 内存驱动器\n"
+"  [32;1mIMGMOUNT C disk.img -u[0m         - 强制将硬盘文件镜像 disk.img 挂载为驱动器 C:,\n"
+"                                   如果之前驱动器已挂载则将自动卸载\n"
+"  [32;1mIMGMOUNT A -u[0m                  - 卸载之前已挂载的驱动器 A:\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_SYNTAX"
+msgstr ""
+"创建软盘或硬盘镜像文件.\n"
+"用法: [34;1mIMGMAKE [文件] [-t 类型] [[-size 大小] | [-chs 参数]] [-spc] [-nofs][0m\n"
+"  [34;1m[-bat] [-fat] [-fatcopies] [-rootdir] [-force] [-source 源盘符] [-retries #][0m\n"
+"  文件: 要创建的镜像文件 (如未指定将使用 [33;1mIMGMAKE.IMG[0m) - [31;1m路径为主机系统路径t[0m\n"
+"  -t: 镜像文件类型.\n"
+"    [33;1m软盘模板[0m (名称为以 KB 为单位的软盘大小或者 fd=fd_1440):\n"
+"     fd_160 fd_180 fd_200 fd_320 fd_360 fd_400 fd_720 fd_1200 fd_1440 fd_2880\n"
+"    [33;1m硬盘模板:[0m\n"
+"     hd_250: 250MB 镜像文件, hd_520: 520MB 镜像文件, hd_1gig: 1GB 镜像文件\n"
+"     hd_2gig: 2GB 镜像文件, hd_4gig: 4GB 镜像文件, hd_8gig: 8GB 镜像文件\n"
+"     hd_st251: 40MB 镜像文件, hd_st225: 20MB 镜像文件 (旧驱动器参数)\n"
+"    [33;1m自定义硬盘镜像文件:[0m hd (需要 -size 或 -chs 选项)\n"
+"  -size: 自定义硬盘镜像文件大小 (单位: MB).\n"
+"  -chs: CHS 磁盘参数: 驻面(1-1023),磁头(1-255),扇区(1-63).\n"
+"  -nofs: 如果想创建空白镜像文件请加入此参数.\n"
+"  -force: 强制覆盖已存在的镜像文件.\n"
+"  -bat: 创建一个包含 IMGMOUNT 命令的批处理文件以挂载此镜像文件.\n"
+"  -fat: FAT 文件系统类型 (12, 16, 或 32).\n"
+"  -spc: 强制使用此每个簇所包含的扇区数值. 必须为 2 的指数.\n"
+"  -fatcopies: 强制使用此数量的 FAT 表副本.\n"
+"  -rootdir: 根目录下的记录数. FAT32 文件系统将忽略此参数.\n"
+"  -source: 驱动器盘符 - 如果指定此参数镜像文件该从软盘驱动器中读取.\n"
+"  -retries: 当试图从坏软盘中读取时所需的重试次数 (1-99).\n"
+"  [32;1m-examples: 显示用法举例.[0m\n"
+
+msgid "PROGRAM_IMGMAKE_EXAMPLE"
+msgstr ""
+"一些关于 IMGMAKE 命令的举例:\n"
+"\n"
+"  [32;1mIMGMAKE -t fd[0m                   - 创建 1.44MB 软盘镜像文件 [33;1mIMGMAKE.IMG[0m\n"
+"  [32;1mIMGMAKE -t fd_1440 -force[0m       - 强制创建软盘镜像文件 [33;1mIMGMAKE.IMG[0m\n"
+"  [32;1mIMGMAKE dos.img -t fd_2880[0m      - 创建 2.88MB 软盘镜像文件 dos.img\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd -size 50[0m      - 创建 50MB 硬盘镜像文件 c:\disk.img\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd_520 -nofs[0m     - 创建 520MB 空白硬盘镜像文件\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd_2gig -fat 32[0m  - 创建 2GB FAT32 硬盘镜像文件\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd -chs 130,2,17[0m - 以指定的 CHS 参数创建硬盘镜像文件\n"
+"  [32;1mIMGMAKE c:\disk.img -source a[0m           - 从物理驱动器 A: 中读取镜像\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FLREAD"
+msgstr ""
+"磁盘参数: %d 个柱面, %d 个磁头, %d 个扇区, %d 千字节\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FLREAD2"
+msgstr ""
+"%s =良好, %s =重试后良好, ! =CRC 错误, x =扇区找不到, ? =未知\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FILE_EXISTS"
+msgstr ""
+"文件 "%s" 已存在. 您可以指定 "-force" 选项进行覆盖.\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_CANNOT_WRITE"
+msgstr ""
+"文件 "%s" 无法打开以写入.\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_NOT_ENOUGH_SPACE"
+msgstr ""
+"没有足够的空间生成镜像文件. 需要 %u 字节.\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_PRINT_CHS"
+msgstr ""
+"创建镜像文件 "%s" 包含 %u 个柱面, %u 个磁头和 %u 个扇区\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_CANT_READ_FLOPPY"
+msgstr ""
+"\n"
+"\n"
+"无法读取软盘.\n"
+
+msgid "PROGRAM_KEYB_INFO"
+msgstr ""
+"代码页 %i 已加载\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INFO_LAYOUT"
+msgstr ""
+"代码页 %i 已为键盘布局 %s 加载\n"
+"\n"
+
+msgid "PROGRAM_KEYB_SHOWHELP"
+msgstr ""
+"为指定语言配置键盘.\n"
+"\n"
+"KEYB [键盘布局 ID [代码页 [代码页文件]]]\n"
+"\n"
+"举例:\n"
+"  [32;1mKEYB[0m          显示当前加载的代码页.\n"
+"  [32;1mKEYB sp[0m       加载西班牙语 (SP) 布局, 使用相应的代码页.\n"
+"  [32;1mKEYB sp 850[0m   加载西班牙语 (SP) 布局, 使用代码页 850.\n"
+"  [32;1mKEYB sp 850 mycp.cpi[0m 与以上相同, 但使用文件 mycp.cpi.\n"
+"\n"
+
+msgid "PROGRAM_KEYB_NOERROR"
+msgstr ""
+"键盘布局 %s 已加载作为代码页 %i\n"
+"\n"
+
+msgid "PROGRAM_KEYB_FILENOTFOUND"
+msgstr ""
+"键盘文件 %s 未找到\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INVALIDFILE"
+msgstr ""
+"键盘文件 %s 非法\n"
+"\n"
+
+msgid "PROGRAM_KEYB_LAYOUTNOTFOUND"
+msgstr ""
+"键盘布局 %s 无法在代码页 %i 中找到\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INVCPFILE"
+msgstr ""
+"作为键盘布局 %s 的代码页文件不存在或无效\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_MODE_USAGE"
+msgstr ""
+"配置系统设备.\n"
+"\n"
+"[34;1mMODE[0m display-type       :display-type codes are [1mCO80[0m, [1mBW80[0m, [1mCO40[0m, [1mBW40[0m, or [1mMONO[0m\n"
+"[34;1mMODE CON COLS=[0mc [34;1mLINES=[0mn :columns and lines, c=80 or 132, n=25, 43, 50, or 60\n"
+"[34;1mMODE CON RATE=[0mr [34;1mDELAY=[0md :typematic rates, r=1-32 (32=fastest), d=1-4 (1=lowest)\n"
+"\n"
+
+msgid "PROGRAM_MODE_INVALID_PARAMETERS"
+msgstr ""
+"非法参数.\n"
+"\n"
+
+msgid "SHELL_CMD_TREE_ERROR"
+msgstr ""
+"不存在子目录\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_TREE"
+msgstr ""
+"所列目录的卷标名为 %s\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_DRIVE"
+msgstr ""
+"\n"
+" 盘卷在驱动器 %c \n"
+
+msgid "SHELL_CMD_VOL_SERIAL"
+msgstr " 盘卷序列号为 "
+
+msgid "SHELL_CMD_VOL_SERIAL_NOLABEL"
+msgstr ""
+"没有卷标\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_SERIAL_LABEL"
+msgstr ""
+"是 %s\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_PATH"
+msgstr ""
+"路径未找到\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_DRIVE"
+msgstr ""
+"指定的驱动器非法\n"
+"\n"
+
+msgid "SHELL_CMD_HELP"
+msgstr ""
+"如果您想显示所有支持的内部命令请输入 [33;1mHELP /ALL[0m.\n"
+"您亦可以在 Z 盘找到其它 DOS 程序，它们是外部命令.\n"
+"以下为常用的 DOS 命令列表:\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_END1"
+msgstr ""
+"外部命令比如 [33;1mMOUNT[0m 和 [33;1mIMGMOUNT[0m 可以在 Z 盘中找到.\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_END2"
+msgstr ""
+"请输入 [33;1mHELP 命令[0m 或 [33;1m命令 /?[0m 以获得指定命令的帮助信息.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_ON"
+msgstr ""
+"ECHO状态为开.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_OFF"
+msgstr ""
+"ECHO状态为关.\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_SWITCH"
+msgstr ""
+"开关非法 - %s\n"
+"\n"
+
+msgid "SHELL_MISSING_PARAMETER"
+msgstr ""
+"缺少必要的参数.\n"
+"\n"
+
+msgid "SHELL_MISSING_FILE"
+msgstr ""
+"以下文件丢失或损坏: %s\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_ERROR"
+msgstr ""
+"无效目录 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT"
+msgstr ""
+"提示: 切换驱动器请输入 [31m%c:[0m\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT_2"
+msgstr ""
+"目录名包含未用引号包含的空格.\n"
+"试试 [31mcd %s[0m 或用引号包含住空格.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT_3"
+msgstr ""
+"您仍然在 Z 盘, 而且无法找到指定的目录.\n"
+"如要想访问其它已挂载的驱动器请先切换驱动器，比如 [31mC:[0m.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_HELP"
+msgstr ""
+"显示或设置日期.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_ERROR"
+msgstr ""
+"指定的日期不正确.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_DAYS"
+msgstr "6星期日星期一星期二星期三星期四星期五星期六"
+
+msgid "SHELL_CMD_DATE_NOW"
+msgstr "当前日期: "
+
+msgid "SHELL_CMD_DATE_SETHLP"
+msgstr ""
+"输入 'date %s' 改变日期.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_HELP_LONG"
+msgstr ""
+"DATE [[/T] [/H] [/S] | 日期]\n"
+"  日期:       要设定的新日期\n"
+"  /S:         DOS日期和时间永久与主机日期和时间同步\n"
+"  /F:         切换为DOSBox-X内部日期和时间 (与/S相反)\n"
+"  /T:         只显示日期\n"
+"  /H:         与主机同步\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_HELP"
+msgstr ""
+"显示或设置时间.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_ERROR"
+msgstr ""
+"指定的时间不正确.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_NOW"
+msgstr "当前时间: "
+
+msgid "SHELL_CMD_TIME_SETHLP"
+msgstr ""
+"输入 'time %s' 改变时间.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_HELP_LONG"
+msgstr ""
+"TIME [[/T] [/H] | 时间]\n"
+"  时间:       要设定的新时间\n"
+"  /T:         简洁显示时间\n"
+"  /H:         与主机同步\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_EXIST"
+msgstr ""
+"目录已存在 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_ERROR"
+msgstr ""
+"不能创建目录 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_ERROR"
+msgstr ""
+"路径无效,不是目录,或目录非空 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_ERROR"
+msgstr ""
+"无法进行重命名 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_GET_ERROR"
+msgstr ""
+"无法获得属性: %s\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_SET_ERROR"
+msgstr ""
+"无法设置属性: %s\n"
+"\n"
+
+msgid "SHELL_CMD_DEL_ERROR"
+msgstr ""
+"无法删除 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_DEL_SURE"
+msgstr ""
+"目录下的所有文件将被删除!\n"
+"请确认 [Y/N]?\n"
+
+msgid "SHELL_SYNTAXERROR"
+msgstr ""
+"语法错误\n"
+"\n"
+
+msgid "SHELL_CMD_SET_NOT_SET"
+msgstr ""
+"环境变量 %s 未定义.\n"
+"\n"
+
+msgid "SHELL_CMD_SET_OUT_OF_SPACE"
+msgstr ""
+"没有足够的空间设置环境变量.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_EXIST_MISSING_FILENAME"
+msgstr ""
+"IF EXIST: 缺少文件名.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_ERRORLEVEL_MISSING_NUMBER"
+msgstr ""
+"IF ERRORLEVEL: 缺少数字.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_ERRORLEVEL_INVALID_NUMBER"
+msgstr ""
+"IF ERRORLEVEL: 非法数字.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_MISSING_LABEL"
+msgstr ""
+"未提供 GOTO 命令所需的标签.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_LABEL_NOT_FOUND"
+msgstr ""
+"GOTO: 标签 %s 找不到.\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_ACCESS_DENIED"
+msgstr ""
+"拒绝存取 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_NOT_FOUND"
+msgstr ""
+"文件找不到 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_EXISTS"
+msgstr ""
+"文件 %s 已存在.\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_INTRO"
+msgstr ""
+" 列目录 %s\n"
+"\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_BYTES_USED"
+msgstr ""
+"%5d 个文件 %17s 字节\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_BYTES_FREE"
+msgstr ""
+"%5d 个目录 %17s 可用字节\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_FILES_LISTED"
+msgstr ""
+"列出的总文件数:\n"
+"\n"
+
+msgid "SHELL_EXECUTE_DRIVE_NOT_FOUND"
+msgstr ""
+"驱动器 %c 不存在!\n"
+"您需要先用 [31mmount[0m 命令挂载该驱动器. 请输入 [1;33mintro[0m 或 [1;33mintro mount[0m 取得更多信息.\n"
+"\n"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_CDROM"
+msgstr "您是否想让 DOSBox-X 访问光盘驱动器 %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FLOPPY"
+msgstr "您是否想让 DOSBox-X 访问软盘驱动器 %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_REMOVABLE"
+msgstr "您是否想让 DOSBox-X 访问移动驱动器 %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_NETWORK"
+msgstr "您是否想让 DOSBox-X 访问网络驱动器 %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FIXED"
+msgstr "您是否想让 DOSBox-X 访问硬盘驱动器 %c 上的所有内容 [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FIXED_LESS"
+msgstr "您是否想让 DOSBox-X 访问硬盘驱动器 %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_ILLEGAL_COMMAND"
+msgstr ""
+"错误的命令或文件名 - "%s"\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE"
+msgstr ""
+"按任意键继续...\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE_HELP"
+msgstr ""
+"提示按任意键继续.\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE_HELP_LONG"
+msgstr ""
+"PAUSE\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_FAILURE"
+msgstr ""
+"文件拷贝失败 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_SUCCESS"
+msgstr ""
+"   已复制 %d 个文件.\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_CONFIRM"
+msgstr "覆盖 %s (Y:是/N:否/A:全部)?"
+
+msgid "SHELL_CMD_COPY_NOSPACE"
+msgstr ""
+"磁盘空间不足 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_ERROR"
+msgstr ""
+"文件拷贝错误 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_DRIVE_LIST"
+msgstr ""
+"目前已挂载的驱动器为:\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_NO_REMOVE"
+msgstr ""
+"无法移除未使用的驱动器.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_IN_USE"
+msgstr ""
+"指定的驱动器已使用.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_NOT_LOCAL"
+msgstr ""
+"SUBST 命令只能挂载本地驱动器.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_INVALID_PATH"
+msgstr ""
+"指定的驱动器或目录非法.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_FAILURE"
+msgstr ""
+"SUBST: 命令行参数错误.\n"
+"\n"
+
+msgid "SHELL_STARTUP_TITLE"
+msgstr "欢迎使用 DOSBox-X !"
+
+msgid "SHELL_STARTUP_HEAD1"
+msgstr "[36m轻松上手 DOSBox-X:                                                          [37m"
+
+msgid "SHELL_STARTUP_TEXT1"
+msgstr ""
+"输入 [32mHELP[37m 命令查看DOS命令列表, 或输入 [32mINTRO[37m 命令进入 DOSBox-X 的简短介绍。  \n"
+"您亦可以通过 DOSBox-X 所带的[33m下拉式菜单[37m来完成 DOSBox-X 的各种操作和功能。    \n"
+
+msgid "SHELL_STARTUP_EXAMPLE"
+msgstr "[32m举例[37m: 您可以试着在 [32m视频[37m 菜单中选择 [33mTTF[37m 或者 [33mOpenGL perfect[37m 输出选项。       "
+
+msgid "SHELL_STARTUP_HEAD2"
+msgstr "[36m常用的默认快捷方式:                                                         [37m"
+
+msgid "SHELL_STARTUP_TEXT2"
+msgstr ""
+"- 切换窗口和全屏模式： [31mF11 [37m+ [31mF[37m [37m                                             \n"
+"- 打开 [33m配置工具[37m： [31mF11 [37m+ [31mC[37m[37m； [33m按键编辑[37m: [31mF11 [37m+ [31mM[37m  [37m                             \n"
+"- 提高或降低模拟速度： [31mF11 [37m+ [31m加号[37m[37m 或 [31mF11 [37m+ [31m减号[37m   [37m                          \n"
+
+msgid "SHELL_STARTUP_CGA"
+msgstr ""
+"支持 CGA 合成模式. 按 [31mCtrl+F8[37m 键启用或禁用合成输出.                         \n"
+"按 [31mCtrl+Shift+[F7/F8][37m 改变色度; 按 [31mCtrl+F7[37m 选择早期/晚期 CGA 型号.          \n"
+
+msgid "SHELL_STARTUP_HERC"
+msgstr ""
+"按 [31mCtrl+F7[37m 键在单色间切换： 白色、琥珀色、绿色.                             \n"
+"按 [31mCtrl+F8[37m 键切换水平混合 (仅图形模式).                                     \n"
+
+msgid "SHELL_STARTUP_HEAD3"
+msgstr "[36mDOSBox-X 项目在线:                                                          [37m"
+
+msgid "SHELL_STARTUP_TEXT3"
+msgstr ""
+"[32m项目主页[37m: [33mhttps://dosbox-x.com/                  [36mDOSBox-X提供完整的 DOS 模拟[37m\n"
+"[32m用户指南[37m: [33mhttps://dosbox-x.com/wiki[32m              [36m包括 DOS, Windows 3.x 和 9x[37m\n"
+"[32m寻求帮助[37m: [33mhttps://github.com/joncampbell123/dosbox-x/issues                 [37m\n"
+
+msgid "SHELL_STARTUP_LAST"
+msgstr "祝您愉快使用 DOSBox-X !"
+
+msgid "SHELL_CMD_BREAK_HELP"
+msgstr ""
+"设置或清除 CTRL+C 校验.\n"
+"\n"
+
+msgid "SHELL_CMD_BREAK_HELP_LONG"
+msgstr ""
+"BREAK [ON | OFF]\n"
+"\n"
+"输入不带参数的 BREAK 命令将显示当前 BREAK 状态.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HELP"
+msgstr ""
+"显示或改变当前目录.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HELP_LONG"
+msgstr ""
+"CHDIR [驱动器:][路径]\n"
+"CHDIR [..]\n"
+"CD [驱动器:][路径]\n"
+"CD [..]\n"
+"\n"
+"  ..   指定您想改变到父目录.\n"
+"\n"
+"输入 CD 驱动器: 显示指定驱动器的当前目录.\n"
+"输入不带参数的 CD 命令显示当前驱动器和目录.\n"
+"\n"
+
+msgid "SHELL_CMD_CLS_HELP"
+msgstr ""
+"清屏.\n"
+"\n"
+
+msgid "SHELL_CMD_CLS_HELP_LONG"
+msgstr ""
+"CLS\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_HELP"
+msgstr ""
+"显示文件或目录列表.\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_HELP_LONG"
+msgstr ""
+"DIR [驱动器:][路径][文件名] [/[W|B]] [/S] [/P] [/A[D|H|S|R|A]] [/O[N|E|G|S|D]]\n"
+"\n"
+"  [驱动器:][路径][文件名]\n"
+"              指定要列出的驱动器, 目录或文件名.\n"
+"  /W          使用宽格式列出.\n"
+"  /B          使用短格式列出 (无标题信息或概要).\n"
+"  /S          显示指定目录和所有子目录中的文件.\n"
+"  /P          显示完一屏后暂停.\n"
+"  /A          显示带有指定属性的文件.\n"
+"  属性         D  目录                 R  只读文件\n"
+"               H  隐藏文件             A  归档文件\n"
+"               S  系统文件             -  前缀表示相反\n"
+"  /O          以排序方式列出文件.\n"
+"  排列顺序     N  按文件名 (字母排列)  S  按文件大小 (小的在前)\n"
+"               E  按扩展名 (字母排列)  D  按文件日期时间 (早的在前)\n"
+"               G  先显示目录           -  前缀表示相反顺序\n"
+"\n"
+"选项可以在 DIRCMD 环境变量中预先设置. 可以用带-前缀的选项(比如/-W)进行覆盖.\n"
+"            \n"
+
+msgid "SHELL_CMD_ECHO_HELP"
+msgstr ""
+"显示信息,打开或关闭命令的回显.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_HELP_LONG"
+msgstr ""
+"  ECHO [ON | OFF]\n"
+"  ECHO [消息]\n"
+"\n"
+"输入不带参数的 ECHO 将显示当前命令回显状态.\n"
+"\n"
+
+msgid "SHELL_CMD_EXIT_HELP"
+msgstr ""
+"退出当前的DOS提示符.\n"
+"\n"
+
+msgid "SHELL_CMD_EXIT_HELP_LONG"
+msgstr ""
+"EXIT\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_HELP"
+msgstr ""
+"显示 DOSBox-X 命令帮助.\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_HELP_LONG"
+msgstr ""
+"HELP [/A 或 /ALL]\n"
+"HELP [命令]\n"
+"\n"
+"   /A 或 /ALL   显示所有支持的内部命令.\n"
+"   [命令]       显示指定命令的帮助.\n"
+"\n"
+"[0mE.g., [37;1mHELP COPY[0m 或 [37;1mCOPY /?[0m 显示 COPY 命令的帮助信息.\n"
+"\n"
+"注释: 外部命令比如 [33;1mMOUNT[0m 和 [33;1mIMGMOUNT[0m 不会被 HELP [/A] 命令列出.\n"
+"      这些命令可以在 Z 盘中作为程序找到 (比如 MOUNT.COM).\n"
+"      输入 [33;1m命令 /?[0m 或 [33;1mHELP 命令[0m 显示此命令的帮助信息.\n"
+"\n"
+
+msgid "SHELL_CMD_LS_HELP"
+msgstr ""
+"列出目录内容.\n"
+"\n"
+
+msgid "SHELL_CMD_LS_HELP_LONG"
+msgstr ""
+"LS [驱动器:][路径][文件名] [/A] [/L] [/P] [/Z]\n"
+"\n"
+"  /A     亦列出隐藏文件和系统文件.\n"
+"  /L     每行显示一个文件或目录.\n"
+"  /P     显示完一屏后暂停.\n"
+"  /Z     显示短文件名,即使长文件名可用.\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_HELP"
+msgstr ""
+"创建目录.\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_HELP_LONG"
+msgstr ""
+"MKDIR [驱动器:][路径]\n"
+"MD [驱动器:][路径]\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_HELP"
+msgstr ""
+"删除目录.\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_HELP_LONG"
+msgstr ""
+"RMDIR [驱动器:][路径]\n"
+"RD [驱动器:][路径]\n"
+"\n"
+
+msgid "SHELL_CMD_SET_HELP"
+msgstr ""
+"显示或改变环境变量.\n"
+"\n"
+
+msgid "SHELL_CMD_SET_HELP_LONG"
+msgstr ""
+"SET [变量名=[字符串]]\n"
+"\n"
+"   变量名     指定环境变量的名字.\n"
+"   字符串     指定分配到变量的字符串.\n"
+"\n"
+"* 如果没有指定字符串, 指定的环境变量将被移除.\n"
+"\n"
+"输入不带参数的 SET 命令显示当前环境变量.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_HELP"
+msgstr ""
+"批文件的条件语句.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_HELP_LONG"
+msgstr ""
+"IF [NOT] ERRORLEVEL 数字 命令\n"
+"IF [NOT] 字符串1==字符串2 命令\n"
+"IF [NOT] EXIST 文件名 命令\n"
+"\n"
+"  NOT               指定命令仅在条件非真的情况下执行.\n"
+"\n"
+"  ERRORLEVEL 数字   指定条件仅在上个执行程序的返回码至少达到此数字时为真.\n"
+"\n"
+"  字符串1==字符串2  指定条件仅在两个字符串相同时为真.\n"
+"\n"
+"  \n"
+
+msgid "SHELL_CMD_GOTO_HELP"
+msgstr ""
+"在批处理文件中跳到指定的标签行.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_HELP_LONG"
+msgstr ""
+"GOTO 标签\n"
+"\n"
+"   标签   在处理文件中指定一个文本字符串作为标签.\n"
+"\n"
+"标签将作为单独一行, 前面加上冒号.\n"
+"\n"
+
+msgid "SHELL_CMD_SHIFT_HELP"
+msgstr ""
+"在批处理文件中改变可替换型参数的位置.\n"
+"\n"
+
+msgid "SHELL_CMD_SHIFT_HELP_LONG"
+msgstr ""
+"SHIFT\n"
+"\n"
+
+msgid "SHELL_CMD_FOR_HELP"
+msgstr ""
+"对一系列文件中的每个文件执行指定的命令.\n"
+"\n"
+
+msgid "SHELL_CMD_FOR_HELP_LONG"
+msgstr ""
+"FOR %%变量 IN (系列) DO 命令 [命令参数]\n"
+"\n"
+"  %%变量     指定可替换参数.\n"
+"  (系列)    指定包含一个或多个文件的系列, 可使用通配符.\n"
+"  命令      指定将作用于每个文件的命令.\n"
+"  命令参数  指定命令所使用的参数.\n"
+"\n"
+"如果在批处理文件中使用, 请使用 %%%%变量 代替 %%变量.\n"
+"\n"
+
+msgid "SHELL_CMD_LFNFOR_HELP"
+msgstr ""
+"处理 FOR 命令的通配符时启用或禁用长文件名.\n"
+"\n"
+
+msgid "SHELL_CMD_LFNFOR_HELP_LONG"
+msgstr ""
+"LFNFOR [ON | OFF]\n"
+"\n"
+"输入出不带参数的 LFNFOR 命令显示当前 LFNFOR 设置.\n"
+"\n"
+"此命令仅在长文件名支持启用的情况下有效.\n"
+"\n"
+
+msgid "SHELL_CMD_TYPE_HELP"
+msgstr ""
+"显示文本文件内容.\n"
+"\n"
+
+msgid "SHELL_CMD_TYPE_HELP_LONG"
+msgstr ""
+"TYPE [驱动器:][路径][文件名]\n"
+"\n"
+
+msgid "SHELL_CMD_REM_HELP"
+msgstr ""
+"在批处理文件中加入注释.\n"
+"\n"
+
+msgid "SHELL_CMD_REM_HELP_LONG"
+msgstr ""
+"REM [注释]\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_HELP"
+msgstr ""
+"重命名文件名或目录.\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_HELP_LONG"
+msgstr ""
+"RENAME [驱动器:][路径][目录名1 | 文件名1] [目录名2 | 文件名2]\n"
+"REN [驱动器:][路径][目录名1 | 文件名1] [目录名2 | 文件名2]\n"
+"\n"
+"注意您不能给目标文件指定新的驱动器或路径.\n"
+"\n"
+"通配符 (* 和 ?) 可以在文件名中使用.\n"
+"举例, 此命令将重命令所有文本文件: [37;1mREN *.TXT *.BAK[0m\n"
+"\n"
+
+msgid "SHELL_CMD_DELETE_HELP"
+msgstr ""
+"删除文件.\n"
+"\n"
+
+msgid "SHELL_CMD_DELETE_HELP_LONG"
+msgstr ""
+"DEL [/P] [/F] [/Q] 名称\n"
+"ERASE [/P] [/F] [/Q] 名称\n"
+"\n"
+"  名称          指定一个或多个文件或目录. 通配符可以用来指定删除多个文件.\n"
+"                如果指定一个目录则该目录中的所有文件将被删除.\n"
+"  /P            删除一个或多个文件时提示确认.\n"
+"  /F            强制删除只读文件.\n"
+"  /Q            安静模式, 删除目录下所有文件时不进行确认.\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_HELP"
+msgstr ""
+"拷贝文件.\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_HELP_LONG"
+msgstr ""
+"COPY [/Y | /-Y] 源文件 [+源文件 [+ ...]] [目标]\n"
+"\n"
+"  源文件        指定要复制的文件.\n"
+"  目标          指定要复制到的文件名或目录.\n"
+"  /Y            覆盖现存文件时不进行确认.\n"
+"  /-Y           覆盖现存文件时进行确认.\n"
+"\n"
+"选项 /Y 可以在 COPYCMD 环境变量中预先设置. 可以在命令行中使用 /-Y 选项进行覆盖.\n"
+"\n"
+"要连接文件, 指定一个文件名作为目标, 同时使用多个文件名作为源文件 (使用通配符或者文件1+文件2+文件3格式).\n"
+"\n"
+
+msgid "SHELL_CMD_CALL_HELP"
+msgstr ""
+"在批处理文件中调用批处理文件.\n"
+"\n"
+
+msgid "SHELL_CMD_CALL_HELP_LONG"
+msgstr ""
+"CALL [驱动器:][路径]文件名 [批处理参数]\n"
+"\n"
+"批处理参数  指定批处理文件所需的命令行参数.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_HELP"
+msgstr ""
+"将目录分配给一个驱动器.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_HELP_LONG"
+msgstr ""
+"SUBST [驱动器1: [驱动器2:]路径]\n"
+"SUBST 驱动器1: /D\n"
+"\n"
+"  驱动器1:        指定您想分配路径的新驱动器.\n"
+"  [驱动器2:]路径  指定已挂载的本地驱动器和路径.\n"
+"  /D              删除已挂载或代替的驱动器.\n"
+"\n"
+"输出不带参数的 SUBST 命令显示已挂载的本地驱动器列表.\n"
+"\n"
+
+msgid "SHELL_CMD_LOADHIGH_HELP"
+msgstr ""
+"加载程序至上位内存 (需要 XMS 和 UMB 内存).\n"
+"\n"
+
+msgid "SHELL_CMD_LOADHIGH_HELP_LONG"
+msgstr ""
+"LH              [驱动器:][路径]文件名 [参数]\n"
+"LOADHIGH        [驱动器:][路径]文件名 [参数]\n"
+"\n"
+
+msgid "SHELL_CMD_CHOICE_HELP"
+msgstr ""
+"等待按键并设置 ERRORLEVEL.\n"
+"\n"
+
+msgid "SHELL_CMD_CHOICE_HELP_LONG"
+msgstr ""
+"CHOICE [/C:选择] [/N] [/S] text\n"
+"  /C[:]选择  指定允许的按键. 默认为: yn.\n"
+"  /N         不在末尾显示选择.\n"
+"  /S         启用大小写敏感选择模式.\n"
+"  文字       作为提示符显示的文字.\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_HELP"
+msgstr ""
+"改变或改变文件属性.\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_HELP_LONG"
+msgstr ""
+"ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [驱动器:][路径][文件名] [/S]\n"
+"\n"
+"  +   设置属性.\n"
+"  -   清除属性.\n"
+"  R   只读属性.\n"
+"  A   归档属性.\n"
+"  S   系统属性.\n"
+"  H   隐藏属性.\n"
+"  [驱动器:][路径][文件名]\n"
+"      指定 ATTRIB 命令要处理的文件或目录.\n"
+"  /S  处理指定路径下所有目录中的文件.\n"
+"\n"
+
+msgid "SHELL_CMD_PATH_HELP"
+msgstr ""
+"显示或设置可执行文件的搜索路径.\n"
+"\n"
+
+msgid "SHELL_CMD_PATH_HELP_LONG"
+msgstr ""
+"PATH [[驱动器:]路径[;...][;%PATH%]\n"
+"PATH ;\n"
+"\n"
+"输入 PATH ; 清除所有已设置的搜索路径.\n"
+"输入不带参数的 PATH 命令显示当前搜索路径.\n"
+"\n"
+
+msgid "SHELL_CMD_PUSHD_HELP"
+msgstr ""
+"保存当前目录以给 POPD 命令使用, 并切换到指定的目录.\n"
+"\n"
+
+msgid "SHELL_CMD_PUSHD_HELP_LONG"
+msgstr ""
+"PUSHD [路径]\n"
+"\n"
+"路径        指定要作为当前目录的目录.\n"
+"\n"
+"输入不带参数的 PUSHD 命令显示当前保存的目录.\n"
+"\n"
+
+msgid "SHELL_CMD_POPD_HELP"
+msgstr ""
+"切换到 PUSHD 命令保存的目录.\n"
+"\n"
+
+msgid "SHELL_CMD_POPD_HELP_LONG"
+msgstr ""
+"POPD\n"
+"\n"
+
+msgid "SHELL_CMD_VERIFY_HELP"
+msgstr ""
+"控制是否校验文件已正确写入磁盘.\n"
+"\n"
+
+msgid "SHELL_CMD_VERIFY_HELP_LONG"
+msgstr ""
+"VERIFY [ON | OFF]\n"
+"\n"
+"输入不带参数的 VERIFY 命令显示当前 VERIFY 设置.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_HELP"
+msgstr ""
+"显示或设置 DOSBox-X 的报告 DOS 版本.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_HELP_LONG"
+msgstr ""
+"VER [/R]\n"
+"VER [SET] 版本号 或 VER SET [主版本号 次版本号]\n"
+"\n"
+"  /R                   　　显示 DOSBox-X 的 Git 提交版本和生成日期.\n"
+"  [SET] 版本号           　设置指定的版本号为要报告的 DOS 版本.\n"
+"  SET [主版本号 次版本号]  以主版本号+次版本号的格式设置要报告的 DOS 版本.\n"
+"\n"
+"  [0m举例, [37;1mVER 6.0[0m 或 [37;1mVER 7.1[0m 将 DOS 版本分别设置为 6.0 和 7.1.\n"
+"  另一方面, [37;1mVER SET 7 1[0m 将设置 DOS 版为 7.01 （而不是 7.1）.\n"
+"\n"
+"输入不带参数的 VER 命令显示 DOSBox-X 及报告的 DOS 版本.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_VER"
+msgstr ""
+"DOSBox-X 版本 %s (%s). 报告的 DOS 版本 %d.%02d.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_INVALID"
+msgstr ""
+"指定的 DOS 版本不正确.\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_HELP"
+msgstr ""
+"显示磁盘的标签号和存在的序列号.\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_HELP_LONG"
+msgstr ""
+"VOL [驱动器]\n"
+"\n"
+
+msgid "SHELL_CMD_PROMPT_HELP"
+msgstr ""
+"改变命令提示符.\n"
+"\n"
+
+msgid "SHELL_CMD_PROMPT_HELP_LONG"
+msgstr ""
+"PROMPT [文字]\n"
+"  文字    指定新的命令提示符.\n"
+"\n"
+"提示符可以由正常字符和以下特殊代码组成:\n"
+"  $A   & (&号)\n"
+"  $B   | (管道字符)\n"
+"  $C   ( (左括号)\n"
+"  $D   当前日期\n"
+"  $E   转义码 (ASCII 代码 27)\n"
+"  $F   ) (右括号)\n"
+"  $G   > (大于号)\n"
+"  $H   退格符 (删除此前字符)\n"
+"  $L   < (小于号)\n"
+"  $N   当前驱动器\n"
+"  $P   当前驱动器和路径\n"
+"  $Q   = (等号)\n"
+"  $S     (空格)\n"
+"  $T   当前时间\n"
+"  $V   DOS 版本号\n"
+"  $_   回车和换行\n"
+"  $$   $ (美元字符)\n"
+"\n"
+
+msgid "SHELL_CMD_ALIAS_HELP"
+msgstr ""
+"定义或显示别名.\n"
+"\n"
+
+msgid "SHELL_CMD_ALIAS_HELP_LONG"
+msgstr ""
+"ALIAS [名称[=值] ... ]\n"
+"\n"
+"输入不带参数的 ALIAS 命令将以如下形式显示已定义的别名列表:\n"
+"`ALIAS 名称 = 值'\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_HELP"
+msgstr ""
+"显示或改变当前 DOS 代码页.\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_HELP_LONG"
+msgstr ""
+"CHCP [nnn]\n"
+"\n"
+"  nnn   指定代码页.\n"
+"\n"
+"TTF 输出方式所支持的代码页包括:\n"
+"437,808,850,852,853,855,857,858,860,861,862,863,864,865,866,869,872,874\n"
+"\n"
+"以及双字节代码页,包括: 932, 936, 949, 950\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_ACTIVE"
+msgstr ""
+"活动的代码页: %d\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_MISSING"
+msgstr ""
+"TTF 字体中未定义的字符数: %d\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_INVALID"
+msgstr ""
+"非法代码页 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COUNTRY_HELP"
+msgstr ""
+"显示或改变当前国家号.\n"
+"\n"
+
+msgid "SHELL_CMD_COUNTRY_HELP_LONG"
+msgstr ""
+"COUNTRY [nnn] \n"
+"\n"
+"  nnn   指定国家代码.\n"
+"\n"
+"指定的国家代码将影响显示的日期和时间格式.\n"
+"\n"
+
+msgid "SHELL_CMD_CTTY_HELP"
+msgstr ""
+"改变控制系统的终端设备.\n"
+"\n"
+
+msgid "SHELL_CMD_CTTY_HELP_LONG"
+msgstr ""
+"CTTY 设备名\n"
+"  设备名        要使用的终端设备, 比如 CON.\n"
+"\n"
+
+msgid "SHELL_CMD_MORE_HELP"
+msgstr ""
+"分屏显示输出.\n"
+"\n"
+
+msgid "SHELL_CMD_MORE_HELP_LONG"
+msgstr ""
+"MORE [驱动器:][路径][文件名]\n"
+"MORE < [驱动器:][路径]文件名\n"
+"命令名 | MORE [驱动器:][路径][文件名]\n"
+"\n"
+
+msgid "SHELL_CMD_TRUENAME_HELP"
+msgstr ""
+"显示完整的文件名.\n"
+"\n"
+
+msgid "SHELL_CMD_TRUENAME_HELP_LONG"
+msgstr ""
+"TRUENAME [/H] 文件\n"
+"\n"
+
+msgid "SHELL_CMD_DXCAPTURE_HELP"
+msgstr ""
+"运行程序并启用视频或音频捕获.\n"
+"\n"
+
+msgid "SHELL_CMD_DXCAPTURE_HELP_LONG"
+msgstr ""
+"DX-CAPTURE [/V|/-V] [/A|/-A] [/M|/-M] [command] [options]\n"
+"\n"
+"它将启动视频或音频捕获, 运行程序, 等程序运行结束时停止捕获.\n"
+"\n"
+
+msgid "SHELL_CMD_DEBUGBOX_HELP"
+msgstr ""
+"运行程序并在其入口调用调试器.\n"
+"\n"
+
+msgid "SHELL_CMD_DEBUGBOX_HELP_LONG"
+msgstr ""
+"DEBUGBOX [命令] [选项]\n"
+"\n"
+"输入不带参数的 DEBUGBOX 命令将启动调试器.\n"
+"\n"
+
+msgid "SHELL_CMD_COMMAND_HELP"
+msgstr ""
+"启动 DOSBox-X 命令解释器.\n"
+"\n"
+"支持以下选项:\n"
+"\n"
+"  /C    执行指定的命令并返回.\n"
+"  /K    执行指定的命令并继续运行.\n"
+"  /P    载入永久性的命令解释器.\n"
+"  /INIT 初始化命令行.\n"
+"\n"
+
+msgid "SHELL_STARTUP_HEAD1_PC98"
+msgstr "[36mGetting Started with DOSBox-X:[37m                                    "
+
+msgid "SHELL_STARTUP_TEXT1_PC98"
+msgstr ""
+"Type [32mHELP[37m for shell commands, and [32mINTRO[37m for a short introduction. \n"
+"You could also complete various tasks through the [33mdrop-down menus[37m.\n"
+
+msgid "SHELL_STARTUP_EXAMPLE_PC98"
+msgstr "[32mExample[37m: Try select [33mTrueType font[37m or [33mOpenGL perfect[37m output option."
+
+msgid "SHELL_STARTUP_TEXT2_PC98"
+msgstr ""
+"To launch the [33mConfiguration Tool[37m, use [31mhost+C[37m. Host key is [32mF11[37m.    \n"
+"To activate the [33mMapper Editor[37m for key assignments, use [31mhost+M[37m.    \n"
+"To switch between windowed and full-screen mode, use [31mhost+F[37m.      \n"
+"To adjust the emulated CPU speed, use [31mhost+Plus[37m and [31mhost+Minus[37m.   \n"
+
+msgid "SHELL_STARTUP_INFO_PC98"
+msgstr "[36mDOSBox-X is now running in [32mJapanese NEC PC-98[36m emulation mode.[37m     "
+
+msgid "SHELL_STARTUP_TEXT3_PC98"
+msgstr ""
+"[32mDOSBox-X project [33mhttps://dosbox-x.com/     [36mComplete DOS emulations[37m\n"
+"[32mDOSBox-X guide   [33mhttps://dosbox-x.com/wiki[37m [36mDOS, Windows 3.x and 9x[37m\n"
+"[32mDOSBox-X support [33mhttps://github.com/joncampbell123/dosbox-x/issues[37m\n"
+
+msgid "SHELL_STARTUP_CGA_MONO"
+msgstr ""
+"按 [31mCtrl+F7[37m 键在单色间切换： 绿色、琥珀色、白色.                             \n"
+"按 [31mCtrl+F8[37m 键改变高对比度/亮度设置.                                         \n"
+
+msgid "MENU:mapper_reset"
+msgstr "重新开始模拟"
+
+msgid "MENU:mapper_reboot"
+msgstr "重启DOS系统"
+
+msgid "MENU:mapper_loadmap"
+msgstr "加载按键配置文件..."
+
+msgid "MENU:mapper_quickrun"
+msgstr "快速启动程序..."
+
+msgid "MENU:mapper_shutdown"
+msgstr "退出 DOSBox-X"
+
+msgid "MENU:mapper_capmouse"
+msgstr "捕获鼠标"
+
+msgid "MENU:mapper_fastedit"
+msgstr "快速编辑: 选择后复制或粘贴文本"
+
+msgid "MENU:mapper_copyall"
+msgstr "复制DOS屏幕上的所有文本"
+
+msgid "MENU:mapper_paste"
+msgstr "从剪贴板中复制"
+
+msgid "MENU:mapper_pasteend"
+msgstr "停止剪贴板复制"
+
+msgid "MENU:mapper_pause"
+msgstr "暂停模拟"
+
+msgid "MENU:mapper_pauseints"
+msgstr "暂停并保持中断"
+
+msgid "MENU:mapper_gui"
+msgstr "配置工具"
+
+msgid "MENU:mapper_mapper"
+msgstr "按键编辑"
+
+msgid "MENU:mapper_fullscr"
+msgstr "切换全屏模式"
+
+msgid "MENU:mapper_resetsize"
+msgstr "重置屏幕大小"
+
+msgid "MENU:mapper_incsize"
+msgstr "增加 TTF 字体大小"
+
+msgid "MENU:mapper_decsize"
+msgstr "减少 TTF 字体大小"
+
+msgid "MENU:mapper_togmenu"
+msgstr "隐藏/显示下拉菜单"
+
+msgid "MENU:MainMenu"
+msgstr "主菜单"
+
+msgid "MENU:MainSendKey"
+msgstr "输入特殊键"
+
+msgid "MENU:MainHostKey"
+msgstr "选择主机按键"
+
+msgid "MENU:WheelToArrow"
+msgstr "鼠标滑轮动作转换"
+
+msgid "MENU:SharedClipboard"
+msgstr "剪贴板功能"
+
+msgid "MENU:CpuMenu"
+msgstr "CPU"
+
+msgid "MENU:CpuCoreMenu"
+msgstr "CPU 内核"
+
+msgid "MENU:CpuTypeMenu"
+msgstr "CPU 类型"
+
+msgid "MENU:CpuSpeedMenu"
+msgstr "模拟 CPU 速度"
+
+msgid "MENU:cpu88-4"
+msgstr "8088 XT 4.77MHz (~240 周期)"
+
+msgid "MENU:cpu286-8"
+msgstr "286 8MHz (~750 周期)"
+
+msgid "MENU:cpu286-12"
+msgstr "286 12MHz (~1510 周期)"
+
+msgid "MENU:cpu286-25"
+msgstr "286 25MHz (~3300 周期)"
+
+msgid "MENU:cpu386-25"
+msgstr "386DX 25MHz (~4595 周期)"
+
+msgid "MENU:cpu386-33"
+msgstr "386DX 33MHz (~6075 周期)"
+
+msgid "MENU:cpu486-33"
+msgstr "486DX 33MHz (~12010 周期)"
+
+msgid "MENU:cpu486-66"
+msgstr "486DX2 66MHz (~23880 周期)"
+
+msgid "MENU:cpu486-100"
+msgstr "486DX4 100MHz (~33445 周期)"
+
+msgid "MENU:cpu486-133"
+msgstr "486DX5 133MHz (~47810 周期)"
+
+msgid "MENU:cpu586-60"
+msgstr "奔腾 60MHz (~31545 周期)"
+
+msgid "MENU:cpu586-66"
+msgstr "奔腾 66MHz (~35620 周期)"
+
+msgid "MENU:cpu586-75"
+msgstr "奔腾 75MHz (~43500 周期)"
+
+msgid "MENU:cpu586-90"
+msgstr "奔腾 90MHz (~52000 周期)"
+
+msgid "MENU:cpu586-100"
+msgstr "奔腾 100MHz (~60000 周期)"
+
+msgid "MENU:cpu586-120"
+msgstr "奔腾 120MHz (~74000 周期)"
+
+msgid "MENU:cpu586-133"
+msgstr "奔腾 133MHz (~80000 周期)"
+
+msgid "MENU:cpu586-166"
+msgstr "奔腾 166MHz MMX (~97240 周期)"
+
+msgid "MENU:VideoMenu"
+msgstr "视频"
+
+msgid "MENU:VideoFrameskipMenu"
+msgstr "跳帧"
+
+msgid "MENU:frameskip_0"
+msgstr "关闭"
+
+msgid "MENU:frameskip_1"
+msgstr "1 帧"
+
+msgid "MENU:frameskip_2"
+msgstr "2 帧"
+
+msgid "MENU:frameskip_3"
+msgstr "3 帧"
+
+msgid "MENU:frameskip_4"
+msgstr "4 帧"
+
+msgid "MENU:frameskip_5"
+msgstr "5 帧"
+
+msgid "MENU:frameskip_6"
+msgstr "6 帧"
+
+msgid "MENU:frameskip_7"
+msgstr "7 帧"
+
+msgid "MENU:frameskip_8"
+msgstr "8 帧"
+
+msgid "MENU:frameskip_9"
+msgstr "9 帧"
+
+msgid "MENU:frameskip_10"
+msgstr "10 帧"
+
+msgid "MENU:VideoScalerMenu"
+msgstr "缩放器"
+
+msgid "MENU:scaler_forced"
+msgstr "强制使用缩放器"
+
+msgid "MENU:scaler_set_none"
+msgstr "无"
+
+msgid "MENU:scaler_set_normal2x"
+msgstr "Normal 2X"
+
+msgid "MENU:scaler_set_normal3x"
+msgstr "Normal 3X"
+
+msgid "MENU:scaler_set_normal4x"
+msgstr "Normal 4X"
+
+msgid "MENU:scaler_set_normal5x"
+msgstr "Normal 5X"
+
+msgid "MENU:scaler_set_hardware_none"
+msgstr "Hardware None"
+
+msgid "MENU:scaler_set_hardware2x"
+msgstr "Hardware 2X"
+
+msgid "MENU:scaler_set_hardware3x"
+msgstr "Hardware 3X"
+
+msgid "MENU:scaler_set_hardware4x"
+msgstr "Hardware 4X"
+
+msgid "MENU:scaler_set_hardware5x"
+msgstr "Hardware 5X"
+
+msgid "MENU:scaler_set_gray"
+msgstr "Grayscale"
+
+msgid "MENU:scaler_set_gray2x"
+msgstr "Grayscale 2X"
+
+msgid "MENU:scaler_set_tv2x"
+msgstr "TV 2X"
+
+msgid "MENU:scaler_set_tv3x"
+msgstr "TV 3X"
+
+msgid "MENU:scaler_set_scan2x"
+msgstr "Scan 2X"
+
+msgid "MENU:scaler_set_scan3x"
+msgstr "Scan 3X"
+
+msgid "MENU:scaler_set_rgb2x"
+msgstr "RGB 2X"
+
+msgid "MENU:scaler_set_rgb3x"
+msgstr "RGB 3X"
+
+msgid "MENU:scaler_set_advmame2x"
+msgstr "Advanced MAME 2X"
+
+msgid "MENU:scaler_set_advmame3x"
+msgstr "Advanced MAME 3X"
+
+msgid "MENU:scaler_set_hq2x"
+msgstr "HQ 2X"
+
+msgid "MENU:scaler_set_hq3x"
+msgstr "HQ 3X"
+
+msgid "MENU:scaler_set_advinterp2x"
+msgstr "Advanced Interpolation 2X"
+
+msgid "MENU:scaler_set_advinterp3x"
+msgstr "Advanced Interpolation 3X"
+
+msgid "MENU:scaler_set_2xsai"
+msgstr "2xSai"
+
+msgid "MENU:scaler_set_super2xsai"
+msgstr "Super2xSai"
+
+msgid "MENU:scaler_set_supereagle"
+msgstr "SuperEagle"
+
+msgid "MENU:scaler_set_xbrz"
+msgstr "xBRZ"
+
+msgid "MENU:scaler_set_xbrz_bilinear"
+msgstr "xBRZ Bilinear"
+
+msgid "MENU:refresh_rate"
+msgstr "调整刷新率..."
+
+msgid "MENU:VideoOutputMenu"
+msgstr "输出"
+
+msgid "MENU:output_surface"
+msgstr "Surface"
+
+msgid "MENU:output_direct3d"
+msgstr "Direct3D"
+
+msgid "MENU:output_opengl"
+msgstr "OpenGL"
+
+msgid "MENU:output_openglnb"
+msgstr "OpenGL nearest"
+
+msgid "MENU:output_openglpp"
+msgstr "OpenGL perfect"
+
+msgid "MENU:output_ttf"
+msgstr "TTF"
+
+msgid "MENU:doublescan"
+msgstr "双重扫描"
+
+msgid "MENU:VideoVsyncMenu"
+msgstr "垂直同步"
+
+msgid "MENU:vsync_on"
+msgstr "打开"
+
+msgid "MENU:vsync_force"
+msgstr "强制"
+
+msgid "MENU:vsync_host"
+msgstr "主机"
+
+msgid "MENU:vsync_off"
+msgstr "关闭"
+
+msgid "MENU:vsync_set_syncrate"
+msgstr "设置同步速率"
+
+msgid "MENU:VideoOverscanMenu"
+msgstr "过扫描"
+
+msgid "MENU:overscan_0"
+msgstr "关闭"
+
+msgid "MENU:overscan_1"
+msgstr "1"
+
+msgid "MENU:overscan_2"
+msgstr "2"
+
+msgid "MENU:overscan_3"
+msgstr "3"
+
+msgid "MENU:overscan_4"
+msgstr "4"
+
+msgid "MENU:overscan_5"
+msgstr "5"
+
+msgid "MENU:overscan_6"
+msgstr "6"
+
+msgid "MENU:overscan_7"
+msgstr "7"
+
+msgid "MENU:overscan_8"
+msgstr "8"
+
+msgid "MENU:overscan_9"
+msgstr "9"
+
+msgid "MENU:overscan_10"
+msgstr "10"
+
+msgid "MENU:VideoTextmodeMenu"
+msgstr "文本模式"
+
+msgid "MENU:clear_screen"
+msgstr "清屏"
+
+msgid "MENU:vga_9widetext"
+msgstr "允许9像素宽字体"
+
+msgid "MENU:text_background"
+msgstr "高强度文本: 背景色"
+
+msgid "MENU:text_blinking"
+msgstr "高强度文本: 闪烁文字"
+
+msgid "MENU:line_80x25"
+msgstr "屏幕: 80 列 x 25 行"
+
+msgid "MENU:line_80x43"
+msgstr "屏幕: 80 列 x 43 行"
+
+msgid "MENU:line_80x50"
+msgstr "屏幕: 80 列 x 50 行"
+
+msgid "MENU:line_80x60"
+msgstr "屏幕: 80 列 x 60 行"
+
+msgid "MENU:line_132x25"
+msgstr "屏幕: 132 列 x 25 行"
+
+msgid "MENU:line_132x43"
+msgstr "屏幕: 132 列 x 43 行"
+
+msgid "MENU:line_132x50"
+msgstr "屏幕: 132 列 x 50 行"
+
+msgid "MENU:line_132x60"
+msgstr "屏幕: 132 列 x 60 行"
+
+msgid "MENU:VideoTTFMenu"
+msgstr "TTF 选项"
+
+msgid "MENU:ttf_showbold"
+msgstr "使用 TTF 显示粗体文字"
+
+msgid "MENU:ttf_showital"
+msgstr "使用 TTF 显示斜体文字"
+
+msgid "MENU:ttf_showline"
+msgstr "使用 TTF 显示下划线文字"
+
+msgid "MENU:ttf_showsout"
+msgstr "使用 TTF 显示删除线文字"
+
+msgid "MENU:ttf_wpno"
+msgstr "TTF 字处理软件: 无"
+
+msgid "MENU:ttf_wpwp"
+msgstr "TTF 字处理软件: WordPerfect"
+
+msgid "MENU:ttf_wpws"
+msgstr "TTF 字处理软件: WordStar"
+
+msgid "MENU:ttf_wpxy"
+msgstr "TTF 字处理软件: XyWrite"
+
+msgid "MENU:ttf_wpfe"
+msgstr "TTF 字处理软件: FastEdit"
+
+msgid "MENU:ttf_blinkc"
+msgstr "显示 TTF 闪烁光标"
+
+msgid "MENU:ttf_printfont"
+msgstr "使用当前 TTF 字体进行打印"
+
+msgid "MENU:ttf_dbcs_sbcs"
+msgstr "中日韩: 切换双字节/单字节模式"
+
+msgid "MENU:ttf_autoboxdraw"
+msgstr "中日韩: 自动检测制表符"
+
+msgid "MENU:ttf_halfwidthkana"
+msgstr "中日韩: 允许半角日文片假名"
+
+msgid "MENU:VideoPC98Menu"
+msgstr "PC-98 选项"
+
+msgid "MENU:pc98_5mhz_gdc"
+msgstr "5MHz GDC 时钟"
+
+msgid "MENU:pc98_allow_200scanline"
+msgstr "允许200行扫描线效果"
+
+msgid "MENU:pc98_allow_4partitions"
+msgstr "允许图像层4个显示分区"
+
+msgid "MENU:pc98_enable_egc"
+msgstr "启用 EGC"
+
+msgid "MENU:pc98_enable_grcg"
+msgstr "启用 GRCG"
+
+msgid "MENU:pc98_enable_analog"
+msgstr "启用模拟显示"
+
+msgid "MENU:pc98_enable_analog256"
+msgstr "模拟256色显示"
+
+msgid "MENU:pc98_enable_188user"
+msgstr "启用188+用户CG单元"
+
+msgid "MENU:pc98_clear_text"
+msgstr "清除文本层"
+
+msgid "MENU:pc98_clear_graphics"
+msgstr "清除图像层"
+
+msgid "MENU:load_d3d_shader"
+msgstr "选择 Direct3D 像素着色文件..."
+
+msgid "MENU:load_glsl_shader"
+msgstr "选择 OpenGL (GLSL) 着色文件..."
+
+msgid "MENU:load_ttf_font"
+msgstr "选择 TTF 文件..."
+
+msgid "MENU:SoundMenu"
+msgstr "声音"
+
+msgid "MENU:mixer_swapstereo"
+msgstr "交换立体声"
+
+msgid "MENU:mixer_mute"
+msgstr "静音"
+
+msgid "MENU:mixer_info"
+msgstr "显示混音器音量"
+
+msgid "MENU:sb_info"
+msgstr "显示声卡配置"
+
+msgid "MENU:midi_info"
+msgstr "显示 MIDI 设备配置"
+
+msgid "MENU:DOSMenu"
+msgstr "DOS"
+
+msgid "MENU:enable_a20gate"
+msgstr "启用 A20 门"
+
+msgid "MENU:change_currentcd"
+msgstr "改变当前光盘镜像..."
+
+msgid "MENU:change_currentfd"
+msgstr "改变当前软盘镜像..."
+
+msgid "MENU:DOSMouseMenu"
+msgstr "鼠标模拟"
+
+msgid "MENU:dos_mouse_enable_int33"
+msgstr "内部模拟"
+
+msgid "MENU:dos_mouse_y_axis_reverse"
+msgstr "反转Y轴"
+
+msgid "MENU:dos_mouse_sensitivity"
+msgstr "敏感度"
+
+msgid "MENU:DOSVerMenu"
+msgstr "报告的 DOS 版本"
+
+msgid "MENU:dos_ver_330"
+msgstr "3.30"
+
+msgid "MENU:dos_ver_500"
+msgstr "5.00"
+
+msgid "MENU:dos_ver_622"
+msgstr "6.22"
+
+msgid "MENU:dos_ver_710"
+msgstr "7.10"
+
+msgid "MENU:dos_ver_edit"
+msgstr "编辑"
+
+msgid "MENU:DOSLFNMenu"
+msgstr "长文件名支持"
+
+msgid "MENU:dos_lfn_auto"
+msgstr "自动根据 DOS 版本"
+
+msgid "MENU:dos_lfn_enable"
+msgstr "启用长文件名模拟"
+
+msgid "MENU:dos_lfn_disable"
+msgstr "禁用长文件名模拟"
+
+msgid "MENU:DOSPC98Menu"
+msgstr "PC-98 PIT 主时钟"
+
+msgid "MENU:dos_pc98_pit_4mhz"
+msgstr "4MHz/8MHz PIT 主时钟"
+
+msgid "MENU:dos_pc98_pit_5mhz"
+msgstr "5MHz/10MHz PIT 主时钟"
+
+msgid "MENU:DOSEMSMenu"
+msgstr "EMS 内存"
+
+msgid "MENU:dos_ems_true"
+msgstr "启用 EMS 内存模拟"
+
+msgid "MENU:dos_ems_board"
+msgstr "EMS 板模拟"
+
+msgid "MENU:dos_ems_emm386"
+msgstr "EMM386 模拟"
+
+msgid "MENU:dos_ems_false"
+msgstr "禁用 EMS 内存模拟"
+
+msgid "MENU:DOSWinMenu"
+msgstr "主机系统程序"
+
+msgid "MENU:dos_win_autorun"
+msgstr "自动在 Windows 主机中运行"
+
+msgid "MENU:dos_win_transpath"
+msgstr "将路径转换为主机系统路径"
+
+msgid "MENU:dos_win_wait"
+msgstr "等待应用程序 (如果可能)"
+
+msgid "MENU:dos_win_quiet"
+msgstr "安静模式 - 无启动信息"
+
+msgid "MENU:CaptureMenu"
+msgstr "捕获"
+
+msgid "MENU:CaptureFormatMenu"
+msgstr "捕获格式"
+
+msgid "MENU:capture_fmt_avi_zmbv"
+msgstr "AVI + ZMBV"
+
+msgid "MENU:capture_fmt_mpegts_h264"
+msgstr "MPEG-TS + H.264"
+
+msgid "MENU:saveoptionmenu"
+msgstr "保存/加载选项"
+
+msgid "MENU:saveslotmenu"
+msgstr "选择存档"
+
+msgid "MENU:enable_autosave"
+msgstr "启用自动保存功能"
+
+msgid "MENU:noremark_savestate"
+msgstr "存档时不输入注释"
+
+msgid "MENU:force_loadstate"
+msgstr "读档时不显示警告"
+
+msgid "MENU:removestate"
+msgstr "删除存档"
+
+msgid "MENU:refreshslot"
+msgstr "刷新显示状态"
+
+msgid "MENU:lastautosaveslot"
+msgstr "选择上次保存的存档"
+
+msgid "MENU:usesavefile"
+msgstr "使用存档文件"
+
+msgid "MENU:autosavecfg"
+msgstr "设置自动保存..."
+
+msgid "MENU:browsesavefile"
+msgstr "选择存档文件..."
+
+msgid "MENU:current_page"
+msgstr "当前页: 1/10"
+
+msgid "MENU:prev_page"
+msgstr "上一页"
+
+msgid "MENU:next_page"
+msgstr "下一页"
+
+msgid "MENU:first_page"
+msgstr "切换到第一页"
+
+msgid "MENU:last_page"
+msgstr "切换到最后一页"
+
+msgid "MENU:DriveMenu"
+msgstr "驱动器"
+
+msgid "MENU:drive_mountauto"
+msgstr "自动挂载 Windows 驱动器"
+
+msgid "MENU:drive_mounthd"
+msgstr "挂载文件夹为硬盘驱动器"
+
+msgid "MENU:drive_mountcd"
+msgstr "挂载文件夹为光盘驱动器"
+
+msgid "MENU:drive_mountfd"
+msgstr "挂载文件夹为软盘驱动器"
+
+msgid "MENU:drive_mountfro"
+msgstr "选项: 只读方式挂载文件夹"
+
+msgid "MENU:drive_mountarc"
+msgstr "挂载压缩文档 (ZIP/7Z)"
+
+msgid "MENU:drive_mountimg"
+msgstr "挂载磁盘或光盘镜像文件"
+
+msgid "MENU:drive_mountimgs"
+msgstr "挂载多个磁盘或光盘镜像文件"
+
+msgid "MENU:drive_mountiro"
+msgstr "选项: 只读方式挂载镜像文件"
+
+msgid "MENU:drive_unmount"
+msgstr "卸载驱动器"
+
+msgid "MENU:drive_rescan"
+msgstr "刷新驱动器"
+
+msgid "MENU:drive_swap"
+msgstr "交换镜像文件"
+
+msgid "MENU:drive_info"
+msgstr "驱动器信息"
+
+msgid "MENU:drive_boot"
+msgstr "从该驱动器启动"
+
+msgid "MENU:drive_bootimg"
+msgstr "从磁盘镜像启动"
+
+msgid "MENU:HelpMenu"
+msgstr "帮助"
+
+msgid "MENU:help_intro"
+msgstr "DOSBox-X 介绍"
+
+msgid "MENU:help_homepage"
+msgstr "DOSBox-X 主页"
+
+msgid "MENU:help_wiki"
+msgstr "DOSBox-X 用户指南"
+
+msgid "MENU:help_issue"
+msgstr "DOSBox-X 支持"
+
+msgid "MENU:help_nic"
+msgstr "网络接口列表"
+
+msgid "MENU:help_prt"
+msgstr "打印机列表"
+
+msgid "MENU:help_about"
+msgstr "关于 DOSBox-X"
+
+msgid "MENU:show_console"
+msgstr "显示记录控制台"
+
+msgid "MENU:wait_on_error"
+msgstr "控制台遇到错误时等待"
+
+msgid "MENU:show_codetext"
+msgstr "显示代码概览"
+
+msgid "MENU:show_logtext"
+msgstr "显示记录内容"
+
+msgid "MENU:save_logas"
+msgstr "保存记录为..."
+
+msgid "MENU:debugger_rundebug"
+msgstr "调试器选项: 运行调试器"
+
+msgid "MENU:debugger_runnormal"
+msgstr "调试器选项: 正常运行方式"
+
+msgid "MENU:debugger_runwatch"
+msgstr "调试器选项: 监视运行方式"
+
+msgid "MENU:HelpCommandMenu"
+msgstr "DOS 命令"
+
+msgid "MENU:DebugMenu"
+msgstr "调试"
+
+msgid "MENU:HelpDebugMenu"
+msgstr "记录控制台"
+
+msgid "MENU:debug_blankrefreshtest"
+msgstr "刷新测试 (空白显示)"
+
+msgid "MENU:debug_generatenmi"
+msgstr "产生 NMI 中断"
+
+msgid "MENU:debug_int2fhook"
+msgstr "钩住 INT 2F 中断"
+
+msgid "MENU:debug_logint21"
+msgstr "记录 INT 21 调用"
+
+msgid "MENU:debug_logfileio"
+msgstr "记录文件输入输出"
+
+msgid "MENU:mapper_speedlock"
+msgstr "打开或关闭快进模式"
+
+msgid "MENU:mapper_speedlock2"
+msgstr "加速/快进模式"
+
+msgid "MENU:mapper_speednorm"
+msgstr "正常速度"
+
+msgid "MENU:mapper_speedup"
+msgstr "加快速度"
+
+msgid "MENU:mapper_slowdown"
+msgstr "降低速度"
+
+msgid "MENU:mapper_editcycles"
+msgstr "编辑 CPU 周期"
+
+msgid "MENU:mapper_savestate"
+msgstr "保存存档"
+
+msgid "MENU:mapper_loadstate"
+msgstr "加载存档"
+
+msgid "MENU:mapper_showstate"
+msgstr "显示存档信息"
+
+msgid "MENU:mapper_prevslot"
+msgstr "选择上一个存档"
+
+msgid "MENU:mapper_nextslot"
+msgstr "选择下一个存档"
+
+msgid "MENU:mapper_decfskip"
+msgstr "减小跳帧"
+
+msgid "MENU:mapper_incfskip"
+msgstr "加大跳帧"
+
+msgid "MENU:mapper_aspratio"
+msgstr "长宽比适合模式"
+
+msgid "MENU:mapper_recwave"
+msgstr "录制音频到 WAV"
+
+msgid "MENU:mapper_recmtwave"
+msgstr "录制音频到多轨 AVI"
+
+msgid "MENU:mapper_caprawmidi"
+msgstr "录制 MIDI 输出"
+
+msgid "MENU:mapper_caprawopl"
+msgstr "录制 FM (OPL) 输出"
+
+msgid "MENU:mapper_video"
+msgstr "录制视频到 AVI"
+
+msgid "MENU:mapper_scrshot"
+msgstr "捕获屏幕快照"
+
+msgid "MENU:mapper_debugger"
+msgstr "启动 DOSBox-X 调试器"
+
+msgid "MENU:mapper_volup"
+msgstr "提高音量"
+
+msgid "MENU:mapper_voldown"
+msgstr "降低音量"
+
+msgid "MENU:mapper_recvolup"
+msgstr "提高录音音量"
+
+msgid "MENU:mapper_recvoldown"
+msgstr "降低录音音量"
+
+msgid "MENU:mapper_sendkey_mapper"
+msgstr "输入特殊键"
+
+msgid "MENU:mapper_cycledown"
+msgstr "减小 CPU 周期"
+
+msgid "MENU:mapper_cycleup"
+msgstr "加大 CPU 周期"
+
+msgid "MENU:mapper_normal"
+msgstr "正常内核"
+
+msgid "MENU:mapper_dynamic"
+msgstr "动态内核 (dynamic_x86)"
+
+msgid "MENU:mapper_simple"
+msgstr "简单内核"
+
+msgid "MENU:mapper_full"
+msgstr "完全内核"
+
+msgid "MENU:cputype_auto"
+msgstr "自动"
+
+msgid "MENU:cputype_8086"
+msgstr "8086"
+
+msgid "MENU:cputype_8086_prefetch"
+msgstr "8086 (带预取)"
+
+msgid "MENU:cputype_80186"
+msgstr "80186"
+
+msgid "MENU:cputype_80186_prefetch"
+msgstr "80186 (带预取)"
+
+msgid "MENU:cputype_286"
+msgstr "286"
+
+msgid "MENU:cputype_286_prefetch"
+msgstr "286 (带预取)"
+
+msgid "MENU:cputype_386"
+msgstr "386"
+
+msgid "MENU:cputype_386_prefetch"
+msgstr "386 (带预取)"
+
+msgid "MENU:cputype_486old"
+msgstr "486 (老式)"
+
+msgid "MENU:cputype_486old_prefetch"
+msgstr "486 (老式, 带预取)"
+
+msgid "MENU:cputype_486"
+msgstr "486"
+
+msgid "MENU:cputype_486_prefetch"
+msgstr "486 (带预取)"
+
+msgid "MENU:cputype_pentium"
+msgstr "奔腾"
+
+msgid "MENU:cputype_pentium_mmx"
+msgstr "奔腾 MMX"
+
+msgid "MENU:cputype_ppro_slow"
+msgstr "奔腾 Pro"
+
+msgid "MENU:debug_pageflip"
+msgstr "页面翻转调试行"
+
+msgid "MENU:debug_retracepoll"
+msgstr "追溯轮询调试行"
+
+msgid "MENU:mapper_swapimg"
+msgstr "交换软盘镜像"
+
+msgid "MENU:mapper_swapcd"
+msgstr "交换光盘镜像"
+
+msgid "MENU:mapper_ejectpage"
+msgstr "发送打印机换页符"
+
+msgid "MENU:mapper_rescanall"
+msgstr "刷新所有驱动器"
+
+msgid "MENU:hostkey_mapper"
+msgstr "按键编辑中设定"
+
+msgid "MENU:showdetails"
+msgstr "标题栏上显示速度"
+
+msgid "MENU:restartconf"
+msgstr "重启 DOSBox-X 并调用指定配置文件..."
+
+msgid "MENU:restartlang"
+msgstr "重启 DOSBox-X 并调用指定语言文件..."
+
+msgid "MENU:auto_lock_mouse"
+msgstr "自动锁定鼠标"
+
+msgid "MENU:clipboard_right"
+msgstr "通过按鼠标右键"
+
+msgid "MENU:clipboard_middle"
+msgstr "通过按鼠标中键"
+
+msgid "MENU:clipboard_arrows"
+msgstr "通过按方向键 (Home=开始, End=结束)"
+
+msgid "MENU:screen_to_clipboard"
+msgstr "复制 DOS 屏幕上的所有文字"
+
+msgid "MENU:clipboard_device"
+msgstr "启用 DOS 剪贴板设备存取"
+
+msgid "MENU:clipboard_dosapi"
+msgstr "启用 DOS 剪贴板应用程序 API"
+
+msgid "MENU:clipboard_biospaste"
+msgstr "使用 BIOS 功能进行剪贴板粘贴"
+
+msgid "MENU:sendkey_winlogo"
+msgstr "输入 LOGO 键"
+
+msgid "MENU:sendkey_winmenu"
+msgstr "输入 MENU 键"
+
+msgid "MENU:sendkey_alttab"
+msgstr "输入 Alt+Tab"
+
+msgid "MENU:sendkey_ctrlesc"
+msgstr "输入 Ctrl+Esc"
+
+msgid "MENU:sendkey_ctrlbreak"
+msgstr "输入 Ctrl+Break"
+
+msgid "MENU:sendkey_cad"
+msgstr "输入 Ctrl+Alt+Del"
+
+msgid "MENU:hostkey_ctrlalt"
+msgstr "Ctrl+Alt"
+
+msgid "MENU:hostkey_ctrlshift"
+msgstr "Ctrl+Shift"
+
+msgid "MENU:hostkey_altshift"
+msgstr "Alt+Shift"
+
+msgid "MENU:sendkey_mapper_winlogo"
+msgstr "Mapper "输入特殊键": logo key"
+
+msgid "MENU:sendkey_mapper_winmenu"
+msgstr "Mapper "输入特殊键": menu key"
+
+msgid "MENU:sendkey_mapper_alttab"
+msgstr "Mapper "输入特殊键": Alt+Tab"
+
+msgid "MENU:sendkey_mapper_ctrlesc"
+msgstr "Mapper "输入特殊键": Ctrl+Esc"
+
+msgid "MENU:sendkey_mapper_ctrlbreak"
+msgstr "Mapper "输入特殊键": Ctrl+Break"
+
+msgid "MENU:sendkey_mapper_cad"
+msgstr "Mapper "输入特殊键": Ctrl+Alt+Del"
+
+msgid "MENU:wheel_none"
+msgstr "不进行转换"
+
+msgid "MENU:wheel_updown"
+msgstr "转换为上下箭头"
+
+msgid "MENU:wheel_leftright"
+msgstr "转换为左右箭头"
+
+msgid "MENU:wheel_pageupdown"
+msgstr "转换为 PgUp/PgDn 键"
+
+msgid "MENU:wheel_ctrlupdown"
+msgstr "转换为 Ctrl+上下箭头"
+
+msgid "MENU:wheel_ctrlleftright"
+msgstr "转换为 Ctrl+左右箭头"
+
+msgid "MENU:wheel_ctrlpageupdown"
+msgstr "转换为 Ctrl+PgUp/PgDn 键"
+
+msgid "MENU:wheel_ctrlwz"
+msgstr "转换为 Ctrl+W/Z 键"
+
+msgid "MENU:wheel_guest"
+msgstr "启动客户系统时亦启用"
+
+msgid "MENU:doublebuf"
+msgstr "双重缓冲 (全屏幕)"
+
+msgid "MENU:alwaysontop"
+msgstr "总在最前"
+
+msgid "MENU:highdpienable"
+msgstr "启用高 DPI 模式"
+
+msgid "MENU:sync_host_datetime"
+msgstr "同步主机日期/时间"
+
+msgid "MENU:shell_config_commands"
+msgstr "配置选项作为命令"
+
+msgid "MENU:quick_reboot"
+msgstr "启用快速重启"
+
+msgid "MENU:make_diskimage"
+msgstr "创建空白磁盘镜像..."
+
+msgid "MENU:list_drivenum"
+msgstr "显示已分配的驱动器号"
+
+msgid "MENU:list_ideinfo"
+msgstr "显示 IDE 驱动器状态"
+
+msgid "MENU:print_textscreen"
+msgstr "打印 DOS 屏幕文字"
+
+msgid "MENU:pc98_use_uskb"
+msgstr "使用美式键盘布局"
+
+msgid "MAPPER:caprawopl"
+msgstr "录制 FM/OPL 输出"
+
+msgid "MAPPER:copyall"
+msgstr "复制屏幕文本到剪贴板"
+
+msgid "MAPPER:cycauto"
+msgstr "切换自动 CPU 周期"
+
+msgid "MAPPER:debugger"
+msgstr "显示调试器"
+
+msgid "MAPPER:decsize"
+msgstr "减小 TTF 字体"
+
+msgid "MAPPER:dynamic"
+msgstr "CPU: 动态内核"
+
+msgid "MAPPER:fastedit"
+msgstr "快速编辑模式"
+
+msgid "MAPPER:full"
+msgstr "CPU: 完全内核"
+
+msgid "MAPPER:incsize"
+msgstr "加大 TTF 字体"
+
+msgid "MAPPER:loadmap"
+msgstr "加载按键配置文件"
+
+msgid "MAPPER:nextslot"
+msgstr "下一个存档"
+
+msgid "MAPPER:normal"
+msgstr "CPU: 正常内核"
+
+msgid "MAPPER:paste"
+msgstr "粘贴剪贴板文字"
+
+msgid "MAPPER:pasteend"
+msgstr "停止剪贴板复制"
+
+msgid "MAPPER:pauseints"
+msgstr "暂停并保持中断"
+
+msgid "MAPPER:prevslot"
+msgstr "上一个存档"
+
+msgid "MAPPER:quickrun"
+msgstr "快速启动程序"
+
+msgid "MAPPER:reboot"
+msgstr "重启 DOS 系统"
+
+msgid "MAPPER:recmtwave"
+msgstr "录制音频到多轨 AVI"
+
+msgid "MAPPER:recvoldown"
+msgstr "降低录音音量"
+
+msgid "MAPPER:recvolup"
+msgstr "提高录音音量"
+
+msgid "MAPPER:rescanall"
+msgstr "刷新驱动器"
+
+msgid "MAPPER:reset"
+msgstr "重启 DOSBox-X"
+
+msgid "MAPPER:showstate"
+msgstr "显示存档信息"
+
+msgid "MAPPER:simple"
+msgstr "CPU: 简单内核"
+
+msgid "MAPPER:togmenu"
+msgstr "打开或关闭下拉菜单"
+

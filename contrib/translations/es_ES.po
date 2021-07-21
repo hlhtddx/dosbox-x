@@ -1,0 +1,3641 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DOSBox-X\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"X-Generator: aybe\n"
+
+# :DOSBOX-X:LANGUAGE:Spanish (Spain)
+# :DOSBOX-X:CODEPAGE:858
+# :DOSBOX-X:VERSION:0.83.16
+# :DOSBOX-X:REMARK:
+
+msgid "AUTOEXEC_CONFIGFILE_HELP"
+msgstr ""
+"Las líneas de esta sección se iniciarán al inicio.\n"
+"Puedes poner tus líneas MOUNT aqui.\n"
+"\n"
+
+msgid "CONFIGFILE_INTRO"
+msgstr ""
+"# Este es el archivo de configuración de DOSBox-X %s. (Usa la última versión si puedes)\n"
+"# Líneas con un # al principio son comentarios y se ignoran por DOSBox-X.\n"
+"# Estas líneas se usan para documentar brevemente el efecto de cada opción.\n"
+"# Para escribir TODAS las opciones, usa el comando 'config -all' con -wc o -writeconf.\n"
+"\n"
+
+msgid "CONFIG_SUGGESTED_VALUES"
+msgstr "Valores posibles"
+
+msgid "CONFIG_ADVANCED_OPTION"
+msgstr "Opciones avanzadas (ver archivo de referencias de configuración completo [dosbox-x.reference.full.conf] para más detalles)"
+
+msgid "CONFIG_TOOL"
+msgstr "Herramienta de configuración de DOSBox-X"
+
+msgid "CONFIG_TOOL_EXIT"
+msgstr "Salir de la herramienta de configuración"
+
+msgid "MAPPER_EDITOR_EXIT"
+msgstr "Abandonar editor de mapeo"
+
+msgid "SAVE_MAPPER_FILE"
+msgstr "Salvar archivo de mapeo"
+
+msgid "WARNING"
+msgstr "Aviso"
+
+msgid "YES"
+msgstr "Sí"
+
+msgid "NO"
+msgstr "No"
+
+msgid "OK"
+msgstr "Aceptar"
+
+msgid "CANCEL"
+msgstr "Cancelar"
+
+msgid "CLOSE"
+msgstr "Cerrar"
+
+msgid "UPDATE"
+msgstr "Actualizar"
+
+msgid "ADD"
+msgstr "Añadir"
+
+msgid "DEL"
+msgstr "Suprimir"
+
+msgid "NEXT"
+msgstr "Siguiente"
+
+msgid "SAVE"
+msgstr "Guardar"
+
+msgid "EXIT"
+msgstr "Salir"
+
+msgid "CAPTURE"
+msgstr "Capturar"
+
+msgid "SAVE_CONFIGURATION"
+msgstr "Guarda configuración"
+
+msgid "SAVE_LANGUAGE"
+msgstr "Exportar archivo de idioma"
+
+msgid "SAVE_RESTART"
+msgstr "Guarda/Reinicia"
+
+msgid "PASTE_CLIPBOARD"
+msgstr "Pegar del portapapeles"
+
+msgid "APPEND_HISTORY"
+msgstr "Agregar historial"
+
+msgid "EXECUTE_NOW"
+msgstr "Ejecutar ahora"
+
+msgid "ADDITION_CONTENT"
+msgstr "Contenido adicional:"
+
+msgid "CONTENT"
+msgstr "Contenido:"
+
+msgid "EDIT_FOR"
+msgstr "Editar %s"
+
+msgid "HELP_FOR"
+msgstr "Ayuda de %s"
+
+msgid "CONFIGURATION_FOR"
+msgstr "Configuración de %s"
+
+msgid "CONFIGURATION"
+msgstr "Configuración"
+
+msgid "SETTINGS"
+msgstr "Ajustes"
+
+msgid "LOGGING_OUTPUT"
+msgstr "Salida de registro de DosBox-X"
+
+msgid "CODE_OVERVIEW"
+msgstr "Descripción general del código"
+
+msgid "VISIT_HOMEPAGE"
+msgstr "Visitar página de DosBox-X"
+
+msgid "GET_STARTED"
+msgstr "Primeros pasos en DosBox-X"
+
+msgid "CDROM_SUPPORT"
+msgstr "Soporte de CD-ROM"
+
+msgid "DRIVE_INFORMATION"
+msgstr "Información de unidad"
+
+msgid "MOUNTED_DRIVE_NUMBER"
+msgstr "Nº de unidad montada"
+
+msgid "IDE_CONTROLLER_ASSIGNMENT"
+msgstr "Asignación de controlador IDE"
+
+msgid "HELP_COMMAND"
+msgstr "Ayuda de comandos DOS"
+
+msgid "CURRENT_VOLUME"
+msgstr "Valores actuales del mezclador"
+
+msgid "CURRENT_SBCONFIG"
+msgstr "Configuración de Sound Blaster"
+
+msgid "CURRENT_MIDICONFIG"
+msgstr "Configuración actual de MIDI"
+
+msgid "CREATE_IMAGE"
+msgstr "Crear imagen de disco en blanco"
+
+msgid "NETWORK_LIST"
+msgstr "Lista de adaptadores de red"
+
+msgid "PRINTER_LIST"
+msgstr "Lista de dispositivos de impresión"
+
+msgid "INTRODUCTION"
+msgstr "Introducción"
+
+msgid "CONFIGURE_GROUP"
+msgstr "Elija un grupo de ajustes a configurar:"
+
+msgid "SHOW_ADVOPT"
+msgstr "Incluir avanzados"
+
+msgid "USE_PRIMARYCONFIG"
+msgstr "Usa config primario"
+
+msgid "USE_PORTABLECONFIG"
+msgstr "Usa config portable"
+
+msgid "USE_USERCONFIG"
+msgstr "Usa config de usuario"
+
+msgid "CONFIG_SAVETO"
+msgstr "Nombre del archivo config a guardar:"
+
+msgid "CONFIG_SAVEALL"
+msgstr "Guardar todo (incluyendo ajustes avanzados) al archivo config"
+
+msgid "LANG_FILENAME"
+msgstr "Introduce el nombre del archivo de idioma:"
+
+msgid "LANG_LANGNAME"
+msgstr "Nombre del lenguaje (opcional):"
+
+msgid "INTRO_MESSAGE"
+msgstr ""
+"Bienvenido a DOSBox-X, un emulador de DOS completamente libre.\n"
+"DOSBox-X crea una consola DOS que funciona como un DOS real.\n"
+"También puedes ejecutar Windows 3.x y 95/98 bajo la máquina DOS.\n"
+
+msgid "DRIVE"
+msgstr "Disco"
+
+msgid "TYPE"
+msgstr "Tipo"
+
+msgid "LABEL"
+msgstr "Etiqueta"
+
+msgid "DRIVE_NUMBER"
+msgstr "Nº de unidad"
+
+msgid "DISK_NAME"
+msgstr "Nombre de disco"
+
+msgid "IDE_POSITION"
+msgstr "Posición IDE"
+
+msgid "SWAP_SLOT"
+msgstr "Intercambiar slot"
+
+msgid "EMPTY_SLOT"
+msgstr "Slot vacío"
+
+msgid "SLOT"
+msgstr "Slot"
+
+msgid "PREVIOUS_PAGE"
+msgstr "< Pág anterior"
+
+msgid "NEXT_PAGE"
+msgstr "Pág siguiente >"
+
+msgid "SELECT_EVENT"
+msgstr "Elige evento a cambiar."
+
+msgid "SELECT_DIFFERENT_EVENT"
+msgstr "Usa otro evento o usa Add/Del/Next."
+
+msgid "PRESS_JOYSTICK_KEY"
+msgstr "Pulsa una tecla o usa el joystick."
+
+msgid "CAPTURE_ENABLED"
+msgstr "Captura activada. Pulsa ESC para liberar."
+
+msgid "MAPPER_FILE_SAVED"
+msgstr "Archivo de mapeado guardado."
+
+msgid "AUTO_CYCLE_MAX"
+msgstr "Ciclos automáticos [máximo]"
+
+msgid "AUTO_CYCLE_AUTO"
+msgstr "Ciclos automáticos [auto]"
+
+msgid "AUTO_CYCLE_OFF"
+msgstr "Ciclos automáticos [inactivo]"
+
+msgid "PROGRAM_CONFIG_PROPERTY_ERROR"
+msgstr ""
+"No existe tal sección o propiedad.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_NO_PROPERTY"
+msgstr ""
+"No existe propiedad %s en la sección %s.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SET_SYNTAX"
+msgstr ""
+"La sintaxis para la opcion -set es incorrecta.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_NOCONFIGFILE"
+msgstr ""
+"¡No se ha cargado archivo config!\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PRIMARY_CONF"
+msgstr ""
+"Archivo config primario: \n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_ADDITIONAL_CONF"
+msgstr ""
+"Ficheros config adicionales:\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_GLOBAL_CONF"
+msgstr ""
+"\n"
+"Archivo config global: \n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_CONFDIR"
+msgstr ""
+"Directorio de user configuración DOSBox-X %s: \n"
+"%s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_WORKDIR"
+msgstr ""
+"Directo de trabajo de DOSBox-X: \n"
+"%s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_FILE_ERROR"
+msgstr ""
+"\n"
+"No se pudo abrir el archivo de configuración %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_FILE_WHICH"
+msgstr ""
+"Escribiendo archivo config %s\n"
+"\n"
+
+msgid "PROGRAM_LANGUAGE_FILE_WHICH"
+msgstr ""
+"Escribiendo archivo idioma %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_USAGE"
+msgstr ""
+"Utilidad de configuración por comandos de DOSBox-X. Opciones admitidas:\n"
+"-wc (o -writeconf) sin parámetro: Escribe en archivo primario config cargado.\n"
+"-wc (o -writeconf) con nombre de archivo: Escribe archivo al dir. de config.\n"
+"-wl (o -writelang) con nombre de archivo: Escribe cadenas del idioma actual.\n"
+"-ln (o -langname) Muestra (sin argumentos) o especifica el nombre del idioma.\n"
+"-wcp [archivo] Escribe config al dir. de DosBox-X dosbox-x.conf o "archivo"\n"
+"-wcd Escribe en el archivo de config por defecto del directorio de config.\n"
+"-all con -wc -wcp o -wcd para escribir TODAS las opciones en archivo config.\n"
+"-mod con -wc -wcp o -wcd para escribir SOLO las opciones modificadas.\n"
+"-wcboot, -wcpboot, o -wcdboot reincia DOSBox-X tras escribir archivo.\n"
+"-bootconf (o -bc) reinicia con archivo config deseado (o primario ya cargado).\n"
+"-norem Usa con -wc -wcp o -wcd para no escribir comentarios de opciones.\n"
+"-gui Inicia la herramienta de configuración grafica de DOSBox-X.\n"
+"-l Lista los parámetros de configuración de DOSBox-X.\n"
+"-h, -help, -? secciones / nombre_de_sección / nombre_de_propiedad.\n"
+" Sin parámetros muestra esta ayuda. Añade "sections" para lista de secciones.\n"
+" Para más info de una sección o propiedad especifica añade su nombre detras.\n"
+"-axclear Limpia la sección [autoexec].\n"
+"-axadd [línea] Añade una línea a la sección [autoexec].\n"
+"-axtype Imprime el contenido de una sección del [autoexec].\n"
+"-securemode Cambia a modo seguro donde MOUNT, IMGMOUNT y BOOT estarán.\n"
+" desactivadas asi como la habilidad de crear archivos de idioma y config.\n"
+"-get "sección propiedad" devuelve el valor de la propiedad.\n"
+"-set (o -setf) "sección propiedad=valor" establece el valor de la propiedad.\n"
+
+msgid "PROGRAM_CONFIG_HLP_PROPHLP"
+msgstr ""
+"Proposito de la propiedad "%s" (contenido en sección "%s"):\n"
+"%s\n"
+"\n"
+"Valores posibles: %s\n"
+"Valor por defecto: %s\n"
+"Valor actual: %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_LINEHLP"
+msgstr ""
+"Proposito de sección "%s":\n"
+"%s\n"
+"Valor actual:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_NOCHANGE"
+msgstr ""
+"Esta propiedad no puede ser cambiada durante la ejecución.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_POSINT"
+msgstr "entero positivo"
+
+msgid "PROGRAM_CONFIG_HLP_SECTHLP"
+msgstr ""
+"La Sección %s contiene las siguientes propiedades:\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_SECTLIST"
+msgstr ""
+"La configuración de DOSBox-X contiene las siguientes secciones:\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECURE_ON"
+msgstr ""
+"Conmutado a modo seguro.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECURE_DISALLOW"
+msgstr ""
+"Esta operación no esta permitida en modo seguro.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECTION_ERROR"
+msgstr ""
+"La sección %s no existe.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_VALUE_ERROR"
+msgstr ""
+""%s" no es un valor válido para la propiedad %s.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PROPERTY_DUPLICATE"
+msgstr ""
+"Puede haber otras secciones con el mismo nombre de propiedad.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_GET_SYNTAX"
+msgstr ""
+"Sintaxis correcta: config -get "sección propiedad".\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PRINT_STARTUP"
+msgstr ""
+"\n"
+"DOSBox-X se inició con los siguientes parámetros de línea de comando:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_MISSINGPARAM"
+msgstr "Falta un parámetro."
+
+msgid "PROGRAM_MOUSE_INSTALL"
+msgstr ""
+"Instalado en el puerto PS/2.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_VERTICAL"
+msgstr ""
+"Eje Y inverso habilitado.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_VERTICAL_BACK"
+msgstr ""
+"Eje Y inverso deshabilitado.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_UNINSTALL"
+msgstr ""
+"Controlador descargado exitosamente...\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_ERROR"
+msgstr ""
+"Ya estaba instalado en el puerto PS/2.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_NOINSTALLED"
+msgstr ""
+"Controlador no instalado.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_HELP"
+msgstr ""
+"Enciende/apaga el ratón.\n"
+"\n"
+"MOUSE [/?] [/U] [/V]\n"
+"  /U: Desinstalar\n"
+"  /V: Invertir eje Y\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_CDROMS_FOUND"
+msgstr ""
+"CDROMs encontrados: %d\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_FORMAT"
+msgstr ""
+"%-5s  %-58s %-12s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_ELTORITO"
+msgstr ""
+"Unidad %c montada como unidad de disquete El Torito\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_RAMDRIVE"
+msgstr ""
+"Unidad %c montada como unidad en memoria (RAM drive)\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_2"
+msgstr ""
+"Unidad %c montada como %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_1"
+msgstr ""
+"Las unidades actualmente montadas son:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_FORMAT"
+msgstr ""
+"%-5s  %-47s  %-12s  %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_NUMBER_FORMAT"
+msgstr ""
+"%-12s  %-40s  %-12s  %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_2"
+msgstr ""
+"Los números de unidad montados actualmente son:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_1"
+msgstr ""
+"Las unidades FAT/ISO montadas actualmente son:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_NONE"
+msgstr ""
+"No hay unidad disponible\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ERROR_1"
+msgstr ""
+"El directorio %s no existe.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ERROR_2"
+msgstr ""
+"%s no es un directorio\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_IMGMOUNT"
+msgstr ""
+"Para montar archivos de imagen, usa el [0m comando ←[34;1mIMGMOUNT←, [0m no el comando ←[34;1mMOUNT←.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ILL_TYPE"
+msgstr ""
+"Tipo ilegal %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ALREADY_MOUNTED"
+msgstr ""
+"Unidad %c ya montada con %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_USAGE"
+msgstr ""
+"Monta directorios o unidades del sistema anfitrión como unidades de DOSBox-X.\n"
+"Uso: ←[34;1m←[32;1mMOUNT←[0m ←[37;1munidad←[0m ←[36;1mlocal_directory←[0m [opcion]←[0m\n"
+" ←[37;1munidad←[0m           Letra de la unidad donde montar el directorio la unidad.\n"
+" ←[36;1mlocal_directory←[0m  Directorio local o unidad del sistema anfitrión a montar. \n"
+" [opcion]         Opcion(es) para montaje. Se aceptan las siguientes opciones:\n"
+" -t               Indica comportamiento del tipo de unidad montada\n"
+"                  Unidades soportadas: dir, floppy, cdrom, overlay\n"
+"                  ('overlay' redirige escrituras a otro directorio)\n"
+" -label [name]    Establece etiqueta de volumen de la unidad (mayúsculas)\n"
+" -ro              Monta la unidad en modo de solo lectura (read-only).\n"
+" -pr              Indica la ruta relativa a la ubicación del archivo config.\n"
+" -cd              Genera lista de valores del CD local de la "unidad".\n"
+" -usecd [drive #] Para emulación de hardware directa, como reproducir audio.\n"
+" -ioctl           Usa acceso a hardware de más bajo nivel (con opción -usecd).\n"
+" -aspi            Usa la capa instalada de ASPI (detras de la opción -usecd).\n"
+" -freesize [size] Muestra el espacio libre del disco en MB (KB para disquetes).\n"
+" -nocachedir      Habilita actualizacion en tiempo real y no cachea la unidad.\n"
+" -z drive         Mover unidad virtual Z: a otra letra distinta.\n"
+" -o               Informa la unidad como: local, remote.\n"
+" -q               Modo silencioso (sin mensajes en pantalla).\n"
+" -u               Desmontar la unidad.\n"
+" ←[32;1m-examples        Muestra algunos ejemplos de uso.←[0m\n"
+"Teclea MOUNT sin parámetros para mostrar una lista de unidades montadas.\n"
+
+msgid "PROGRAM_MOUNT_EXAMPLE"
+msgstr ""
+"Un ejemplo básico del comando MOUNT:\n"
+"\n"
+"←[32;1mMOUNT c %s←[0m\n"
+"\n"
+"Esto hace que el directorio %s actue como unidad C: dentro de DOSBox-X.\n"
+"\n"
+"El directorio debe existir en el sistema anfitrión y si el directorio contiene\n"
+"espacio(s), asegurate de citar correctamente el directorio con comillas dobles.\n"
+"\n"
+"Por ejemplo: %s\n"
+"\n"
+"Otros ejemplos del uso de MOUNT son:\n"
+"\n"
+"←[32;1mMOUNT←[0m                             - lista todas las unidades montadas\n"
+"←[32;1mMOUNT -cd←[0m                         - lista todas las unidades de CD\n"
+"←[32;1mMOUNT d %s←[0m            - monta la unidad D: al directorio indicado\n"
+"←[32;1mMOUNT c %s -t cdrom←[0m      - monta la unidad C: como CD-ROM\n"
+"←[32;1mMOUNT c %s -ro←[0m           - monta la unidad C: en modo de solo lectura\n"
+"←[32;1mMOUNT c %s -label TEST←[0m   - monta la unidad C: con la etiqueta TEST\n"
+"←[32;1mMOUNT c %s -nocachedir ←[0m  - monta la unidad C: sin cachear la unidad\n"
+"←[32;1mMOUNT c %s -freesize 128←[0m - monta la unidad C: con 128MB libres\n"
+"←[32;1mMOUNT c %s -u←[0m            - forzar montaje de C: incluso si ya lo está\n"
+"←[32;1mMOUNT c %s -t overlay←[0m  - monta C: con carpeta superior superpuesta\n"
+"←[32;1mMOUNT c -u←[0m                        - desmonta la unidad C:\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NOT_MOUNTED"
+msgstr ""
+"Unidad %c no montada.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_SUCCESS"
+msgstr ""
+"Unidad %c ha sido desmontada exitosamente.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NUMBER_SUCCESS"
+msgstr ""
+"La unidad número %c ha sido desmontada exitosamente.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NO_VIRTUAL"
+msgstr ""
+"Las unidades virtuales no pueden ser desmontadas (unMOUNTed).\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_WARNING_WIN"
+msgstr ""
+"Aviso: Montar C:\ NO está recomendado.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_WARNING_OTHER"
+msgstr ""
+"Aviso: Montar / no está recomendado.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_PHYSFS_ERROR"
+msgstr ""
+"No se ha podido montar la unidad PhysFS.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_NO_BASE"
+msgstr ""
+"Por favor MONTA (MOUNT) primero un directorio normal antes de uno superpuesto.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_INCOMPAT_BASE"
+msgstr ""
+"La superposición (overlay) no es compatible con la unidad especificada.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_MIXED_BASE"
+msgstr "La superposición (overlay) necesita ser especificada empleando el mismo direccionamiento que la unidad subyacente. Sin mezclar rutas relativas y absolutas."
+
+msgid "PROGRAM_MOUNT_OVERLAY_SAME_AS_BASE"
+msgstr ""
+"El directorio de superposición no puede ser el mismo que el de la unidad subyacente.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_ERROR"
+msgstr ""
+"Se produjo un error al intentar crear una unidad superpuesta (overlay).\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_STATUS"
+msgstr ""
+"Superposición (Overlay) %s en la unidad %c montada.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_ALLOC"
+msgstr ""
+"%d kb asignados.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_DEALLOC"
+msgstr ""
+"%d kb liberados.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_DEALLOCALL"
+msgstr ""
+"Memoria usada liberada.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_ERROR"
+msgstr ""
+"Error de asignacion de memoria.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_HELP"
+msgstr ""
+"Reduce la cantidad de memoria convencional o XMS/EMS disponible.\n"
+"\n"
+"LOADFIX [-xms] [-ems] [-{ram}] [{program}] [{options}]\n"
+"LOADFIX -f [-xms] [-ems]\n"
+"\n"
+"  -xms        Asigna memoria de XMS en lugar de memoria convencional\n"
+"  -ems        Asigna memoria de EMS en lugar de memoria convencional\n"
+"  -{ram}      Especifica la cantidad de memoria para asignar en KB\n"
+"                 Por defecto 64 kb para memoria base; 1 MB para XMS/EMS\n"
+"  -a          Auto asigna suficiente memoria para llenar los 64 KB más bajos\n"
+"  -f (o -d)   Libera memoria previamente asignada\n"
+"  {program}   Ejecuta el programa especificado\n"
+"  {options}   Opciones de programa (si las hay)\n"
+"\n"
+"Ejemplos:\n"
+"  ←[32;1mLOADFIX game.exe←[0m     Asigna 64 KB de memoria convencional y ejecuta game.exe\n"
+"  ←[32;1mLOADFIX -a←[0m           Asigna automaticamente suficiente memoria convencional\n"
+"  ←[32;1mLOADFIX -128←[0m         Asigna 128 KB de memoria convencional\n"
+"  ←[32;1mLOADFIX -xms←[0m         Asigna 1 MB de memoria XMS\n"
+"  ←[32;1mLOADFIX -f←[0m           Libera memoria convencional asignada\n"
+"\n"
+
+msgid "MSCDEX_SUCCESS"
+msgstr ""
+"MSCDEX instalado.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_MULTIPLE_CDROMS"
+msgstr ""
+"MSCDEX: Error: las letras de unidad de varios CD-ROM deben ser CONTIGUAS.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_NOT_SUPPORTED"
+msgstr ""
+"MSCDEX: Error: Aún no está soportado.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_PATH"
+msgstr ""
+"MSCDEX: La ruta especificada no es una unidad CD-ROM.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_OPEN"
+msgstr ""
+"MSCDEX: Error: Archivo no válido o no se puede abrir.\n"
+"\n"
+
+msgid "MSCDEX_TOO_MANY_DRIVES"
+msgstr ""
+"MSCDEX: Error: Demasiadas unidades CD-ROM (max: 5). Instalación de MSCDEX abortada.\n"
+"\n"
+
+msgid "MSCDEX_LIMITED_SUPPORT"
+msgstr ""
+"MSCDEX: Subdirectorio montado: soporte limitado.\n"
+"\n"
+
+msgid "MSCDEX_INVALID_FILEFORMAT"
+msgstr ""
+"MSCDEX: Error: El archivo no es una imagen ISO/CUE o tiene errores.\n"
+"\n"
+
+msgid "MSCDEX_UNKNOWN_ERROR"
+msgstr ""
+"MSCDEX: Error: Error desconocido.\n"
+"\n"
+
+msgid "PROGRAM_RESCAN_SUCCESS"
+msgstr ""
+"Cache de la unidad borrada.\n"
+"\n"
+
+msgid "PROGRAM_INTRO"
+msgstr ""
+"←[2J←[32;1mBienvenido a DOSBox-X←[0m, un emulador de x86 open-source con sonido y gráficos.\n"
+"DOSBox-X crea una consola que aparenta funcionar como un DOS convencional.\n"
+"\n"
+"←[31;1m¡DOSBox-X se cerrará o detendrá sin aviso si ocurre algún error!←[0m\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_UP"
+msgstr "Introducción DOSBox-X"
+
+msgid "PROGRAM_INTRO_MENU_BASIC"
+msgstr "Montaje básico"
+
+msgid "PROGRAM_INTRO_MENU_CDROM"
+msgstr "Soporte de CD-ROM"
+
+msgid "PROGRAM_INTRO_MENU_USAGE"
+msgstr "Uso"
+
+msgid "PROGRAM_INTRO_MENU_INFO"
+msgstr "Información"
+
+msgid "PROGRAM_INTRO_MENU_QUIT"
+msgstr "Salir de este menú"
+
+msgid "PROGRAM_INTRO_MENU_BASIC_HELP"
+msgstr ""
+"\n"
+"←[1m   ←[1m←[KMOUNT le permite conectar hardware real al PC emulado por DOSBox-X.←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_CDROM_HELP"
+msgstr ""
+"\n"
+"←[1m   ←[1m←[KPara montar tu CD-ROM en DOSBox-X, debes indicar opciones adicionales.←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_USAGE_HELP"
+msgstr ""
+"\n"
+"←[1m   ←[1m←[KDescripción general de las opciones de línea de comandos en DOSBox-X.←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_INFO_HELP"
+msgstr ""
+"\n"
+"←[1m   ←[1m←[KComo obtener más información de DOSBox-X.←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_QUIT_HELP"
+msgstr ""
+"\n"
+"←[1m   ←[1m←[KSalir de la introducción a DOSBox-X.←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_TOP"
+msgstr ""
+"←[2J←[32;1mDescripción general de las opciones de línea de comandos en DOSBox-X.←[0m\n"
+"Los usuarios de Windows deben usar cmd o editar el acceso directo de DOSBox-X.\n"
+"\n"
+"dosbox-x [name] [-exit] [-version] [-fastlaunch] [-fullscreen]\n"
+"         [-conf congfigfile] [-lang languagefile] [-machine machinetype]\n"
+"         [-startmapper] [-noautoexec] [-scaler scaler | -forcescaler scaler]\n"
+"         [-noconsole] [-c command] [-set <section property=value>]\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_1"
+msgstr ""
+"←[33;1m  name←[0m\n"
+"	Si name es un directorio se monta como unidad C:.\n"
+"	Si name es un ejecutable monta el directorio del mismo\n"
+"	como unidad C: y se ejecuta name.\n"
+"\n"
+"←[33;1m  -exit←[0m\n"
+"	DOSBox-X se cierra cuando el programa DOS termine.\n"
+"\n"
+"←[33;1m  -version←[0m\n"
+"	Muestra info de version y cierra. Necesario para frontends.\n"
+"\n"
+"←[33;1m  -fastlaunch←[0m\n"
+"	Habilita el modo de ejecucion rapida (salta BIOS/LOGO/BIENVENIDA).\n"
+"\n"
+"←[33;1m  -fullscreen←[0m\n"
+"	Inicia DOSBox-X a pantalla completa.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_2"
+msgstr ""
+"←[33;1m  -conf←[0m configfile\n"
+"	Inicia DOSBox-X con las opciones del configfile.\n"
+"	Lea el manual adjunto para detalles adicionales.\n"
+"\n"
+"←[33;1m  -lang←[0m languagefile\n"
+"	Inicia DOSBox-X usando el idioma indicado en languagefile.\n"
+"\n"
+"←[33;1m  -noconsole←[0m (Windows Only)\n"
+"	Inicia DOSBox-X sin mostrar la ventana de consola. \n"
+"	El resultado se redirige a stdout.txt y stderr.txt\n"
+"\n"
+"←[33;1m  -machine←[0m machinetype\n"
+"	Configura DOSBox-X para emular un tipo de PC concreto, se aceptan:\n"
+"	hercules, cga, cga_mono, mcga, mda, pcjr, tandy, ega, vga, vgaonly,\n"
+"	pc98, vesa_nolfb, vesa_oldvbe, svga_paradise, svga_s3 (por defecto).\n"
+"	El tipo de computadora afecta a las tarjetas de sonido y video.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_3"
+msgstr ""
+"←[33;1m  -startmapper←[0m\n"
+"	Inicia un mapeador de teclado por si hay problemas con el teclado.\n"
+"\n"
+"←[33;1m  -noautoexec←[0m\n"
+"	Ignora el apartado [autoexec] del archivo dosbox.conf ya cargado.\n"
+"\n"
+"←[33;1m  -c←[0m command\n"
+"	Ejecuta el comando especificado antes de ejecutar nombre. \n"
+"	Multiples ordenes se pueden indicar. Cada una debe empezar con -c.\n"
+"	Un comando puede ser: un programa, comando DOS u otro ejecutable.\n"
+"\n"
+"←[33;1m  -set←[0m <section property=value>\n"
+"	Establece la opcion de config (ignorando el archivo config previo).\n"
+"	Pueden usarse varias opciones. Pero cada una debe empezar con -set.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_INFO"
+msgstr ""
+"←[32;1mInformación:←[0m\n"
+"\n"
+"Para información del montaje básico, teclee ←[34;1mintro mount←[0m\n"
+"Para información del soporte CD-ROM, teclee ←[34;1mintro cdrom←[0m\n"
+"Para información de teclas especiales, teclee ←[34;1mintro special←[0m\n"
+"Para información de uso, teclee ←[34;1mintro usage←[0m\n"
+"\n"
+"Para la última versión de DOSBox-X, visita el web:←[34;1m\n"
+"\n"
+"←[34;1mhttps://dosbox-x.com/←[0m o ←[34;1mhttp://dosbox-x.software←[0m\n"
+"\n"
+"Para más información sobre DOSBox-X, visita nuestra Wiki:\n"
+"\n"
+"←[34;1mhttps://dosbox-x.com/wiki←[0m\n"
+"\n"
+"Traducido por Carlos Romero, para más software visita:←[34;1m\n"
+"\n"
+"←[34;1mhttps://github.com/Dalekamistoso←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MOUNT_START"
+msgstr ""
+"←[32;1mAquí tienes algunos comandos para comenzar:←[0m\n"
+"\n"
+"Antes de usar archivos ubicados en tu sistema de archivos, debes montar \n"
+"el directorio que contenga dichos archivos.\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MOUNT_EXST_WINDOWS"
+msgstr "←[32mmount c c:\dosgames\←[37m crea una unidad C con el contenido de c:\dosgames. "
+
+msgid "PROGRAM_INTRO_MOUNT_EXEN_WINDOWS"
+msgstr "c:\dosgames\←[37m es un ejemplo. Cámbialo con tu propio directorio de juegos.←[37m"
+
+msgid "PROGRAM_INTRO_MOUNT_EXST_OTHER"
+msgstr "←[32mmount c ~/dosgames←[37m creará una unidad C con el contenido de ~/dosgames."
+
+msgid "PROGRAM_INTRO_MOUNT_EXEN_OTHER"
+msgstr "←[32m~/dosgames←[37m es un ejemplo. Cámbialo con tu directorio con juegos.←[37m"
+
+msgid "PROGRAM_INTRO_MOUNT_END"
+msgstr ""
+"\n"
+"←[0mCuando mount se haya completado correctamente puedes teclear ←[34;1mc:←[0m para ir a\n"
+"tu unidad montada C: teclea ←[34;1mdir←[0m para listar su contenido, ←[34;1mcd←[0m te permite\n"
+"entrar en un directorio (van entre corchetes ←[33;1m[]←[0m en el listado de unidad).\n"
+"Puedes ejecutar programas terminados en ←[31m.exe .bat←[0m y ←[31m.com←[0m.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_CDROM"
+msgstr ""
+"←[2J←[32;1mMontando un CD-ROM real o virtual en DOSBox-X:←[0m\n"
+"DOSBox-X provee emulación de CD-ROM a muchos niveles.\n"
+"\n"
+"←[33mNivel básico←[0m (basic) funciona en todas los CD-ROM y directorios normales.\n"
+"Instala MSCDEX y marca los archivos como solo-lectura.\n"
+"Normalmente, es suficiente para la mayoria de juegos:\n"
+"←[34;1mmount d ←[0;31mD:\←[34;1m -t cdrom←[0m   o   ←[34;1mmount d C:\ejemplo -t cdrom←[0m\n"
+"Si no funciona indica a DOSBox-X la etiqueta del CD-ROM:\n"
+"←[34;1mmount d C:\ejemplo -t cdrom -label CDLABEL←[0m\n"
+"\n"
+"←[33mNivel medio←[0m (next) agrega algo de soporte a bajo nivel.\n"
+"Por tanto solo funciona con unidades de CD-ROM:\n"
+"←[34;1mmount d ←[0;31mD:\←[34;1m -t cdrom -usecd ←[33m0←[0m\n"
+"\n"
+"←[33mNivel último←[0m (last) el soporte depende de tu Sistema Operativo:\n"
+"Para ←[1mWindows 2000←[0m, ←[1mWindows XP←[0m y ←[1mLinux←[0m:\n"
+"←[34;1mmount d ←[0;31mD:\←[34;1m -t cdrom -usecd ←[33m0 ←[34m-ioctl←[0m\n"
+"For ←[1mWindows 9x←[0m con la capa ASPI instalada:\n"
+"←[34;1mmount d ←[0;31mD:\←[34;1m -t cdrom -usecd ←[33m0 ←[34m-aspi←[0m\n"
+"\n"
+"Sustituye ←[0;31mD:\←[0m con la ruta de tu CD-ROM.\n"
+"Sustituye el ←[33;1m0←[0m en ←[34;1m-usecd ←[33m0←[0m con el número de tu CD-ROM tecleando:\n"
+"←[34;1mmount -cd←[0m\n"
+"\n"
+
+msgid "PROGRAM_BOOT_NOT_EXIST"
+msgstr ""
+"El archivo de disco de arranque (Bootdisk) no existe. Abortando.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_NOT_OPEN"
+msgstr ""
+"El archivo de disco de arranque (Bootdisk) no puede abrirse. Abortando.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_WRITE_PROTECTED"
+msgstr ""
+"Archivo de imagen esta en modo solo-lectura! Arranca en modo protegido.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_PRINT_ERROR"
+msgstr ""
+"Este comando arranca DOSBox-X desde una imagen de disquete o de disco duro.\n"
+"\n"
+"Para este comando puedes indicar una serie de disquetes intercambiables por el comando de menú, y drive: indica la unidad montada de la que arrancar.\n"
+"Si no se indica lo contrario, por defecto se arranca de la unidad A.\n"
+"Las letras de unidad admitidas para arrancar son A/C/D. \n"
+"Para discos duros C/D (revisa si la imagen esta montada con la orden ←[34;1mIMGMOUNT←[0m).\n"
+"\n"
+"La sintaxis de este comando es una de las siguientes:\n"
+"\n"
+"←[34;1mBOOT diskimg1.img [diskimg2.img ...] [-L letradeunidad]←[0m\n"
+"\n"
+"←[34;1mBOOT letradeunidad:←[0m\n"
+"\n"
+"Nota: \n"
+"Un archivo imagen con dos puntos a la izquierda (:) inicia en modo solo lectura si la opcion "proteger contra escritura con dos puntos iniciales" esta activada.\n"
+"Ejemplos:\n"
+"\n"
+"←[32;1mBOOT A:←[0m       - inicia desde la unidad A: si es montable y arrancable.\n"
+"←[32;1mBOOT :DOS.IMG←[0m - inicia desde la imagen de disquete DOS.IMG en solo lectura\n"
+"\n"
+
+msgid "PROGRAM_BOOT_UNABLE"
+msgstr ""
+"Incapaz de arrancar desde la unidad %c.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_IMAGE_OPEN"
+msgstr ""
+"Abriendo archivo imagen: %s\n"
+"\n"
+
+msgid "PROGRAM_BOOT_IMAGE_NOT_OPEN"
+msgstr ""
+"No se pudo abrir %s\n"
+"\n"
+
+msgid "PROGRAM_BOOT_CART_WO_PCJR"
+msgstr "Cartucho de PCjr encontrado, pero la máquina no es un PCjr"
+
+msgid "PROGRAM_BOOT_CART_LIST_CMDS"
+msgstr "Comandos de cartucho PCjr disponibles:%s"
+
+msgid "PROGRAM_BOOT_CART_NO_CMDS"
+msgstr "No se han encontrado comandos de cartucho PCjr"
+
+msgid "PROGRAM_LOADROM_HELP"
+msgstr ""
+"Carga la imagen ROM indicada.\n"
+"\n"
+"LOADROM ROM_file\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_SPECIFY_FILE"
+msgstr ""
+"Debe indicar el archivo ROM a cargar.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_CANT_OPEN"
+msgstr ""
+"Archivo ROM no accesible.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_TOO_LARGE"
+msgstr ""
+"Archivo ROM demasiado grande.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_INCOMPATIBLE"
+msgstr ""
+"Video BIOS no soportada por este tipo de máquina.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_UNRECOGNIZED"
+msgstr ""
+"Archivo ROM no reconocido.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_BASIC_LOADED"
+msgstr ""
+"BASIC ROM cargada.\n"
+"\n"
+
+msgid "PROGRAM_BIOSTEST_HELP"
+msgstr ""
+"Inicia una imagen de BIOS para tests de CPU.\n"
+"\n"
+"BIOSTEST image_file\n"
+"\n"
+
+msgid "VHD_ERROR_OPENING"
+msgstr ""
+"No se pudo abrir el archivo VHD especificado.\n"
+"\n"
+
+msgid "VHD_INVALID_DATA"
+msgstr ""
+"El archivo VHD especificado esta roto y no puede abrirse.\n"
+"\n"
+
+msgid "VHD_UNSUPPORTED_TYPE"
+msgstr ""
+"El archivo VHD especificado es de un tipo no soportado.\n"
+"\n"
+
+msgid "VHD_ERROR_OPENING_PARENT"
+msgstr ""
+"No se pudo encontrar el raiz del archivo VHD especificado.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_DATA"
+msgstr ""
+"El directorio raiz del archivo VHD esta corrupto y no puede abrirse.\n"
+"\n"
+
+msgid "VHD_PARENT_UNSUPPORTED_TYPE"
+msgstr ""
+"El raiz del archivo VHD especificado es de un tipo no soportado.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_MATCH"
+msgstr ""
+"El raiz del archivo VHD especificado no contiene el identificador esperado.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_DATE"
+msgstr ""
+"El raiz del archivo VHD especificado ha sido cambiado y no se pudo cargar.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY_DRIVE"
+msgstr ""
+"Debes indicar la letra de la unidad en donde montar la imagen.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY2"
+msgstr ""
+"Debes indicar el número de unidad (0 a %d) para montar la imagen en (0,1=fda,fdb;2,3=hda,hdb)\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_INVALID_IMAGE"
+msgstr ""
+"No se pudo cargar archivo imagen.\n"
+"Verifica que la ruta sea correcta y la imagen sea accesible.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_DYNAMIC_VHD_UNSUPPORTED"
+msgstr ""
+"Archivos VHD dinámicos no soportados.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_INVALID_GEOMETRY"
+msgstr ""
+"No se pudo obtener la geometria de unidad desde la imagen.\n"
+"Usa el parámetro -size bps,spc,hpc,cyl para especificar la geometria.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_AUTODET_VALUES"
+msgstr ""
+"Auto deteccion de geometria de imagen: -size %u,%u,%u,%u\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_TYPE_UNSUPPORTED"
+msgstr ""
+"Tipo "%s" no esta soportado. Indica "hdd" o "floppy" o "iso".\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_FORMAT_UNSUPPORTED"
+msgstr ""
+"El formato "%s" no esta soportado. Especifica "fat" o "iso" o "none".\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY_FILE"
+msgstr ""
+"Debes especificar el archivo imagen a montar.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_FILE_NOT_FOUND"
+msgstr ""
+"Archivo imagen no encontrado.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_DEFAULT_NOT_FOUND"
+msgstr ""
+"Archivo imagen no encontrado: IMGMAKE.IMG.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MOUNT"
+msgstr ""
+"Para montar directorios, usa la orden ←[34;1mMOUNTP←[0m no la orden ←[34;1mIMGMOUNT←[0m.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_ALREADY_MOUNTED"
+msgstr ""
+"Unidad ya montada en esa letra.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_ALREADY_MOUNTED_NUMBER"
+msgstr ""
+"Unidad número %d ya estaba montada.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_CANT_CREATE"
+msgstr ""
+"No puedo crear unidad desde el archivo.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_CANT_CREATE_PHYSFS"
+msgstr ""
+"No puedo crear la unidad PhysFS.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MOUNT_NUMBER"
+msgstr ""
+"Número de unidad %d montada como %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_NON_LOCAL_DRIVE"
+msgstr ""
+"La imagen debe estar en un anfitrión o en una unidad local.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MULTIPLE_NON_CUEISO_FILES"
+msgstr ""
+"Usar multiples archivos solo esta soportado para imagenes cue/iso.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_HELP"
+msgstr ""
+"Monta imagenes de disquete, disco duro y unidades ópticas.\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1munidad←[0m ←[36;1marchivo←[0m [-ro] [-t floppy] [-fs fat] [-size ss,s,h,c]\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1munidad←[0m ←[36;1marchivo←[0m [-ro] [-t hdd] [-fs fat] [-size ss,s,h,c] [-ide cont.]\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1munidadNum←[0m ←[36;1marchivo←[0m [-ro] [-fs none] [-size ss,s,h,c] [-reservecyl #]\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1munidad←[0m ←[36;1marchivo←[0m [-t iso] [-fs iso]\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1munidad←[0m [-t floppy] -bootcd cdDrive (or -el-torito cdDrive)\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1munidad←[0m -t ram -size size\n"
+"←[32;1mIMGMOUNT←[0m -u ←[37;1munidad|unidadNum←[0m (o ←[32;1mIMGMOUNT←[0m ←[37;1munidad|unidadNum←[0m ←[36;1marchivo←[0m [opcion] -u)\n"
+" ←[37;1munidad←[0m              Letra de unidad donde montar la imagen.\n"
+" ←[37;1munidadNum←[0m           Número de unidad a montar, donde 0-1 son FDDs y 2-5 HDDs.\n"
+" ←[36;1marchivo←[0m             Archivo(s) imagen, o ←[33;1mIMGMAKE.IMG←[0m si no se indica.\n"
+" -t iso              Tipo de imagen es disco óptico o imagen iso or cue / bin.\n"
+" -t hdd              Tipo de imagen es disco duro; VHD y HDI estan soportados.\n"
+" -t floppy|ram       Tipo de imagen es disquetera (floppy)| o RAM drive.\n"
+" -fs iso             Sistema de archivos ISO 9660 (por defecto en .iso/.cue).\n"
+" -fs fat             Sistema de archivos FAT - FAT12, FAT16 y FAT32 soportados.\n"
+" -fs none            No detectar sistema de archivos (Asumir por nº de unidad).\n"
+" -reservecyl #       Reporta # cilindros menos que los reales en BIOS.\n"
+" -ide controller     Indica controlador IDE (1m, 1s, 2m, 2s) para montar disco.\n"
+" -size size|ss,s,h,c Indica tamaño en KB, o tamaño de sector y geometria CHS.\n"
+" -bootcd cdDrive     Unidad de CD desde donde cargar el disquete de arranque.\n"
+" -ro                 Monta imagen(s) solo lectura (con ':' para solo lectura).\n"
+" -u                  Desmontar unidad o número de unidad.\n"
+" ←[32;1m-examples           Muestra ejemplos de uso.←[0m\n"
+
+msgid "PROGRAM_IMGMOUNT_EXAMPLE"
+msgstr ""
+"Algunos ejemplos de uso de IMGMOUNT:\n"
+"\n"
+"  ←[32;1mIMGMOUNT←[0m                      - lista unidades FAT/ISO montadas y númeradas\n"
+"  ←[32;1mIMGMOUNT C←[0m                    - monta imagen de disco duro ←[33;1mIMGMAKE.IMG←[0m en C:\n"
+"  ←[32;1mIMGMOUNT C c:\image.img←[0m       - monta imagen de disco duro c:\image.img en C:\n"
+"  ←[32;1mIMGMOUNT D c:\files\game.iso←[0m  - monta imagen de CD c:\files\game.iso en D:\n"
+"  ←[32;1mIMGMOUNT D cdaudio.cue←[0m        - monta archivo .cue de un duo cue/bin como CD\n"
+"  ←[32;1mIMGMOUNT 0 dos.ima←[0m            - monta imagen disquete dos.ima en unidad 0\n"
+"                                  (←[33;1mBOOT A:←[0m iniciará la unidad iniciable)\n"
+"  ←[32;1mIMGMOUNT A -ro dos.ima←[0m        - monta imagen dos.ima en A:(sólo lectura)\n"
+"  ←[32;1mIMGMOUNT A :dsk1.img dsk2.img←[0m - monta imagen disquete dsk1.img y dsk2.img en\n"
+"                                  A: intercambiable via menú "Swap floppy",\n"
+"                                  con dsk1.img protegido (pero no dsk2.img)\n"
+"  ←[32;1mIMGMOUNT A -bootcd D←[0m          - monta disquete de arranque A: desde CD D:\n"
+"  ←[32;1mIMGMOUNT C -t ram -size 10000←[0m - monta disco duro C: como RAM Drive de 10MB\n"
+"  ←[32;1mIMGMOUNT C disk.img -u←[0m        - forzar montaje de disco disk.img en C:\n"
+"                                  (use auto-unmount unidad antes si hace falta)\n"
+"  ←[32;1mIMGMOUNT A -u←[0m                 - desmontar unidad A: previamente montada\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_SYNTAX"
+msgstr ""
+"Crea imagenes de disquete o disco duro.\n"
+"Uso:\n"
+"←[34;1mIMGMAKE [archivo] [-t tipo] [[-size tamaño] | [-chs geometria]] [-spc] [-nofs]←[0m\n"
+"  ←[34;1m[-bat] [-fat] [-fatcopies] [-rootdir] [-force] [-source] [-retries #]←[0m\n"
+"  file: archivo a crear (←[33;1mIMGMAKE.IMG←[0m por defecto) ←[31;1mruta de anfitrión ←[0m\n"
+"  -t: Tipo de imagen.\n"
+"    ←[33;1mPlantillas de disquetes:←[0m (Nombres generados por tamaño en KB o fd=fd_1440)\n"
+"     fd_160 fd_180 fd_200 fd_320 fd_360 fd_400 fd_720 fd_1200 fd_1440 fd_2880\n"
+"    ←[33;1mPlantillas de imagen de disco duro:←[0m\n"
+"     hd_250: imagen de 250MB, hd_520: imagen de 520MB, hd_1gig: imagen de 1GB\n"
+"     hd_2gig: imagen de 2GB, hd_4gig: imagen de 4GB, hd_8gig: imagen de 8GB\n"
+"     hd_st251: imagen de 40MB, hd_st225: imagen de 20MB (unidades antiguas)\n"
+"    ←[33;1mImagenes de disco duro personalizadas:←[0m hd (requiere -size o -chs)\n"
+"  -size: Tamaño de imagen de disco duro personalizado en MB.\n"
+"  -chs:  Geometría de disco: cilindros (1-1023),cabezas(1-255),sectores(1-63).\n"
+"  -nofs: Añade este parámetro si se debe crear una imagen en blanco.\n"
+"  -force: Fuerza la sobreescritura del archivo imagen actual.\n"
+"  -bat: Crea un archivo .bat con el comando IMGMOUNT requerido por esta imagen.\n"
+"  -fat: Sistema de archivos FAT (12, 16, or 32).\n"
+"  -spc: Sectores por cluster ignorados. Debe ser potencia de 2.\n"
+"  -fatcopies: Ignorar número de copias de la tabla FAT.\n"
+"  -rootdir: Tamaño del directorio raíz en entradas. Ignorado en FAT32.\n"
+"  -source:  letra de unidad - si se indica que la imagen se lee de un disquete.\n"
+"  -retries: número de reintentos al leer un disquete dañado (1-99).\n"
+"  ←[32;1m-examples: Muestra ejemplos de uso.←[0m\n"
+
+msgid "PROGRAM_IMGMAKE_EXAMPLE"
+msgstr ""
+"Algunos ejemplos del uso de IMGMAKE:\n"
+"\n"
+"  ←[32;1mIMGMAKE -t fd←[0m               - crea imagen de disquete de 1.44MB ←[33;1mIMGMAKE.IMG←[0m\n"
+"  ←[32;1mIMGMAKE -t fd_1440 -force←[0m   - forzar creación de imagen a ←[33;1mIMGMAKE.IMG←[0m\n"
+"  ←[32;1mIMGMAKE dos.img -t fd_2880←[0m  - crea imagen de disquete de 2.88MB dos.img\n"
+"  ←[32;1mIMGMAKE c:\disk.img -t hd -size 50←[0m      - crea imagen HDD de 50MB c:\disk.img\n"
+"  ←[32;1mIMGMAKE c:\disk.img -t hd_520 -nofs←[0m     - crea imagen HDD vacía de 520MB\n"
+"  ←[32;1mIMGMAKE c:\disk.img -t hd_2gig -fat 32←[0m  - crea imagen HDD de 2GB FAT32\n"
+"  ←[32;1mIMGMAKE c:\disk.img -t hd -chs 130,2,17←[0m - crear imagen HDD con CHS indicados\n"
+"  ←[32;1mIMGMAKE c:\disk.img -source a←[0m           - lee imagen desde disquete físico A:\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FLREAD"
+msgstr ""
+"Geometría de disco: %d Cilindros, %d Cabezas, %d Sectores, %d Kilobytes\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FLREAD2"
+msgstr ""
+"%s =bueno, %s =recuperado, ! =error CRC, x =sector no encontrado, ? =incierto\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FILE_EXISTS"
+msgstr ""
+"El archivo "%s" ya existe. Puedes usar "-force" para sobreescribir.\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_CANNOT_WRITE"
+msgstr ""
+"El archivo "%s" no se puede abrir para escritura.\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_NOT_ENOUGH_SPACE"
+msgstr ""
+"Espacio insuficiente para archivo imagen. Necesitas %u bytes\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_PRINT_CHS"
+msgstr ""
+"Creando archivo imagen "%s" con %u cilindros, %u cabezas y %u sectores\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_CANT_READ_FLOPPY"
+msgstr ""
+"\n"
+"\n"
+"Incapaz de leer disquete.\n"
+
+msgid "PROGRAM_KEYB_INFO"
+msgstr ""
+"Página de códigos (Codepage) %i cargada\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INFO_LAYOUT"
+msgstr ""
+"Página de código (Codepage) %i cargada para la disposición %s\n"
+"\n"
+
+msgid "PROGRAM_KEYB_SHOWHELP"
+msgstr ""
+"Configura un teclado para un lenguaje especifico.\n"
+"\n"
+"KEYB [keyboard layout ID [codepage number [codepage file]]]\n"
+"\n"
+"Algunos ejemplos:\n"
+"  ←[32;1mKEYB←[0m                 Muestra la página de código cargada actualmente.\n"
+"  ←[32;1mKEYB sp←[0m              Carga layout español (SP) con codepage adecuado.\n"
+"  ←[32;1mKEYB sp 850←[0m          Carga layout español (SP) con codepage 850.\n"
+"  ←[32;1mKEYB sp 850 mycp.cpi←[0m Lo mismo de arriba pero usando el archivo mycp.cpi.\n"
+"\n"
+
+msgid "PROGRAM_KEYB_NOERROR"
+msgstr ""
+"Disposición de teclado (layout) %s cargada para página de código %i\n"
+"\n"
+
+msgid "PROGRAM_KEYB_FILENOTFOUND"
+msgstr ""
+"Archivo de teclado %s no encontrado\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INVALIDFILE"
+msgstr ""
+"Archivo de teclado %s no válido\n"
+"\n"
+
+msgid "PROGRAM_KEYB_LAYOUTNOTFOUND"
+msgstr ""
+"No hay layout en %s para el codepage %i\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INVCPFILE"
+msgstr ""
+"No hay archivo de página de código o no es válido para la disposición %s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_MODE_USAGE"
+msgstr ""
+"Configura dispositivos de sistema.\n"
+"\n"
+"←[34;1mMODE←[0m display-type       :Tipos de pantalla, ←[1mCO80←[0m, ←[1mBW80←[0m, ←[1mCO40←[0m, ←[1mBW40←[0m, ←[1mMONO←[0m\n"
+"←[34;1mMODE CON COLS=←[0mc ←[34;1mLINES=←[0mn :Columnas y líneas, c=80 o 132, n=25, 43, 50, 60\n"
+"←[34;1mMODE CON RATE=←[0mr ←[34;1mDELAY=←[0md :Velocidad teclado, r=1-32 (32=rápido), d=1-4 (1=lento)\n"
+"\n"
+
+msgid "PROGRAM_MODE_INVALID_PARAMETERS"
+msgstr ""
+"Parámetro(s) no válido(s).\n"
+"\n"
+
+msgid "SHELL_CMD_TREE_ERROR"
+msgstr ""
+"No existen subdirectorios\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_TREE"
+msgstr ""
+"Listado de directorios incluidos en PATH del volumen %s\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_DRIVE"
+msgstr ""
+"\n"
+" Volumen de unidad %c \n"
+
+msgid "SHELL_CMD_VOL_SERIAL"
+msgstr " Número de serie del volumen: "
+
+msgid "SHELL_CMD_VOL_SERIAL_NOLABEL"
+msgstr ""
+"sin etiqueta\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_SERIAL_LABEL"
+msgstr ""
+"es %s\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_PATH"
+msgstr ""
+"Ruta no encontrada\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_DRIVE"
+msgstr ""
+"Especificación de unidad no válida\n"
+"\n"
+
+msgid "SHELL_CMD_HELP"
+msgstr ""
+"Si quieres una lista de todos los comandos internos teclea ←[33;1mHELP /ALL←[0m.\n"
+"También encontrarás comandos externos y programas en la unidad Z:\n"
+"Una breve lista de los comandos más habituales:\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_ON"
+msgstr ""
+"ECHO está activado.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_OFF"
+msgstr ""
+"ECHO está desactivado.\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_SWITCH"
+msgstr ""
+"Parámetro no válido - %s\n"
+"\n"
+
+msgid "SHELL_MISSING_PARAMETER"
+msgstr ""
+"Falta un parámetro requerido.\n"
+"\n"
+
+msgid "SHELL_MISSING_FILE"
+msgstr ""
+"El siguiente archivo falta o está corrupto: %s\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_ERROR"
+msgstr ""
+"Directorio inválido - %s\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT"
+msgstr ""
+"Consejo: Para cambiar de unidad teclea ←[31m%c:←[0m\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT_2"
+msgstr ""
+"nombre de directorio contiene espacios sin comillas.\n"
+"Usa ←[31mcd %s←[0m o agregale correctamente sus comillas.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT_3"
+msgstr ""
+"Aún estás en la unidad Z:, y el directorio indicado no se encuentra.\n"
+"Para ir a una unidad montada, cambia de unidad con su nombre por ejemplo ←[31mC:←[0m\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_HELP"
+msgstr ""
+"Muestra o cambia la fecha interna.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_ERROR"
+msgstr ""
+"La fecha especificada no es correcta.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_DAYS"
+msgstr "3DomLunMarMieJueVieSab"
+
+msgid "SHELL_CMD_DATE_NOW"
+msgstr "Fecha actual:  "
+
+msgid "SHELL_CMD_DATE_SETHLP"
+msgstr ""
+"Teclea 'date %s' para cambiar.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_HELP_LONG"
+msgstr ""
+"DATE [[/T] [/H] [/S] | date]\n"
+"  date:       Nueva fecha a establecer\n"
+"  /S:         Usar fecha y hora del sistema anfitrión en DOS\n"
+"  /F:         Vuelve a fecha y hora internas de DOSBox-X (inverso a /S)\n"
+"  /T:         Solo muestra la fecha\n"
+"  /H:         Sincronizar con el anfitrión\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_HELP"
+msgstr ""
+"Muestra o cambia la hora interna.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_ERROR"
+msgstr ""
+"La hora especificada no es correcta.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_NOW"
+msgstr "Hora actual: "
+
+msgid "SHELL_CMD_TIME_SETHLP"
+msgstr ""
+"Teclea 'time %s' para cambiar.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_HELP_LONG"
+msgstr ""
+"TIME [[/T] [/H] | time]\n"
+"  time:       Nueva hora a establecer\n"
+"  /T:         Mostrar hora simple\n"
+"  /H:         Sincronizar con anfitrión\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_EXIST"
+msgstr ""
+"Directorio ya existe - %s\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_ERROR"
+msgstr ""
+"Incapaz de crear directorio - %s\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_ERROR"
+msgstr ""
+"Ruta no válida, no es un directorio o no está vacío - %s\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_ERROR"
+msgstr ""
+"Incapaz de renombrar - %\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_GET_ERROR"
+msgstr ""
+"Incapaz de obtener atributos: %s\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_SET_ERROR"
+msgstr ""
+"Incapaz de establecer atributos: %s\n"
+"\n"
+
+msgid "SHELL_CMD_DEL_ERROR"
+msgstr ""
+"Incapaz de borrar - %s\n"
+"\n"
+
+msgid "SHELL_CMD_DEL_SURE"
+msgstr ""
+"¡Todos los archivos del directorio se borraran!\n"
+"¿Estás seguro [Y/N]?\n"
+
+msgid "SHELL_SYNTAXERROR"
+msgstr ""
+"Error de sintaxis\n"
+"\n"
+
+msgid "SHELL_CMD_SET_NOT_SET"
+msgstr ""
+"Variable de entorno %s no definida.\n"
+"\n"
+
+msgid "SHELL_CMD_SET_OUT_OF_SPACE"
+msgstr ""
+"No queda suficiente espacio de entorno disponible.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_EXIST_MISSING_FILENAME"
+msgstr ""
+"IF EXIST: Archivo inexistente.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_ERRORLEVEL_MISSING_NUMBER"
+msgstr ""
+"IF ERRORLEVEL: Falta número.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_ERRORLEVEL_INVALID_NUMBER"
+msgstr ""
+"IF ERRORLEVEL: Número invalido.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_MISSING_LABEL"
+msgstr ""
+"No se ha suministrado etiqueta (label) al comando GOTO.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_LABEL_NOT_FOUND"
+msgstr ""
+"GOTO: Etiqueta %s no encontrada.\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_ACCESS_DENIED"
+msgstr ""
+"Acceso denegado - %s\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_NOT_FOUND"
+msgstr ""
+"Archivo no encontrado - %s\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_EXISTS"
+msgstr ""
+"El archivo %s ya existe.\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_INTRO"
+msgstr ""
+" Directorio de %s\n"
+"\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_BYTES_USED"
+msgstr ""
+"%5d Archivo(s) %17s Bytes\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_BYTES_FREE"
+msgstr ""
+"%5d Dir(s)  %17s Bytes libres\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_FILES_LISTED"
+msgstr ""
+"Archivos totales listados:\n"
+"\n"
+
+msgid "SHELL_EXECUTE_DRIVE_NOT_FOUND"
+msgstr ""
+"Unidad %c no existe!\n"
+"Debes ←[31mmontarla←[0m antes. Teclea ←[1;33mintro←[0m or ←[1;33mintro mount←[0m para más detalles.\n"
+"\n"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_CDROM"
+msgstr "¿Deseas permitir a DOSBox-X acceder a tu unidad de CD-ROM real %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FLOPPY"
+msgstr "¿Deseas permitir a DOSBox-X acceder a tu unidad de disquete real %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_REMOVABLE"
+msgstr "Do you want to give DOSBox-X access to your real removable drive %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_NETWORK"
+msgstr "¿Deseas permitir a DOSBox-X acceder a tu unidad de red real %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FIXED"
+msgstr ""
+"¿Realmente quieres otorgar a DOSBox-X acceso a todo\n"
+"en tu disco duro real %c [Y/N]?\n"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FIXED_LESS"
+msgstr "¿Quieres dar a DOSBox-X acceso a tu disco duro real %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_ILLEGAL_COMMAND"
+msgstr ""
+"Comando o nombre de archivo incorrecto - "%s"\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE"
+msgstr ""
+"Pulsa cualquier tecla para continuar . . .\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE_HELP"
+msgstr ""
+"Espera una pulsación del teclado para continuar.\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE_HELP_LONG"
+msgstr ""
+"PAUSE\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_FAILURE"
+msgstr ""
+"Fallo de copia - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_SUCCESS"
+msgstr ""
+"   %d Archivo(s) copiado(s).\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_CONFIRM"
+msgstr "¿Sobreescribir %s (Yes/No/All)?"
+
+msgid "SHELL_CMD_COPY_NOSPACE"
+msgstr ""
+"Espacio en disco insuficiente - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_ERROR"
+msgstr ""
+"Error de copia - %s\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_DRIVE_LIST"
+msgstr ""
+"Las unidades locales actualmente montadas son:\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_NO_REMOVE"
+msgstr ""
+"Incapaz de eliminar, unidad no en uso.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_IN_USE"
+msgstr ""
+"Unidad de destino en uso.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_NOT_LOCAL"
+msgstr ""
+"Solo se puede usar SUBST en unidades locales.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_INVALID_PATH"
+msgstr ""
+"La ruta o unidad especificada no es válida.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_FAILURE"
+msgstr ""
+"SUBST: Hay un error en tu línea de comando.\n"
+"\n"
+
+msgid "SHELL_STARTUP_TITLE"
+msgstr "Bienvenido a DOSBox-X!"
+
+msgid "SHELL_STARTUP_HEAD1_PC98"
+msgstr "←[36mEmpezando con DOSBox-X (Traducido por Carlos Romero):             ←[37m"
+
+msgid "SHELL_STARTUP_TEXT1_PC98"
+msgstr ""
+"Usa ←[32mHELP←[37m para ver la lista de comandos, ←[32mINTRO←[37m para un mini manual.\n"
+"Y puedes hacer mucho mas con la ←[33mbarra de menu desplegables←[37m.       \n"
+
+msgid "SHELL_STARTUP_EXAMPLE_PC98"
+msgstr "←[32mEj←[37m: Prueba en salida de video ←[33mTrueType font←[37m u ←[33mOpenGL pixel-perfect←[37m"
+
+msgid "SHELL_STARTUP_TEXT2_PC98"
+msgstr ""
+"Para lanzar ←[33m"Configuration Tool"←[37m usa ←[31mhost+C←[37m. La tecla HOST es ←[32mF11←[37m.\n"
+"Para activar el ←[33m"Mapper Editor"←[37m para asignar teclas, usa ←[31mhost+M←[37m.  \n"
+"Para conmutar entre pantalla completa o modo ventana, usa ←[31mhost+F←[37m. \n"
+"Para ajustar la velocidad de CPU, usa ←[31mhost+MAS←[37m o ←[31mhost+MENOS←[37m.      \n"
+
+msgid "SHELL_STARTUP_INFO_PC98"
+msgstr "←[36mDOSBox-X funcionando en modo ←[32mNEC PC-98xx←[36m.                    ←[37m     "
+
+msgid "SHELL_STARTUP_TEXT3_PC98"
+msgstr ""
+"←[32mWeb de DOSBox-X  ←[33mhttps://dosbox-x.com/    ←[36mEmulacion completa DOS  ←[37m\n"
+"←[32mGuia y manuales  ←[33mhttps://dosbox-x.com/wiki←[37m ←[36mDOS Windows 3.x y Win9x←[37m\n"
+"←[32mSoporte DOSBox-X ←[33mhttps://github.com/joncampbell123/dosbox-x/issues←[37m\n"
+"←[32mTraduccion←[37m       ←[33mhttps://github.com/Dalekamistoso/dosbox-x        ←[37m\n"
+
+msgid "SHELL_STARTUP_HEAD1"
+msgstr "←[36mEmpezando con DOSBox-X (Traducido a español por Carlos Romero):             ←[37m"
+
+msgid "SHELL_STARTUP_TEXT1"
+msgstr ""
+"Usa ←[32mHELP←[37m para ver una lista de comandos, ←[32mINTRO←[37m para un pequeño manual.      \n"
+"Y puedes hacer más cosas en DOSBox-X con la ←[33mbarra de menús desplegables←[37m.    \n"
+
+msgid "SHELL_STARTUP_EXAMPLE"
+msgstr "←[32mEjemplo←[37m: Prueba las opciones de salida ←[33mTrueType font←[37m o ←[33mOpenGL pixel-perfect←[37m."
+
+msgid "SHELL_STARTUP_HEAD2"
+msgstr "←[36mAlgunos atajos útiles ya predeterminados:                                   ←[37m"
+
+msgid "SHELL_STARTUP_TEXT2"
+msgstr ""
+"- conmutar entre ventana normal y pantalla completa con el atajo ←[31mF11 ←[37m+ ←[31mF←[37m ←[37m   \n"
+"- lanzar ←[33mHerramienta de configuración←[37m ←[31mF11 ←[37m+ ←[31mC←[37m←[37m / ←[33mEditor de Mapper←[37m ←[31mF11 ←[37m+ ←[31mM←[37m    ←[37m\n"
+"- subir o bajar la velocidad de emulación: ←[31mF11 ←[37m+ ←[31mMAS←[37m←[37m sube / ←[31mF11 ←[37m+ ←[31mMENOS←[37m baja←[37m\n"
+
+msgid "SHELL_STARTUP_CGA"
+msgstr ""
+"Modo compuesto de CGA soportado. Usa ←[31mCtrl+F8←[37m para activarlo o desactivarlo. \n"
+"Ajuste de matiz ←[31mCtrl+Shift+[F7/F8]←[37m. Usa ←[31mCtrl+F7←[37m para modo CGA nuevo/viejo.  \n"
+
+msgid "SHELL_STARTUP_CGA_MONO"
+msgstr ""
+"Use ←[31mCtrl+F7←[37m to cycle through green, amber, and white monochrome color,      \n"
+"and ←[31mCtrl+F8←[37m to change contrast/brightness settings.                         \n"
+
+msgid "SHELL_STARTUP_HERC"
+msgstr ""
+"Usa ←[31mCtrl+F7←[37m para cambiar entre monitor blanco/verde/monocromo/color.        \n"
+"Usa ←[31mCtrl+F8←[37m para activar el mezclado horizontal (sólo en modo gráfico).     \n"
+
+msgid "SHELL_STARTUP_HEAD3"
+msgstr "←[36mDOSBox-X en internet:                                                       ←[37m"
+
+msgid "SHELL_STARTUP_TEXT3"
+msgstr ""
+"←[32mWeb del proyecto←[37m:     ←[33mhttps://dosbox-x.com/          ←[36mEmulación completa DOS←[37m \n"
+"←[32mManuales en la Wiki←[37m:  ←[33mhttps://dosbox-x.com/wiki←[32m      ←[36mDOS, Windows 3.x, Win9x←[37m\n"
+"←[32mFallos o sugerencias←[37m: ←[33mhttps://github.com/joncampbell123/dosbox-x/issues     ←[37m\n"
+
+msgid "SHELL_STARTUP_LAST"
+msgstr "Que te diviertas con DOSBox-X ;)"
+
+msgid "SHELL_CMD_BREAK_HELP"
+msgstr ""
+"Establece o borra la comprobación extendida de CTRL+C.\n"
+"\n"
+
+msgid "SHELL_CMD_BREAK_HELP_LONG"
+msgstr ""
+"BREAK [ON | OFF]\n"
+"\n"
+"Teclea BREAK sin parámetros para ver estado actual de BREAK.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HELP"
+msgstr ""
+"Muestra o cambia el directorio actual.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HELP_LONG"
+msgstr ""
+"CHDIR [unidad:][ruta]\n"
+"CHDIR [..]\n"
+"CD [unidad:][ruta]\n"
+"CD [..]\n"
+"\n"
+"  ..   Indica que quieres volver al directorio anterior.\n"
+"\n"
+"Teclea CD unidad: muestra el directorio actual de la unidad.\n"
+"Teclea CD in parámetros para mostrar la unidad y ruta actual.\n"
+"\n"
+
+msgid "SHELL_CMD_CLS_HELP"
+msgstr ""
+"Limpia la pantalla.\n"
+"\n"
+
+msgid "SHELL_CMD_CLS_HELP_LONG"
+msgstr ""
+"CLS\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_HELP"
+msgstr ""
+"Muestra una lista de los archivos y subdirectorios de un directorio.\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_HELP_LONG"
+msgstr ""
+"DIR [unidad:][ruta][fichero] [/[W|B]] [/S] [/P] [/A[D|H|S|R|A]] [/O[N|E|G|S|D]]\n"
+"\n"
+"  [unidad:][ruta][nombrefichero]\n"
+"              Indica unidad, directorio y/o archivos a listar.\n"
+"  /W          Usa formato de lista ancho.\n"
+"  /B          Usa formato simple (sin información de encabezado ni resumen).\n"
+"  /S          Muestra achivos y subdirectoriosen un directorio especificado.\n"
+"  /P          Pausa después de cada pantalla de información.\n"
+"  /A          Muestra archivos con los atributos especificados.\n"
+"  atributos    D  Directorio                 R  Archivo s¢lo lectura (Readonly)\n"
+"               H  Archivo oculto             A  Archivo listo para archivar\n"
+"               S  Archivo de sistema         -  Prefijo indicando no (not)\n"
+"  /O          Lista archivos en una lista ordenada.\n"
+"  orden lista  N  Por nombre (alfabético)    S  Por tamaño (menores primero)\n"
+"               E  Por extensi¢n (alfabético) D  Por fecha y hora (nuevos 1º)\n"
+"               G  Agrupa directorios primero -  Prefijo para invertir orden\n"
+"\n"
+"Los modificadores pueden estar establecidos en la variable de entorno DIRCMD.  \n"
+"Los preestablecidos se anulan anteponiendo un prefijo - (guión) --p.e.: /-W.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_HELP"
+msgstr ""
+"Muestra mensajes o habilita/deshabilita eco de comandos (echoing).\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_HELP_LONG"
+msgstr ""
+"  ECHO [ON | OFF]\n"
+"  ECHO [texto]\n"
+"\n"
+"Teclea ECHO sin parámetros para mostrar el estado actual de ECHO.\n"
+"\n"
+
+msgid "SHELL_CMD_EXIT_HELP"
+msgstr ""
+"Sale del shell de comandos.\n"
+"\n"
+
+msgid "SHELL_CMD_EXIT_HELP_LONG"
+msgstr ""
+"EXIT\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_HELP"
+msgstr ""
+"Muestra la ayuda de comandos en DOSBox-X.\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_HELP_LONG"
+msgstr ""
+"HELP [/A o /ALL]\n"
+"HELP [comando]\n"
+"\n"
+"     /A o /ALL    Lista todos los comandos internos.\n"
+"     [comando]    Muestra ayuda del caomando indicado.\n"
+"\n"
+"←[0mE.g., ←[37;1mHELP COPY←[0m o ←[37;1mCOPY /?←[0m muestra información de ayuda del comando COPY.\n"
+"\n"
+"Nota: Comandos externos como ←[33;1mMOUNT←[0m e ←[33;1mIMGMOUNT←[0m no son listados por HELP [/A].\n"
+"Estos comandos se encuentran en la unidad Z: como programas (p.ej. MOUNT.COM).\n"
+"Teclea ←[33;1mcomando /?←[0m o ←[33;1mHELP comando←[0m para información de ayuda para ese comando.\n"
+"\n"
+
+msgid "SHELL_CMD_LS_HELP"
+msgstr ""
+"Muestra el contenido del directorio.\n"
+"\n"
+
+msgid "SHELL_CMD_LS_HELP_LONG"
+msgstr ""
+"LS [unidad:][ruta][fichero] [/A] [/L] [/P] [/Z]\n"
+"\n"
+"  /A     También enumera los archivos ocultos y del sistema.\n"
+"  /L     Enumera los nombres uno por línea.\n"
+"  /P     Hace una pausa después de cada pantalla llena de información.\n"
+"  /Z     Muestra SFN incluso si la compatibilidad con LFN está disponible.\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_HELP"
+msgstr ""
+"Crea un directorio.\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_HELP_LONG"
+msgstr ""
+"MKDIR [unidad:][ruta]\n"
+"MD [unidad:][ruta]\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_HELP"
+msgstr ""
+"Elimina un directorio.\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_HELP_LONG"
+msgstr ""
+"RMDIR [unidad:][ruta]\n"
+"RD [unidad:][ruta]\n"
+"\n"
+
+msgid "SHELL_CMD_SET_HELP"
+msgstr ""
+"Muestra o cambia las variables de entorno.\n"
+"\n"
+
+msgid "SHELL_CMD_SET_HELP_LONG"
+msgstr ""
+"SET [variable=[string]]\n"
+"\n"
+"   variable     Indica el nombre de la variable de entorno.\n"
+"   string       Indica una serie de caracteres para asignar a la variable.\n"
+"\n"
+"* Si no se indica cadena alguna, se elimina la variable del entorno.\n"
+"\n"
+"Teclea SET sin parámetros para mostrar las variables de entorno actuales.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_HELP"
+msgstr ""
+"Ejecuta procesamiento condicional en programas por lotes.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_HELP_LONG"
+msgstr ""
+"IF [NOT] ERRORLEVEL number command\n"
+"IF [NOT] string1==string2 command\n"
+"IF [NOT] EXIST filename command\n"
+"\n"
+"  NOT               Indica que el DOS debe continuar con\n"
+"                    el comando solo si la condición es falsa (FALSE).\n"
+"\n"
+"  ERRORLEVEL number Indica condicion verdadera (TRUE) si el último programa\n"
+"                    devolvió un código de salida (EXIT) igual o mayor que el\n"
+"                    número especificado.\n"
+"\n"
+"  string1==string2  Indica una condicion cierta (TRUE) si el texto indicado\n"
+"                    coincide\n"
+"\n"
+"  EXIST filename    Indica una condición verdadera si el archivo indicado\n"
+"                    especificado existe.\n"
+"\n"
+"  command           Indica el comando a ejecutar si la condición se cumple.\n"
+"                    El comando debe estar seguido de un comando ELSE el cual\n"
+"                    ejecutará el comando tras la palabra clave ELSE si la\n"
+"                    condición especificada es falsa (FALSE)\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_HELP"
+msgstr ""
+"Salta a una línea etiquetada (LABEL) dentro de un programa de lotes.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_HELP_LONG"
+msgstr ""
+"GOTO label\n"
+"\n"
+"   label   Indica cadena de texto que usa un programa de lotes como etiqueta.\n"
+"\n"
+"Escribe una etiqueta en una línea, precedida de dos puntos.\n"
+"\n"
+
+msgid "SHELL_CMD_SHIFT_HELP"
+msgstr ""
+"Intercambia posición de parámetros reemplazables en un .BAT.\n"
+"\n"
+
+msgid "SHELL_CMD_SHIFT_HELP_LONG"
+msgstr ""
+"SHIFT\n"
+"\n"
+
+msgid "SHELL_CMD_FOR_HELP"
+msgstr ""
+"Ejecuta un comando específico para cada archivo en un conjunto.\n"
+"\n"
+
+msgid "SHELL_CMD_FOR_HELP_LONG"
+msgstr ""
+"FOR %%variable IN (set) DO command [command-parameters]\n"
+"\n"
+"  %%variable  Indica un parámetro reemplazable.\n"
+"  (set)      Especifica un conjunto de uno o más archivos. Admite comodines.\n"
+"  command    Especifica la orden a realizar para cada archivo.\n"
+"  command-parameters\n"
+"             Indica paramétros o modificadores para el comando indicado.\n"
+"\n"
+"Para usar el comando en un .BAT, especifica %%%%variable en vez de %%variable.\n"
+"\n"
+
+msgid "SHELL_CMD_LFNFOR_HELP"
+msgstr ""
+"Habilita/deshabilita nombres largos al usar comodines FOR.\n"
+"\n"
+
+msgid "SHELL_CMD_LFNFOR_HELP_LONG"
+msgstr ""
+"LFNFOR [ON | OFF]\n"
+"\n"
+"Teclea LFNFOR sin parámetros para mostrar el estado actual de LFNFOR.\n"
+"\n"
+"Este comando es sólo útil si el soporte de LFN está habilitado.\n"
+"\n"
+
+msgid "SHELL_CMD_TYPE_HELP"
+msgstr ""
+"Muestra el contenido de un archivo de texto.\n"
+"\n"
+
+msgid "SHELL_CMD_TYPE_HELP_LONG"
+msgstr ""
+"TYPE [unidad:][ruta][nombredearchivo]\n"
+"\n"
+
+msgid "SHELL_CMD_REM_HELP"
+msgstr ""
+"Añade comentarios a un archivo de lotes\n"
+"\n"
+
+msgid "SHELL_CMD_REM_HELP_LONG"
+msgstr ""
+"REM [comentario]\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_HELP"
+msgstr ""
+"Renombrar uno o varios archivo(s)/directorio(s).\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_HELP_LONG"
+msgstr ""
+"RENAME [unidad:][ruta][nombredirectorio1 | nombredearchivo1] [nombredirectorio2 | nombredearchivo2]\n"
+"REN [unidad:][ruta][directorio1 | archivo1] [directorio2 | archivo2]\n"
+"\n"
+"Tenga en cuenta que no puede especificar una nueva unidad o ruta para su destino.\n"
+"\n"
+"Los comodines (* y ?) se admiten para archivos. Por ejemplo, el siguiente comando\n"
+"renombra todos los archivos de texto: ←[37;1mREN *.TXT *.BAK←[0m\n"
+"\n"
+
+msgid "SHELL_CMD_DELETE_HELP"
+msgstr ""
+"Elimina uno o más archivos.\n"
+"\n"
+
+msgid "SHELL_CMD_DELETE_HELP_LONG"
+msgstr ""
+"DEL [/P] [/F] [/Q] nombres\n"
+"ERASE [/P] [/F] [/Q] nombres\n"
+"\n"
+"  nombres       Indica una lista de uno o más archivos o directorios.\n"
+"                Se pueden usar comodines para borrar varios archivos.\n"
+"                Si se indica un directorio, todos los archivos de su\n"
+"                interior se borrarán.\n"
+"  /P            Pide confirmación antes de borrar uno o más archivos.\n"
+"  /F            Fuerza el borrado de archivos de s¢lo lectura.\n"
+"  /Q            Modo silencioso, no pide confirmación con comodines\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_HELP"
+msgstr ""
+"Copia uno o más archivos.\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_HELP_LONG"
+msgstr ""
+"COPY [/Y | /-Y] fuente [+fuente [+ ...]] [destino]\n"
+"\n"
+"  fuente        Indica el archivo o archivos a copiar.\n"
+"  destino       Indica el directorio y/o nombre para el nuevo fichero.\n"
+"  /Y            Suprime confirmación de sobreescritura de un archivo \n"
+"                de destino existente.\n"
+"  /-Y           Causa solicitar confirmación de sobreescritura de los\n"
+"                archivos de destino existentes.\n"
+"\n"
+"El modificador /Y debe estar establecido en variable de entorno COPYCMD\n"
+"Esto puede ser ignorado con /-Y en la l¡nea de comandos.\n"
+"\n"
+"Para anexar archivos, especifica un solo archivo de destino, pero varios\n"
+"archivos de origen (usa comodines o formato file1+file2+file3).\n"
+"\n"
+
+msgid "SHELL_CMD_CALL_HELP"
+msgstr ""
+"Inicia un nuevo archivo de lotes desde el interior de otro.\n"
+"\n"
+
+msgid "SHELL_CMD_CALL_HELP_LONG"
+msgstr ""
+"CALL [unidad:][ruta]nombredearchivo [parámetros-batch]\n"
+"\n"
+"parámetros-batch   Indica que cualquier información de la línea de\n"
+"                   comando se usará en el archivo de lotes.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_HELP"
+msgstr ""
+"Asigna un directorio interno a una unidad.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_HELP_LONG"
+msgstr ""
+"SUBST [unidad1: [unidad2:]ruta]\n"
+"SUBST unidad1: /D\n"
+"\n"
+"  unidad1:        Especifica una unidad a la que desea asignar una ruta.\n"
+"  [unidad2:]ruta] Especifica una unidad local montada y ruta que desea asignar.\n"
+"  /D              Elimina una unidad montada o sustituida.\n"
+"\n"
+"Teclea SUBST sin parámetros para mostrar lista de unidades locales montadas.\n"
+"\n"
+
+msgid "SHELL_CMD_LOADHIGH_HELP"
+msgstr ""
+"Carga un programa en la memoria superior (requiere memoria XMS+UMB).\n"
+"\n"
+
+msgid "SHELL_CMD_LOADHIGH_HELP_LONG"
+msgstr ""
+"LH              [unidad:][ruta]nombrearchivo [parámetros]\n"
+"LOADHIGH        [unidad:][ruta]nombrearchivo [parámetros]\n"
+"\n"
+
+msgid "SHELL_CMD_CHOICE_HELP"
+msgstr ""
+"Espera a una pulsación del teclado y establece un ERRORLEVEL.\n"
+"\n"
+
+msgid "SHELL_CMD_CHOICE_HELP_LONG"
+msgstr ""
+"CHOICE [/C:opciones] [/N] [/S] texto\n"
+"  /C[:]opciones - Indica teclas permitidas. Por defecto: yn.\n"
+"  /N            - No muestra las opciones disponibles al final de la pregunta.\n"
+"  /S            - Activa opciones sensibles a mayúsculas/minuscúlas\n"
+"  texto         - El texto a mostrar como pregunta.\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_HELP"
+msgstr ""
+"Muestra o cambia los atributos de archivo.\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_HELP_LONG"
+msgstr ""
+"ATTRIB [+R|-R] [+A|-A] [+S|-S] [+H|-H] [unidad:][ruta][nombredearchivo] [/S]\n"
+"\n"
+"  +   Establece un atributo.\n"
+"  -   Limpia un atributo.\n"
+"  R   Atributo de sólo lectura.\n"
+"  A   Atributo de archivo.\n"
+"  S   Atributo de archivo de sistema.\n"
+"  H   Atributo de archivo oculto.\n"
+"  [unidad:][ruta][nombredearchivo] Indica archivo(s) a procesar con ATTRIB.\n"
+"  /S  Procesa archivos en todos los directorios de la ruta especificada.\n"
+"\n"
+
+msgid "SHELL_CMD_PATH_HELP"
+msgstr ""
+"Muestra o establece una ruta de búsqueda de archivos ejecutables.\n"
+"\n"
+
+msgid "SHELL_CMD_PATH_HELP_LONG"
+msgstr ""
+"PATH [[unidad:]ruta[;...][;%PATH%]\n"
+"PATH ;\n"
+"\n"
+"Teclea PATH ; para limpiar todos los ajustes de búsqueda PATH.\n"
+"Teclea PATH sin parámetros para mostrar la ruta actual.\n"
+"\n"
+
+msgid "SHELL_CMD_PUSHD_HELP"
+msgstr ""
+"Guarda directorio actual para usar en POPD y cambia a otro indicado.\n"
+"\n"
+
+msgid "SHELL_CMD_PUSHD_HELP_LONG"
+msgstr ""
+"PUSHD [ruta]\n"
+"\n"
+"ruta        Especifica el directorio para hacer de directorio actual.\n"
+"\n"
+"Teclea PUSHD sin parámetros para listar los directorios actualmente almacenados.\n"
+"\n"
+
+msgid "SHELL_CMD_POPD_HELP"
+msgstr ""
+"Cambia al directorio almacenado por el comando PUSHD.\n"
+"\n"
+
+msgid "SHELL_CMD_POPD_HELP_LONG"
+msgstr ""
+"POPD\n"
+"\n"
+
+msgid "SHELL_CMD_VERIFY_HELP"
+msgstr ""
+"Controla si verificar archivos que se estén escribiendo a un disco.\n"
+"\n"
+
+msgid "SHELL_CMD_VERIFY_HELP_LONG"
+msgstr ""
+"VERIFY [ON | OFF]\n"
+"\n"
+"Teclea VERIFY sin par metros para mostrar el ajuste actual de VERIFY.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_HELP"
+msgstr ""
+"Muestra o establece la versión de DOS informada por DOSBox-X.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_HELP_LONG"
+msgstr ""
+"VER [/R]\n"
+"VER [SET] número o VER SET [mayor menor]\n"
+"\n"
+"  /R                 Muestra versión GIT, commit y build de DOSBox-X.\n"
+"  [SET] número       Establece la versión de DOS informada por DOSBox-X.\n"
+"  SET [mayor menor]  SEstablece la versió de DOS en formato mayor o menor.\n"
+"\n"
+"  ←[0mEj. ←[37;1mVER 6.0←[0m o ←[37;1mVER 7.1←[0m establece versión DOS 6.0 y 7.1, respectivamente.\n"
+"  Por otro lado, ←[37;1mVER SET 7 1←[0m establece la versión DOS como 7.01 en vez de 7.1.\n"
+"\n"
+"Teclea VER sin parámetros para mostrar versión de DOSBox-X y del DOS emulada.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_VER"
+msgstr ""
+"DOSBox-X versión %s (%s). Versión DOS informada %d.%02d.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_INVALID"
+msgstr ""
+"La versión DOS especificada no es correcta.\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_HELP"
+msgstr ""
+"Muestra la etiqueta de volumen del disco y nº de serie si existe.\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_HELP_LONG"
+msgstr ""
+"VOL [unidad]\n"
+"\n"
+
+msgid "SHELL_CMD_PROMPT_HELP"
+msgstr ""
+"Cambia el prompt de sistema.\n"
+"\n"
+
+msgid "SHELL_CMD_PROMPT_HELP_LONG"
+msgstr ""
+"PROMPT [texto]\n"
+"  text    SEspecifica un nuevo prompt de comandos.\n"
+"\n"
+"Prompt puede estar compuesto de caracteres y estos códigos especiales:\n"
+"  $A   & (Ampersand)\n"
+"  $B   | (pipeta)\n"
+"  $C   ( (Abre paréntesis)\n"
+"  $D   Fecha actual\n"
+"  $E   Código de escape (ASCII code 27)\n"
+"  $F   ) (Cierra paréntesis)\n"
+"  $G   > (signo mayor+que)\n"
+"  $H   Backspace/Borrar (borra el caracter anterior)\n"
+"  $L   < (signo menor-que)\n"
+"  $N   Disco actual\n"
+"  $P   Disco y ruta actuales\n"
+"  $Q   = (signo igual)\n"
+"  $S     (espacio)\n"
+"  $T   Hora actual\n"
+"  $V   Número de versión DOS actual\n"
+"  $_   Retorno de carro y salto de línea\n"
+"  $$   $ (símbolo del dólar)\n"
+"\n"
+
+msgid "SHELL_CMD_ALIAS_HELP"
+msgstr ""
+"Define o muestra alias(es).\n"
+"\n"
+
+msgid "SHELL_CMD_ALIAS_HELP_LONG"
+msgstr ""
+"ALIAS [nombre[=valor] ... ]\n"
+"\n"
+"Teclea ALIAS sin parámetros para listar alias acutales en el formato:\n"
+"`ALIAS NOMBRE = VALOR'\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_HELP"
+msgstr ""
+"Muestra o cambia el código de página DOS actual.\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_HELP_LONG"
+msgstr ""
+"CHCP [nnn]\n"
+"\n"
+"  nnn   Especifica un nº de código de página.\n"
+"\n"
+"Códigos de página compatibles para la salida de fuente TrueType:\n"
+"437,808,850,852,853,855,857,858,860,861,862,863,864,865,866,869,872,874\n"
+"\n"
+"También páginas de códigos de doble byte incluyendo 932,936,949,950.\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_ACTIVE"
+msgstr ""
+"Página de códigos activa (codepage): %d\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_INVALID"
+msgstr ""
+"Número de código de página no válido - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COUNTRY_HELP"
+msgstr ""
+"Muestra o cambia el país actual.\n"
+"\n"
+
+msgid "SHELL_CMD_COUNTRY_HELP_LONG"
+msgstr ""
+"COUNTRY [nnn] \n"
+"\n"
+"  nnn   Indica el código de país.\n"
+"\n"
+"Los formatos de fecha/hora serán afectados por el código de país.\n"
+"\n"
+
+msgid "SHELL_CMD_CTTY_HELP"
+msgstr ""
+"Cambia el dispositivo terminal empleado para controlar el sistema.\n"
+"\n"
+
+msgid "SHELL_CMD_CTTY_HELP_LONG"
+msgstr ""
+"CTTY dispositivo\n"
+"  dispositivo   El dispositivo terminal a usar, como CON.\n"
+"\n"
+
+msgid "SHELL_CMD_MORE_HELP"
+msgstr ""
+"Muestra la salida de pantalla una cada vez.\n"
+"\n"
+
+msgid "SHELL_CMD_MORE_HELP_LONG"
+msgstr ""
+"MORE [unidad:][ruta][nombrearchivo]\n"
+"MORE < [unidad:][ruta][nombrearchivo]\n"
+"nombre-comando | MORE [unidad:][ruta][nombrearchivo]\n"
+"\n"
+
+msgid "SHELL_CMD_TRUENAME_HELP"
+msgstr ""
+"Busca el nombre completamente expandido de un archivo.\n"
+"\n"
+
+msgid "SHELL_CMD_TRUENAME_HELP_LONG"
+msgstr ""
+"TRUENAME [/H] archivo\n"
+"\n"
+
+msgid "SHELL_CMD_DXCAPTURE_HELP"
+msgstr ""
+"Ejecuta un programa con captura de video o audio.\n"
+"\n"
+
+msgid "SHELL_CMD_DXCAPTURE_HELP_LONG"
+msgstr ""
+"DX-CAPTURE [/V|/-V] [/A|/-A] [/M|/-M] [orden] [opciones]\n"
+"\n"
+"Iniciará la captura de video o audio, ejecutará un programa, y al cerrarse detendrá la captura.\n"
+"\n"
+
+msgid "SHELL_CMD_DEBUGBOX_HELP"
+msgstr ""
+"Ejecuta el programa y entra en el depurador en el punto de entrada.\n"
+"\n"
+
+msgid "SHELL_CMD_DEBUGBOX_HELP_LONG"
+msgstr ""
+"DEBUGBOX [orden] [opciones]\n"
+"\n"
+"Teclea DEBUGBOX sin parámetros para iniciar el depurador.\n"
+"\n"
+
+msgid "SHELL_CMD_COMMAND_HELP"
+msgstr ""
+"Inicia un shell de comandos de DOSBox-X.\n"
+"\n"
+"Se aceptan las siguientes opciones:\n"
+"\n"
+"  /C    Ejecuta el comando indicado y retorna.\n"
+"  /K    Ejecuta el comando especificado y continua la ejecución.\n"
+"  /P    Carga una copia permanente del shell de comandos.\n"
+"  /INIT Inicializa el shell de comandos.\n"
+"\n"
+
+msgid "MENU:mapper_reset"
+msgstr "Reiniciar máquina virtual"
+
+msgid "MENU:mapper_reboot"
+msgstr "Reiniciar sistema invitado"
+
+msgid "MENU:mapper_loadmap"
+msgstr "Cargar archivo de mapeado (Mapper)..."
+
+msgid "MENU:mapper_quickrun"
+msgstr "Inicio rápido de programa..."
+
+msgid "MENU:mapper_shutdown"
+msgstr "Salir de DOSBox-X"
+
+msgid "MENU:mapper_capmouse"
+msgstr "Capturar ratón"
+
+msgid "MENU:mapper_fastedit"
+msgstr "Edicion rápida: Copiar texto al seleccionar y pegarlo"
+
+msgid "MENU:mapper_copyall"
+msgstr "Copiar todo el texto de la ventana DOS"
+
+msgid "MENU:mapper_paste"
+msgstr "Pegar desde portapapeles"
+
+msgid "MENU:mapper_pasteend"
+msgstr "Detener pegado de portapapeles"
+
+msgid "MENU:mapper_pause"
+msgstr "Pausar emulación"
+
+msgid "MENU:mapper_pauseints"
+msgstr "Pausar con interrupciones activadas"
+
+msgid "MENU:mapper_gui"
+msgstr "Herramienta de configuración"
+
+msgid "MENU:mapper_mapper"
+msgstr "Editor de mapeador"
+
+msgid "MENU:mapper_fullscr"
+msgstr "Pantalla completa"
+
+msgid "MENU:mapper_resetsize"
+msgstr "Restaurar ventana"
+
+msgid "MENU:mapper_incsize"
+msgstr "Aumentar tamaño TTF"
+
+msgid "MENU:mapper_decsize"
+msgstr "Reducir tamaño TTF"
+
+msgid "MENU:mapper_togmenu"
+msgstr "Ocultar/mostrar barra de menú"
+
+msgid "MENU:MainMenu"
+msgstr "Principal"
+
+msgid "MENU:MainSendKey"
+msgstr "Enviar tecla especial"
+
+msgid "MENU:MainHostKey"
+msgstr "Seleccionar tecla de host"
+
+msgid "MENU:WheelToArrow"
+msgstr "Movimientos de la rueda del ratón"
+
+msgid "MENU:SharedClipboard"
+msgstr "Funciones portapapeles compartido"
+
+msgid "MENU:CpuMenu"
+msgstr "CPU"
+
+msgid "MENU:CpuCoreMenu"
+msgstr "Núcleo de CPU (core)"
+
+msgid "MENU:CpuTypeMenu"
+msgstr "Tipo de CPU emulada"
+
+msgid "MENU:CpuSpeedMenu"
+msgstr "Velocidad de la CPU emulada"
+
+msgid "MENU:cpu88-4"
+msgstr "8088 XT 4.77MHz    (~240 ciclos)"
+
+msgid "MENU:cpu286-8"
+msgstr "286 8MHz           (~750 ciclos)"
+
+msgid "MENU:cpu286-12"
+msgstr "286 12MHz          (~1510 ciclos)"
+
+msgid "MENU:cpu286-25"
+msgstr "286 25MHz          (~3300 ciclos)"
+
+msgid "MENU:cpu386-25"
+msgstr "386DX 25MHz        (~4595 ciclos)"
+
+msgid "MENU:cpu386-33"
+msgstr "386DX 33MHz        (~6075 ciclos)"
+
+msgid "MENU:cpu486-33"
+msgstr "486DX 33MHz        (~12010 ciclos)"
+
+msgid "MENU:cpu486-66"
+msgstr "486DX2 66MHz       (~23880 ciclos)"
+
+msgid "MENU:cpu486-100"
+msgstr "486DX4 100MHz      (~33445 ciclos)"
+
+msgid "MENU:cpu486-133"
+msgstr "486DX5 133MHz      (~47810 ciclos)"
+
+msgid "MENU:cpu586-60"
+msgstr "Pentium 60MHz      (~31545 ciclos)"
+
+msgid "MENU:cpu586-66"
+msgstr "Pentium 66MHz      (~35620 ciclos)"
+
+msgid "MENU:cpu586-75"
+msgstr "Pentium 75MHz      (~43500 ciclos)"
+
+msgid "MENU:cpu586-90"
+msgstr "Pentium 90MHz      (~52000 ciclos)"
+
+msgid "MENU:cpu586-100"
+msgstr "Pentium 100MHz     (~60000 ciclos)"
+
+msgid "MENU:cpu586-120"
+msgstr "Pentium 120MHz     (~74000 ciclos)"
+
+msgid "MENU:cpu586-133"
+msgstr "Pentium 133MHz     (~80000 ciclos)"
+
+msgid "MENU:cpu586-166"
+msgstr "Pentium 166MHz MMX (~97240 ciclos)"
+
+msgid "MENU:VideoMenu"
+msgstr "Video"
+
+msgid "MENU:VideoFrameskipMenu"
+msgstr "Salto de fotogramas"
+
+msgid "MENU:frameskip_0"
+msgstr "Desactivado"
+
+msgid "MENU:frameskip_1"
+msgstr "1 fotograma"
+
+msgid "MENU:frameskip_2"
+msgstr "2 fotogramas"
+
+msgid "MENU:frameskip_3"
+msgstr "3 fotogramas"
+
+msgid "MENU:frameskip_4"
+msgstr "4 fotogramas"
+
+msgid "MENU:frameskip_5"
+msgstr "5 fotogramas"
+
+msgid "MENU:frameskip_6"
+msgstr "6 fotogramas"
+
+msgid "MENU:frameskip_7"
+msgstr "7 fotogramas"
+
+msgid "MENU:frameskip_8"
+msgstr "8 fotogramas"
+
+msgid "MENU:frameskip_9"
+msgstr "9 fotogramas"
+
+msgid "MENU:frameskip_10"
+msgstr "10 fotogramas"
+
+msgid "MENU:VideoScalerMenu"
+msgstr "Escalador"
+
+msgid "MENU:scaler_forced"
+msgstr "Forzar escalador"
+
+msgid "MENU:scaler_set_none"
+msgstr "Ninguno"
+
+msgid "MENU:scaler_set_normal2x"
+msgstr "Normal 2X"
+
+msgid "MENU:scaler_set_normal3x"
+msgstr "Normal 3X"
+
+msgid "MENU:scaler_set_normal4x"
+msgstr "Normal 4X"
+
+msgid "MENU:scaler_set_normal5x"
+msgstr "Normal 5X"
+
+msgid "MENU:scaler_set_hardware_none"
+msgstr "Sin escalado por hardware"
+
+msgid "MENU:scaler_set_hardware2x"
+msgstr "Hardware 2X"
+
+msgid "MENU:scaler_set_hardware3x"
+msgstr "Hardware 3X"
+
+msgid "MENU:scaler_set_hardware4x"
+msgstr "Hardware 4X"
+
+msgid "MENU:scaler_set_hardware5x"
+msgstr "Hardware 5X"
+
+msgid "MENU:scaler_set_gray"
+msgstr "Escala de grises"
+
+msgid "MENU:scaler_set_gray2x"
+msgstr "Escala de grises 2X"
+
+msgid "MENU:scaler_set_tv2x"
+msgstr "TV 2X"
+
+msgid "MENU:scaler_set_tv3x"
+msgstr "TV 3X"
+
+msgid "MENU:scaler_set_scan2x"
+msgstr "Scan 2X"
+
+msgid "MENU:scaler_set_scan3x"
+msgstr "Scan 3X"
+
+msgid "MENU:scaler_set_rgb2x"
+msgstr "RGB 2X"
+
+msgid "MENU:scaler_set_rgb3x"
+msgstr "RGB 3X"
+
+msgid "MENU:scaler_set_advmame2x"
+msgstr "Advanced MAME 2X"
+
+msgid "MENU:scaler_set_advmame3x"
+msgstr "Advanced MAME 3X"
+
+msgid "MENU:scaler_set_hq2x"
+msgstr "HQ 2X"
+
+msgid "MENU:scaler_set_hq3x"
+msgstr "HQ 3X"
+
+msgid "MENU:scaler_set_advinterp2x"
+msgstr "Interpolación avanzada 2X"
+
+msgid "MENU:scaler_set_advinterp3x"
+msgstr "Interpolación avanzada 3X"
+
+msgid "MENU:scaler_set_2xsai"
+msgstr "2xSai"
+
+msgid "MENU:scaler_set_super2xsai"
+msgstr "Super2xSai"
+
+msgid "MENU:scaler_set_supereagle"
+msgstr "SuperEagle"
+
+msgid "MENU:scaler_set_xbrz"
+msgstr "xBRZ"
+
+msgid "MENU:scaler_set_xbrz_bilinear"
+msgstr "xBRZ Bilineal"
+
+msgid "MENU:refresh_rate"
+msgstr "Tasa de refresco..."
+
+msgid "MENU:VideoOutputMenu"
+msgstr "Salida de vídeo"
+
+msgid "MENU:output_surface"
+msgstr "Superficie (Surface)"
+
+msgid "MENU:output_direct3d"
+msgstr "Direct3D"
+
+msgid "MENU:output_opengl"
+msgstr "OpenGL"
+
+msgid "MENU:output_openglnb"
+msgstr "OpenGL cercano"
+
+msgid "MENU:output_openglpp"
+msgstr "OpenGL perfecto"
+
+msgid "MENU:output_ttf"
+msgstr "Fuente TrueType"
+
+msgid "MENU:doublescan"
+msgstr "Doublescan"
+
+msgid "MENU:VideoVsyncMenu"
+msgstr "V-Sync"
+
+msgid "MENU:vsync_on"
+msgstr "Activo"
+
+msgid "MENU:vsync_force"
+msgstr "Forzar"
+
+msgid "MENU:vsync_host"
+msgstr "Anfitrión (Host)"
+
+msgid "MENU:vsync_off"
+msgstr "Inactivo"
+
+msgid "MENU:vsync_set_syncrate"
+msgstr "Establecer sincronización"
+
+msgid "MENU:VideoOverscanMenu"
+msgstr "Overscan"
+
+msgid "MENU:overscan_0"
+msgstr "Inactivo"
+
+msgid "MENU:overscan_1"
+msgstr "1"
+
+msgid "MENU:overscan_2"
+msgstr "2"
+
+msgid "MENU:overscan_3"
+msgstr "3"
+
+msgid "MENU:overscan_4"
+msgstr "4"
+
+msgid "MENU:overscan_5"
+msgstr "5"
+
+msgid "MENU:overscan_6"
+msgstr "6"
+
+msgid "MENU:overscan_7"
+msgstr "7"
+
+msgid "MENU:overscan_8"
+msgstr "8"
+
+msgid "MENU:overscan_9"
+msgstr "9"
+
+msgid "MENU:overscan_10"
+msgstr "10"
+
+msgid "MENU:VideoTextmodeMenu"
+msgstr "Modo de texto"
+
+msgid "MENU:clear_screen"
+msgstr "Limpiar pantalla"
+
+msgid "MENU:vga_9widetext"
+msgstr "Permitir fuentes de 9 pixeles de ancho"
+
+msgid "MENU:text_background"
+msgstr "Alta intensidad: color de fondo"
+
+msgid "MENU:text_blinking"
+msgstr "Alta intensidad: texto parpadeante"
+
+msgid "MENU:line_80x25"
+msgstr "Pantalla: 80 columnas x 25 líneas"
+
+msgid "MENU:line_80x43"
+msgstr "Pantalla: 80 columnas x 43 líneas"
+
+msgid "MENU:line_80x50"
+msgstr "Pantalla: 80 columnas x 50 líneas"
+
+msgid "MENU:line_80x60"
+msgstr "Pantalla: 80 columnas x 60 líneas"
+
+msgid "MENU:line_132x25"
+msgstr "Pantalla: 132 columnas x 25 líneas"
+
+msgid "MENU:line_132x43"
+msgstr "Pantalla: 132 columnas x 43 líneas"
+
+msgid "MENU:line_132x50"
+msgstr "Pantalla: 132 columnas x 50 líneas"
+
+msgid "MENU:line_132x60"
+msgstr "Pantalla: 132 columnas x 60 líneas"
+
+msgid "MENU:VideoTTFMenu"
+msgstr "Opciones TTF"
+
+msgid "MENU:ttf_showbold"
+msgstr "Mostrar texto en negrita en TTF"
+
+msgid "MENU:ttf_showital"
+msgstr "Mostrar texto en cursiva en TTF"
+
+msgid "MENU:ttf_showline"
+msgstr "Mostrar texto subrayado en TTF"
+
+msgid "MENU:ttf_showsout"
+msgstr "Mostrar texto tachado en TTF"
+
+msgid "MENU:ttf_wpno"
+msgstr "Procesador de texto TTF: Ninguno"
+
+msgid "MENU:ttf_wpwp"
+msgstr "Procesador de texto TTF: WordPerfect"
+
+msgid "MENU:ttf_wpws"
+msgstr "Procesador de texto TTF: WordStar"
+
+msgid "MENU:ttf_wpxy"
+msgstr "Procesador de texto TTF: XyWrite"
+
+msgid "MENU:ttf_wpfe"
+msgstr "Procesador de texto TTF: FastEdit"
+
+msgid "MENU:ttf_blinkc"
+msgstr "Mostrar el cursor parpadeante en TTF"
+
+msgid "MENU:ttf_dbcs_sbcs"
+msgstr "CJK: Cambiar modo DBCS/SBCS"
+
+msgid "MENU:ttf_autoboxdraw"
+msgstr "CJK: Auto-detecta símbolos de dibujo de caja"
+
+msgid "MENU:ttf_halfwidthkana"
+msgstr "CJK: Permitir katakana japonés de ancho medio"
+
+msgid "MENU:VideoPC98Menu"
+msgstr "Opciones de PC-98"
+
+msgid "MENU:pc98_5mhz_gdc"
+msgstr "5MHz GDC clock"
+
+msgid "MENU:pc98_allow_200scanline"
+msgstr "Permitir efecto de scanlines de 200 líneas"
+
+msgid "MENU:pc98_allow_4partitions"
+msgstr "Permitir 4 particiones de visualización en capa gráfica"
+
+msgid "MENU:pc98_enable_egc"
+msgstr "Habilitar EGC"
+
+msgid "MENU:pc98_enable_grcg"
+msgstr "Habilitar GRCG"
+
+msgid "MENU:pc98_enable_analog"
+msgstr "Habilitar pantalla analógica"
+
+msgid "MENU:pc98_enable_analog256"
+msgstr "Habilitar pantalla analógica de 256 colores"
+
+msgid "MENU:pc98_enable_188user"
+msgstr "Activar 188+ user CG cells"
+
+msgid "MENU:pc98_clear_text"
+msgstr "Limpiar capa de texto"
+
+msgid "MENU:pc98_clear_graphics"
+msgstr "Limpiar capa gráfica"
+
+msgid "MENU:load_d3d_shader"
+msgstr "Selecciona Direct3D pixel shader..."
+
+msgid "MENU:load_glsl_shader"
+msgstr "Selecciona OpenGL (GLSL) shader..."
+
+msgid "MENU:load_ttf_font"
+msgstr "Selecciona fuente TrueType (TTF)..."
+
+msgid "MENU:SoundMenu"
+msgstr "Sonido"
+
+msgid "MENU:mixer_swapstereo"
+msgstr "Invertir sonido estéreo"
+
+msgid "MENU:mixer_mute"
+msgstr "Silenciar"
+
+msgid "MENU:mixer_info"
+msgstr "Mostrar mezcladores de volumen de sonido"
+
+msgid "MENU:sb_info"
+msgstr "Mostrar configuración de Sound Blaster"
+
+msgid "MENU:midi_info"
+msgstr "Mostrar configuración de dispositivo MIDI"
+
+msgid "MENU:DOSMenu"
+msgstr "DOS"
+
+msgid "MENU:enable_a20gate"
+msgstr "Activar gate A20 "
+
+msgid "MENU:change_currentcd"
+msgstr "Cambiar imagen de CD actual..."
+
+msgid "MENU:change_currentfd"
+msgstr "Cambiar imagen de disquete actual..."
+
+msgid "MENU:DOSMouseMenu"
+msgstr "Emulación de ratón"
+
+msgid "MENU:dos_mouse_enable_int33"
+msgstr "Emulación interna"
+
+msgid "MENU:dos_mouse_y_axis_reverse"
+msgstr "Invertir eje-Y"
+
+msgid "MENU:dos_mouse_sensitivity"
+msgstr "Sensibilidad"
+
+msgid "MENU:DOSVerMenu"
+msgstr "Version de DOS reportada"
+
+msgid "MENU:dos_ver_330"
+msgstr "3.30"
+
+msgid "MENU:dos_ver_500"
+msgstr "5.00"
+
+msgid "MENU:dos_ver_622"
+msgstr "6.22"
+
+msgid "MENU:dos_ver_710"
+msgstr "7.10"
+
+msgid "MENU:dos_ver_edit"
+msgstr "Editar"
+
+msgid "MENU:DOSLFNMenu"
+msgstr "Soporte de nombres largos"
+
+msgid "MENU:dos_lfn_auto"
+msgstr "Auto por versión de DOS reportada"
+
+msgid "MENU:dos_lfn_enable"
+msgstr "Activar soporte de nombres largos"
+
+msgid "MENU:dos_lfn_disable"
+msgstr "Desactivar emulación de nombres largos"
+
+msgid "MENU:DOSPC98Menu"
+msgstr "PC-98 PIT master clock"
+
+msgid "MENU:dos_pc98_pit_4mhz"
+msgstr "4MHz/8MHz PIT master clock"
+
+msgid "MENU:dos_pc98_pit_5mhz"
+msgstr "5MHz/10MHz PIT master clock"
+
+msgid "MENU:DOSEMSMenu"
+msgstr "Memoria expandida (EMS)"
+
+msgid "MENU:dos_ems_true"
+msgstr "Activar emulación de EMS"
+
+msgid "MENU:dos_ems_board"
+msgstr "Emulación de placa EMS"
+
+msgid "MENU:dos_ems_emm386"
+msgstr "Emulación de EMM386"
+
+msgid "MENU:dos_ems_false"
+msgstr "Desactivar emulación de EMS"
+
+msgid "MENU:DOSWinMenu"
+msgstr "Aplicaciones de host"
+
+msgid "MENU:dos_win_autorun"
+msgstr "Lanzar para ejecutar en host Windows"
+
+msgid "MENU:dos_win_transpath"
+msgstr "Traducir rutas a rutas del sistema host"
+
+msgid "MENU:dos_win_wait"
+msgstr "Esperar a la aplicación si es posible"
+
+msgid "MENU:dos_win_quiet"
+msgstr "Modo silencioso - sin mensajes de inicio"
+
+msgid "MENU:CaptureMenu"
+msgstr "Captura"
+
+msgid "MENU:CaptureFormatMenu"
+msgstr "Formato de captura"
+
+msgid "MENU:capture_fmt_avi_zmbv"
+msgstr "AVI + ZMBV"
+
+msgid "MENU:capture_fmt_mpegts_h264"
+msgstr "MPEG-TS + H.264"
+
+msgid "MENU:saveoptionmenu"
+msgstr "Opciones de Carga / Guardado"
+
+msgid "MENU:saveslotmenu"
+msgstr "Seleccionar slot de guardado"
+
+msgid "MENU:enable_autosave"
+msgstr "Habilita auto-guardar estado"
+
+msgid "MENU:noremark_savestate"
+msgstr "Sin indicaciones al guardar estado"
+
+msgid "MENU:force_loadstate"
+msgstr "Sin advertencias al cargar el estado"
+
+msgid "MENU:removestate"
+msgstr "Eliminar estado del slot seleccionado"
+
+msgid "MENU:refreshslot"
+msgstr "Actualizar estado de pantalla"
+
+msgid "MENU:lastautosaveslot"
+msgstr "Selecciona el último slot autoguardado"
+
+msgid "MENU:usesavefile"
+msgstr "Guardar estado en un archivo no en slot"
+
+msgid "MENU:autosavecfg"
+msgstr "Auto-salvar ajustes..."
+
+msgid "MENU:browsesavefile"
+msgstr "Examinar archivo guardado..."
+
+msgid "MENU:current_page"
+msgstr "Página de slots actual: 1/10"
+
+msgid "MENU:prev_page"
+msgstr "Página anterior de slots"
+
+msgid "MENU:next_page"
+msgstr "Página siguiente de slots"
+
+msgid "MENU:first_page"
+msgstr "Ir a primera página de slots"
+
+msgid "MENU:last_page"
+msgstr "Ir a última página de slots"
+
+msgid "MENU:DriveMenu"
+msgstr "Unidad"
+
+msgid "MENU:drive_mountauto"
+msgstr "Auto-montar unidad Windows"
+
+msgid "MENU:drive_mounthd"
+msgstr "Montar carpeta como disco duro"
+
+msgid "MENU:drive_mountcd"
+msgstr "Montar carpeta como CD"
+
+msgid "MENU:drive_mountfd"
+msgstr "Montar carpeta como disquetera "
+
+msgid "MENU:drive_mountfro"
+msgstr "Opción: Montar carpeta sólo lectura"
+
+msgid "MENU:drive_mountarc"
+msgstr "Montar un fichero comprimido (Zip/7z)"
+
+msgid "MENU:drive_mountimg"
+msgstr "Montar una imagen de disco o CD"
+
+msgid "MENU:drive_mountimgs"
+msgstr "Montar multiples imagenes de disco/CD"
+
+msgid "MENU:drive_mountiro"
+msgstr "Opción: montar imagenes solo lectura"
+
+msgid "MENU:drive_unmount"
+msgstr "Desmontar unidad"
+
+msgid "MENU:drive_rescan"
+msgstr "Volver a explorar la unidad"
+
+msgid "MENU:drive_swap"
+msgstr "Intercambiar disco"
+
+msgid "MENU:drive_info"
+msgstr "Información de unidad"
+
+msgid "MENU:drive_boot"
+msgstr "Arrancar desde unidad"
+
+msgid "MENU:drive_bootimg"
+msgstr "Arrancar desde imagen de disco"
+
+msgid "MENU:HelpMenu"
+msgstr "Ayuda"
+
+msgid "MENU:help_intro"
+msgstr "Introducción"
+
+msgid "MENU:help_homepage"
+msgstr "Página de DOSBox-X"
+
+msgid "MENU:help_wiki"
+msgstr "Guía Wiki de DOSBox-X"
+
+msgid "MENU:help_issue"
+msgstr "Soporte de DOSBox-X"
+
+msgid "MENU:help_nic"
+msgstr "Lista de dispositivos de red"
+
+msgid "MENU:help_prt"
+msgstr "Lista de dispositivos de impresión"
+
+msgid "MENU:help_about"
+msgstr "Acerca de DOSBox-X"
+
+msgid "MENU:show_console"
+msgstr "Mostrar consola de registro"
+
+msgid "MENU:wait_on_error"
+msgstr "Pausar consola en caso de error"
+
+msgid "MENU:show_codetext"
+msgstr "Mostrar descripción general del código"
+
+msgid "MENU:show_logtext"
+msgstr "Mostrar texto de registro"
+
+msgid "MENU:save_logas"
+msgstr "Salvar registro como..."
+
+msgid "MENU:debugger_rundebug"
+msgstr "Opción del depurador: Iniciar depurador"
+
+msgid "MENU:debugger_runnormal"
+msgstr "Opción del depurador: Ejecutar normalmente"
+
+msgid "MENU:debugger_runwatch"
+msgstr "Opción del depurador: Ejecutar observador"
+
+msgid "MENU:HelpCommandMenu"
+msgstr "Comandos DOS"
+
+msgid "MENU:DebugMenu"
+msgstr "Depurador"
+
+msgid "MENU:HelpDebugMenu"
+msgstr "Consola de registro"
+
+msgid "MENU:debug_blankrefreshtest"
+msgstr "Prueba de refresco (pantalla en blanco)"
+
+msgid "MENU:debug_generatenmi"
+msgstr "Generar interrupción NMI"
+
+msgid "MENU:debug_int2fhook"
+msgstr "Enganchar llamadas INT 2Fh"
+
+msgid "MENU:debug_logint21"
+msgstr "Registrar llamadas INT 21h"
+
+msgid "MENU:debug_logfileio"
+msgstr "Archivo de registros E/S"
+
+msgid "MENU:mapper_speedlock2"
+msgstr "Modo Turbo (Avance rápido)"
+
+msgid "MENU:mapper_speednorm"
+msgstr "Normal"
+
+msgid "MENU:mapper_speedup"
+msgstr "Acelerar"
+
+msgid "MENU:mapper_slowdown"
+msgstr "Ralentizar"
+
+msgid "MENU:mapper_editcycles"
+msgstr "Ajustar ciclos de CPU"
+
+msgid "MENU:mapper_savestate"
+msgstr "Guardar estado"
+
+msgid "MENU:mapper_loadstate"
+msgstr "Cargar estado"
+
+msgid "MENU:mapper_showstate"
+msgstr "Mostrar información de estado"
+
+msgid "MENU:mapper_prevslot"
+msgstr "Seleccionar slot de guardado anterior"
+
+msgid "MENU:mapper_nextslot"
+msgstr "Seleccionar slot de guardado siguiente"
+
+msgid "MENU:mapper_decfskip"
+msgstr "Reducir frameskip"
+
+msgid "MENU:mapper_incfskip"
+msgstr "Aumentar frameskip"
+
+msgid "MENU:mapper_aspratio"
+msgstr "Relación de aspecto"
+
+msgid "MENU:mapper_recwave"
+msgstr "Grabar audio en WAV"
+
+msgid "MENU:mapper_recmtwave"
+msgstr "Grabar audio en AVI multi-pista"
+
+msgid "MENU:mapper_caprawmidi"
+msgstr "Grabar salida MIDI"
+
+msgid "MENU:mapper_caprawopl"
+msgstr "Grabar salida FM (OPL)"
+
+msgid "MENU:mapper_video"
+msgstr "Grabar video en AVI"
+
+msgid "MENU:mapper_scrshot"
+msgstr "Capturar pantalla"
+
+msgid "MENU:mapper_debugger"
+msgstr "Iniciar depurador de DOSBox-X"
+
+msgid "MENU:mapper_volup"
+msgstr "Subir volumen"
+
+msgid "MENU:mapper_voldown"
+msgstr "Bajar volumen"
+
+msgid "MENU:mapper_recvolup"
+msgstr "Subir volumen de grabación"
+
+msgid "MENU:mapper_recvoldown"
+msgstr "Bajar volumen de grabación"
+
+msgid "MENU:mapper_sendkey_mapper"
+msgstr "Enviar tecla especial"
+
+msgid "MENU:mapper_cycledown"
+msgstr "Bajar ciclos"
+
+msgid "MENU:mapper_cycleup"
+msgstr "Subir ciclos"
+
+msgid "MENU:mapper_normal"
+msgstr "Núcleo normal"
+
+msgid "MENU:mapper_dynamic"
+msgstr "Núcleo dinámico (x86)"
+
+msgid "MENU:mapper_simple"
+msgstr "Núcleo simple"
+
+msgid "MENU:mapper_full"
+msgstr "Núcleo completo"
+
+msgid "MENU:cputype_auto"
+msgstr "Automático"
+
+msgid "MENU:cputype_8086"
+msgstr "8086"
+
+msgid "MENU:cputype_8086_prefetch"
+msgstr "8086 con prefetch"
+
+msgid "MENU:cputype_80186"
+msgstr "80186"
+
+msgid "MENU:cputype_80186_prefetch"
+msgstr "80186 con prefetch"
+
+msgid "MENU:cputype_286"
+msgstr "286"
+
+msgid "MENU:cputype_286_prefetch"
+msgstr "286 con prefetch"
+
+msgid "MENU:cputype_386"
+msgstr "386"
+
+msgid "MENU:cputype_386_prefetch"
+msgstr "386 con prefetch"
+
+msgid "MENU:cputype_486old"
+msgstr "486 (viejo)"
+
+msgid "MENU:cputype_486old_prefetch"
+msgstr "486 (viejo) con prefetch"
+
+msgid "MENU:cputype_486"
+msgstr "486"
+
+msgid "MENU:cputype_486_prefetch"
+msgstr "486 con prefetch"
+
+msgid "MENU:cputype_pentium"
+msgstr "Pentium"
+
+msgid "MENU:cputype_pentium_mmx"
+msgstr "Pentium MMX"
+
+msgid "MENU:cputype_ppro_slow"
+msgstr "Pentium Pro"
+
+msgid "MENU:debug_pageflip"
+msgstr "Depuración de cambio de página"
+
+msgid "MENU:debug_retracepoll"
+msgstr "Mejoras en traceado de debug"
+
+msgid "MENU:mapper_swapimg"
+msgstr "Intercambiar FDD"
+
+msgid "MENU:mapper_swapcd"
+msgstr "Intercambiar CDROMs"
+
+msgid "MENU:mapper_ejectpage"
+msgstr "Enviar Form-feed"
+
+msgid "MENU:mapper_rescanall"
+msgstr "Actualizar unidades"
+
+msgid "MENU:hostkey_mapper"
+msgstr "Definido por Mapeador: F11"
+
+msgid "MENU:showdetails"
+msgstr "Mostrar FPS y velocidad RT en barra de título"
+
+msgid "MENU:restartconf"
+msgstr "Reiniciar DOSBox-X con archivo config..."
+
+msgid "MENU:restartlang"
+msgstr "Reiniciar DOSBox-X con archivo idioma..."
+
+msgid "MENU:auto_lock_mouse"
+msgstr "Autobloqueo de ratón"
+
+msgid "MENU:clipboard_right"
+msgstr "Via botón derecho del ratón"
+
+msgid "MENU:clipboard_middle"
+msgstr "Via botón central del ratón"
+
+msgid "MENU:clipboard_arrows"
+msgstr "Usando cursores (Inicio=Start / Fin=End)"
+
+msgid "MENU:screen_to_clipboard"
+msgstr "Copiar todo el texto de la ventana DOS"
+
+msgid "MENU:clipboard_device"
+msgstr "Habilitar acceso al dispositivo del portapapeles DOS: CLIP$"
+
+msgid "MENU:clipboard_dosapi"
+msgstr "Habilitar la API del portapapeles DOS para aplicaciones"
+
+msgid "MENU:clipboard_biospaste"
+msgstr "Usar función de BIOS para pegar del portapapeles"
+
+msgid "MENU:sendkey_winlogo"
+msgstr "Enviar tecla de logo"
+
+msgid "MENU:sendkey_winmenu"
+msgstr "Enviar tecla de menú"
+
+msgid "MENU:sendkey_alttab"
+msgstr "Enviar Alt+Tab"
+
+msgid "MENU:sendkey_ctrlesc"
+msgstr "Enviar Ctrl+Esc"
+
+msgid "MENU:sendkey_ctrlbreak"
+msgstr "Enviar Ctrl+C (Ctrl+Break)"
+
+msgid "MENU:sendkey_cad"
+msgstr "Enviar Ctrl+Alt+Supr"
+
+msgid "MENU:hostkey_ctrlalt"
+msgstr "Ctrl+Alt"
+
+msgid "MENU:hostkey_ctrlshift"
+msgstr "Ctrl+Mayúsculas"
+
+msgid "MENU:hostkey_altshift"
+msgstr "Alt+Mayúsculas"
+
+msgid "MENU:sendkey_mapper_winlogo"
+msgstr "Mapeador "Enviar tecla especial": Tecla logo (Tecla Windows/Pi/Ubuntu)"
+
+msgid "MENU:sendkey_mapper_winmenu"
+msgstr "Mapeador "Enviar tecla especial": Tecla menu"
+
+msgid "MENU:sendkey_mapper_alttab"
+msgstr "Mapeador "Enviar tecla especial": Alt+Tab"
+
+msgid "MENU:sendkey_mapper_ctrlesc"
+msgstr "Mapeador "Enviar tecla especial": Ctrl+Esc"
+
+msgid "MENU:sendkey_mapper_ctrlbreak"
+msgstr "Mapeador "Enviar tecla especial": Ctrl+C (Ctrl+Break)"
+
+msgid "MENU:sendkey_mapper_cad"
+msgstr "Mapeador "Enviar tecla especial": Ctrl+Alt+Supr"
+
+msgid "MENU:wheel_none"
+msgstr "No convertir a cursores"
+
+msgid "MENU:wheel_updown"
+msgstr "Convertir a cursores arriba / abajo"
+
+msgid "MENU:wheel_leftright"
+msgstr "Convertir a cursores izquierda / derecha"
+
+msgid "MENU:wheel_pageupdown"
+msgstr "Convertir a teclas RePag / AvPag"
+
+msgid "MENU:wheel_ctrlupdown"
+msgstr "Convertir a Ctrl+cursores arriba / abajo"
+
+msgid "MENU:wheel_ctrlleftright"
+msgstr "Convertir a Ctrl+cursores izquierda / derecha"
+
+msgid "MENU:wheel_ctrlpageupdown"
+msgstr "Convertir a Ctrl+teclas RePag / AvPag"
+
+msgid "MENU:wheel_ctrlwz"
+msgstr "Convertir a Ctrl+teclas W/Z"
+
+msgid "MENU:wheel_guest"
+msgstr "Habilitar también para sistemas invitados"
+
+msgid "MENU:doublebuf"
+msgstr "Bufer doble a pantalla completa"
+
+msgid "MENU:alwaysontop"
+msgstr "Siempre por encima"
+
+msgid "MENU:highdpienable"
+msgstr "Habilitar High DPI"
+
+msgid "MENU:sync_host_datetime"
+msgstr "Sincronizar fecha y hora con anfitrión"
+
+msgid "MENU:shell_config_commands"
+msgstr "Opciones de configuración como comandos"
+
+msgid "MENU:quick_reboot"
+msgstr "Habilitar reinicio rápido"
+
+msgid "MENU:make_diskimage"
+msgstr "Crear imagen de disco en blanco..."
+
+msgid "MENU:list_drivenum"
+msgstr "Mostrar número de las unidades montadas"
+
+msgid "MENU:list_ideinfo"
+msgstr "Mostrar estado de disco IDE o CD"
+
+msgid "MENU:print_textscreen"
+msgstr "Imprimir texto de pantalla DOS"
+
+msgid "MENU:pc98_use_uskb"
+msgstr "Usar distribución de teclado US"
+
+msgid "MAPPER:caprawopl"
+msgstr "Graba salida FM/OPL"
+
+msgid "MAPPER:copyall"
+msgstr "Copia a portapapeles"
+
+msgid "MAPPER:cycauto"
+msgstr "Activa auto ciclos"
+
+msgid "MAPPER:debugger"
+msgstr "Activa depurador"
+
+msgid "MAPPER:decsize"
+msgstr "Reducir tamaño TTF"
+
+msgid "MAPPER:dynamic"
+msgstr "CPU: Core dinámico"
+
+msgid "MAPPER:fastedit"
+msgstr "Edición rápida"
+
+msgid "MAPPER:full"
+msgstr "CPU: full core"
+
+msgid "MAPPER:incsize"
+msgstr "Aumentar tamaño TTF"
+
+msgid "MAPPER:loadmap"
+msgstr "Carga archivo mapper"
+
+msgid "MAPPER:nextslot"
+msgstr "Slot guardado sig."
+
+msgid "MAPPER:normal"
+msgstr "CPU: normal core"
+
+msgid "MAPPER:paste"
+msgstr "Pegar portapapeles"
+
+msgid "MAPPER:pasteend"
+msgstr "Detener portapapeles"
+
+msgid "MAPPER:pauseints"
+msgstr "Pausa con interrupción"
+
+msgid "MAPPER:prevslot"
+msgstr "Slot guardado previo"
+
+msgid "MAPPER:quickrun"
+msgstr "Lanzar prog. rápido"
+
+msgid "MAPPER:reboot"
+msgstr "Reinicia sistema DOS"
+
+msgid "MAPPER:recmtwave"
+msgstr "Grabar a M.T. AVI"
+
+msgid "MAPPER:recvoldown"
+msgstr "Bajar vol. grabación"
+
+msgid "MAPPER:recvolup"
+msgstr "Subir vol. grabación"
+
+msgid "MAPPER:rescanall"
+msgstr "Actualizar unidades"
+
+msgid "MAPPER:reset"
+msgstr "Resetea DOSBox-X"
+
+msgid "MAPPER:showstate"
+msgstr "Ver info de estado"
+
+msgid "MAPPER:simple"
+msgstr "CPU: núcleo simple"
+
+msgid "MAPPER:togmenu"
+msgstr "Activar barra de menú"
+

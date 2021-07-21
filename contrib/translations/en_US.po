@@ -1,0 +1,3664 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DOSBox-X\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_US\n"
+"X-Generator: aybe\n"
+
+# :DOSBOX-X:LANGUAGE:English (United States)
+# :DOSBOX-X:CODEPAGE:437
+# :DOSBOX-X:VERSION:0.83.16
+# :DOSBOX-X:REMARK:
+
+msgid "AUTOEXEC_CONFIGFILE_HELP"
+msgstr ""
+"Lines in this section will be run at startup.\n"
+"You can put your MOUNT lines here.\n"
+"\n"
+
+msgid "CONFIGFILE_INTRO"
+msgstr ""
+"# This is the configuration file for DOSBox-X %s. (Please use the latest version of DOSBox-X)\n"
+"# Lines starting with a # are comment lines and are ignored by DOSBox-X.\n"
+"# They are used to (briefly) document the effect of each option.\n"
+"# To write out ALL options, use command 'config -all' with -wc or -writeconf options.\n"
+"\n"
+
+msgid "CONFIG_SUGGESTED_VALUES"
+msgstr "Possible values"
+
+msgid "CONFIG_ADVANCED_OPTION"
+msgstr "Advanced options (see full configuration reference file [dosbox-x.reference.full.conf] for more details)"
+
+msgid "CONFIG_TOOL"
+msgstr "DOSBox-X Configuration Tool"
+
+msgid "CONFIG_TOOL_EXIT"
+msgstr "Exit configuration tool"
+
+msgid "MAPPER_EDITOR_EXIT"
+msgstr "Exit mapper editor"
+
+msgid "SAVE_MAPPER_FILE"
+msgstr "Save mapper file"
+
+msgid "WARNING"
+msgstr "Warning"
+
+msgid "YES"
+msgstr "Yes"
+
+msgid "NO"
+msgstr "No"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "CANCEL"
+msgstr "Cancel"
+
+msgid "CLOSE"
+msgstr "Close"
+
+msgid "UPDATE"
+msgstr "Update"
+
+msgid "ADD"
+msgstr "Add"
+
+msgid "DEL"
+msgstr "Del"
+
+msgid "NEXT"
+msgstr "Next"
+
+msgid "SAVE"
+msgstr "Save"
+
+msgid "EXIT"
+msgstr "Exit"
+
+msgid "CAPTURE"
+msgstr "Capture"
+
+msgid "SAVE_CONFIGURATION"
+msgstr "Save configuration"
+
+msgid "SAVE_LANGUAGE"
+msgstr "Save language file"
+
+msgid "SAVE_RESTART"
+msgstr "Save & Restart"
+
+msgid "PASTE_CLIPBOARD"
+msgstr "Paste Clipboard"
+
+msgid "APPEND_HISTORY"
+msgstr "Append History"
+
+msgid "EXECUTE_NOW"
+msgstr "Execute Now"
+
+msgid "ADDITION_CONTENT"
+msgstr "Additional Content:"
+
+msgid "CONTENT"
+msgstr "Content:"
+
+msgid "EDIT_FOR"
+msgstr "Edit %s"
+
+msgid "HELP_FOR"
+msgstr "Help for %s"
+
+msgid "CONFIGURATION_FOR"
+msgstr "Configuration for %s"
+
+msgid "CONFIGURATION"
+msgstr "Configuration"
+
+msgid "SETTINGS"
+msgstr "Settings"
+
+msgid "LOGGING_OUTPUT"
+msgstr "DOSBox-X logging output"
+
+msgid "CODE_OVERVIEW"
+msgstr "Code overview"
+
+msgid "VISIT_HOMEPAGE"
+msgstr "Visit Homepage"
+
+msgid "GET_STARTED"
+msgstr "Getting Started"
+
+msgid "CDROM_SUPPORT"
+msgstr "CD-ROM Support"
+
+msgid "DRIVE_INFORMATION"
+msgstr "Drive information"
+
+msgid "MOUNTED_DRIVE_NUMBER"
+msgstr "Mounted drive numbers"
+
+msgid "IDE_CONTROLLER_ASSIGNMENT"
+msgstr "IDE controller assignment"
+
+msgid "HELP_COMMAND"
+msgstr "Help on DOS command"
+
+msgid "CURRENT_VOLUME"
+msgstr "Current sound mixer volumes"
+
+msgid "CURRENT_SBCONFIG"
+msgstr "Sound Blaster configuration"
+
+msgid "CURRENT_MIDICONFIG"
+msgstr "Current MIDI configuration"
+
+msgid "CREATE_IMAGE"
+msgstr "Create blank disk image"
+
+msgid "NETWORK_LIST"
+msgstr "Network interface list"
+
+msgid "PRINTER_LIST"
+msgstr "Printer device list"
+
+msgid "INTRODUCTION"
+msgstr "Introduction"
+
+msgid "CONFIGURE_GROUP"
+msgstr "Choose a settings group to configure:"
+
+msgid "SHOW_ADVOPT"
+msgstr "Show advanced options"
+
+msgid "USE_PRIMARYCONFIG"
+msgstr "Use primary config file"
+
+msgid "USE_PORTABLECONFIG"
+msgstr "Use portable config file"
+
+msgid "USE_USERCONFIG"
+msgstr "Use user config file"
+
+msgid "CONFIG_SAVETO"
+msgstr "Enter filename for the configuration file to save to:"
+
+msgid "CONFIG_SAVEALL"
+msgstr "Save all (including advanced) config options to the configuration file"
+
+msgid "LANG_FILENAME"
+msgstr "Enter filename for language file:"
+
+msgid "LANG_LANGNAME"
+msgstr "Language name (optional):"
+
+msgid "INTRO_MESSAGE"
+msgstr ""
+"Welcome to DOSBox-X, a free and complete DOS emulation package.\n"
+"DOSBox-X creates a DOS shell which looks like the plain DOS.\n"
+"You can also run Windows 3.x and 95/98 inside the DOS machine.\n"
+
+msgid "DRIVE"
+msgstr "Drive"
+
+msgid "TYPE"
+msgstr "Type"
+
+msgid "LABEL"
+msgstr "Label"
+
+msgid "DRIVE_NUMBER"
+msgstr "Drive number"
+
+msgid "DISK_NAME"
+msgstr "Disk name"
+
+msgid "IDE_POSITION"
+msgstr "IDE position"
+
+msgid "SWAP_SLOT"
+msgstr "Swap slot"
+
+msgid "EMPTY_SLOT"
+msgstr "Empty slot"
+
+msgid "SLOT"
+msgstr "Slot"
+
+msgid "PREVIOUS_PAGE"
+msgstr "< Previous Page"
+
+msgid "NEXT_PAGE"
+msgstr "    Next Page >"
+
+msgid "SELECT_EVENT"
+msgstr "Select an event to change."
+
+msgid "SELECT_DIFFERENT_EVENT"
+msgstr "Select a different event or hit the Add/Del/Next buttons."
+
+msgid "PRESS_JOYSTICK_KEY"
+msgstr "Press a key/joystick button or move the joystick."
+
+msgid "CAPTURE_ENABLED"
+msgstr "Capture enabled. Hit ESC to release capture."
+
+msgid "MAPPER_FILE_SAVED"
+msgstr "Mapper file saved"
+
+msgid "AUTO_CYCLE_MAX"
+msgstr "Auto cycles [max]"
+
+msgid "AUTO_CYCLE_AUTO"
+msgstr "Auto cycles [auto]"
+
+msgid "AUTO_CYCLE_OFF"
+msgstr "Auto cycles [off]"
+
+msgid "PROGRAM_CONFIG_PROPERTY_ERROR"
+msgstr ""
+"No such section or property.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_NO_PROPERTY"
+msgstr ""
+"There is no property %s in section %s.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SET_SYNTAX"
+msgstr ""
+"The syntax for -set option is incorrect.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_NOCONFIGFILE"
+msgstr ""
+"No config file loaded!\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PRIMARY_CONF"
+msgstr ""
+"Primary config file: \n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_ADDITIONAL_CONF"
+msgstr ""
+"Additional config files:\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_GLOBAL_CONF"
+msgstr ""
+"\n"
+"Global config file: \n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_CONFDIR"
+msgstr ""
+"DOSBox-X %s user configuration directory: \n"
+"%s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_WORKDIR"
+msgstr ""
+"DOSBox-X's working directory: \n"
+"%s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_FILE_ERROR"
+msgstr ""
+"\n"
+"Can't open file %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_FILE_WHICH"
+msgstr ""
+"Writing config file %s\n"
+"\n"
+
+msgid "PROGRAM_LANGUAGE_FILE_WHICH"
+msgstr ""
+"Written to language file %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_USAGE"
+msgstr ""
+"The DOSBox-X command-line configuration utility. Supported options:\n"
+"-wc (or -writeconf) without parameter: Writes to primary loaded config file.\n"
+"-wc (or -writeconf) with filename: Writes file to the config directory.\n"
+"-wl (or -writelang) with filename: Writes the current language strings.\n"
+"-ln (or -langname) Displays (without arguments) or specifies the language name.\n"
+"-wcp [filename] Writes file to program directory (dosbox-x.conf or filename).\n"
+"-wcd Writes to the default config file in the config directory.\n"
+"-all, -mod Use with -wc, -wcp, or -wcd to write ALL or only modified options.\n"
+"-wcboot, -wcpboot, or -wcdboot will reboot DOSBox-X after writing the file.\n"
+"-bootconf (or -bc) reboots with specified config file (or primary loaded file).\n"
+"-norem Use this with -wc, -wcp, or -wcd to not write config option remarks.\n"
+"-l Lists DOSBox-X's configuration parameters.\n"
+"-h, -help, -? Shows this help; add the word "sections" for a list of sections.\n"
+"-h, -help, -? section / property Shows info on a specific section or property.\n"
+"-axclear Clears the [autoexec] section.\n"
+"-axadd [line] Adds a line to the [autoexec] section.\n"
+"-axtype Prints the content of the [autoexec] section.\n"
+"-avistart, -avistop Starts or stops AVI recording.\n"
+"-securemode Enables secure mode where features like mounting will be disabled.\n"
+"-startmapper Starts the DOSBox-X mapper editor.\n"
+"-gui Starts the graphical configuration tool.\n"
+"-get "section property" returns the value of the property (also to %%CONFIG%%).\n"
+"-set (-setf for force) "section property=value" sets the value of the property.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_PROPHLP"
+msgstr ""
+"Purpose of property "%s" (contained in section "%s"):\n"
+"%s\n"
+"\n"
+"Possible Values: %s\n"
+"Default value: %s\n"
+"Current value: %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_LINEHLP"
+msgstr ""
+"Purpose of section "%s":\n"
+"%s\n"
+"Current value:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_NOCHANGE"
+msgstr ""
+"This property cannot be changed at runtime.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_POSINT"
+msgstr "positive integer"
+
+msgid "PROGRAM_CONFIG_HLP_SECTHLP"
+msgstr ""
+"Section %s contains the following properties:\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_SECTLIST"
+msgstr ""
+"DOSBox-X configuration contains the following sections:\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECURE_ON"
+msgstr ""
+"Switched to secure mode.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECURE_DISALLOW"
+msgstr ""
+"This operation is not permitted in secure mode.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECTION_ERROR"
+msgstr ""
+"Section %s doesn't exist.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_VALUE_ERROR"
+msgstr ""
+""%s" is not a valid value for property %s.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PROPERTY_DUPLICATE"
+msgstr ""
+"There may be other sections with the same property name.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_GET_SYNTAX"
+msgstr ""
+"Correct syntax: config -get "section property".\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PRINT_STARTUP"
+msgstr ""
+"\n"
+"DOSBox-X was started with the following command line parameters:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_MISSINGPARAM"
+msgstr ""
+"Missing parameter.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_INSTALL"
+msgstr ""
+"Installed at PS/2 port.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_VERTICAL"
+msgstr ""
+"Reverse Y-axis enabled.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_VERTICAL_BACK"
+msgstr ""
+"Reverse Y-axis disabled.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_UNINSTALL"
+msgstr ""
+"Driver successfully unloaded...\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_ERROR"
+msgstr ""
+"Already installed at PS/2 port.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_NOINSTALLED"
+msgstr ""
+"Driver is not installed.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_HELP"
+msgstr ""
+"Turns on/off mouse.\n"
+"\n"
+"MOUSE [/?] [/U] [/V]\n"
+"  /U: Uninstall\n"
+"  /V: Reverse Y-axis\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_CDROMS_FOUND"
+msgstr ""
+"CDROMs found: %d\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_FORMAT"
+msgstr ""
+"%-5s  %-58s %-12s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_ELTORITO"
+msgstr ""
+"Drive %c is mounted as El Torito floppy drive\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_RAMDRIVE"
+msgstr ""
+"Drive %c is mounted as RAM drive\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_2"
+msgstr ""
+"Drive %c is mounted as %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_1"
+msgstr ""
+"The currently mounted drives are:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_FORMAT"
+msgstr ""
+"%-5s  %-47s  %-12s  %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_NUMBER_FORMAT"
+msgstr ""
+"%-12s  %-40s  %-12s  %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_2"
+msgstr ""
+"The currently mounted drive numbers are:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_1"
+msgstr ""
+"The currently mounted FAT/ISO drives are:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_NONE"
+msgstr ""
+"No drive available\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ERROR_1"
+msgstr ""
+"Directory %s does not exist.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ERROR_2"
+msgstr ""
+"%s is not a directory\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_IMGMOUNT"
+msgstr ""
+"To mount image files, use the ←[34;1mIMGMOUNT←[0m command, not the ←[34;1mMOUNT←[0m command.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ILL_TYPE"
+msgstr ""
+"Illegal type %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ALREADY_MOUNTED"
+msgstr ""
+"Drive %c already mounted with %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_USAGE"
+msgstr ""
+"Mounts directories or drives in the host system as DOSBox-X drives.\n"
+"Usage: ←[34;1m←[32;1mMOUNT←[0m ←[37;1mdrive←[0m ←[36;1mlocal_directory←[0m [option]←[0m\n"
+" ←[37;1mdrive←[0m            Drive letter where the directory or drive will be mounted.\n"
+" ←[36;1mlocal_directory←[0m  Local directory or drive in the host system to be mounted.\n"
+" [option]         Option(s) for mounting. The following options are accepted:\n"
+" -t               Specify the drive type the mounted drive to behave as.\n"
+"                  Supported drive type: dir, floppy, cdrom, overlay\n"
+" (Note that 'overlay' redirects writes for mounted drive to another directory)\n"
+" -label [name]    Set the volume label name of the drive (all upper case)\n"
+" -ro              Mount the drive in read-only mode.\n"
+" -pr              Specify the path is relative to the config file location.\n"
+" -cd              Generate a list of local CD drive's "drive #" values.\n"
+" -usecd [drive #] For direct hardware emulation such as audio playback.\n"
+" -ioctl           Use lowest level hardware access (following -usecd option).\n"
+" -aspi            Use the installed ASPI layer (following -usecd option).\n"
+" -freesize [size] Specify the free disk space of drive in MB (KB for floppies).\n"
+" -nocachedir      Enable real-time update and do not cache the drive.\n"
+" -z drive         Move virtual drive Z: to a different letter.\n"
+" -o               Report the drive as: local, remote.\n"
+" -q               Quiet mode (no message output).\n"
+" -u               Unmount the drive.\n"
+" ←[32;1m-examples        Show some usage examples.←[0m\n"
+"Type MOUNT with no parameters to display a list of mounted drives.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_EXAMPLE"
+msgstr ""
+"A basic example of MOUNT command:\n"
+"\n"
+"←[32;1mMOUNT c %s←[0m\n"
+"\n"
+"This makes the directory %s act as the C: drive inside DOSBox-X.\n"
+"The directory has to exist in the host system. If the directory contains\n"
+"space(s), be sure to properly quote the directory with double quotes,\n"
+"e.g. %s\n"
+"\n"
+"Some other usage examples of MOUNT:\n"
+"\n"
+"←[32;1mMOUNT←[0m                             - list all mounted drives\n"
+"←[32;1mMOUNT -cd←[0m                         - list all local CD drives\n"
+"←[32;1mMOUNT d %s←[0m            - mount the D: drive to the directory\n"
+"←[32;1mMOUNT c %s -t cdrom←[0m      - mount the C: drive as a CD-ROM drive\n"
+"←[32;1mMOUNT c %s -ro←[0m           - mount the C: drive in read-only mode\n"
+"←[32;1mMOUNT c %s -label TEST←[0m   - mount the C: drive with the label TEST\n"
+"←[32;1mMOUNT c %s -nocachedir ←[0m  - mount C: without caching the drive\n"
+"←[32;1mMOUNT c %s -freesize 128←[0m - mount C: with 128MB free disk space\n"
+"←[32;1mMOUNT c %s -u←[0m            - force mount C: drive even if it's mounted\n"
+"←[32;1mMOUNT c %s -t overlay←[0m  - mount C: with overlay directory on top\n"
+"←[32;1mMOUNT c -u←[0m                        - unmount the C: drive\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NOT_MOUNTED"
+msgstr ""
+"Drive %c is not mounted.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_SUCCESS"
+msgstr ""
+"Drive %c has successfully been removed.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NUMBER_SUCCESS"
+msgstr ""
+"Drive number %c has successfully been removed.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NO_VIRTUAL"
+msgstr ""
+"Virtual Drives can not be unMOUNTed.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_WARNING_WIN"
+msgstr ""
+"Warning: Mounting C:\ is not recommended.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_WARNING_OTHER"
+msgstr ""
+"Warning: Mounting / is not recommended.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_PHYSFS_ERROR"
+msgstr ""
+"Failed to mount the PhysFS drive.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_NO_BASE"
+msgstr ""
+"Please MOUNT a normal directory first before adding an overlay on top.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_INCOMPAT_BASE"
+msgstr ""
+"The overlay is NOT compatible with the drive that is specified.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_MIXED_BASE"
+msgstr "The overlay needs to be specified using the same addressing as the underlying drive. No mixing of relative and absolute paths."
+
+msgid "PROGRAM_MOUNT_OVERLAY_SAME_AS_BASE"
+msgstr ""
+"The overlay directory can not be the same as underlying drive.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_ERROR"
+msgstr ""
+"An error occurred when trying to create an overlay drive.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_STATUS"
+msgstr ""
+"Overlay %s on drive %c mounted.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_ALLOC"
+msgstr ""
+"%d kb allocated.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_DEALLOC"
+msgstr ""
+"%d kb freed.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_DEALLOCALL"
+msgstr ""
+"Used memory freed.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_ERROR"
+msgstr ""
+"Memory allocation error.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_HELP"
+msgstr ""
+"Reduces the amount of available conventional or XMS/EMS memory.\n"
+"\n"
+"LOADFIX [-xms] [-ems] [-{ram}] [{program}] [{options}]\n"
+"LOADFIX -f [-xms] [-ems]\n"
+"\n"
+"  -xms        Allocates memory from XMS rather than conventional memory\n"
+"  -ems        Allocates memory from EMS rather than conventional memory\n"
+"  -{ram}      Specifies the amount of memory to allocate in KB\n"
+"                 Defaults to 64kb for conventional memory; 1MB for XMS/EMS memory\n"
+"  -a          Auto allocates enough memory to fill the lowest 64KB memory\n"
+"  -f (or -d)  Frees previously allocated memory\n"
+"  {program}   Runs the specified program\n"
+"  {options}   Program options (if any)\n"
+"\n"
+"Examples:\n"
+"  ←[32;1mLOADFIX game.exe←[0m     Allocates 64KB of conventional memory and runs game.exe\n"
+"  ←[32;1mLOADFIX -a←[0m           Auto-allocates enough memory conventional memory\n"
+"  ←[32;1mLOADFIX -128←[0m         Allocates 128KB of conventional memory\n"
+"  ←[32;1mLOADFIX -xms←[0m         Allocates 1MB of XMS memory\n"
+"  ←[32;1mLOADFIX -f←[0m           Frees allocated conventional memory\n"
+"\n"
+
+msgid "MSCDEX_SUCCESS"
+msgstr ""
+"MSCDEX installed.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_MULTIPLE_CDROMS"
+msgstr ""
+"MSCDEX: Failure: Drive-letters of multiple CD-ROM drives have to be continuous.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_NOT_SUPPORTED"
+msgstr ""
+"MSCDEX: Failure: Not yet supported.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_PATH"
+msgstr ""
+"MSCDEX: Specified location is not a CD-ROM drive.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_OPEN"
+msgstr ""
+"MSCDEX: Failure: Invalid file or unable to open.\n"
+"\n"
+
+msgid "MSCDEX_TOO_MANY_DRIVES"
+msgstr ""
+"MSCDEX: Failure: Too many CD-ROM drives (max: 5). MSCDEX Installation failed.\n"
+"\n"
+
+msgid "MSCDEX_LIMITED_SUPPORT"
+msgstr ""
+"MSCDEX: Mounted subdirectory: limited support.\n"
+"\n"
+
+msgid "MSCDEX_INVALID_FILEFORMAT"
+msgstr ""
+"MSCDEX: Failure: File is either no ISO/CUE image or contains errors.\n"
+"\n"
+
+msgid "MSCDEX_UNKNOWN_ERROR"
+msgstr ""
+"MSCDEX: Failure: Unknown error.\n"
+"\n"
+
+msgid "PROGRAM_RESCAN_SUCCESS"
+msgstr ""
+"Drive cache cleared.\n"
+"\n"
+
+msgid "PROGRAM_INTRO"
+msgstr ""
+"←[2J←[32;1mWelcome to DOSBox-X←[0m, an open-source x86 emulator with sound and graphics.\n"
+"DOSBox-X creates a shell for you which looks just like the plain DOS.\n"
+"\n"
+"←[31;1mDOSBox-X will stop/exit without a warning if an error occurred!←[0m\n"
+"\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_UP"
+msgstr "DOSBox-X Introduction"
+
+msgid "PROGRAM_INTRO_MENU_BASIC"
+msgstr "Basic mount"
+
+msgid "PROGRAM_INTRO_MENU_CDROM"
+msgstr "CD-ROM support"
+
+msgid "PROGRAM_INTRO_MENU_USAGE"
+msgstr "Usage"
+
+msgid "PROGRAM_INTRO_MENU_INFO"
+msgstr "Information"
+
+msgid "PROGRAM_INTRO_MENU_QUIT"
+msgstr "Quit"
+
+msgid "PROGRAM_INTRO_MENU_BASIC_HELP"
+msgstr ""
+"\n"
+"←[1m   ←[1m←[KMOUNT allows you to connect real hardware to DOSBox-X's emulated PC.←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_CDROM_HELP"
+msgstr ""
+"\n"
+"←[1m   ←[1m←[KTo mount your CD-ROM in DOSBox-X, you need to specify additional options\n"
+"   when mounting the CD-ROM.←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_USAGE_HELP"
+msgstr ""
+"\n"
+"←[1m   ←[1m←[KAn overview of the command line options you can give to DOSBox-X.←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_INFO_HELP"
+msgstr ""
+"\n"
+"←[1m   ←[1m←[KHow to get more information about DOSBox-X.←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_QUIT_HELP"
+msgstr ""
+"\n"
+"←[1m   ←[1m←[KExit from Intro.←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_TOP"
+msgstr ""
+"←[2J←[32;1mAn overview of the command line options you can give to DOSBox-X.←[0m\n"
+"Windows users must open cmd.exe or edit the shortcut to DOSBox-X.exe for this.\n"
+"\n"
+"dosbox-x [name] [-exit] [-version] [-fastlaunch] [-fullscreen]\n"
+"         [-conf congfigfile] [-lang languagefile] [-machine machinetype]\n"
+"         [-startmapper] [-noautoexec] [-scaler scaler | -forcescaler scaler]\n"
+"         [-noconsole] [-c command] [-set <section property=value>]\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_1"
+msgstr ""
+"←[33;1m  name←[0m\n"
+"○If name is a directory it will mount that as the C: drive.\n"
+"○If name is an executable it will mount the directory of name\n"
+"○as the C: drive and execute name.\n"
+"\n"
+"←[33;1m  -exit←[0m\n"
+"○DOSBox-X will close itself when the DOS application name ends.\n"
+"\n"
+"←[33;1m  -version←[0m\n"
+"○Outputs version information and exit. Useful for frontends.\n"
+"\n"
+"←[33;1m  -fastlaunch←[0m\n"
+"○Enables fast launch mode (skip BIOS logo and welcome banner).\n"
+"\n"
+"←[33;1m  -fullscreen←[0m\n"
+"○Starts DOSBox-X in fullscreen mode.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_2"
+msgstr ""
+"←[33;1m  -conf←[0m configfile\n"
+"○Start DOSBox-X with the options specified in configfile.\n"
+"○See the documentation for more details.\n"
+"\n"
+"←[33;1m  -lang←[0m languagefile\n"
+"○Start DOSBox-X using the language specified in languagefile.\n"
+"\n"
+"←[33;1m  -noconsole←[0m (Windows Only)\n"
+"○Start DOSBox-X without showing the console window. Output will\n"
+"○be redirected to stdout.txt and stderr.txt\n"
+"\n"
+"←[33;1m  -machine←[0m machinetype\n"
+"○Setup DOSBox-X to emulate a specific type of machine. Valid choices:\n"
+"○hercules, cga, cga_mono, mcga, mda, pcjr, tandy, ega, vga, vgaonly,\n"
+"○pc98, vesa_nolfb, vesa_oldvbe, svga_paradise, svga_s3 (default).\n"
+"○The machinetype affects both the video card and available sound cards.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_3"
+msgstr ""
+"←[33;1m  -startmapper←[0m\n"
+"○Enter the keymapper directly on startup. Useful for people with\n"
+"○keyboard problems.\n"
+"\n"
+"←[33;1m  -noautoexec←[0m\n"
+"○Skips the [autoexec] section of the loaded configuration file.\n"
+"\n"
+"←[33;1m  -c←[0m command\n"
+"○Runs the specified command before running name. Multiple commands\n"
+"○can be specified. Each command should start with -c, though.\n"
+"○A command can be: an Internal Program, a DOS command or an executable\n"
+"○on a mounted drive.\n"
+"\n"
+"←[33;1m  -set←[0m <section property=value>\n"
+"○Sets the config option (overriding the config file). Multiple options\n"
+"○can be specified. Each option should start with -set, though.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_INFO"
+msgstr ""
+"←[32;1mInformation:←[0m\n"
+"\n"
+"For information about basic mount, type ←[34;1mintro mount←[0m\n"
+"For information about CD-ROM support, type ←[34;1mintro cdrom←[0m\n"
+"For information about special keys, type ←[34;1mintro special←[0m\n"
+"For information about usage, type ←[34;1mintro usage←[0m\n"
+"\n"
+"For the latest version of DOSBox-X, go to its homepage:←[34;1m\n"
+"\n"
+"←[34;1mhttps://dosbox-x.com/←[0m or ←[34;1mhttp://dosbox-x.software←[0m\n"
+"\n"
+"For more information about DOSBox-X, please take a look at its Wiki:\n"
+"\n"
+"←[34;1mhttps://dosbox-x.com/wiki←[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MOUNT_START"
+msgstr ""
+"←[32;1mHere are some commands to get you started:←[0m\n"
+"Before you can use the files located on your own filesystem,\n"
+"you have to mount the directory containing the files.\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MOUNT_EXST_WINDOWS"
+msgstr "←[32mmount c c:\dosgames\←[37m will create a C drive with c:\dosgames as contents."
+
+msgid "PROGRAM_INTRO_MOUNT_EXEN_WINDOWS"
+msgstr "c:\dosgames\←[37m is an example. Replace it with your own games directory.  ←[37m "
+
+msgid "PROGRAM_INTRO_MOUNT_EXST_OTHER"
+msgstr "←[32mmount c ~/dosgames←[37m will create a C drive with ~/dosgames as contents."
+
+msgid "PROGRAM_INTRO_MOUNT_EXEN_OTHER"
+msgstr "←[32m~/dosgames←[37m is an example. Replace it with your own games directory.←[37m  "
+
+msgid "PROGRAM_INTRO_MOUNT_END"
+msgstr ""
+"When the mount has successfully completed you can type ←[34;1mc:←[0m to go to your freshly\n"
+"mounted C: drive. Typing ←[34;1mdir←[0m there will show its contents. ←[34;1mcd←[0m will allow you to\n"
+"enter a directory (recognised by the ←[33;1m[]←[0m in a directory listing).\n"
+"You can run programs/files which end with ←[31m.exe .bat←[0m and ←[31m.com←[0m.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_CDROM"
+msgstr ""
+"←[2J←[32;1mHow to mount a Real/Virtual CD-ROM Drive in DOSBox-X:←[0m\n"
+"DOSBox-X provides CD-ROM emulation on several levels.\n"
+"\n"
+"The ←[33mbasic←[0m level works on all CD-ROM drives and normal directories.\n"
+"It installs MSCDEX and marks the files read-only.\n"
+"Usually this is enough for most games:\n"
+"←[34;1mmount d ←[0;31mD:\←[34;1m -t cdrom←[0m   or   ←[34;1mmount d C:\example -t cdrom←[0m\n"
+"If it doesn't work you might have to tell DOSBox-X the label of the CD-ROM:\n"
+"←[34;1mmount d C:\example -t cdrom -label CDLABEL←[0m\n"
+"\n"
+"The ←[33mnext←[0m level adds some low-level support.\n"
+"Therefore only works on CD-ROM drives:\n"
+"←[34;1mmount d ←[0;31mD:\←[34;1m -t cdrom -usecd ←[33m0←[0m\n"
+"\n"
+"The ←[33mlast←[0m level of support depends on your Operating System:\n"
+"For ←[1mWindows 2000←[0m, ←[1mWindows XP←[0m and ←[1mLinux←[0m:\n"
+"←[34;1mmount d ←[0;31mD:\←[34;1m -t cdrom -usecd ←[33m0 ←[34m-ioctl←[0m\n"
+"For ←[1mWindows 9x←[0m with a ASPI layer installed:\n"
+"←[34;1mmount d ←[0;31mD:\←[34;1m -t cdrom -usecd ←[33m0 ←[34m-aspi←[0m\n"
+"\n"
+"Replace ←[0;31mD:\←[0m with the location of your CD-ROM.\n"
+"Replace the ←[33;1m0←[0m in ←[34;1m-usecd ←[33m0←[0m with the number reported for your CD-ROM if you type:\n"
+"←[34;1mmount -cd←[0m\n"
+"\n"
+
+msgid "PROGRAM_BOOT_NOT_EXIST"
+msgstr ""
+"Bootdisk file does not exist.  Failing.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_NOT_OPEN"
+msgstr ""
+"Cannot open bootdisk file.  Failing.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_WRITE_PROTECTED"
+msgstr ""
+"Image file is read-only! Boot in write-protected mode.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_PRINT_ERROR"
+msgstr ""
+"This command boots DOSBox-X from either a floppy or hard disk image.\n"
+"\n"
+"For this command, one can specify a succession of floppy disks swappable\n"
+"by the menu command, and drive: specifies the mounted drive to boot from.\n"
+"If no drive letter is specified, this defaults to boot from the A drive.\n"
+"If no parameter is specified, it will try to boot from the current drive.\n"
+"The only bootable drive letters are A, C, and D.  For booting from a hard\n"
+"drive (C or D), ensure the image is already mounted by ←[34;1mIMGMOUNT←[0m command.\n"
+"\n"
+"The syntax of this command is one of the following:\n"
+"\n"
+"←[34;1mBOOT [driveletter:]←[0m\n"
+"\n"
+"←[34;1mBOOT diskimg1.img [diskimg2.img ...] [-L driveletter]←[0m\n"
+"\n"
+"Note: An image file with a leading colon (:) will be booted in write-protected\n"
+"mode if the "leading colon write protect image" option is enabled.\n"
+"\n"
+"Examples:\n"
+"\n"
+"←[32;1mBOOT A:←[0m       - boot from drive A: if it is mounted and bootable.\n"
+"←[32;1mBOOT :DOS.IMG←[0m - boot from floppy image DOS.IMG in write-protected mode.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_UNABLE"
+msgstr ""
+"Unable to boot off of drive %c.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_IMAGE_OPEN"
+msgstr ""
+"Opening image file: %s\n"
+"\n"
+
+msgid "PROGRAM_BOOT_IMAGE_NOT_OPEN"
+msgstr ""
+"Cannot open %s\n"
+"\n"
+
+msgid "PROGRAM_BOOT_CART_WO_PCJR"
+msgstr "PCjr cartridge found, but machine is not PCjr"
+
+msgid "PROGRAM_BOOT_CART_LIST_CMDS"
+msgstr "Available PCjr cartridge commandos:%s"
+
+msgid "PROGRAM_BOOT_CART_NO_CMDS"
+msgstr "No PCjr cartridge commandos found"
+
+msgid "PROGRAM_LOADROM_HELP"
+msgstr ""
+"Loads the specified ROM image file.\n"
+"\n"
+"LOADROM ROM_file\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_SPECIFY_FILE"
+msgstr ""
+"Must specify ROM file to load.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_CANT_OPEN"
+msgstr ""
+"ROM file not accessible.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_TOO_LARGE"
+msgstr ""
+"ROM file too large.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_INCOMPATIBLE"
+msgstr ""
+"Video BIOS not supported by machine type.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_UNRECOGNIZED"
+msgstr ""
+"ROM file not recognized.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_BASIC_LOADED"
+msgstr ""
+"BASIC ROM loaded.\n"
+"\n"
+
+msgid "PROGRAM_BIOSTEST_HELP"
+msgstr ""
+"Boots into a BIOS image for running CPU tester BIOS.\n"
+"\n"
+"BIOSTEST image_file\n"
+"\n"
+
+msgid "VHD_ERROR_OPENING"
+msgstr ""
+"Could not open the specified VHD file.\n"
+"\n"
+
+msgid "VHD_INVALID_DATA"
+msgstr ""
+"The specified VHD file is corrupt and cannot be opened.\n"
+"\n"
+
+msgid "VHD_UNSUPPORTED_TYPE"
+msgstr ""
+"The specified VHD file is of an unsupported type.\n"
+"\n"
+
+msgid "VHD_ERROR_OPENING_PARENT"
+msgstr ""
+"The parent of the specified VHD file could not be found.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_DATA"
+msgstr ""
+"The parent of the specified VHD file is corrupt and cannot be opened.\n"
+"\n"
+
+msgid "VHD_PARENT_UNSUPPORTED_TYPE"
+msgstr ""
+"The parent of the specified VHD file is of an unsupported type.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_MATCH"
+msgstr ""
+"The parent of the specified VHD file does not contain the expected identifier.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_DATE"
+msgstr ""
+"The parent of the specified VHD file has been changed and cannot be loaded.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY_DRIVE"
+msgstr ""
+"Must specify drive letter to mount image at.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY2"
+msgstr ""
+"Must specify drive number (0 to %d) to mount image at (0,1=fda,fdb;2,3=hda,hdb).\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_INVALID_IMAGE"
+msgstr ""
+"Could not load image file.\n"
+"Check that the path is correct and the image is accessible.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_DYNAMIC_VHD_UNSUPPORTED"
+msgstr ""
+"Dynamic VHD files are not supported.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_INVALID_GEOMETRY"
+msgstr ""
+"Could not extract drive geometry from image.\n"
+"Use parameter -size bps,spc,hpc,cyl to specify the geometry.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_AUTODET_VALUES"
+msgstr ""
+"Image geometry auto detection: -size %u,%u,%u,%u\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_TYPE_UNSUPPORTED"
+msgstr ""
+"Type "%s" is unsupported. Specify "hdd" or "floppy" or "iso".\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_FORMAT_UNSUPPORTED"
+msgstr ""
+"Format "%s" is unsupported. Specify "fat" or "iso" or "none".\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY_FILE"
+msgstr ""
+"Must specify image file(s) to mount.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_FILE_NOT_FOUND"
+msgstr ""
+"Image file not found.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_DEFAULT_NOT_FOUND"
+msgstr ""
+"Image file not found: IMGMAKE.IMG.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MOUNT"
+msgstr ""
+"To mount directories, use the ←[34;1mMOUNT←[0m command, not the ←[34;1mIMGMOUNT←[0m command.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_ALREADY_MOUNTED"
+msgstr ""
+"Drive already mounted at that letter.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_ALREADY_MOUNTED_NUMBER"
+msgstr ""
+"Drive number %d already mounted.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_CANT_CREATE"
+msgstr ""
+"Cannot create drive from file.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_CANT_CREATE_PHYSFS"
+msgstr ""
+"Cannot create PhysFS drive.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MOUNT_NUMBER"
+msgstr ""
+"Drive number %d mounted as %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_NON_LOCAL_DRIVE"
+msgstr ""
+"The image must be on a host, local or network drive.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MULTIPLE_NON_CUEISO_FILES"
+msgstr ""
+"Using multiple files is only supported for cue/iso images.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_HELP"
+msgstr ""
+"Mounts floppy, hard drive and optical disc images.\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1mdrive←[0m ←[36;1mfile←[0m [-ro] [-t floppy] [-fs fat] [-size ss,s,h,c]\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1mdrive←[0m ←[36;1mfile←[0m [-ro] [-t hdd] [-fs fat] [-size ss,s,h,c] [-ide controller]\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1mdriveNum←[0m ←[36;1mfile←[0m [-ro] [-fs none] [-size ss,s,h,c] [-reservecyl #]\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1mdrive←[0m ←[36;1mfile←[0m [-t iso] [-fs iso]\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1mdrive←[0m [-t floppy] -bootcd cdDrive (or -el-torito cdDrive)\n"
+"←[32;1mIMGMOUNT←[0m ←[37;1mdrive←[0m -t ram -size size\n"
+"←[32;1mIMGMOUNT←[0m -u ←[37;1mdrive|driveNum←[0m (or ←[32;1mIMGMOUNT←[0m ←[37;1mdrive|driveNum←[0m ←[36;1mfile←[0m [options] -u)\n"
+" ←[37;1mdrive←[0m               Drive letter to mount the image at.\n"
+" ←[37;1mdriveNum←[0m            Drive number to mount, where 0-1 are FDDs, 2-5 are HDDs.\n"
+" ←[36;1mfile←[0m                Image filename(s), or ←[33;1mIMGMAKE.IMG←[0m if not specified.\n"
+" -t iso              Image type is optical disc iso or cue / bin image.\n"
+" -t hdd              Image type is hard disk; VHD and HDI files are supported.\n"
+" -t floppy|ram       Image type is floppy drive|RAM drive.\n"
+" -fs iso             Filesystem is ISO 9660 (auto-assumed for .iso/.cue files).\n"
+" -fs fat             Filesystem is FAT - FAT12, FAT16 and FAT32 are supported.\n"
+" -fs none            Do not detect filesystem (auto-assumed for drive numbers).\n"
+" -reservecyl #       Report # number of cylinders less than actual in BIOS.\n"
+" -ide controller     Specify IDE controller (1m, 1s, 2m, 2s) to mount drive.\n"
+" -size size|ss,s,h,c Specify the size in KB, or sector size and CHS geometry.\n"
+" -bootcd cdDrive     Specify the CD drive to load the bootable floppy from.\n"
+" -ro                 Mount image(s) read-only (or leading ':' for read-only).\n"
+" -u                  Unmount the drive or drive number.\n"
+" ←[32;1m-examples           Show some usage examples.←[0m\n"
+
+msgid "PROGRAM_IMGMOUNT_EXAMPLE"
+msgstr ""
+"Some usage examples of IMGMOUNT:\n"
+"\n"
+"  ←[32;1mIMGMOUNT←[0m                       - list mounted FAT/ISO drives & drive numbers\n"
+"  ←[32;1mIMGMOUNT C←[0m                     - mount hard disk image ←[33;1mIMGMAKE.IMG←[0m as C:\n"
+"  ←[32;1mIMGMOUNT C c:\image.img←[0m        - mount hard disk image c:\image.img as C:\n"
+"  ←[32;1mIMGMOUNT D c:\files\game.iso←[0m   - mount CD image c:\files\game.iso as D:\n"
+"  ←[32;1mIMGMOUNT D cdaudio.cue←[0m         - mount cue file of a cue/bin pair as CD drive\n"
+"  ←[32;1mIMGMOUNT 0 dos.ima←[0m             - mount floppy image dos.ima as drive number 0\n"
+"                                   (←[33;1mBOOT A:←[0m will boot from drive if bootable)\n"
+"  ←[32;1mIMGMOUNT A -ro dos.ima←[0m         - mount floppy image dos.ima as A: read-only\n"
+"  ←[32;1mIMGMOUNT A :dsk1.img dsk2.img←[0m  - mount floppy images dsk1.img and dsk2.img as\n"
+"                                   A:, swappable via menu item "Swap floppy",\n"
+"                                   with dsk1.img read-only (but not dsk2.img)\n"
+"  ←[32;1mIMGMOUNT A -bootcd D←[0m           - mount bootable floppy A: from CD drive D:\n"
+"  ←[32;1mIMGMOUNT C -t ram -size 10000←[0m  - mount hard drive C: as a 10MB RAM drive\n"
+"  ←[32;1mIMGMOUNT C disk.img -u←[0m         - force mount hard disk image disk.img as C:,\n"
+"                                   auto-unmount drive beforehand if necessary\n"
+"  ←[32;1mIMGMOUNT A -u←[0m                  - unmount previously-mounted drive A:\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_SYNTAX"
+msgstr ""
+"Creates floppy or hard disk images.\n"
+"Usage: ←[34;1mIMGMAKE [file] [-t type] [[-size size] | [-chs geometry]] [-spc] [-nofs]←[0m\n"
+"  ←[34;1m[-bat] [-fat] [-fatcopies] [-rootdir] [-force] [-source source] [-retries #]←[0m\n"
+"  file: Image file to create (or ←[33;1mIMGMAKE.IMG←[0m if not set) - ←[31;1mpath on the host←[0m\n"
+"  -t: Type of image.\n"
+"    ←[33;1mFloppy disk templates←[0m (names resolve to floppy sizes in KB or fd=fd_1440):\n"
+"     fd_160 fd_180 fd_200 fd_320 fd_360 fd_400 fd_720 fd_1200 fd_1440 fd_2880\n"
+"    ←[33;1mHard disk templates:←[0m\n"
+"     hd_250: 250MB image, hd_520: 520MB image, hd_1gig: 1GB image\n"
+"     hd_2gig: 2GB image, hd_4gig: 4GB image, hd_8gig: 8GB image\n"
+"     hd_st251: 40MB image, hd_st225: 20MB image (geometry from old drives)\n"
+"    ←[33;1mCustom hard disk images:←[0m hd (requires -size or -chs)\n"
+"  -size: Size of a custom hard disk image in MB.\n"
+"  -chs: Disk geometry in cylinders(1-1023),heads(1-255),sectors(1-63).\n"
+"  -nofs: Add this parameter if a blank image should be created.\n"
+"  -force: Force to overwrite the existing image file.\n"
+"  -bat: Create a .bat file with the IMGMOUNT command required for this image.\n"
+"  -fat: FAT filesystem type (12, 16, or 32).\n"
+"  -spc: Sectors per cluster override. Must be a power of 2.\n"
+"  -fatcopies: Override number of FAT table copies.\n"
+"  -rootdir: Size of root directory in entries. Ignored for FAT32.\n"
+"  -source: drive letter - if specified the image is read from a floppy disk.\n"
+"  -retries: how often to retry when attempting to read a bad floppy disk(1-99).\n"
+"  ←[32;1m-examples: Show some usage examples.←[0m\n"
+
+msgid "PROGRAM_IMGMAKE_EXAMPLE"
+msgstr ""
+"Some usage examples of IMGMAKE:\n"
+"\n"
+"  ←[32;1mIMGMAKE -t fd←[0m                   - create a 1.44MB floppy image ←[33;1mIMGMAKE.IMG←[0m\n"
+"  ←[32;1mIMGMAKE -t fd_1440 -force←[0m       - force to create a floppy image ←[33;1mIMGMAKE.IMG←[0m\n"
+"  ←[32;1mIMGMAKE dos.img -t fd_2880←[0m      - create a 2.88MB floppy image named dos.img\n"
+"  ←[32;1mIMGMAKE c:\disk.img -t hd -size 50←[0m      - create a 50MB HDD image c:\disk.img\n"
+"  ←[32;1mIMGMAKE c:\disk.img -t hd_520 -nofs←[0m     - create a 520MB blank HDD image\n"
+"  ←[32;1mIMGMAKE c:\disk.img -t hd_2gig -fat 32←[0m  - create a 2GB FAT32 HDD image\n"
+"  ←[32;1mIMGMAKE c:\disk.img -t hd -chs 130,2,17←[0m - create a HDD image of specified CHS\n"
+"  ←[32;1mIMGMAKE c:\disk.img -source a←[0m           - read image from physical drive A:\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FLREAD"
+msgstr ""
+"Disk geometry: %d Cylinders, %d Heads, %d Sectors, %d Kilobytes\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FLREAD2"
+msgstr ""
+"%s =good, %s =good after retries, ! =CRC error, x =sector not found, ? =unknown\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FILE_EXISTS"
+msgstr ""
+"The file "%s" already exists. You can specify "-force" to overwrite.\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_CANNOT_WRITE"
+msgstr ""
+"The file "%s" cannot be opened for writing.\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_NOT_ENOUGH_SPACE"
+msgstr ""
+"Not enough space availible for the image file. Need %u bytes.\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_PRINT_CHS"
+msgstr ""
+"Creating image file "%s" with %u cylinders, %u heads and %u sectors\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_CANT_READ_FLOPPY"
+msgstr ""
+"\n"
+"\n"
+"Unable to read floppy.\n"
+
+msgid "PROGRAM_KEYB_INFO"
+msgstr ""
+"Codepage %i has been loaded\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INFO_LAYOUT"
+msgstr ""
+"Codepage %i has been loaded for layout %s\n"
+"\n"
+
+msgid "PROGRAM_KEYB_SHOWHELP"
+msgstr ""
+"Configures a keyboard for a specific language.\n"
+"\n"
+"KEYB [keyboard layout ID [codepage number [codepage file]]]\n"
+"\n"
+"Some examples:\n"
+"  ←[32;1mKEYB←[0m          Display currently loaded codepage.\n"
+"  ←[32;1mKEYB sp←[0m       Load the Spanish (SP) layout, use an appropriate codepage.\n"
+"  ←[32;1mKEYB sp 850←[0m   Load the Spanish (SP) layout, use codepage 850.\n"
+"  ←[32;1mKEYB sp 850 mycp.cpi←[0m Same as above, but use file mycp.cpi.\n"
+"\n"
+
+msgid "PROGRAM_KEYB_NOERROR"
+msgstr ""
+"Keyboard layout %s loaded for codepage %i\n"
+"\n"
+
+msgid "PROGRAM_KEYB_FILENOTFOUND"
+msgstr ""
+"Keyboard file %s not found\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INVALIDFILE"
+msgstr ""
+"Keyboard file %s invalid\n"
+"\n"
+
+msgid "PROGRAM_KEYB_LAYOUTNOTFOUND"
+msgstr ""
+"No layout in %s for codepage %i\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INVCPFILE"
+msgstr ""
+"None or invalid codepage file for layout %s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_MODE_USAGE"
+msgstr ""
+"Configures system devices.\n"
+"\n"
+"←[34;1mMODE←[0m display-type       :display-type codes are ←[1mCO80←[0m, ←[1mBW80←[0m, ←[1mCO40←[0m, ←[1mBW40←[0m, or ←[1mMONO←[0m\n"
+"←[34;1mMODE CON COLS=←[0mc ←[34;1mLINES=←[0mn :columns and lines, c=80 or 132, n=25, 43, 50, or 60\n"
+"←[34;1mMODE CON RATE=←[0mr ←[34;1mDELAY=←[0md :typematic rates, r=1-32 (32=fastest), d=1-4 (1=lowest)\n"
+"\n"
+
+msgid "PROGRAM_MODE_INVALID_PARAMETERS"
+msgstr ""
+"Invalid parameter(s).\n"
+"\n"
+
+msgid "SHELL_CMD_TREE_ERROR"
+msgstr ""
+"No subdirectories exist\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_TREE"
+msgstr ""
+"Directory PATH listing for Volume %s\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_DRIVE"
+msgstr ""
+"\n"
+" Volume in drive %c \n"
+
+msgid "SHELL_CMD_VOL_SERIAL"
+msgstr " Volume Serial Number is "
+
+msgid "SHELL_CMD_VOL_SERIAL_NOLABEL"
+msgstr ""
+"has no label\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_SERIAL_LABEL"
+msgstr ""
+"is %s\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_PATH"
+msgstr ""
+"Path not found\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_DRIVE"
+msgstr ""
+"Invalid drive specification\n"
+"\n"
+
+msgid "SHELL_CMD_HELP"
+msgstr ""
+"If you want a list of all supported internal commands type ←[33;1mHELP /ALL←[0m.\n"
+"You can also find external commands on the Z: drive as programs.\n"
+"A short list of the most often used commands:\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_END1"
+msgstr ""
+"External commands such as ←[33;1mMOUNT←[0m and ←[33;1mIMGMOUNT←[0m can be found on the Z: drive.\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_END2"
+msgstr ""
+"Type ←[33;1mHELP command←[0m or ←[33;1mcommand /?←[0m for help information for the specified command.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_ON"
+msgstr ""
+"ECHO is on.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_OFF"
+msgstr ""
+"ECHO is off.\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_SWITCH"
+msgstr ""
+"Invalid switch - %s\n"
+"\n"
+
+msgid "SHELL_MISSING_PARAMETER"
+msgstr ""
+"Required parameter missing.\n"
+"\n"
+
+msgid "SHELL_MISSING_FILE"
+msgstr ""
+"The following file is missing or corrupted: %s\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_ERROR"
+msgstr ""
+"Invalid directory - %s\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT"
+msgstr ""
+"Hint: To change to different drive type ←[31m%c:←[0m\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT_2"
+msgstr ""
+"directoryname contains unquoted spaces.\n"
+"Try ←[31mcd %s←[0m or properly quote them with quotation marks.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT_3"
+msgstr ""
+"You are still on drive Z:, and the specified directory cannot be found.\n"
+"For accessing a mounted drive, change to the drive with a syntax like ←[31mC:←[0m.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_HELP"
+msgstr ""
+"Displays or changes the internal date.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_ERROR"
+msgstr ""
+"The specified date is not correct.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_DAYS"
+msgstr "3SunMonTueWedThuFriSat"
+
+msgid "SHELL_CMD_DATE_NOW"
+msgstr "Current date: "
+
+msgid "SHELL_CMD_DATE_SETHLP"
+msgstr ""
+"Type 'date %s' to change.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_HELP_LONG"
+msgstr ""
+"DATE [[/T] [/H] [/S] | date]\n"
+"  date:       New date to set\n"
+"  /S:         Permanently use host time and date as DOS time\n"
+"  /F:         Switch back to DOSBox-X internal time (opposite of /S)\n"
+"  /T:         Only display date\n"
+"  /H:         Synchronize with host\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_HELP"
+msgstr ""
+"Displays or changes the internal time.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_ERROR"
+msgstr ""
+"The specified time is not correct.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_NOW"
+msgstr "Current time: "
+
+msgid "SHELL_CMD_TIME_SETHLP"
+msgstr ""
+"Type 'time %s' to change.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_HELP_LONG"
+msgstr ""
+"TIME [[/T] [/H] | time]\n"
+"  time:       New time to set\n"
+"  /T:         Display simple time\n"
+"  /H:         Synchronize with host\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_EXIST"
+msgstr ""
+"Directory already exists - %s\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_ERROR"
+msgstr ""
+"Unable to create directory - %s\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_ERROR"
+msgstr ""
+"Invalid path, not directory, or directory not empty - %s\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_ERROR"
+msgstr ""
+"Unable to rename - %s\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_GET_ERROR"
+msgstr ""
+"Unable to get attributes: %s\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_SET_ERROR"
+msgstr ""
+"Unable to set attributes: %s\n"
+"\n"
+
+msgid "SHELL_CMD_DEL_ERROR"
+msgstr ""
+"Unable to delete - %s\n"
+"\n"
+
+msgid "SHELL_CMD_DEL_SURE"
+msgstr ""
+"All files in directory will be deleted!\n"
+"Are you sure [Y/N]?\n"
+
+msgid "SHELL_SYNTAXERROR"
+msgstr ""
+"Syntax error\n"
+"\n"
+
+msgid "SHELL_CMD_SET_NOT_SET"
+msgstr ""
+"Environment variable %s not defined.\n"
+"\n"
+
+msgid "SHELL_CMD_SET_OUT_OF_SPACE"
+msgstr ""
+"Not enough environment space left.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_EXIST_MISSING_FILENAME"
+msgstr ""
+"IF EXIST: Missing filename.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_ERRORLEVEL_MISSING_NUMBER"
+msgstr ""
+"IF ERRORLEVEL: Missing number.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_ERRORLEVEL_INVALID_NUMBER"
+msgstr ""
+"IF ERRORLEVEL: Invalid number.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_MISSING_LABEL"
+msgstr ""
+"No label supplied to GOTO command.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_LABEL_NOT_FOUND"
+msgstr ""
+"GOTO: Label %s not found.\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_ACCESS_DENIED"
+msgstr ""
+"Access denied - %s\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_NOT_FOUND"
+msgstr ""
+"File not found - %s\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_EXISTS"
+msgstr ""
+"File %s already exists.\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_INTRO"
+msgstr ""
+" Directory of %s\n"
+"\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_BYTES_USED"
+msgstr ""
+"%5d File(s) %17s Bytes\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_BYTES_FREE"
+msgstr ""
+"%5d Dir(s)  %17s Bytes free\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_FILES_LISTED"
+msgstr ""
+"Total files listed:\n"
+"\n"
+
+msgid "SHELL_EXECUTE_DRIVE_NOT_FOUND"
+msgstr ""
+"Drive %c does not exist!\n"
+"You must ←[31mmount←[0m it first. Type ←[1;33mintro←[0m or ←[1;33mintro mount←[0m for more information.\n"
+"\n"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_CDROM"
+msgstr "Do you want to give DOSBox-X access to your real CD-ROM drive %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FLOPPY"
+msgstr "Do you want to give DOSBox-X access to your real floppy drive %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_REMOVABLE"
+msgstr "Do you want to give DOSBox-X access to your real removable drive %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_NETWORK"
+msgstr "Do you want to give DOSBox-X access to your real network drive %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FIXED"
+msgstr ""
+"Do you really want to give DOSBox-X access to everything\n"
+"on your real hard drive %c [Y/N]?\n"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FIXED_LESS"
+msgstr "Do you want to give DOSBox-X access to your real hard drive %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_ILLEGAL_COMMAND"
+msgstr ""
+"Bad command or filename - "%s"\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE"
+msgstr ""
+"Press any key to continue . . .\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE_HELP"
+msgstr ""
+"Waits for one keystroke to continue.\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE_HELP_LONG"
+msgstr ""
+"PAUSE\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_FAILURE"
+msgstr ""
+"Copy failure - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_SUCCESS"
+msgstr ""
+"   %d File(s) copied.\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_CONFIRM"
+msgstr "Overwrite %s (Yes/No/All)?"
+
+msgid "SHELL_CMD_COPY_NOSPACE"
+msgstr ""
+"Insufficient disk space - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_ERROR"
+msgstr ""
+"Copy error - %s\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_DRIVE_LIST"
+msgstr ""
+"The currently mounted local drives are:\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_NO_REMOVE"
+msgstr ""
+"Unable to remove, drive not in use.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_IN_USE"
+msgstr ""
+"Target drive is already in use.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_NOT_LOCAL"
+msgstr ""
+"It is only possible to use SUBST on local drives.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_INVALID_PATH"
+msgstr ""
+"The specified drive or path is invalid.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_FAILURE"
+msgstr ""
+"SUBST: There is an error in your command line.\n"
+"\n"
+
+msgid "SHELL_STARTUP_TITLE"
+msgstr "Welcome to DOSBox-X !"
+
+msgid "SHELL_STARTUP_HEAD1_PC98"
+msgstr "←[36mGetting Started with DOSBox-X:←[37m                                    "
+
+msgid "SHELL_STARTUP_TEXT1_PC98"
+msgstr ""
+"Type ←[32mHELP←[37m for shell commands, and ←[32mINTRO←[37m for a short introduction. \n"
+"You could also complete various tasks through the ←[33mdrop-down menus←[37m.\n"
+
+msgid "SHELL_STARTUP_EXAMPLE_PC98"
+msgstr "←[32mExample←[37m: Try select ←[33mTrueType font←[37m or ←[33mOpenGL perfect←[37m output option."
+
+msgid "SHELL_STARTUP_TEXT2_PC98"
+msgstr ""
+"To launch the ←[33mConfiguration Tool←[37m, use ←[31mhost+C←[37m. Host key is ←[32mF11←[37m.    \n"
+"To activate the ←[33mMapper Editor←[37m for key assignments, use ←[31mhost+M←[37m.    \n"
+"To switch between windowed and full-screen mode, use ←[31mhost+F←[37m.      \n"
+"To adjust the emulated CPU speed, use ←[31mhost+Plus←[37m and ←[31mhost+Minus←[37m.   \n"
+
+msgid "SHELL_STARTUP_INFO_PC98"
+msgstr "←[36mDOSBox-X is now running in ←[32mJapanese NEC PC-98←[36m emulation mode.←[37m     "
+
+msgid "SHELL_STARTUP_TEXT3_PC98"
+msgstr ""
+"←[32mDOSBox-X project ←[33mhttps://dosbox-x.com/     ←[36mComplete DOS emulations←[37m\n"
+"←[32mDOSBox-X guide   ←[33mhttps://dosbox-x.com/wiki←[37m ←[36mDOS, Windows 3.x and 9x←[37m\n"
+"←[32mDOSBox-X support ←[33mhttps://github.com/joncampbell123/dosbox-x/issues←[37m\n"
+
+msgid "SHELL_STARTUP_HEAD1"
+msgstr "←[36mGetting started with DOSBox-X:                                              ←[37m"
+
+msgid "SHELL_STARTUP_TEXT1"
+msgstr ""
+"Type ←[32mHELP←[37m to see the list of shell commands, ←[32mINTRO←[37m for a brief introduction.\n"
+"You can also complete various tasks in DOSBox-X through the ←[33mdrop-down menus←[37m.\n"
+
+msgid "SHELL_STARTUP_EXAMPLE"
+msgstr "←[32mExample←[37m: Try select the ←[33mTrueType font←[37m or ←[33mOpenGL pixel-perfect←[37m output option."
+
+msgid "SHELL_STARTUP_HEAD2"
+msgstr "←[36mUseful default shortcuts:                                                   ←[37m"
+
+msgid "SHELL_STARTUP_TEXT2"
+msgstr ""
+"- switch between windowed and full-screen mode with key combination ←[31mF11 ←[37m+ ←[31mF←[37m ←[37m\n"
+"- launch ←[33mConfiguration Tool←[37m using ←[31mF11 ←[37m+ ←[31mC←[37m←[37m, and ←[33mMapper Editor←[37m using ←[31mF11 ←[37m+ ←[31mM←[37m  ←[37m\n"
+"- increase or decrease the emulation speed with ←[31mF11 ←[37m+ ←[31mPlus←[37m←[37m or ←[31mF11 ←[37m+ ←[31mMinus←[37m   ←[37m\n"
+
+msgid "SHELL_STARTUP_CGA"
+msgstr ""
+"Composite CGA mode is supported. Use ←[31mCtrl+F8←[37m to set composite output ON/OFF.\n"
+"Use ←[31mCtrl+Shift+[F7/F8]←[37m to change hue; ←[31mCtrl+F7←[37m selects early/late CGA model. \n"
+
+msgid "SHELL_STARTUP_CGA_MONO"
+msgstr ""
+"Use ←[31mCtrl+F7←[37m to cycle through green, amber, and white monochrome color,      \n"
+"and ←[31mCtrl+F8←[37m to change contrast/brightness settings.                         \n"
+
+msgid "SHELL_STARTUP_HERC"
+msgstr ""
+"Use ←[31mCtrl+F7←[37m to cycle through white, amber, and green monochrome color.      \n"
+"Use ←[31mCtrl+F8←[37m to toggle horizontal blending (only in graphics mode).          \n"
+
+msgid "SHELL_STARTUP_HEAD3"
+msgstr "←[36mDOSBox-X project on the web:                                                ←[37m"
+
+msgid "SHELL_STARTUP_TEXT3"
+msgstr ""
+"←[32mHomepage of project←[37m: ←[33mhttps://dosbox-x.com/           ←[36mComplete DOS emulations←[37m\n"
+"←[32mUser guides on Wiki←[37m: ←[33mhttps://dosbox-x.com/wiki←[32m       ←[36mDOS, Windows 3.x and 9x←[37m\n"
+"←[32mIssue or suggestion←[37m: ←[33mhttps://github.com/joncampbell123/dosbox-x/issues      ←[37m\n"
+
+msgid "SHELL_STARTUP_LAST"
+msgstr "HAVE FUN WITH DOSBox-X !"
+
+msgid "SHELL_CMD_BREAK_HELP"
+msgstr ""
+"Sets or clears extended CTRL+C checking.\n"
+"\n"
+
+msgid "SHELL_CMD_BREAK_HELP_LONG"
+msgstr ""
+"BREAK [ON | OFF]\n"
+"\n"
+"Type BREAK without a parameter to display the current BREAK setting.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HELP"
+msgstr ""
+"Displays or changes the current directory.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HELP_LONG"
+msgstr ""
+"CHDIR [drive:][path]\n"
+"CHDIR [..]\n"
+"CD [drive:][path]\n"
+"CD [..]\n"
+"\n"
+"  ..   Specifies that you want to change to the parent directory.\n"
+"\n"
+"Type CD drive: to display the current directory in the specified drive.\n"
+"Type CD without parameters to display the current drive and directory.\n"
+"\n"
+
+msgid "SHELL_CMD_CLS_HELP"
+msgstr ""
+"Clears screen.\n"
+"\n"
+
+msgid "SHELL_CMD_CLS_HELP_LONG"
+msgstr ""
+"CLS\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_HELP"
+msgstr ""
+"Displays a list of files and subdirectories in a directory.\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_HELP_LONG"
+msgstr ""
+"DIR [drive:][path][filename] [/[W|B]] [/S] [/P] [/A[D|H|S|R|A]] [/O[N|E|G|S|D]]\n"
+"\n"
+"  [drive:][path][filename]\n"
+"              Specifies drive, directory, and/or files to list.\n"
+"  /W          Uses wide list format.\n"
+"  /B          Uses bare format (no heading information or summary).\n"
+"  /S          Displays files in specified directory and all subdirectories.\n"
+"  /P          Pauses after each screenful of information.\n"
+"  /A          Displays files with specified attributes.\n"
+"  attributes   D  Directories                R  Read-only files\n"
+"               H  Hidden files               A  Files ready for archiving\n"
+"               S  System files               -  Prefix meaning not\n"
+"  /O          List by files in sorted order.\n"
+"  sortorder    N  By name (alphabetic)       S  By size (smallest first)\n"
+"               E  By extension (alphabetic)  D  By date & time (earliest first)\n"
+"               G  Group directories first    -  Prefix to reverse order\n"
+"\n"
+"Switches may be preset in the DIRCMD environment variable.  Override\n"
+"preset switches by prefixing any switch with - (hyphen)--for example, /-W.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_HELP"
+msgstr ""
+"Displays messages, or turns command-echoing on or off.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_HELP_LONG"
+msgstr ""
+"  ECHO [ON | OFF]\n"
+"  ECHO [message]\n"
+"\n"
+"Type ECHO without parameters to display the current echo setting.\n"
+"\n"
+
+msgid "SHELL_CMD_EXIT_HELP"
+msgstr ""
+"Exits from the command shell.\n"
+"\n"
+
+msgid "SHELL_CMD_EXIT_HELP_LONG"
+msgstr ""
+"EXIT\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_HELP"
+msgstr ""
+"Shows DOSBox-X command help.\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_HELP_LONG"
+msgstr ""
+"HELP [/A or /ALL]\n"
+"HELP [command]\n"
+"\n"
+"   /A or /ALL   Lists all supported internal commands.\n"
+"   [command]    Shows help for the specified command.\n"
+"\n"
+"←[0mE.g., ←[37;1mHELP COPY←[0m or ←[37;1mCOPY /?←[0m shows help information for COPY command.\n"
+"\n"
+"Note: External commands like ←[33;1mMOUNT←[0m and ←[33;1mIMGMOUNT←[0m are not listed by HELP [/A].\n"
+"      These commands can be found on the Z: drive as programs (e.g. MOUNT.COM).\n"
+"      Type ←[33;1mcommand /?←[0m or ←[33;1mHELP command←[0m for help information for that command.\n"
+"\n"
+
+msgid "SHELL_CMD_LS_HELP"
+msgstr ""
+"Lists directory contents.\n"
+"\n"
+
+msgid "SHELL_CMD_LS_HELP_LONG"
+msgstr ""
+"LS [drive:][path][filename] [/A] [/L] [/P] [/Z]\n"
+"\n"
+"  /A     Lists hidden and system files also.\n"
+"  /L     Lists names one per line.\n"
+"  /P     Pauses after each screenful of information.\n"
+"  /Z     Displays short names even if LFN support is available.\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_HELP"
+msgstr ""
+"Creates a directory.\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_HELP_LONG"
+msgstr ""
+"MKDIR [drive:][path]\n"
+"MD [drive:][path]\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_HELP"
+msgstr ""
+"Removes a directory.\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_HELP_LONG"
+msgstr ""
+"RMDIR [drive:][path]\n"
+"RD [drive:][path]\n"
+"\n"
+
+msgid "SHELL_CMD_SET_HELP"
+msgstr ""
+"Displays or changes environment variables.\n"
+"\n"
+
+msgid "SHELL_CMD_SET_HELP_LONG"
+msgstr ""
+"SET [variable=[string]]\n"
+"\n"
+"   variable     Specifies the environment-variable name.\n"
+"   string       Specifies a series of characters to assign to the variable.\n"
+"\n"
+"* If no string is specified, the variable is removed from the environment.\n"
+"\n"
+"Type SET without parameters to display the current environment variables.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_HELP"
+msgstr ""
+"Performs conditional processing in batch programs.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_HELP_LONG"
+msgstr ""
+"IF [NOT] ERRORLEVEL number command\n"
+"IF [NOT] string1==string2 command\n"
+"IF [NOT] EXIST filename command\n"
+"\n"
+"  NOT               Specifies that DOS should carry out\n"
+"                    the command only if the condition is false.\n"
+"\n"
+"  ERRORLEVEL number Specifies a true condition if the last program run\n"
+"                    returned an exit code equal to or greater than the number\n"
+"                    specified.\n"
+"\n"
+"  string1==string2  Specifies a true condition if the specified text strings\n"
+"                    match.\n"
+"\n"
+"  EXIST filename    Specifies a true condition if the specified filename\n"
+"                    exists.\n"
+"\n"
+"  command           Specifies the command to carry out if the condition is\n"
+"                    met.  Command can be followed by ELSE command which\n"
+"                    will execute the command after the ELSE keyword if the\n"
+"                    specified condition is FALSE\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_HELP"
+msgstr ""
+"Jumps to a labeled line in a batch program.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_HELP_LONG"
+msgstr ""
+"GOTO label\n"
+"\n"
+"   label   Specifies a text string used in the batch program as a label.\n"
+"\n"
+"You type a label on a line by itself, beginning with a colon.\n"
+"\n"
+
+msgid "SHELL_CMD_SHIFT_HELP"
+msgstr ""
+"Changes the position of replaceable parameters in a batch file.\n"
+"\n"
+
+msgid "SHELL_CMD_SHIFT_HELP_LONG"
+msgstr ""
+"SHIFT\n"
+"\n"
+
+msgid "SHELL_CMD_FOR_HELP"
+msgstr ""
+"Runs a specified command for each file in a set of files.\n"
+"\n"
+
+msgid "SHELL_CMD_FOR_HELP_LONG"
+msgstr ""
+"FOR %%variable IN (set) DO command [command-parameters]\n"
+"\n"
+"  %%variable  Specifies a replaceable parameter.\n"
+"  (set)      Specifies a set of one or more files. Wildcards may be used.\n"
+"  command    Specifies the command to carry out for each file.\n"
+"  command-parameters\n"
+"             Specifies parameters or switches for the specified command.\n"
+"\n"
+"To use the command in a batch program, specify %%%%variable instead of %%variable.\n"
+"\n"
+
+msgid "SHELL_CMD_LFNFOR_HELP"
+msgstr ""
+"Enables or disables long filenames when processing FOR wildcards.\n"
+"\n"
+
+msgid "SHELL_CMD_LFNFOR_HELP_LONG"
+msgstr ""
+"LFNFOR [ON | OFF]\n"
+"\n"
+"Type LFNFOR without a parameter to display the current LFNFOR setting.\n"
+"\n"
+"This command is only useful if LFN support is currently enabled.\n"
+"\n"
+
+msgid "SHELL_CMD_TYPE_HELP"
+msgstr ""
+"Displays the contents of a text-file.\n"
+"\n"
+
+msgid "SHELL_CMD_TYPE_HELP_LONG"
+msgstr ""
+"TYPE [drive:][path][filename]\n"
+"\n"
+
+msgid "SHELL_CMD_REM_HELP"
+msgstr ""
+"Adds comments in a batch file.\n"
+"\n"
+
+msgid "SHELL_CMD_REM_HELP_LONG"
+msgstr ""
+"REM [comment]\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_HELP"
+msgstr ""
+"Renames a file/directory or files.\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_HELP_LONG"
+msgstr ""
+"RENAME [drive:][path][directoryname1 | filename1] [directoryname2 | filename2]\n"
+"REN [drive:][path][directoryname1 | filename1] [directoryname2 | filename2]\n"
+"\n"
+"Note that you can not specify a new drive or path for your destination.\n"
+"\n"
+"Wildcards (* and ?) are supported for files. For example, the following command\n"
+"renames all text files: ←[37;1mREN *.TXT *.BAK←[0m\n"
+"\n"
+
+msgid "SHELL_CMD_DELETE_HELP"
+msgstr ""
+"Removes one or more files.\n"
+"\n"
+
+msgid "SHELL_CMD_DELETE_HELP_LONG"
+msgstr ""
+"DEL [/P] [/F] [/Q] names\n"
+"ERASE [/P] [/F] [/Q] names\n"
+"\n"
+"  names         Specifies a list of one or more files or directories.\n"
+"                Wildcards may be used to delete multiple files. If a\n"
+"                directory is specified, all files within the directory\n"
+"                will be deleted.\n"
+"  /P            Prompts for confirmation before deleting one or more files.\n"
+"  /F            Force deleting of read-only files.\n"
+"  /Q            Quiet mode, do not ask if ok to delete on global wildcard.\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_HELP"
+msgstr ""
+"Copies one or more files.\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_HELP_LONG"
+msgstr ""
+"COPY [/Y | /-Y] source [+source [+ ...]] [destination]\n"
+"\n"
+"  source        Specifies the file or files to be copied.\n"
+"  destination   Specifies the directory and/or filename for the new file(s).\n"
+"  /Y            Suppresses prompting to confirm you want to overwrite an\n"
+"                existing destination file.\n"
+"  /-Y           Causes prompting to confirm you want to overwrite an\n"
+"                existing destination file.\n"
+"\n"
+"The switch /Y may be preset in the COPYCMD environment variable.\n"
+"This may be overridden with /-Y on the command line.\n"
+"\n"
+"To append files, specify a single file for destination, but multiple files\n"
+"for source (using wildcards or file1+file2+file3 format).\n"
+"\n"
+
+msgid "SHELL_CMD_CALL_HELP"
+msgstr ""
+"Starts a batch file from within another batch file.\n"
+"\n"
+
+msgid "SHELL_CMD_CALL_HELP_LONG"
+msgstr ""
+"CALL [drive:][path]filename [batch-parameters]\n"
+"\n"
+"batch-parameters   Specifies any command-line information required by\n"
+"                   the batch program.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_HELP"
+msgstr ""
+"Assigns an internal directory to a drive.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_HELP_LONG"
+msgstr ""
+"SUBST [drive1: [drive2:]path]\n"
+"SUBST drive1: /D\n"
+"\n"
+"  drive1:       Specifies a drive to which you want to assign a path.\n"
+"  [drive2:]path Specifies a mounted local drive and path you want to assign to.\n"
+"  /D            Deletes a mounted or substituted drive.\n"
+"\n"
+"Type SUBST with no parameters to display a list of mounted local drives.\n"
+"\n"
+
+msgid "SHELL_CMD_LOADHIGH_HELP"
+msgstr ""
+"Loads a program into upper memory (requires XMS and UMB memory).\n"
+"\n"
+
+msgid "SHELL_CMD_LOADHIGH_HELP_LONG"
+msgstr ""
+"LH              [drive:][path]filename [parameters]\n"
+"LOADHIGH        [drive:][path]filename [parameters]\n"
+"\n"
+
+msgid "SHELL_CMD_CHOICE_HELP"
+msgstr ""
+"Waits for a keypress and sets ERRORLEVEL.\n"
+"\n"
+
+msgid "SHELL_CMD_CHOICE_HELP_LONG"
+msgstr ""
+"CHOICE [/C:choices] [/N] [/S] text\n"
+"  /C[:]choices  -  Specifies allowable keys.  Default is: yn.\n"
+"  /N  -  Do not display the choices at end of prompt.\n"
+"  /S  -  Enables case-sensitive choices to be selected.\n"
+"  text  -  The text to display as a prompt.\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_HELP"
+msgstr ""
+"Displays or changes file attributes.\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_HELP_LONG"
+msgstr ""
+"ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [drive:][path][filename] [/S]\n"
+"\n"
+"  +   Sets an attribute.\n"
+"  -   Clears an attribute.\n"
+"  R   Read-only file attribute.\n"
+"  A   Archive file attribute.\n"
+"  S   System file attribute.\n"
+"  H   Hidden file attribute.\n"
+"  [drive:][path][filename]\n"
+"      Specifies file(s) or directory for ATTRIB to process.\n"
+"  /S  Processes files in all directories in the specified path.\n"
+"\n"
+
+msgid "SHELL_CMD_PATH_HELP"
+msgstr ""
+"Displays or sets a search path for executable files.\n"
+"\n"
+
+msgid "SHELL_CMD_PATH_HELP_LONG"
+msgstr ""
+"PATH [[drive:]path[;...][;%PATH%]\n"
+"PATH ;\n"
+"\n"
+"Type PATH ; to clear all search path settings.\n"
+"Type PATH without parameters to display the current path.\n"
+"\n"
+
+msgid "SHELL_CMD_PUSHD_HELP"
+msgstr ""
+"Stores the current directory for use by the POPD command, then\n"
+"changes to the specified directory.\n"
+"\n"
+
+msgid "SHELL_CMD_PUSHD_HELP_LONG"
+msgstr ""
+"PUSHD [path]\n"
+"\n"
+"path        Specifies the directory to make the current directory.\n"
+"\n"
+"Type PUSHD with no parameters to display currently stored directories.\n"
+"\n"
+
+msgid "SHELL_CMD_POPD_HELP"
+msgstr ""
+"Changes to the directory stored by the PUSHD command.\n"
+"\n"
+
+msgid "SHELL_CMD_POPD_HELP_LONG"
+msgstr ""
+"POPD\n"
+"\n"
+
+msgid "SHELL_CMD_VERIFY_HELP"
+msgstr ""
+"Controls whether to verify files are written correctly to a disk.\n"
+"\n"
+
+msgid "SHELL_CMD_VERIFY_HELP_LONG"
+msgstr ""
+"VERIFY [ON | OFF]\n"
+"\n"
+"Type VERIFY without a parameter to display the current VERIFY setting.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_HELP"
+msgstr ""
+"Displays or sets DOSBox-X's reported DOS version.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_HELP_LONG"
+msgstr ""
+"VER [/R]\n"
+"VER [SET] number or VER SET [major minor]\n"
+"\n"
+"  /R                 Display DOSBox-X's Git commit version and build date.\n"
+"  [SET] number       Set the specified number as the reported DOS version.\n"
+"  SET [major minor]  Set the reported DOS version in major and minor format.\n"
+"\n"
+"  ←[0mE.g., ←[37;1mVER 6.0←[0m or ←[37;1mVER 7.1←[0m sets the DOS version to 6.0 and 7.1, respectively.\n"
+"  On the other hand, ←[37;1mVER SET 7 1←[0m sets the DOS version to 7.01 instead of 7.1.\n"
+"\n"
+"Type VER without parameters to display DOSBox-X and the reported DOS version.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_VER"
+msgstr ""
+"DOSBox-X version %s (%s). Reported DOS version %d.%02d.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_INVALID"
+msgstr ""
+"The specified DOS version is not correct.\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_HELP"
+msgstr ""
+"Displays the disk volume label and serial number, if they exist.\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_HELP_LONG"
+msgstr ""
+"VOL [drive]\n"
+"\n"
+
+msgid "SHELL_CMD_PROMPT_HELP"
+msgstr ""
+"Changes the command prompt.\n"
+"\n"
+
+msgid "SHELL_CMD_PROMPT_HELP_LONG"
+msgstr ""
+"PROMPT [text]\n"
+"  text    Specifies a new command prompt.\n"
+"\n"
+"Prompt can be made up of normal characters and the following special codes:\n"
+"  $A   & (Ampersand)\n"
+"  $B   | (pipe)\n"
+"  $C   ( (Left parenthesis)\n"
+"  $D   Current date\n"
+"  $E   Escape code (ASCII code 27)\n"
+"  $F   ) (Right parenthesis)\n"
+"  $G   > (greater-than sign)\n"
+"  $H   Backspace (erases previous character)\n"
+"  $L   < (less-than sign)\n"
+"  $N   Current drive\n"
+"  $P   Current drive and path\n"
+"  $Q   = (equal sign)\n"
+"  $S     (space)\n"
+"  $T   Current time\n"
+"  $V   DOS version number\n"
+"  $_   Carriage return and linefeed\n"
+"  $$   $ (dollar sign)\n"
+"\n"
+
+msgid "SHELL_CMD_ALIAS_HELP"
+msgstr ""
+"Defines or displays aliases.\n"
+"\n"
+
+msgid "SHELL_CMD_ALIAS_HELP_LONG"
+msgstr ""
+"ALIAS [name[=value] ... ]\n"
+"\n"
+"Type ALIAS without parameters to display the list of aliases in the form:\n"
+"`ALIAS NAME = VALUE'\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_HELP"
+msgstr ""
+"Displays or changes the current DOS code page.\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_HELP_LONG"
+msgstr ""
+"CHCP [nnn]\n"
+"\n"
+"  nnn   Specifies a code page number.\n"
+"\n"
+"Supported code pages for changing in the TrueType font output:\n"
+"437,808,850,852,853,855,857,858,860,861,862,863,864,865,866,869,872,874\n"
+"\n"
+"Also double-byte code pages including 932, 936, 949, and 950.\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_ACTIVE"
+msgstr ""
+"Active code page: %d\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_MISSING"
+msgstr ""
+"Characters not defined in TTF font: %d\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_INVALID"
+msgstr ""
+"Invalid code page number - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COUNTRY_HELP"
+msgstr ""
+"Displays or changes the current country.\n"
+"\n"
+
+msgid "SHELL_CMD_COUNTRY_HELP_LONG"
+msgstr ""
+"COUNTRY [nnn] \n"
+"\n"
+"  nnn   Specifies a country code.\n"
+"\n"
+"Date and time formats will be affacted by the specified country code.\n"
+"\n"
+
+msgid "SHELL_CMD_CTTY_HELP"
+msgstr ""
+"Changes the terminal device used to control the system.\n"
+"\n"
+
+msgid "SHELL_CMD_CTTY_HELP_LONG"
+msgstr ""
+"CTTY device\n"
+"  device        The terminal device to use, such as CON.\n"
+"\n"
+
+msgid "SHELL_CMD_MORE_HELP"
+msgstr ""
+"Displays output one screen at a time.\n"
+"\n"
+
+msgid "SHELL_CMD_MORE_HELP_LONG"
+msgstr ""
+"MORE [drive:][path][filename]\n"
+"MORE < [drive:][path]filename\n"
+"command-name | MORE [drive:][path][filename]\n"
+"\n"
+
+msgid "SHELL_CMD_TRUENAME_HELP"
+msgstr ""
+"Finds the fully-expanded name for a file.\n"
+"\n"
+
+msgid "SHELL_CMD_TRUENAME_HELP_LONG"
+msgstr ""
+"TRUENAME [/H] file\n"
+"\n"
+
+msgid "SHELL_CMD_DXCAPTURE_HELP"
+msgstr ""
+"Runs program with video or audio capture.\n"
+"\n"
+
+msgid "SHELL_CMD_DXCAPTURE_HELP_LONG"
+msgstr ""
+"DX-CAPTURE [/V|/-V] [/A|/-A] [/M|/-M] [command] [options]\n"
+"\n"
+"It will start video or audio capture, run program, and then automatically stop capture when the program exits.\n"
+"\n"
+
+msgid "SHELL_CMD_DEBUGBOX_HELP"
+msgstr ""
+"Runs program and breaks into debugger at entry point.\n"
+"\n"
+
+msgid "SHELL_CMD_DEBUGBOX_HELP_LONG"
+msgstr ""
+"DEBUGBOX [command] [options]\n"
+"\n"
+"Type DEBUGBOX without a parameter to start the debugger.\n"
+"\n"
+
+msgid "SHELL_CMD_COMMAND_HELP"
+msgstr ""
+"Starts the DOSBox-X command shell.\n"
+"\n"
+"The following options are accepted:\n"
+"\n"
+"  /C    Executes the specified command and returns.\n"
+"  /K    Executes the specified command and continues running.\n"
+"  /P    Loads a permanent copy of the command shell.\n"
+"  /INIT Initializes the command shell.\n"
+"\n"
+
+msgid "MENU:mapper_reset"
+msgstr "Reset virtual machine"
+
+msgid "MENU:mapper_reboot"
+msgstr "Reboot guest system"
+
+msgid "MENU:mapper_loadmap"
+msgstr "Load mapper file..."
+
+msgid "MENU:mapper_quickrun"
+msgstr "Quick launch program..."
+
+msgid "MENU:mapper_shutdown"
+msgstr "Quit from DOSBox-X"
+
+msgid "MENU:mapper_capmouse"
+msgstr "Capture mouse"
+
+msgid "MENU:mapper_fastedit"
+msgstr "Quick edit: copy on select and paste text"
+
+msgid "MENU:mapper_copyall"
+msgstr "Copy all text on the DOS screen"
+
+msgid "MENU:mapper_paste"
+msgstr "Pasting from the clipboard"
+
+msgid "MENU:mapper_pasteend"
+msgstr "Stop clipboard pasting"
+
+msgid "MENU:mapper_pause"
+msgstr "Pause emulation"
+
+msgid "MENU:mapper_pauseints"
+msgstr "Pause with interrupts enabled"
+
+msgid "MENU:mapper_gui"
+msgstr "Configuration tool"
+
+msgid "MENU:mapper_mapper"
+msgstr "Mapper editor"
+
+msgid "MENU:mapper_fullscr"
+msgstr "Toggle fullscreen"
+
+msgid "MENU:mapper_resetsize"
+msgstr "Reset window size"
+
+msgid "MENU:mapper_incsize"
+msgstr "Increase TTF font size"
+
+msgid "MENU:mapper_decsize"
+msgstr "Decrease TTF font size"
+
+msgid "MENU:mapper_togmenu"
+msgstr "Hide/show menu bar"
+
+msgid "MENU:MainMenu"
+msgstr "Main"
+
+msgid "MENU:MainSendKey"
+msgstr "Send special key"
+
+msgid "MENU:MainHostKey"
+msgstr "Select host key"
+
+msgid "MENU:WheelToArrow"
+msgstr "Mouse wheel movements"
+
+msgid "MENU:SharedClipboard"
+msgstr "Shared clipboard functions"
+
+msgid "MENU:CpuMenu"
+msgstr "CPU"
+
+msgid "MENU:CpuCoreMenu"
+msgstr "CPU core"
+
+msgid "MENU:CpuTypeMenu"
+msgstr "CPU type"
+
+msgid "MENU:CpuSpeedMenu"
+msgstr "Emulate CPU speed"
+
+msgid "MENU:cpu88-4"
+msgstr "8088 XT 4.77MHz (~240 cycles)"
+
+msgid "MENU:cpu286-8"
+msgstr "286 8MHz (~750 cycles)"
+
+msgid "MENU:cpu286-12"
+msgstr "286 12MHz (~1510 cycles)"
+
+msgid "MENU:cpu286-25"
+msgstr "286 25MHz (~3300 cycles)"
+
+msgid "MENU:cpu386-25"
+msgstr "386DX 25MHz (~4595 cycles)"
+
+msgid "MENU:cpu386-33"
+msgstr "386DX 33MHz (~6075 cycles)"
+
+msgid "MENU:cpu486-33"
+msgstr "486DX 33MHz (~12010 cycles)"
+
+msgid "MENU:cpu486-66"
+msgstr "486DX2 66MHz (~23880 cycles)"
+
+msgid "MENU:cpu486-100"
+msgstr "486DX4 100MHz (~33445 cycles)"
+
+msgid "MENU:cpu486-133"
+msgstr "486DX5 133MHz (~47810 cycles)"
+
+msgid "MENU:cpu586-60"
+msgstr "Pentium 60MHz (~31545 cycles)"
+
+msgid "MENU:cpu586-66"
+msgstr "Pentium 66MHz (~35620 cycles)"
+
+msgid "MENU:cpu586-75"
+msgstr "Pentium 75MHz (~43500 cycles)"
+
+msgid "MENU:cpu586-90"
+msgstr "Pentium 90MHz (~52000 cycles)"
+
+msgid "MENU:cpu586-100"
+msgstr "Pentium 100MHz (~60000 cycles)"
+
+msgid "MENU:cpu586-120"
+msgstr "Pentium 120MHz (~74000 cycles)"
+
+msgid "MENU:cpu586-133"
+msgstr "Pentium 133MHz (~80000 cycles)"
+
+msgid "MENU:cpu586-166"
+msgstr "Pentium 166MHz MMX (~97240 cycles)"
+
+msgid "MENU:VideoMenu"
+msgstr "Video"
+
+msgid "MENU:VideoFrameskipMenu"
+msgstr "Frameskip"
+
+msgid "MENU:frameskip_0"
+msgstr "Off"
+
+msgid "MENU:frameskip_1"
+msgstr "1 frame"
+
+msgid "MENU:frameskip_2"
+msgstr "2 frame"
+
+msgid "MENU:frameskip_3"
+msgstr "3 frame"
+
+msgid "MENU:frameskip_4"
+msgstr "4 frame"
+
+msgid "MENU:frameskip_5"
+msgstr "5 frame"
+
+msgid "MENU:frameskip_6"
+msgstr "6 frame"
+
+msgid "MENU:frameskip_7"
+msgstr "7 frame"
+
+msgid "MENU:frameskip_8"
+msgstr "8 frame"
+
+msgid "MENU:frameskip_9"
+msgstr "9 frame"
+
+msgid "MENU:frameskip_10"
+msgstr "10 frame"
+
+msgid "MENU:VideoScalerMenu"
+msgstr "Scaler"
+
+msgid "MENU:scaler_forced"
+msgstr "Force scaler"
+
+msgid "MENU:scaler_set_none"
+msgstr "None"
+
+msgid "MENU:scaler_set_normal2x"
+msgstr "Normal 2X"
+
+msgid "MENU:scaler_set_normal3x"
+msgstr "Normal 3X"
+
+msgid "MENU:scaler_set_normal4x"
+msgstr "Normal 4X"
+
+msgid "MENU:scaler_set_normal5x"
+msgstr "Normal 5X"
+
+msgid "MENU:scaler_set_hardware_none"
+msgstr "Hardware None"
+
+msgid "MENU:scaler_set_hardware2x"
+msgstr "Hardware 2X"
+
+msgid "MENU:scaler_set_hardware3x"
+msgstr "Hardware 3X"
+
+msgid "MENU:scaler_set_hardware4x"
+msgstr "Hardware 4X"
+
+msgid "MENU:scaler_set_hardware5x"
+msgstr "Hardware 5X"
+
+msgid "MENU:scaler_set_gray"
+msgstr "Grayscale"
+
+msgid "MENU:scaler_set_gray2x"
+msgstr "Grayscale 2X"
+
+msgid "MENU:scaler_set_tv2x"
+msgstr "TV 2X"
+
+msgid "MENU:scaler_set_tv3x"
+msgstr "TV 3X"
+
+msgid "MENU:scaler_set_scan2x"
+msgstr "Scan 2X"
+
+msgid "MENU:scaler_set_scan3x"
+msgstr "Scan 3X"
+
+msgid "MENU:scaler_set_rgb2x"
+msgstr "RGB 2X"
+
+msgid "MENU:scaler_set_rgb3x"
+msgstr "RGB 3X"
+
+msgid "MENU:scaler_set_advmame2x"
+msgstr "Advanced MAME 2X"
+
+msgid "MENU:scaler_set_advmame3x"
+msgstr "Advanced MAME 3X"
+
+msgid "MENU:scaler_set_hq2x"
+msgstr "HQ 2X"
+
+msgid "MENU:scaler_set_hq3x"
+msgstr "HQ 3X"
+
+msgid "MENU:scaler_set_advinterp2x"
+msgstr "Advanced Interpolation 2X"
+
+msgid "MENU:scaler_set_advinterp3x"
+msgstr "Advanced Interpolation 3X"
+
+msgid "MENU:scaler_set_2xsai"
+msgstr "2xSai"
+
+msgid "MENU:scaler_set_super2xsai"
+msgstr "Super2xSai"
+
+msgid "MENU:scaler_set_supereagle"
+msgstr "SuperEagle"
+
+msgid "MENU:scaler_set_xbrz"
+msgstr "xBRZ"
+
+msgid "MENU:scaler_set_xbrz_bilinear"
+msgstr "xBRZ Bilinear"
+
+msgid "MENU:refresh_rate"
+msgstr "Refresh rate..."
+
+msgid "MENU:VideoOutputMenu"
+msgstr "Output"
+
+msgid "MENU:output_surface"
+msgstr "Surface"
+
+msgid "MENU:output_direct3d"
+msgstr "Direct3D"
+
+msgid "MENU:output_opengl"
+msgstr "OpenGL"
+
+msgid "MENU:output_openglnb"
+msgstr "OpenGL nearest"
+
+msgid "MENU:output_openglpp"
+msgstr "OpenGL perfect"
+
+msgid "MENU:output_ttf"
+msgstr "TrueType font"
+
+msgid "MENU:doublescan"
+msgstr "Doublescan"
+
+msgid "MENU:VideoVsyncMenu"
+msgstr "V-Sync"
+
+msgid "MENU:vsync_on"
+msgstr "On"
+
+msgid "MENU:vsync_force"
+msgstr "Force"
+
+msgid "MENU:vsync_host"
+msgstr "Host"
+
+msgid "MENU:vsync_off"
+msgstr "Off"
+
+msgid "MENU:vsync_set_syncrate"
+msgstr "Set syncrate"
+
+msgid "MENU:VideoOverscanMenu"
+msgstr "Overscan"
+
+msgid "MENU:overscan_0"
+msgstr "Off"
+
+msgid "MENU:overscan_1"
+msgstr "1"
+
+msgid "MENU:overscan_2"
+msgstr "2"
+
+msgid "MENU:overscan_3"
+msgstr "3"
+
+msgid "MENU:overscan_4"
+msgstr "4"
+
+msgid "MENU:overscan_5"
+msgstr "5"
+
+msgid "MENU:overscan_6"
+msgstr "6"
+
+msgid "MENU:overscan_7"
+msgstr "7"
+
+msgid "MENU:overscan_8"
+msgstr "8"
+
+msgid "MENU:overscan_9"
+msgstr "9"
+
+msgid "MENU:overscan_10"
+msgstr "10"
+
+msgid "MENU:VideoTextmodeMenu"
+msgstr "Text-mode"
+
+msgid "MENU:clear_screen"
+msgstr "Clear the screen"
+
+msgid "MENU:vga_9widetext"
+msgstr "Allow 9-pixel wide fonts"
+
+msgid "MENU:text_background"
+msgstr "High intensity: background color"
+
+msgid "MENU:text_blinking"
+msgstr "High intensity: blinking text"
+
+msgid "MENU:line_80x25"
+msgstr "Screen: 80 columns x 25 lines"
+
+msgid "MENU:line_80x43"
+msgstr "Screen: 80 columns x 43 lines"
+
+msgid "MENU:line_80x50"
+msgstr "Screen: 80 columns x 50 lines"
+
+msgid "MENU:line_80x60"
+msgstr "Screen: 80 columns x 60 lines"
+
+msgid "MENU:line_132x25"
+msgstr "Screen: 132 columns x 25 lines"
+
+msgid "MENU:line_132x43"
+msgstr "Screen: 132 columns x 43 lines"
+
+msgid "MENU:line_132x50"
+msgstr "Screen: 132 columns x 50 lines"
+
+msgid "MENU:line_132x60"
+msgstr "Screen: 132 columns x 60 lines"
+
+msgid "MENU:VideoTTFMenu"
+msgstr "TTF options"
+
+msgid "MENU:ttf_showbold"
+msgstr "Display bold text in TTF"
+
+msgid "MENU:ttf_showital"
+msgstr "Display italic text in TTF"
+
+msgid "MENU:ttf_showline"
+msgstr "Display underlined text in TTF"
+
+msgid "MENU:ttf_showsout"
+msgstr "Display strikeout text in TTF"
+
+msgid "MENU:ttf_wpno"
+msgstr "TTF word processor: None"
+
+msgid "MENU:ttf_wpwp"
+msgstr "TTF word processor: WordPerfect"
+
+msgid "MENU:ttf_wpws"
+msgstr "TTF word processor: WordStar"
+
+msgid "MENU:ttf_wpxy"
+msgstr "TTF word processor: XyWrite"
+
+msgid "MENU:ttf_wpfe"
+msgstr "TTF word processor: FastEdit"
+
+msgid "MENU:ttf_blinkc"
+msgstr "Display TTF blinking cursor"
+
+msgid "MENU:ttf_printfont"
+msgstr "Use current TTF font for printing"
+
+msgid "MENU:ttf_dbcs_sbcs"
+msgstr "CJK: Switch between DBCS/SBCS modes"
+
+msgid "MENU:ttf_autoboxdraw"
+msgstr "CJK: Auto-detect box-drawing characters"
+
+msgid "MENU:ttf_halfwidthkana"
+msgstr "CJK: Allow half-width Japanese Katakana"
+
+msgid "MENU:VideoPC98Menu"
+msgstr "PC-98 options"
+
+msgid "MENU:pc98_5mhz_gdc"
+msgstr "5MHz GDC clock"
+
+msgid "MENU:pc98_allow_200scanline"
+msgstr "Allow 200-line scanline effect"
+
+msgid "MENU:pc98_allow_4partitions"
+msgstr "Allow 4 display partitions in graphics layer"
+
+msgid "MENU:pc98_enable_egc"
+msgstr "Enable EGC"
+
+msgid "MENU:pc98_enable_grcg"
+msgstr "Enable GRCG"
+
+msgid "MENU:pc98_enable_analog"
+msgstr "Enable analog display"
+
+msgid "MENU:pc98_enable_analog256"
+msgstr "Enable analog 256-color display"
+
+msgid "MENU:pc98_enable_188user"
+msgstr "Enable 188+ user CG cells"
+
+msgid "MENU:pc98_clear_text"
+msgstr "Clear text layer"
+
+msgid "MENU:pc98_clear_graphics"
+msgstr "Clear graphics layer"
+
+msgid "MENU:load_d3d_shader"
+msgstr "Select Direct3D pixel shader..."
+
+msgid "MENU:load_glsl_shader"
+msgstr "Select OpenGL (GLSL) shader..."
+
+msgid "MENU:load_ttf_font"
+msgstr "Select TrueType font (TTF)..."
+
+msgid "MENU:SoundMenu"
+msgstr "Sound"
+
+msgid "MENU:mixer_swapstereo"
+msgstr "Swap stereo"
+
+msgid "MENU:mixer_mute"
+msgstr "Mute"
+
+msgid "MENU:mixer_info"
+msgstr "Show sound mixer volumes"
+
+msgid "MENU:sb_info"
+msgstr "Show Sound Blaster configuration"
+
+msgid "MENU:midi_info"
+msgstr "Show MIDI device configuration"
+
+msgid "MENU:DOSMenu"
+msgstr "DOS"
+
+msgid "MENU:enable_a20gate"
+msgstr "Enable A20 gate"
+
+msgid "MENU:change_currentcd"
+msgstr "Change current CD image..."
+
+msgid "MENU:change_currentfd"
+msgstr "Change current floppy image..."
+
+msgid "MENU:DOSMouseMenu"
+msgstr "Mouse emulation"
+
+msgid "MENU:dos_mouse_enable_int33"
+msgstr "Internal Emulation"
+
+msgid "MENU:dos_mouse_y_axis_reverse"
+msgstr "Y-axis Reverse"
+
+msgid "MENU:dos_mouse_sensitivity"
+msgstr "Sensitivity"
+
+msgid "MENU:DOSVerMenu"
+msgstr "Reported DOS version"
+
+msgid "MENU:dos_ver_330"
+msgstr "3.30"
+
+msgid "MENU:dos_ver_500"
+msgstr "5.00"
+
+msgid "MENU:dos_ver_622"
+msgstr "6.22"
+
+msgid "MENU:dos_ver_710"
+msgstr "7.10"
+
+msgid "MENU:dos_ver_edit"
+msgstr "Edit"
+
+msgid "MENU:DOSLFNMenu"
+msgstr "Long filename support"
+
+msgid "MENU:dos_lfn_auto"
+msgstr "Auto per reported DOS version"
+
+msgid "MENU:dos_lfn_enable"
+msgstr "Enable long filename emulation"
+
+msgid "MENU:dos_lfn_disable"
+msgstr "Disable long filename emulation"
+
+msgid "MENU:DOSPC98Menu"
+msgstr "PC-98 PIT master clock"
+
+msgid "MENU:dos_pc98_pit_4mhz"
+msgstr "4MHz/8MHz PIT master clock"
+
+msgid "MENU:dos_pc98_pit_5mhz"
+msgstr "5MHz/10MHz PIT master clock"
+
+msgid "MENU:DOSEMSMenu"
+msgstr "Expanded memory (EMS)"
+
+msgid "MENU:dos_ems_true"
+msgstr "Enable EMS emulation"
+
+msgid "MENU:dos_ems_board"
+msgstr "EMS board emulation"
+
+msgid "MENU:dos_ems_emm386"
+msgstr "EMM386 emulation"
+
+msgid "MENU:dos_ems_false"
+msgstr "Disable EMS emulation"
+
+msgid "MENU:DOSWinMenu"
+msgstr "Host system applications"
+
+msgid "MENU:dos_win_autorun"
+msgstr "Launch to run on the Windows host"
+
+msgid "MENU:dos_win_transpath"
+msgstr "Translate paths to host system paths"
+
+msgid "MENU:dos_win_wait"
+msgstr "Wait for the application if possible"
+
+msgid "MENU:dos_win_quiet"
+msgstr "Quiet mode - no start messages"
+
+msgid "MENU:CaptureMenu"
+msgstr "Capture"
+
+msgid "MENU:CaptureFormatMenu"
+msgstr "Capture format"
+
+msgid "MENU:capture_fmt_avi_zmbv"
+msgstr "AVI + ZMBV"
+
+msgid "MENU:capture_fmt_mpegts_h264"
+msgstr "MPEG-TS + H.264"
+
+msgid "MENU:saveoptionmenu"
+msgstr "Save/load options"
+
+msgid "MENU:saveslotmenu"
+msgstr "Select save slot"
+
+msgid "MENU:enable_autosave"
+msgstr "Enable auto-saving state"
+
+msgid "MENU:noremark_savestate"
+msgstr "No remark when saving state"
+
+msgid "MENU:force_loadstate"
+msgstr "No warning when loading state"
+
+msgid "MENU:removestate"
+msgstr "Remove state in slot"
+
+msgid "MENU:refreshslot"
+msgstr "Refresh display status"
+
+msgid "MENU:lastautosaveslot"
+msgstr "Select last auto-saved slot"
+
+msgid "MENU:usesavefile"
+msgstr "Use save file instead of save slot"
+
+msgid "MENU:autosavecfg"
+msgstr "Auto-save settings..."
+
+msgid "MENU:browsesavefile"
+msgstr "Browse save file..."
+
+msgid "MENU:current_page"
+msgstr "Current page: 1/10"
+
+msgid "MENU:prev_page"
+msgstr "Previous page"
+
+msgid "MENU:next_page"
+msgstr "Next page"
+
+msgid "MENU:first_page"
+msgstr "Go to first page"
+
+msgid "MENU:last_page"
+msgstr "Go to last page"
+
+msgid "MENU:DriveMenu"
+msgstr "Drive"
+
+msgid "MENU:drive_mountauto"
+msgstr "Auto-mount Windows drive"
+
+msgid "MENU:drive_mounthd"
+msgstr "Mount folder as hard drive"
+
+msgid "MENU:drive_mountcd"
+msgstr "Mount folder as CD drive"
+
+msgid "MENU:drive_mountfd"
+msgstr "Mount folder as floppy drive"
+
+msgid "MENU:drive_mountfro"
+msgstr "Option: mount folder read-only"
+
+msgid "MENU:drive_mountarc"
+msgstr "Mount an archive file (ZIP/7Z)"
+
+msgid "MENU:drive_mountimg"
+msgstr "Mount a disk or CD image file"
+
+msgid "MENU:drive_mountimgs"
+msgstr "Mount multiple disk/CD images"
+
+msgid "MENU:drive_mountiro"
+msgstr "Option: mount images read-only"
+
+msgid "MENU:drive_unmount"
+msgstr "Unmount drive"
+
+msgid "MENU:drive_rescan"
+msgstr "Rescan drive"
+
+msgid "MENU:drive_swap"
+msgstr "Swap disk"
+
+msgid "MENU:drive_info"
+msgstr "Drive information"
+
+msgid "MENU:drive_boot"
+msgstr "Boot from drive"
+
+msgid "MENU:drive_bootimg"
+msgstr "Boot from disk image"
+
+msgid "MENU:HelpMenu"
+msgstr "Help"
+
+msgid "MENU:help_intro"
+msgstr "Introduction"
+
+msgid "MENU:help_homepage"
+msgstr "DOSBox-X homepage"
+
+msgid "MENU:help_wiki"
+msgstr "DOSBox-X Wiki guide"
+
+msgid "MENU:help_issue"
+msgstr "DOSBox-X support"
+
+msgid "MENU:help_nic"
+msgstr "List network interfaces"
+
+msgid "MENU:help_prt"
+msgstr "List printer devices"
+
+msgid "MENU:help_about"
+msgstr "About DOSBox-X"
+
+msgid "MENU:show_console"
+msgstr "Show logging console"
+
+msgid "MENU:wait_on_error"
+msgstr "Console wait on error"
+
+msgid "MENU:show_codetext"
+msgstr "Show code overview"
+
+msgid "MENU:show_logtext"
+msgstr "Show logging text"
+
+msgid "MENU:save_logas"
+msgstr "Save logging as..."
+
+msgid "MENU:debugger_rundebug"
+msgstr "Debugger option: Run debugger"
+
+msgid "MENU:debugger_runnormal"
+msgstr "Debugger option: Run normal"
+
+msgid "MENU:debugger_runwatch"
+msgstr "Debugger option: Run watch"
+
+msgid "MENU:HelpCommandMenu"
+msgstr "DOS commands"
+
+msgid "MENU:DebugMenu"
+msgstr "Debug"
+
+msgid "MENU:HelpDebugMenu"
+msgstr "Logging console"
+
+msgid "MENU:debug_blankrefreshtest"
+msgstr "Refresh test (blank display)"
+
+msgid "MENU:debug_generatenmi"
+msgstr "Generate NMI interrupt"
+
+msgid "MENU:debug_int2fhook"
+msgstr "Hook INT 2Fh calls"
+
+msgid "MENU:debug_logint21"
+msgstr "Log INT 21h calls"
+
+msgid "MENU:debug_logfileio"
+msgstr "Log file I/O"
+
+msgid "MENU:mapper_speedlock"
+msgstr "Toggle Speedlock"
+
+msgid "MENU:mapper_speedlock2"
+msgstr "Turbo (Fast Forward)"
+
+msgid "MENU:mapper_speednorm"
+msgstr "Normal speed"
+
+msgid "MENU:mapper_speedup"
+msgstr "Speed up"
+
+msgid "MENU:mapper_slowdown"
+msgstr "Slow down"
+
+msgid "MENU:mapper_editcycles"
+msgstr "Edit cycles"
+
+msgid "MENU:mapper_savestate"
+msgstr "Save state"
+
+msgid "MENU:mapper_loadstate"
+msgstr "Load state"
+
+msgid "MENU:mapper_showstate"
+msgstr "Display state information"
+
+msgid "MENU:mapper_prevslot"
+msgstr "Select previous slot"
+
+msgid "MENU:mapper_nextslot"
+msgstr "Select next slot"
+
+msgid "MENU:mapper_decfskip"
+msgstr "Decrease frameskip"
+
+msgid "MENU:mapper_incfskip"
+msgstr "Increase frameskip"
+
+msgid "MENU:mapper_aspratio"
+msgstr "Fit to aspect ratio"
+
+msgid "MENU:mapper_recwave"
+msgstr "Record audio to WAV"
+
+msgid "MENU:mapper_recmtwave"
+msgstr "Record audio to multi-track AVI"
+
+msgid "MENU:mapper_caprawmidi"
+msgstr "Record MIDI output"
+
+msgid "MENU:mapper_caprawopl"
+msgstr "Record FM (OPL) output"
+
+msgid "MENU:mapper_video"
+msgstr "Record video to AVI"
+
+msgid "MENU:mapper_scrshot"
+msgstr "Take screenshot"
+
+msgid "MENU:mapper_debugger"
+msgstr "Start DOSBox-X Debugger"
+
+msgid "MENU:mapper_volup"
+msgstr "Increase volume"
+
+msgid "MENU:mapper_voldown"
+msgstr "Decrease volume"
+
+msgid "MENU:mapper_recvolup"
+msgstr "Increase recording volume"
+
+msgid "MENU:mapper_recvoldown"
+msgstr "Decrease recording volume"
+
+msgid "MENU:mapper_sendkey_mapper"
+msgstr "Send special key"
+
+msgid "MENU:mapper_cycledown"
+msgstr "Decrement cycles"
+
+msgid "MENU:mapper_cycleup"
+msgstr "Increment cycles"
+
+msgid "MENU:mapper_normal"
+msgstr "Normal core"
+
+msgid "MENU:mapper_dynamic"
+msgstr "Dynamic core (dynamic_x86)"
+
+msgid "MENU:mapper_simple"
+msgstr "Simple core"
+
+msgid "MENU:mapper_full"
+msgstr "Full core"
+
+msgid "MENU:cputype_auto"
+msgstr "Auto"
+
+msgid "MENU:cputype_8086"
+msgstr "8086"
+
+msgid "MENU:cputype_8086_prefetch"
+msgstr "8086 with prefetch"
+
+msgid "MENU:cputype_80186"
+msgstr "80186"
+
+msgid "MENU:cputype_80186_prefetch"
+msgstr "80186 with prefetch"
+
+msgid "MENU:cputype_286"
+msgstr "286"
+
+msgid "MENU:cputype_286_prefetch"
+msgstr "286 with prefetch"
+
+msgid "MENU:cputype_386"
+msgstr "386"
+
+msgid "MENU:cputype_386_prefetch"
+msgstr "386 with prefetch"
+
+msgid "MENU:cputype_486old"
+msgstr "486 (old)"
+
+msgid "MENU:cputype_486old_prefetch"
+msgstr "486 (old) with prefetch"
+
+msgid "MENU:cputype_486"
+msgstr "486"
+
+msgid "MENU:cputype_486_prefetch"
+msgstr "486 with prefetch"
+
+msgid "MENU:cputype_pentium"
+msgstr "Pentium"
+
+msgid "MENU:cputype_pentium_mmx"
+msgstr "Pentium MMX"
+
+msgid "MENU:cputype_ppro_slow"
+msgstr "Pentium Pro"
+
+msgid "MENU:debug_pageflip"
+msgstr "Page flip debug line"
+
+msgid "MENU:debug_retracepoll"
+msgstr "Retrace poll debug line"
+
+msgid "MENU:mapper_swapimg"
+msgstr "Swap floppy drive"
+
+msgid "MENU:mapper_swapcd"
+msgstr "Swap CD drive"
+
+msgid "MENU:mapper_ejectpage"
+msgstr "Send form-feed"
+
+msgid "MENU:mapper_rescanall"
+msgstr "Rescan all drives"
+
+msgid "MENU:hostkey_mapper"
+msgstr "Mapper-defined"
+
+msgid "MENU:showdetails"
+msgstr "Show FPS and RT speed in title bar"
+
+msgid "MENU:restartconf"
+msgstr "Restart DOSBox-X with config file..."
+
+msgid "MENU:restartlang"
+msgstr "Restart DOSBox-X with language file..."
+
+msgid "MENU:auto_lock_mouse"
+msgstr "Autolock mouse"
+
+msgid "MENU:clipboard_right"
+msgstr "Via right mouse button"
+
+msgid "MENU:clipboard_middle"
+msgstr "Via middle mouse button"
+
+msgid "MENU:clipboard_arrows"
+msgstr "Via arrow keys (Home=start, End=end)"
+
+msgid "MENU:screen_to_clipboard"
+msgstr "Copy all text on the DOS screen"
+
+msgid "MENU:clipboard_device"
+msgstr "Enable DOS clipboard device access"
+
+msgid "MENU:clipboard_dosapi"
+msgstr "Enable DOS clipboard API for applications"
+
+msgid "MENU:clipboard_biospaste"
+msgstr "Use BIOS function for clipboard pasting"
+
+msgid "MENU:sendkey_winlogo"
+msgstr "Send logo key"
+
+msgid "MENU:sendkey_winmenu"
+msgstr "Send menu key"
+
+msgid "MENU:sendkey_alttab"
+msgstr "Send Alt+Tab"
+
+msgid "MENU:sendkey_ctrlesc"
+msgstr "Send Ctrl+Esc"
+
+msgid "MENU:sendkey_ctrlbreak"
+msgstr "Send Ctrl+Break"
+
+msgid "MENU:sendkey_cad"
+msgstr "Send Ctrl+Alt+Del"
+
+msgid "MENU:hostkey_ctrlalt"
+msgstr "Ctrl+Alt"
+
+msgid "MENU:hostkey_ctrlshift"
+msgstr "Ctrl+Shift"
+
+msgid "MENU:hostkey_altshift"
+msgstr "Alt+Shift"
+
+msgid "MENU:sendkey_mapper_winlogo"
+msgstr "Mapper "Send special key": logo key"
+
+msgid "MENU:sendkey_mapper_winmenu"
+msgstr "Mapper "Send special key": menu key"
+
+msgid "MENU:sendkey_mapper_alttab"
+msgstr "Mapper "Send special key": Alt+Tab"
+
+msgid "MENU:sendkey_mapper_ctrlesc"
+msgstr "Mapper "Send special key": Ctrl+Esc"
+
+msgid "MENU:sendkey_mapper_ctrlbreak"
+msgstr "Mapper "Send special key": Ctrl+Break"
+
+msgid "MENU:sendkey_mapper_cad"
+msgstr "Mapper "Send special key": Ctrl+Alt+Del"
+
+msgid "MENU:wheel_none"
+msgstr "Do not convert to arrow keys"
+
+msgid "MENU:wheel_updown"
+msgstr "Convert to up/down arrows"
+
+msgid "MENU:wheel_leftright"
+msgstr "Convert to left/right arrows"
+
+msgid "MENU:wheel_pageupdown"
+msgstr "Convert to PgUp/PgDn keys"
+
+msgid "MENU:wheel_ctrlupdown"
+msgstr "Convert to Ctrl+up/down arrows"
+
+msgid "MENU:wheel_ctrlleftright"
+msgstr "Convert to Ctrl+left/right arrows"
+
+msgid "MENU:wheel_ctrlpageupdown"
+msgstr "Convert to Ctrl+PgUp/PgDn keys"
+
+msgid "MENU:wheel_ctrlwz"
+msgstr "Convert to Ctrl+W/Z keys"
+
+msgid "MENU:wheel_guest"
+msgstr "Enable for guest systems also"
+
+msgid "MENU:doublebuf"
+msgstr "Double Buffering (Fullscreen)"
+
+msgid "MENU:alwaysontop"
+msgstr "Always on top"
+
+msgid "MENU:highdpienable"
+msgstr "High DPI enable"
+
+msgid "MENU:sync_host_datetime"
+msgstr "Synchronize host date/time"
+
+msgid "MENU:shell_config_commands"
+msgstr "Config options as commands"
+
+msgid "MENU:quick_reboot"
+msgstr "Enable quick reboot"
+
+msgid "MENU:make_diskimage"
+msgstr "Create blank disk image..."
+
+msgid "MENU:list_drivenum"
+msgstr "Show mounted drive numbers"
+
+msgid "MENU:list_ideinfo"
+msgstr "Show IDE disk or CD status"
+
+msgid "MENU:print_textscreen"
+msgstr "Print DOS text screen"
+
+msgid "MENU:pc98_use_uskb"
+msgstr "Use US keyboard layout"
+
+msgid "MAPPER:caprawopl"
+msgstr "Record FM/OPL output"
+
+msgid "MAPPER:copyall"
+msgstr "Copy to clipboard"
+
+msgid "MAPPER:cycauto"
+msgstr "Toggle auto cycles"
+
+msgid "MAPPER:debugger"
+msgstr "Show debugger"
+
+msgid "MAPPER:decsize"
+msgstr "Decrease TTF size"
+
+msgid "MAPPER:dynamic"
+msgstr "CPU: dynamic core"
+
+msgid "MAPPER:fastedit"
+msgstr "Quick edit mode"
+
+msgid "MAPPER:full"
+msgstr "CPU: full core"
+
+msgid "MAPPER:incsize"
+msgstr "Increase TTF size"
+
+msgid "MAPPER:loadmap"
+msgstr "Load mapper file"
+
+msgid "MAPPER:nextslot"
+msgstr "Next save slot"
+
+msgid "MAPPER:normal"
+msgstr "CPU: normal core"
+
+msgid "MAPPER:paste"
+msgstr "Paste from clipboard"
+
+msgid "MAPPER:pasteend"
+msgstr "Stop clipboard paste"
+
+msgid "MAPPER:pauseints"
+msgstr "Pause with interrupt"
+
+msgid "MAPPER:prevslot"
+msgstr "Previous save slot"
+
+msgid "MAPPER:quickrun"
+msgstr "Quick launch program"
+
+msgid "MAPPER:reboot"
+msgstr "Reboot DOS system"
+
+msgid "MAPPER:recmtwave"
+msgstr "Record to M.T. AVI"
+
+msgid "MAPPER:recvoldown"
+msgstr "Decrease rec. volume"
+
+msgid "MAPPER:recvolup"
+msgstr "Increase rec. volume"
+
+msgid "MAPPER:rescanall"
+msgstr "Rescan drives"
+
+msgid "MAPPER:reset"
+msgstr "Reset DOSBox-X"
+
+msgid "MAPPER:showstate"
+msgstr "Display state info"
+
+msgid "MAPPER:simple"
+msgstr "CPU: simple core"
+
+msgid "MAPPER:togmenu"
+msgstr "Toggle menu bar"
+

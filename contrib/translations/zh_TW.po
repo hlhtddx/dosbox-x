@@ -1,0 +1,3628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DOSBox-X\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"X-Generator: aybe\n"
+
+# :DOSBOX-X:LANGUAGE:Traditional Chinese
+# :DOSBOX-X:CODEPAGE:950
+# :DOSBOX-X:VERSION:0.83.16
+# :DOSBOX-X:REMARK:建議使用繁體/正體中文DOS/V模式或者TTF輸出選項和代碼頁950配合中文TTF字體以直接支援中文顯示和列印
+
+msgid "AUTOEXEC_CONFIGFILE_HELP"
+msgstr ""
+"Lines in this section will be run at startup.\n"
+"You can put your MOUNT lines here.\n"
+
+msgid "CONFIGFILE_INTRO"
+msgstr ""
+"# This is the configuration file for DOSBox-X %s. (Please use the latest version of DOSBox-X)\n"
+"# Lines starting with a # are comment lines and are ignored by DOSBox-X.\n"
+"# They are used to (briefly) document the effect of each option.\n"
+"# To write out ALL options, use command 'config -all' with -wc or -writeconf options.\n"
+
+msgid "CONFIG_SUGGESTED_VALUES"
+msgstr "Possible values"
+
+msgid "CONFIG_ADVANCED_OPTION"
+msgstr "Advanced option (see full configuration reference file [dosbox-x.reference.full.conf] for more details)"
+
+msgid "CONFIG_TOOL"
+msgstr "DOSBox-X 組態工具"
+
+msgid "CONFIG_TOOL_EXIT"
+msgstr "結束組態工具"
+
+msgid "MAPPER_EDITOR_EXIT"
+msgstr "結束按鍵編輯"
+
+msgid "SAVE_MAPPER_FILE"
+msgstr "儲存按鍵配置檔案"
+
+msgid "WARNING"
+msgstr "警告"
+
+msgid "YES"
+msgstr "是"
+
+msgid "NO"
+msgstr "否"
+
+msgid "OK"
+msgstr "確定"
+
+msgid "CANCEL"
+msgstr "取消"
+
+msgid "CLOSE"
+msgstr "關閉"
+
+msgid "UPDATE"
+msgstr "更新"
+
+msgid "ADD"
+msgstr "加入"
+
+msgid "DEL"
+msgstr "刪除"
+
+msgid "NEXT"
+msgstr "下個"
+
+msgid "SAVE"
+msgstr "儲存"
+
+msgid "EXIT"
+msgstr "結束"
+
+msgid "CAPTURE"
+msgstr "擷取"
+
+msgid "SAVE_CONFIGURATION"
+msgstr "儲存組態"
+
+msgid "SAVE_LANGUAGE"
+msgstr "儲存語言檔案"
+
+msgid "SAVE_RESTART"
+msgstr "儲存並重開"
+
+msgid "PASTE_CLIPBOARD"
+msgstr "貼上剪貼簿文字"
+
+msgid "APPEND_HISTORY"
+msgstr "附加歷史"
+
+msgid "EXECUTE_NOW"
+msgstr "立即執行"
+
+msgid "ADDITION_CONTENT"
+msgstr "附加內容:"
+
+msgid "CONTENT"
+msgstr "內容:"
+
+msgid "EDIT_FOR"
+msgstr "編輯 %s"
+
+msgid "HELP_FOR"
+msgstr "%s 的說明"
+
+msgid "CONFIGURATION_FOR"
+msgstr "%s 的組態"
+
+msgid "CONFIGURATION"
+msgstr "組態"
+
+msgid "SETTINGS"
+msgstr "設定"
+
+msgid "LOGGING_OUTPUT"
+msgstr "DOSBox-X 紀錄顯示"
+
+msgid "CODE_OVERVIEW"
+msgstr "代碼概覽"
+
+msgid "VISIT_HOMEPAGE"
+msgstr "拜訪首頁"
+
+msgid "GET_STARTED"
+msgstr "輕鬆上手"
+
+msgid "CDROM_SUPPORT"
+msgstr "光碟機支援"
+
+msgid "DRIVE_INFORMATION"
+msgstr "磁碟機資訊"
+
+msgid "MOUNTED_DRIVE_NUMBER"
+msgstr "已分配的磁碟機代號"
+
+msgid "IDE_CONTROLLER_ASSIGNMENT"
+msgstr "IDE 控制器狀態"
+
+msgid "HELP_COMMAND"
+msgstr "DOS 指令說明"
+
+msgid "CURRENT_VOLUME"
+msgstr "目前混音器音量"
+
+msgid "CURRENT_SBCONFIG"
+msgstr "音效卡組態資訊"
+
+msgid "CURRENT_MIDICONFIG"
+msgstr "MIDI 裝置組態資訊"
+
+msgid "CREATE_IMAGE"
+msgstr "建立空白磁碟映像"
+
+msgid "NETWORK_LIST"
+msgstr "網路介面卡清單"
+
+msgid "PRINTER_LIST"
+msgstr "印表機裝置清單"
+
+msgid "INTRODUCTION"
+msgstr "介紹"
+
+msgid "CONFIGURE_GROUP"
+msgstr "選擇設定集進行組態:"
+
+msgid "SHOW_ADVOPT"
+msgstr ""
+"顯示進階選項\n"
+"..\n"
+":USE_PRIMARYCONFIG\n"
+"使用主組態檔案\n"
+
+msgid "USE_PORTABLECONFIG"
+msgstr "使用程式目錄組態檔案"
+
+msgid "USE_USERCONFIG"
+msgstr "使用使用者組態檔案"
+
+msgid "CONFIG_SAVETO"
+msgstr "輸入要儲存的組態檔名:"
+
+msgid "CONFIG_SAVEALL"
+msgstr "儲存所有（包括進階）選項到組態檔案"
+
+msgid "LANG_FILENAME"
+msgstr "輸入語言檔的檔名:"
+
+msgid "LANG_LANGNAME"
+msgstr "語言名稱(選填):"
+
+msgid "INTRO_MESSAGE"
+msgstr ""
+"歡迎使用 DOSBox-X, 自由免費且完整的 DOS 模擬器.\n"
+"DOSBox-X 模擬 DOS 命令列讓您覺得好像在真正使用 DOS.\n"
+"您也可以在 DOS 虛擬機中執行 Windows 3.x 和 Windows 95/98.\n"
+
+msgid "DRIVE"
+msgstr "磁碟機"
+
+msgid "TYPE"
+msgstr "類型"
+
+msgid "LABEL"
+msgstr "標籤"
+
+msgid "DRIVE_NUMBER"
+msgstr "磁碟機代號"
+
+msgid "DISK_NAME"
+msgstr "磁碟名稱"
+
+msgid "IDE_POSITION"
+msgstr "IDE 位置"
+
+msgid "SWAP_SLOT"
+msgstr "交換儲存位"
+
+msgid "EMPTY_SLOT"
+msgstr "空儲存位"
+
+msgid "SLOT"
+msgstr "儲存位"
+
+msgid "PREVIOUS_PAGE"
+msgstr "< 上一頁"
+
+msgid "NEXT_PAGE"
+msgstr "       下一頁 >"
+
+msgid "SELECT_EVENT"
+msgstr "選擇要修改的事件."
+
+msgid "SELECT_DIFFERENT_EVENT"
+msgstr "選擇另一個事件或者按加入/刪除/下個按鈕."
+
+msgid "PRESS_JOYSTICK_KEY"
+msgstr "按鍵盤上的鍵/搖桿按鈕或者移動搖桿."
+
+msgid "CAPTURE_ENABLED"
+msgstr "已啟用擷取. 按 ESC 鍵停止擷取."
+
+msgid "MAPPER_FILE_SAVED"
+msgstr "按鍵配置檔案已儲存"
+
+msgid "AUTO_CYCLE_MAX"
+msgstr "自動選擇週期 [最大]"
+
+msgid "AUTO_CYCLE_AUTO"
+msgstr "自動選擇週期 [自動]"
+
+msgid "AUTO_CYCLE_OFF"
+msgstr "自動選擇週期 [關閉]"
+
+msgid "PROGRAM_CONFIG_PROPERTY_ERROR"
+msgstr ""
+"找不到此段落或屬性.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_NO_PROPERTY"
+msgstr ""
+"屬性 %s 在段落 %s 中無法找到.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SET_SYNTAX"
+msgstr ""
+"選項 -set 的語法不正確.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_NOCONFIGFILE"
+msgstr ""
+"沒有載入組態檔案!\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PRIMARY_CONF"
+msgstr ""
+"主組態檔案: \n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_ADDITIONAL_CONF"
+msgstr ""
+"附加組態檔案:\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_GLOBAL_CONF"
+msgstr ""
+"\n"
+"全域組態檔案:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_CONFDIR"
+msgstr ""
+"DOSBox-X %s 使用者組態檔案目錄: \n"
+"%s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_WORKDIR"
+msgstr ""
+"DOSBox-X 的工作目錄: \n"
+"%s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_FILE_ERROR"
+msgstr ""
+"\n"
+"無法開啟檔案 %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_FILE_WHICH"
+msgstr ""
+"寫入組態檔案 %s\n"
+"\n"
+
+msgid "PROGRAM_LANGUAGE_FILE_WHICH"
+msgstr ""
+"已寫入語言檔案 %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_USAGE"
+msgstr ""
+"DOSBox-X 命令列組態工具. 支援的選項為:\n"
+"-wc (或 -writeconf) 不含參數: 寫入已載入的主組態檔案.\n"
+"-wc (或 -writeconf) 加檔名: 寫入組態目錄中的組態檔案.\n"
+"-wl (或 -writelang) 加檔名: 將文字寫入語言檔案.\n"
+"-ln (或 -langname) 顯示 (不含參數) 或指定語言名稱.\n"
+"-wcp [檔名] 將組態檔案寫入程式目錄 (dosbox-x.conf 或指定檔名).\n"
+"-wcd 寫入組態目錄中的預設組態檔案.\n"
+"-all, -mod 與 -wc, -wcp, 或 -wcd 一起使用以寫入所有/修改過的組態選項.\n"
+"-wcboot, -wcpboot, 或 -wcdboot 將在寫入組態檔案後自動重開 DOSBox-X.\n"
+"-bootconf (或 -bc) 重開 DOSBox-X 並載入指定的組態檔案 (或載入的主組態檔案).\n"
+"-norem 與 -wc, -wcp, 或 -wcd 一起使用時不寫入組態檔案的注釋.\n"
+"-l 列出 DOSBox-X 的組態參數.\n"
+"-h, -help, -? 顯示此說明; 加入 "sections" 一詞以顯示段落清單.\n"
+"-h, -help, -? 段落 / 屬性 顯示指定段落或屬性的資訊.\n"
+"-axclear 清除 [autoexec] 段落.\n"
+"-axadd [行] 加入指定行至 [autoexec] 段落.\n"
+"-axtype 顯示 [autoexec] 段落中的內容.\n"
+"-avistart, -avistop 開始或結束記錄 AVI.\n"
+"-securemode 啟用安全模式, 將停用掛載磁碟機等功能.\n"
+"-startmapper 啟動 DOSBox-X 的按鍵配置工具.\n"
+"-gui 啟動圖形介面的組態工具.\n"
+"-get "段落 屬性" 返回指定屬性的值 （並設定 CONFIG 環境變數).\n"
+"-set (或 -setf 強制設定) "段落 屬性=值" 設定指定屬性的值.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_PROPHLP"
+msgstr ""
+"屬性 "%s" 的目的 (包含在 "%s" 段落中):\n"
+"%s\n"
+"\n"
+"可能的值: %s\n"
+"預設值: %s\n"
+"目前值: %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_LINEHLP"
+msgstr ""
+"段落 "%s" 的目的:\n"
+"%s\n"
+"目前值:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_NOCHANGE"
+msgstr ""
+"此屬性不能在執行時變更.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_POSINT"
+msgstr "正整數"
+
+msgid "PROGRAM_CONFIG_HLP_SECTHLP"
+msgstr ""
+"段落 %s 包含以下屬性:\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_SECTLIST"
+msgstr ""
+"DOSBox-X 組態檔案包含以下段落:\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECURE_ON"
+msgstr ""
+"切換至安全模式.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECURE_DISALLOW"
+msgstr ""
+"在安全模式中不允許此項操作.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SECTION_ERROR"
+msgstr ""
+"段落 %s 不存在.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_VALUE_ERROR"
+msgstr ""
+""%s" 不是屬性 %s 的合法值.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PROPERTY_DUPLICATE"
+msgstr ""
+"可能有其它段落包含同樣的屬性名稱.\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_GET_SYNTAX"
+msgstr ""
+"正確的語法: config -get "段落 屬性".\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PRINT_STARTUP"
+msgstr ""
+"\n"
+"DOSBox-X 是用以下命令列參數啟動:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_MISSINGPARAM"
+msgstr "缺少參數."
+
+msgid "PROGRAM_MOUSE_INSTALL"
+msgstr ""
+"安裝在 PS/2 連接孔.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_VERTICAL"
+msgstr ""
+"已啟用反轉Y軸.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_VERTICAL_BACK"
+msgstr ""
+"已停用反轉Y軸.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_UNINSTALL"
+msgstr ""
+"驅動程式已成功卸載...\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_ERROR"
+msgstr ""
+"已經安裝在 PS/2 連接孔.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_NOINSTALLED"
+msgstr ""
+"驅動程式未安裝.\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_HELP"
+msgstr ""
+"啟用或停用滑鼠.\n"
+"\n"
+"MOUSE [/?] [/U] [/V]\n"
+"  /U: 卸載\n"
+"  /V: 反轉Y軸\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_CDROMS_FOUND"
+msgstr ""
+"找到的光碟機: %d\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_FORMAT"
+msgstr ""
+"%-5s  %-58s %-12s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_ELTORITO"
+msgstr ""
+"磁碟機 %c 掛載為光碟的開機磁片\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_RAMDRIVE"
+msgstr ""
+"磁碟機 %c 掛載為記憶體磁碟機\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_2"
+msgstr ""
+"磁碟機 %c 掛載為 %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_1"
+msgstr ""
+"目前已掛載的磁碟機為:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_FORMAT"
+msgstr ""
+"%-5s  %-47s  %-12s  %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_NUMBER_FORMAT"
+msgstr ""
+"%-12s  %-40s  %-12s  %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_2"
+msgstr ""
+"目前已掛載的磁碟機代號為:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_1"
+msgstr ""
+"目前已掛載的 FAT/ISO 磁碟機為:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_NONE"
+msgstr ""
+"沒有已掛載的磁碟機\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ERROR_1"
+msgstr ""
+"目錄 %s 不存在.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ERROR_2"
+msgstr ""
+"%s 不是目錄\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_IMGMOUNT"
+msgstr ""
+"要掛載映像檔, 請使用 [34;1mIMGMOUNT[0m 而不是 [34;1mMOUNT[0m 命令.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ILL_TYPE"
+msgstr ""
+"不合法的類型 %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ALREADY_MOUNTED"
+msgstr ""
+"磁碟機 %c 已掛載為 %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_USAGE"
+msgstr ""
+"掛載主機系統中的目錄或磁碟機為 DOSBox-X 磁碟機.\n"
+"用法: [34;1m[32;1mMOUNT[0m [37;1m磁碟機[0m [36;1m主機目錄[0m [選項][0m\n"
+" [37;1m磁碟機[0m            主機目錄或磁碟機將被掛載的磁碟代號.\n"
+" [36;1m主機目錄[0m          主機系統中要被掛載的目錄或磁碟機.\n"
+" [選項]            掛載選項. 支援以下選項:\n"
+" -t                指定所掛載磁碟機的顯現類型.\n"
+"                   支援的磁碟機類型為: dir, floppy, cdrom, overlay\n"
+"                   (其中 'overlay' 將重定向掛載磁碟機中的寫操作至另一個目錄)\n"
+" -label [名稱]     設定磁碟機的標籤名稱 (全部大寫)\n"
+" -ro               以唯讀方式掛載磁碟機.\n"
+" -pr               指定路徑為相對於組態檔案所在目錄.\n"
+" -cd               顯示包含光碟機代號的主機光碟機清單.\n"
+" -usecd [磁碟機代號] 支援直接硬體模擬比如 CD 音訊播放.\n"
+" -ioctl            使用最低級別的硬體存取 (與 -usecd 選項一起使用).\n"
+" -aspi             使用已安裝的 ASPI 層 (與 -usecd 選項一起使用).\n"
+" -freesize [大小]  指定磁碟機中的剩餘磁碟空間 (單位: MB, 或軟碟: KB).\n"
+" -nocachedir       啟用即時更新而不使用磁碟機快取.\n"
+" -z 磁碟機         將虛擬磁碟機 Z: 移動到另一個磁碟代號.\n"
+" -o                將磁碟機報告為: local, remote.\n"
+" -q                安靜模式 (不顯示消息).\n"
+" -u                卸載磁碟機.\n"
+" [32;1m-examples         顯示用法舉例.[0m\n"
+"輸入不含參數的 MOUNT 命令將顯示已掛載的磁碟機清單.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_EXAMPLE"
+msgstr ""
+"一個 MOUNT 命令的基本例子:\n"
+"\n"
+"[32;1mMOUNT c %s[0m\n"
+"\n"
+"此命令將主機目錄 %s 呈現為 DOSBox-X 中的 C 磁碟機.\n"
+"此目錄必須在主機系統中存在. 如果目錄包含空格, 請將它用雙引號包含起來.\n"
+"例如: %s\n"
+"\n"
+"更多 MOUNT 命令的使用舉例:\n"
+"\n"
+"[32;1mMOUNT[0m                             - 列出所有已掛載的磁碟機\n"
+"[32;1mMOUNT -cd[0m                         - 列出本機所有光碟機\n"
+"[32;1mMOUNT d %s[0m            - 將磁碟機 D 掛載為指定目錄\n"
+"[32;1mMOUNT c %s -t cdrom[0m      - 將磁碟機 C: 以光碟機方式掛載為指定目錄\n"
+"[32;1mMOUNT c %s -ro[0m           - 將磁碟機 C: 以唯讀方式掛載\n"
+"[32;1mMOUNT c %s -label TEST[0m   - 掛載磁碟機 C: 並給予標籤 TEST\n"
+"[32;1mMOUNT c %s -nocachedir [0m  - 掛載磁碟機 C: 且不使用磁碟機快取\n"
+"[32;1mMOUNT c %s -freesize 128[0m - 掛載磁碟機 C: 並報告剩餘磁碟空間為 128MB\n"
+"[32;1mMOUNT c %s -u[0m            - 強制掛載磁碟機 C: 即使之前已掛載\n"
+"[32;1mMOUNT c %s -t overlay[0m  - 將覆蓋目錄作用於已掛載的磁碟機 C:\n"
+"[32;1mMOUNT c -u[0m                        - 卸載磁碟機 C:\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NOT_MOUNTED"
+msgstr ""
+"磁碟機 %c 未掛載.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_SUCCESS"
+msgstr ""
+"磁碟機 %c 已成功卸載.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NUMBER_SUCCESS"
+msgstr ""
+"磁碟機代號 %c 已成功卸載.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NO_VIRTUAL"
+msgstr ""
+"不能卸載虛擬磁碟機.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_WARNING_WIN"
+msgstr ""
+"警告: 不建議掛載 C 碟根目錄.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_WARNING_OTHER"
+msgstr ""
+"警告: 不建議掛載檔案系統根目錄.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_PHYSFS_ERROR"
+msgstr ""
+"無法掛載 PhysFS 磁碟機.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_NO_BASE"
+msgstr ""
+"請先掛載普通目錄然後在上面加上覆蓋目錄.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_INCOMPAT_BASE"
+msgstr ""
+"覆蓋目錄與指定的磁碟機不相容.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_MIXED_BASE"
+msgstr "覆蓋目錄需與原磁碟機所指定的定位方式相同，不能混合相對路徑和絕對路徑."
+
+msgid "PROGRAM_MOUNT_OVERLAY_SAME_AS_BASE"
+msgstr ""
+"覆蓋目錄不能與原磁碟機的目錄相同.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_ERROR"
+msgstr ""
+"建立覆蓋目錄時發生錯誤.\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_OVERLAY_STATUS"
+msgstr ""
+"覆蓋目錄 %s 已掛載於磁碟機 %c 上.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_ALLOC"
+msgstr ""
+"%d 位元組已分配.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_DEALLOC"
+msgstr ""
+"%d 位元組已釋放.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_DEALLOCALL"
+msgstr ""
+"已釋放使用的記憶體.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_ERROR"
+msgstr ""
+"記憶體分配錯誤.\n"
+"\n"
+
+msgid "PROGRAM_LOADFIX_HELP"
+msgstr ""
+"減少可用的一般記憶體或 XMS/EMS 記憶體.\n"
+"\n"
+"LOADFIX [-xms] [-ems] [-{ram}] [{程式}] [{選項}]\n"
+"LOADFIX -f [-xms] [-ems]\n"
+"\n"
+"  -xms        從 XMS 記憶體中而不是一般記憶體中分配記憶體\n"
+"  -ems        從 EMS 記憶體中而不是一般記憶體中分配記憶體\n"
+"  -{ram}      指定要分配的記憶體大小（單位:千位元組)\n"
+"                 一般記憶體預設為 64kb ; XMS或EMS記憶體預設為 1MB\n"
+"  -a          自動分配足夠的記憶體以充滿低端 64KB 記憶體\n"
+"  -f (或 -d)  釋放此前分配的記憶體\n"
+"  {程式}      執行指定的程式\n"
+"  {選項}      程式選項 (如果有)\n"
+"\n"
+"舉例:\n"
+"  [32;1mLOADFIX game.exe[0m     分配 64KB 一般記憶體並執行 game.exe\n"
+"  [32;1mLOADFIX -a[0m           自動分配足夠的一般記憶體\n"
+"  [32;1mLOADFIX -128[0m         分配 128KB 一般記憶體\n"
+"  [32;1mLOADFIX -xms[0m         分配 1MB XMS 記憶體\n"
+"  [32;1mLOADFIX -f[0m           釋放已分配的一般記憶體\n"
+"\n"
+
+msgid "MSCDEX_SUCCESS"
+msgstr ""
+"MSCDEX 已安裝.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_MULTIPLE_CDROMS"
+msgstr ""
+"MSCDEX 錯誤: 多個光碟的磁碟機字母應保持連續.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_NOT_SUPPORTED"
+msgstr ""
+"MSCDEX 錯誤: 尚未支援.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_PATH"
+msgstr ""
+"MSCDEX: 指定的位置並非光碟機.\n"
+"\n"
+
+msgid "MSCDEX_ERROR_OPEN"
+msgstr ""
+"MSCDEX 錯誤: 不合法的檔案或無法開啟檔案.\n"
+"\n"
+
+msgid "MSCDEX_TOO_MANY_DRIVES"
+msgstr ""
+"MSCDEX 錯誤: 光碟機數量過多 (最多5個). MSCDEX 安裝失敗.\n"
+"\n"
+
+msgid "MSCDEX_LIMITED_SUPPORT"
+msgstr ""
+"MSCDEX: 掛載子目錄: 有限支援.\n"
+"\n"
+
+msgid "MSCDEX_INVALID_FILEFORMAT"
+msgstr ""
+"MSCDEX 錯誤: 檔案並非 ISO/CUE 映像檔或含有錯誤.\n"
+"\n"
+
+msgid "MSCDEX_UNKNOWN_ERROR"
+msgstr ""
+"MSCDEX 錯誤: 未知錯誤.\n"
+"\n"
+
+msgid "PROGRAM_RESCAN_SUCCESS"
+msgstr ""
+"磁碟機快取已清除.\n"
+"\n"
+
+msgid "PROGRAM_INTRO"
+msgstr ""
+"[2J[32;1m歡迎使用 DOSBox-X[0m, 支援聲音和影像且開放原始碼的 x86 模擬器.\n"
+"DOSBox-X 建立一個 DOS 環境讓您仿佛正在使用原本的 DOS 系統.\n"
+"\n"
+"[31;1mDOSBox-X 如果遇到錯誤將會在未警告的情況下停止執行或結束![0m\n"
+"\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_UP"
+msgstr "       DOSBox-X 介紹"
+
+msgid "PROGRAM_INTRO_MENU_BASIC"
+msgstr "基本掛載 "
+
+msgid "PROGRAM_INTRO_MENU_CDROM"
+msgstr "光碟機支援 "
+
+msgid "PROGRAM_INTRO_MENU_USAGE"
+msgstr "使用 "
+
+msgid "PROGRAM_INTRO_MENU_INFO"
+msgstr "資訊 "
+
+msgid "PROGRAM_INTRO_MENU_QUIT"
+msgstr "結束 "
+
+msgid "PROGRAM_INTRO_MENU_BASIC_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[KMOUNT 允許您將連接真實硬體與 DOSBox-X 的虛擬電腦連接起來.[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_CDROM_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[K如果在 DOSBox-X 中掛載光碟, 您需要在掛載它們時指定更多的選項.[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_USAGE_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[K您可以提供給 DOSBox-X 的命令列參數概述.[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_INFO_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[K怎樣獲得關於 DOSBox-X 的更多資訊.[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_QUIT_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[K結束 DOSBox-X 介紹.[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_TOP"
+msgstr ""
+"[2J[32;1m這兒提供您可以提供給 DOSBox-X 的命令列參數的概述.[0m\n"
+"Windows 使用者必須開啟 cmd.exe 或者編輯 DOSBox-X.exe 的快速鍵以使用它們.\n"
+"\n"
+"dosbox-x [name] [-exit] [-version] [-fastlaunch] [-fullscreen]\n"
+"         [-conf 組態檔案] [-lang 語言檔案] [-machine 機器類型]\n"
+"         [-startmapper] [-noautoexec] [-scaler 縮放器 | -forcescaler 縮放器]\n"
+"         [-noconsole] [-c 命令] [-set <段落 屬性=值>]\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_1"
+msgstr ""
+"[33;1m  名稱[0m\n"
+"	如果指定的名稱為目錄將自動掛載為磁碟機 C:.\n"
+"	如果指定的名稱為可執行檔案將自動將其所在的目錄掛載為 C: 並執行此程式.\n"
+"\n"
+"[33;1m  -exit[0m\n"
+"	當 DOS 程式執行結束後 DOSBox-X 將自動關閉自身.\n"
+"\n"
+"[33;1m  -version[0m\n"
+"	輸出版本資訊並結束. 特別對於前景程式有用.\n"
+"\n"
+"[33;1m  -fastlaunch[0m\n"
+"	啟動快速啟動方式 (跳過 BIOS 和歡迎畫面).\n"
+"\n"
+"[33;1m  -fullscreen[0m\n"
+"	以全螢幕方式啟動 DOSBox-X.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_2"
+msgstr ""
+"[33;1m  -conf[0m 組態檔案\n"
+"	以指定組態檔案中的設定啟動 DOSBox-X.\n"
+"	檢視說明文件取得更詳細資訊.\n"
+"\n"
+"[33;1m  -lang[0m 語言檔案\n"
+"	以指定的語言檔案啟動 DOSBox-X.\n"
+"\n"
+"[33;1m  -noconsole[0m (僅 Windows)\n"
+"	不顯示主控台視窗. 輸出將重定向到 stdout.txt 及 stderr.txt.\n"
+"\n"
+"[33;1m  -machine[0m 機器類型\n"
+"	啟動 DOSBox-X 並模擬指定的機器類型. 合法值包括:\n"
+"	hercules, cga, cga_mono, mcga, mda, pcjr, tandy, ega, vga, vgaonly,\n"
+"	pc98, vesa_nolfb, vesa_oldvbe, svga_paradise, svga_s3 (預設值).\n"
+"	機器類型將同時影響影像和可用音效卡.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_3"
+msgstr ""
+"[33;1m  -startmapper[0m\n"
+"	啟動後直接進入按鍵編輯. 特別適用於出現鍵盤問題的使用者.\n"
+"\n"
+"[33;1m  -noautoexec[0m\n"
+"	跳過調入的組態檔案中的 [autoexec] 段落.\n"
+"\n"
+"[33;1m  -c[0m 命令\n"
+"	在啟動程式前先執行指定的命令. 可以用多個 -c 參數指定多個命令.\n"
+"	命令可以為內部程式, DOS 命令或且已掛載磁碟機中的可執行檔案.\n"
+"\n"
+"[33;1m  -set[0m <段落 屬性=值>\n"
+"	強制設定組態選項 (覆蓋組態檔案中相應的選項).\n"
+"	可以用多個 -set 參數指定多個選項.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_INFO"
+msgstr ""
+"[32;1m資訊:[0m\n"
+"\n"
+"關於基本掛載的資訊, 請輸入 [34;1mintro mount[0m\n"
+"關於光碟機支援的資訊, 請輸入 [34;1mintro cdrom[0m\n"
+"關於特殊按鍵的資訊, 請輸入 [34;1mintro special[0m\n"
+"關於使用的資訊, 請輸入 [34;1mintro usage[0m\n"
+"\n"
+"關於最新版本的 DOSBox-X, 請拜訪其首頁:[34;1m\n"
+"\n"
+"[34;1mhttps://dosbox-x.com/[0m 或 [34;1mhttp://dosbox-x.software[0m\n"
+"\n"
+"關於 DOSBox-X 的更多資訊, 請拜訪其 Wiki 系統:\n"
+"\n"
+"[34;1mhttps://dosbox-x.com/wiki[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MOUNT_START"
+msgstr ""
+"[32;1m以下為說明您上手的一些命令:[0m\n"
+"您必須先將包含檔案的目錄掛載為磁碟機以使用裡面的檔案.\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MOUNT_EXST_WINDOWS"
+msgstr "[32mmount c c:\dosgames\[37m 將建立磁碟機 C: 並包含 c:\dosgames 中的內容.       "
+
+msgid "PROGRAM_INTRO_MOUNT_EXEN_WINDOWS"
+msgstr "c:\dosgames\[37m 為一個例子. 您可以將其替換為您自己的遊戲目錄.             [37m "
+
+msgid "PROGRAM_INTRO_MOUNT_EXST_OTHER"
+msgstr "[32mmount c ~/dosgames[37m 將建立磁碟機 C: 並包含 ~/dosgames 中的內容.          "
+
+msgid "PROGRAM_INTRO_MOUNT_EXEN_OTHER"
+msgstr "[32m~/dosgames[37m 為一個例子. 您可以將其替換為您自己的遊戲目錄.               [37m "
+
+msgid "PROGRAM_INTRO_MOUNT_END"
+msgstr ""
+"當掛載成功後您可以輸入 [34;1mc:[0m 命令進入您剛掛載的磁碟機 C:.\n"
+"輸入 [34;1mdir[0m 命令將顯示其中的內容. [34;1mcd[0m 命令將允許您進入一個目錄 (磁碟機清單\n"
+"中以 [33;1m[][0m 標識). 您可以執行以 [31m.exe .bat[0m 及 [31m.com[0m 結尾的程式及檔案.\n"
+"\n"
+
+msgid "PROGRAM_INTRO_CDROM"
+msgstr ""
+"[2J[32;1m如何在 DOSBox-X 中掛載真實/虛擬光碟機:[0m\n"
+"DOSBox-X 提供多層次的光碟機模擬.\n"
+"\n"
+"[33m基本層次[0m支援所有光碟機及普通目錄.\n"
+"它將安裝 MSCDEX 並將檔案標識為唯讀.\n"
+"這對於大部分遊戲通常已經足夠:\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom[0m   或   [34;1mmount d C:\example -t cdrom[0m\n"
+"如果不行的話您可以需要讓 DOSBox-X 給予光碟機特定的標籤:\n"
+"[34;1mmount d C:\example -t cdrom -label CDLABEL[0m\n"
+"\n"
+"[33m中間層次[0m加入一些底層支援.\n"
+"故它僅支援光碟機 (非普通目錄):\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom -usecd [33m0[0m\n"
+"\n"
+"[33m最後層次[0m將依賴於您所用的作業系統:\n"
+"對於 [1mWindows 2000[0m, [1mWindows XP[0m 及 [1mLinux[0m:\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom -usecd [33m0 [34m-ioctl[0m\n"
+"對於 [1mWindows 9x[0m 並安裝有 ASPI 層:\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom -usecd [33m0 [34m-aspi[0m\n"
+"\n"
+"將 [0;31mD:\[0m 替換為您的光碟機所在磁碟代號.\n"
+"替換 [34;1m-usecd [33m0[0m 中的 [33;1m0[0m 為當您輸入以下命令時顯示的光碟機代號:\n"
+"[34;1mmount -cd[0m\n"
+"\n"
+
+msgid "PROGRAM_BOOT_NOT_EXIST"
+msgstr ""
+"失敗: 開機片檔案不存在.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_NOT_OPEN"
+msgstr ""
+"失敗: 無法開啟開機片檔案.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_WRITE_PROTECTED"
+msgstr ""
+"映像檔處於唯讀狀態! 將以防寫方式啟動.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_PRINT_ERROR"
+msgstr ""
+"此命令將使 DOSBox-X 從軟碟或硬碟映像中啟動.\n"
+"\n"
+"您可以在此命令中使用多個軟碟映像檔, 並可通過選單選項進行變更.\n"
+""磁碟機:"將從指定的已掛載的磁碟機啟動. 如果沒有指定磁碟機代號,\n"
+"將預設從磁碟機 A： 啟動. 如果沒有指定參數將試著從目前磁碟機啟動.\n"
+"只支援從以下磁碟機代號中啟動: A:, C:, 以及 D:. 如果要從硬碟機\n"
+"(C: 或 D:) 中啟動, 請保證映像檔已用 [34;1mIMGMOUNT[0m 命令掛載.\n"
+"\n"
+"此命令的語法為如下之一:\n"
+"\n"
+"[34;1mBOOT [磁碟機代號:][0m\n"
+"\n"
+"[34;1mBOOT diskimg1.img [diskimg2.img ...] [-L 磁碟機代號][0m\n"
+"\n"
+"說明: 如果映像檔以冒號 (:) 開頭將以防寫方式啟動, 如果以下組態選項已啟用:\n"
+"leading colon write protect image = true\n"
+"\n"
+"舉例:\n"
+"\n"
+"[32;1mBOOT A:[0m       - 從磁碟機 A: 啟動, 如果此磁碟機已掛載並能啟動.\n"
+"[32;1mBOOT :DOS.IMG[0m - 以防寫模式從軟碟映像檔 DOS.IMG 啟動.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_UNABLE"
+msgstr ""
+"無法從磁碟機 %c 啟動.\n"
+"\n"
+
+msgid "PROGRAM_BOOT_IMAGE_OPEN"
+msgstr ""
+"正在開啟映像檔: %s\n"
+"\n"
+
+msgid "PROGRAM_BOOT_IMAGE_NOT_OPEN"
+msgstr ""
+"無法開啟 %s\n"
+"\n"
+
+msgid "PROGRAM_BOOT_CART_WO_PCJR"
+msgstr "找到 PCjr 卡帶, 但機器類型並非 PCjr"
+
+msgid "PROGRAM_BOOT_CART_LIST_CMDS"
+msgstr "Available PCjr cartridge commandos:%s"
+
+msgid "PROGRAM_BOOT_CART_NO_CMDS"
+msgstr "No PCjr cartridge commandos found"
+
+msgid "PROGRAM_LOADROM_HELP"
+msgstr ""
+"調用指定的 ROM 映像檔.\n"
+"\n"
+"LOADROM 映像檔\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_SPECIFY_FILE"
+msgstr ""
+"必須指定要調入的 ROM 檔案.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_CANT_OPEN"
+msgstr ""
+"ROM 檔案無法存取.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_TOO_LARGE"
+msgstr ""
+"ROM 檔案太大.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_INCOMPATIBLE"
+msgstr ""
+"此機器類型不支援影像 BIOS.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_UNRECOGNIZED"
+msgstr ""
+"ROM 檔案無法識別.\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_BASIC_LOADED"
+msgstr ""
+"BASIC ROM 已調入.\n"
+"\n"
+
+msgid "PROGRAM_BIOSTEST_HELP"
+msgstr ""
+"啟動指定的 BIOS 映像檔以執行 CPU 測試 BIOS.\n"
+"\n"
+"BIOSTEST 映像檔\n"
+"\n"
+
+msgid "VHD_ERROR_OPENING"
+msgstr ""
+"無法開啟指定的 VHD 檔案.\n"
+"\n"
+
+msgid "VHD_INVALID_DATA"
+msgstr ""
+"指定的 VHD 檔案已損壞而無法開啟.\n"
+"\n"
+
+msgid "VHD_UNSUPPORTED_TYPE"
+msgstr ""
+"指定的 VHD 檔案屬￿未支援的類型.\n"
+"\n"
+
+msgid "VHD_ERROR_OPENING_PARENT"
+msgstr ""
+"指定的 VHD 檔案的父檔案無法找到.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_DATA"
+msgstr ""
+"指定的 VHD 檔案的父檔案已損壞而無法開啟.\n"
+"\n"
+
+msgid "VHD_PARENT_UNSUPPORTED_TYPE"
+msgstr ""
+"指定的 VHD 檔案的父檔案屬於未支援的類型.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_MATCH"
+msgstr ""
+"指定的 VHD 檔案的父檔案不包含所需的標識.\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_DATE"
+msgstr ""
+"指定的 VHD 檔案的父檔案已變更而無法開啟.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY_DRIVE"
+msgstr ""
+"必須指定要掛載的磁碟機代號.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY2"
+msgstr ""
+"必須指定磁碟機代號 (0 to %d) 來掛載映像檔 (0,1=fda,fdb;2,3=hda,hdb).\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_INVALID_IMAGE"
+msgstr ""
+"無法載入指定的映像檔.\n"
+"請檢查路徑是否正確以映像檔是否可以存取.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_DYNAMIC_VHD_UNSUPPORTED"
+msgstr ""
+"不支援動態 VHD 檔案.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_INVALID_GEOMETRY"
+msgstr ""
+"無法獲得映像檔中的磁碟機參數.\n"
+"請使用選項 -size bps,spc,hpc,cyl 指定磁碟機參數.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_AUTODET_VALUES"
+msgstr ""
+"自動檢測映像檔中的磁碟機參數: -size %u,%u,%u,%u\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_TYPE_UNSUPPORTED"
+msgstr ""
+"不支援類型 "%s". 請指定 "hdd" 或 "floppy" 或 "iso".\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_FORMAT_UNSUPPORTED"
+msgstr ""
+"不支援格式 "%s". 請指定 "fat" 或 "iso" 或 "none".\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY_FILE"
+msgstr ""
+"必須指定要掛載的映像檔.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_FILE_NOT_FOUND"
+msgstr ""
+"映像檔找不到.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_DEFAULT_NOT_FOUND"
+msgstr ""
+"映像檔找不到: IMGMAKE.IMG.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MOUNT"
+msgstr ""
+"要掛載目錄, 請使用 [34;1mMOUNT[0m 而不是 [34;1mIMGMOUNT[0m 命令.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_ALREADY_MOUNTED"
+msgstr ""
+"指定的磁碟機已掛載.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_ALREADY_MOUNTED_NUMBER"
+msgstr ""
+"磁碟機代號 %d 已掛載.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_CANT_CREATE"
+msgstr ""
+"無法從指定的映像檔建立磁碟機.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_CANT_CREATE_PHYSFS"
+msgstr ""
+"無法建立 PhysFS 磁碟機.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MOUNT_NUMBER"
+msgstr ""
+"磁碟機代號 %d 掛載為 %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_NON_LOCAL_DRIVE"
+msgstr ""
+"映像檔必須在主機的本機或網路磁碟機上.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MULTIPLE_NON_CUEISO_FILES"
+msgstr ""
+"只在使用 CUE/ISO 映像檔時支援多個檔案.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_HELP"
+msgstr ""
+"掛載軟碟, 硬碟或光碟映像檔.\n"
+"[32;1mIMGMOUNT[0m [37;1m磁碟機[0m [36;1m檔案[0m [-ro] [-t floppy] [-fs fat] [-size ss,s,h,c]\n"
+"[32;1mIMGMOUNT[0m [37;1m磁碟機[0m [36;1m檔案[0m [-ro] [-t hdd] [-fs fat] [-size ss,s,h,c] [-ide 控制器]\n"
+"[32;1mIMGMOUNT[0m [37;1m磁碟機代號[0m [36;1m檔案[0m [-ro] [-fs none] [-size ss,s,h,c] [-reservecyl #]\n"
+"[32;1mIMGMOUNT[0m [37;1m磁碟機[0m [36;1m檔案[0m [-t iso] [-fs iso]\n"
+"[32;1mIMGMOUNT[0m [37;1m磁碟機[0m [-t floppy] -bootcd 光碟機代號 (或 -el-torito 光碟機代號)\n"
+"[32;1mIMGMOUNT[0m [37;1m磁碟機[0m -t ram -size 大小\n"
+"[32;1mIMGMOUNT[0m -u [37;1m磁碟機|磁碟機代號[0m (or [32;1mIMGMOUNT[0m [37;1m磁碟機|磁碟機代號[0m [36;1m檔案[0m [選項] -u)\n"
+" [37;1m磁碟機[0m               映像檔所要掛載的磁碟機代號.\n"
+" [37;1m磁碟機代號[0m            所要掛載的磁碟機代號, 其中 0-1 為軟碟機, 2-5 為硬碟機.\n"
+" [36;1m檔案[0m                映像檔名, 如果未指定將使用 [33;1mIMGMAKE.IMG[0m.\n"
+" -t iso              映像檔類型為光碟.\n"
+" -t hdd              映像檔類型為硬碟; 支援 VHD 及 HDI 映像檔.\n"
+" -t floppy|ram       映像檔類型為軟碟或記憶體磁碟機.\n"
+" -fs iso             檔案系統為 ISO 9660 (自動假設為 .iso/.cue 檔案).\n"
+" -fs fat             檔案系統為 FAT - 支援 FAT12, FAT16 及 FAT32.\n"
+" -fs none            不檢測檔案系統 (提供磁碟機代號時自動假設).\n"
+" -reservecyl #       在 BIOS 中報告使用比實際更少的駐面數目.\n"
+" -ide 控制器         指定 IDE 控制器 (1m, 1s, 2m, 2s) 以掛載磁碟機.\n"
+" -size size|ss,s,h,c 指定大小 (單位: KB), 或扇區數和 CHS 參數.\n"
+" -bootcd 光碟機代號    指定載入開機磁片映像所用的光碟機代號.\n"
+" -ro                 以唯讀方式掛載映像檔 (或用':'前綴表示唯讀).\n"
+" -u                  卸載磁碟機或磁碟機代號.\n"
+" [32;1m-examples           顯示用法舉例.[0m\n"
+
+msgid "PROGRAM_IMGMOUNT_EXAMPLE"
+msgstr ""
+"一些關於 IMGMOUNT 命令的舉例:\n"
+"\n"
+"  [32;1mIMGMOUNT[0m                       - 列出已掛載的 FAT/ISO 磁碟機和磁碟機代號\n"
+"  [32;1mIMGMOUNT C[0m                     - 將硬碟映像檔 [33;1mIMGMAKE.IMG[0m 掛載為磁碟機 C:\n"
+"  [32;1mIMGMOUNT C c:\image.img[0m        - 將硬碟映像檔 c:\image.img 掛載為磁碟機 C:\n"
+"  [32;1mIMGMOUNT D c:\files\game.iso[0m   - 將光碟映像檔 c:\files\game.iso 掛載為 D:\n"
+"  [32;1mIMGMOUNT D cdaudio.cue[0m         - 將 cue/bin 配對中的 cue 檔案掛載為光碟機 D:\n"
+"  [32;1mIMGMOUNT 0 dos.ima[0m             - 將軟碟映像檔 dos.ima 掛載為磁碟機代號 0\n"
+"                                   ([33;1mBOOT A:[0m 將從此磁碟機中啟動, 如果能啟動)\n"
+"  [32;1mIMGMOUNT A -ro dos.ima[0m         - 將軟碟映像 dos.ima 以唯讀方式掛載為磁碟機 A:\n"
+"  [32;1mIMGMOUNT A :dsk1.img dsk2.img[0m  - 將軟碟映像檔 dsk1.img 和 dsk2.img 掛載為\n"
+"                                   磁碟機 A:, 可在選單中用 "變更軟碟映像" 選項\n"
+"                                   進行變更, 其中 dsk1.img 映像檔為唯讀\n"
+"  [32;1mIMGMOUNT A -bootcd D[0m           - 從光碟機 D: 中掛載開機磁片映像為磁碟機 A:\n"
+"  [32;1mIMGMOUNT C -t ram -size 10000[0m  - 將硬碟機 C: 掛載為 10MB 記憶體磁碟機\n"
+"  [32;1mIMGMOUNT C disk.img -u[0m         - 強制將硬碟檔案映像 disk.img 掛載為磁碟機 C:,\n"
+"                                   如果之前磁碟機已掛載則將自動卸載\n"
+"  [32;1mIMGMOUNT A -u[0m                  - 卸載之前已掛載的磁碟機 A:\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_SYNTAX"
+msgstr ""
+"建立軟碟或硬碟映像檔.\n"
+"用法: [34;1mIMGMAKE [檔案] [-t 類型] [[-size 大小] | [-chs 參數]] [-spc] [-nofs][0m\n"
+"  [34;1m[-bat] [-fat] [-fatcopies] [-rootdir] [-force] [-source 來源磁碟代號] [-retries #][0m\n"
+"  檔案: 要建立的映像檔 (如未指定將使用 [33;1mIMGMAKE.IMG[0m) - [31;1m路徑為主機系統路徑t[0m\n"
+"  -t: 映像檔類型.\n"
+"    [33;1m軟碟模板[0m (名稱為以 KB 為單位的軟碟大小或者 fd=fd_1440):\n"
+"     fd_160 fd_180 fd_200 fd_320 fd_360 fd_400 fd_720 fd_1200 fd_1440 fd_2880\n"
+"    [33;1m硬碟模板:[0m\n"
+"     hd_250: 250MB 映像檔, hd_520: 520MB 映像檔, hd_1gig: 1GB 映像檔\n"
+"     hd_2gig: 2GB 映像檔, hd_4gig: 4GB 映像檔, hd_8gig: 8GB 映像檔\n"
+"     hd_st251: 40MB 映像檔, hd_st225: 20MB 映像檔 (舊磁碟機參數)\n"
+"    [33;1m自訂硬碟映像檔:[0m hd (需要 -size 或 -chs 選項)\n"
+"  -size: 自訂硬碟映像檔大小 (單位: MB).\n"
+"  -chs: CHS 磁碟參數: 柱面(1-1023),磁頭(1-255),扇區(1-63).\n"
+"  -nofs: 如果想建立空白映像檔請加入此參數.\n"
+"  -force: 強制覆蓋已存在的映像檔.\n"
+"  -bat: 建立一個包含 IMGMOUNT 命令的批次檔以掛載此映像檔.\n"
+"  -fat: FAT 檔案系統類型 (12, 16, 或 32).\n"
+"  -spc: 強制使用此每個簇所包含的扇區數值. 必須為 2 的指數.\n"
+"  -fatcopies: 強制使用此數量的 FAT 表副本.\n"
+"  -rootdir: 根目錄下的記錄數. FAT32 檔案系統將忽略此參數.\n"
+"  -source: 磁碟機代號 - 如果指定此參數映像檔此從軟碟機中讀取.\n"
+"  -retries: 當試圖從壞軟碟中讀取時所需的重試次數 (1-99).\n"
+"  [32;1m-examples: 顯示用法舉例.[0m\n"
+
+msgid "PROGRAM_IMGMAKE_EXAMPLE"
+msgstr ""
+"一些關於 IMGMAKE 命令的舉例:\n"
+"\n"
+"  [32;1mIMGMAKE -t fd[0m                   - 建立 1.44MB 軟碟映像檔 [33;1mIMGMAKE.IMG[0m\n"
+"  [32;1mIMGMAKE -t fd_1440 -force[0m       - 強制建立軟碟映像檔 [33;1mIMGMAKE.IMG[0m\n"
+"  [32;1mIMGMAKE dos.img -t fd_2880[0m      - 建立 2.88MB 軟碟映像檔 dos.img\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd -size 50[0m      - 建立 50MB 硬碟映像檔 c:\disk.img\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd_520 -nofs[0m     - 建立 520MB 空白硬碟映像檔\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd_2gig -fat 32[0m  - 建立 2GB FAT32 硬碟映像檔\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd -chs 130,2,17[0m - 以指定的 CHS 參數建立硬碟映像檔\n"
+"  [32;1mIMGMAKE c:\disk.img -source a[0m           - 從實體磁碟機 A: 中讀取映像\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FLREAD"
+msgstr ""
+"磁碟參數: %d 個柱面, %d 個磁頭, %d 個扇區, %d 千位元組\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FLREAD2"
+msgstr ""
+"%s =良好, %s =重試後良好, ! =CRC 錯誤, x =扇區找不到, ? =未知\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FILE_EXISTS"
+msgstr ""
+"檔案 "%s" 已存在. 您可以指定 "-force" 選項進行覆蓋.\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_CANNOT_WRITE"
+msgstr ""
+"檔案 "%s" 無法開啟以寫入.\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_NOT_ENOUGH_SPACE"
+msgstr ""
+"沒有足夠的空間生成映像檔. 需要 %u 位元組.\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_PRINT_CHS"
+msgstr ""
+"建立映像檔 "%s" 包含 %u 個柱面, %u 個磁頭和 %u 個扇區\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_CANT_READ_FLOPPY"
+msgstr ""
+"\n"
+"\n"
+"無法讀取軟碟.\n"
+
+msgid "PROGRAM_KEYB_INFO"
+msgstr ""
+"代碼頁 %i 已載入\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INFO_LAYOUT"
+msgstr ""
+"代碼頁 %i 已為鍵盤配置 %s 載入\n"
+"\n"
+
+msgid "PROGRAM_KEYB_SHOWHELP"
+msgstr ""
+"為指定語言組態鍵盤.\n"
+"\n"
+"KEYB [鍵盤配置 ID [代碼頁 [代碼頁檔案]]]\n"
+"\n"
+"舉例:\n"
+"  [32;1mKEYB[0m          顯示目前載入的代碼頁.\n"
+"  [32;1mKEYB sp[0m       載入西班牙語 (SP) 配置, 使用相應的代碼頁.\n"
+"  [32;1mKEYB sp 850[0m   載入西班牙語 (SP) 配置, 使用代碼頁 850.\n"
+"  [32;1mKEYB sp 850 mycp.cpi[0m 與以上相同, 但使用檔案 mycp.cpi.\n"
+"\n"
+
+msgid "PROGRAM_KEYB_NOERROR"
+msgstr ""
+"鍵盤配置 %s 已載入作為代碼頁 %i\n"
+"\n"
+
+msgid "PROGRAM_KEYB_FILENOTFOUND"
+msgstr ""
+"鍵盤檔案 %s 未找到\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INVALIDFILE"
+msgstr ""
+"鍵盤檔案 %s 不合法的\n"
+"\n"
+
+msgid "PROGRAM_KEYB_LAYOUTNOTFOUND"
+msgstr ""
+"鍵盤配置 %s 無法在代碼頁 %i 中找到\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INVCPFILE"
+msgstr ""
+"作為鍵盤配置 %s 的代碼頁檔案不存在或無效\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_MODE_USAGE"
+msgstr ""
+"組態系統裝置.\n"
+"\n"
+"[34;1mMODE[0m display-type       :display-type codes are [1mCO80[0m, [1mBW80[0m, [1mCO40[0m, [1mBW40[0m, or [1mMONO[0m\n"
+"[34;1mMODE CON COLS=[0mc [34;1mLINES=[0mn :columns and lines, c=80 or 132, n=25, 43, 50, or 60\n"
+"[34;1mMODE CON RATE=[0mr [34;1mDELAY=[0md :typematic rates, r=1-32 (32=fastest), d=1-4 (1=lowest)\n"
+"\n"
+
+msgid "PROGRAM_MODE_INVALID_PARAMETERS"
+msgstr ""
+"不合法的參數.\n"
+"\n"
+
+msgid "SHELL_CMD_TREE_ERROR"
+msgstr ""
+"不存在子目錄\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_TREE"
+msgstr ""
+"所列目錄的磁碟區標籤為 %s\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_DRIVE"
+msgstr ""
+"\n"
+" 磁碟區在磁碟機 %c \n"
+
+msgid "SHELL_CMD_VOL_SERIAL"
+msgstr " 磁碟區序列號為 "
+
+msgid "SHELL_CMD_VOL_SERIAL_NOLABEL"
+msgstr ""
+"沒有磁碟區標籤\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_SERIAL_LABEL"
+msgstr ""
+"是 %s\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_PATH"
+msgstr ""
+"路徑未找到\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_DRIVE"
+msgstr ""
+"指定的磁碟機不合法的\n"
+"\n"
+
+msgid "SHELL_CMD_HELP"
+msgstr ""
+"如果您想顯示所有支援的內部命令請輸入 [33;1mHELP /ALL[0m.\n"
+"您亦可以在 Z 碟找到其它 DOS 程式，它們是外部命令.\n"
+"以下為常用的 DOS 命令清單:\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_END1"
+msgstr ""
+"外部命令比如 [33;1mMOUNT[0m 和 [33;1mIMGMOUNT[0m 可以在 Z 碟中找到.\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_END2"
+msgstr ""
+"請輸入 [33;1mHELP 命令[0m 或 [33;1m命令 /?[0m 以獲得指定命令的說明資訊.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_ON"
+msgstr ""
+"ECHO狀態為開.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_OFF"
+msgstr ""
+"ECHO狀態為關.\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_SWITCH"
+msgstr ""
+"開關不合法的 - %s\n"
+"\n"
+
+msgid "SHELL_MISSING_PARAMETER"
+msgstr ""
+"缺少必要的參數.\n"
+"\n"
+
+msgid "SHELL_MISSING_FILE"
+msgstr ""
+"以下檔案遺失或損壞: %s\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_ERROR"
+msgstr ""
+"無效目錄 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT"
+msgstr ""
+"提示: 切換磁碟機請輸入 [31m%c:[0m\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT_2"
+msgstr ""
+"目錄名包含未用引號包含的空格.\n"
+"試試 [31mcd %s[0m 或用引號包含住空格.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT_3"
+msgstr ""
+"您仍然在 Z 碟, 而且無法找到指定的目錄.\n"
+"如要想存取其它已掛載的磁碟機請先切換磁碟機，比如 [31mC:[0m.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_HELP"
+msgstr ""
+"顯示或設定日期.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_ERROR"
+msgstr ""
+"指定的日期不正確.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_DAYS"
+msgstr "6星期日星期一星期二星期三星期四星期五星期六"
+
+msgid "SHELL_CMD_DATE_NOW"
+msgstr "目前日期: "
+
+msgid "SHELL_CMD_DATE_SETHLP"
+msgstr ""
+"輸入 'date %s' 變更日期.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_HELP_LONG"
+msgstr ""
+"DATE [[/T] [/H] [/S] | 日期]\n"
+"  日期:       要設定的新日期\n"
+"  /S:         DOS日期和時間永久與主機日期和時間同步\n"
+"  /F:         切換為DOSBox-X內部日期和時間 (與/S相反)\n"
+"  /T:         只顯示日期\n"
+"  /H:         與主機同步\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_HELP"
+msgstr ""
+"顯示或設定時間.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_ERROR"
+msgstr ""
+"指定的時間不正確.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_NOW"
+msgstr "目前時間: "
+
+msgid "SHELL_CMD_TIME_SETHLP"
+msgstr ""
+"輸入 'time %s' 變更時間.\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_HELP_LONG"
+msgstr ""
+"TIME [[/T] [/H] | 時間]\n"
+"  時間:       要設定的新時間\n"
+"  /T:         簡潔顯示時間\n"
+"  /H:         與主機同步\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_EXIST"
+msgstr ""
+"目錄已存在 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_ERROR"
+msgstr ""
+"不能建立目錄 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_ERROR"
+msgstr ""
+"路徑無效,不是目錄,或目錄非空 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_ERROR"
+msgstr ""
+"無法進行重新命名 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_GET_ERROR"
+msgstr ""
+"無法獲得屬性: %s\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_SET_ERROR"
+msgstr ""
+"無法設定屬性: %s\n"
+"\n"
+
+msgid "SHELL_CMD_DEL_ERROR"
+msgstr ""
+"無法刪除 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_DEL_SURE"
+msgstr ""
+"目錄下的所有檔案將被刪除!\n"
+"請確認 [Y/N]?\n"
+
+msgid "SHELL_SYNTAXERROR"
+msgstr ""
+"語法錯誤\n"
+"\n"
+
+msgid "SHELL_CMD_SET_NOT_SET"
+msgstr ""
+"環境變數 %s 未定義.\n"
+"\n"
+
+msgid "SHELL_CMD_SET_OUT_OF_SPACE"
+msgstr ""
+"沒有足夠的空間設定環境變數.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_EXIST_MISSING_FILENAME"
+msgstr ""
+"IF EXIST: 缺少檔名.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_ERRORLEVEL_MISSING_NUMBER"
+msgstr ""
+"IF ERRORLEVEL: 缺少數字.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_ERRORLEVEL_INVALID_NUMBER"
+msgstr ""
+"IF ERRORLEVEL: 不合法的數字.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_MISSING_LABEL"
+msgstr ""
+"未提供 GOTO 命令所需的標籤.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_LABEL_NOT_FOUND"
+msgstr ""
+"GOTO: 標籤 %s 找不到.\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_ACCESS_DENIED"
+msgstr ""
+"拒絕存取 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_NOT_FOUND"
+msgstr ""
+"檔案找不到 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_EXISTS"
+msgstr ""
+"檔案 %s 已存在.\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_INTRO"
+msgstr ""
+" 列目錄 %s\n"
+"\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_BYTES_USED"
+msgstr ""
+"%5d 個檔案 %17s 位元組\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_BYTES_FREE"
+msgstr ""
+"%5d 個目錄 %17s 可用位元組\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_FILES_LISTED"
+msgstr ""
+"列出的總檔案數:\n"
+"\n"
+
+msgid "SHELL_EXECUTE_DRIVE_NOT_FOUND"
+msgstr ""
+"磁碟機 %c 不存在!\n"
+"您需要先用 [31mmount[0m 命令掛載此磁碟機. 請輸入 [1;33mintro[0m 或 [1;33mintro mount[0m 取得更多資訊.\n"
+"\n"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_CDROM"
+msgstr "您是否想讓 DOSBox-X 存取光碟機 %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FLOPPY"
+msgstr "您是否想讓 DOSBox-X 存取軟碟機 %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_REMOVABLE"
+msgstr "您是否想讓 DOSBox-X 存取可移動磁碟機 %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_NETWORK"
+msgstr "您是否想讓 DOSBox-X 存取網路磁碟機 %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FIXED"
+msgstr "您是否想讓 DOSBox-X 存取硬碟機 %c 上的所有內容 [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FIXED_LESS"
+msgstr "您是否想讓 DOSBox-X 存取硬碟機 %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_ILLEGAL_COMMAND"
+msgstr ""
+"錯誤的命令或檔名 - "%s"\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE"
+msgstr ""
+"按任意鍵繼續...\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE_HELP"
+msgstr ""
+"提示按任意鍵繼續.\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE_HELP_LONG"
+msgstr ""
+"PAUSE\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_FAILURE"
+msgstr ""
+"檔案拷貝失敗 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_SUCCESS"
+msgstr ""
+"   已複製 %d 個檔案.\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_CONFIRM"
+msgstr "覆蓋 %s (Y:是/N:否/A:全部)?"
+
+msgid "SHELL_CMD_COPY_NOSPACE"
+msgstr ""
+"磁碟空間不足 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_ERROR"
+msgstr ""
+"檔案拷貝錯誤 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_DRIVE_LIST"
+msgstr ""
+"目前已掛載的磁碟機為:\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_NO_REMOVE"
+msgstr ""
+"無法移除未使用的磁碟機.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_IN_USE"
+msgstr ""
+"指定的磁碟機已使用.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_NOT_LOCAL"
+msgstr ""
+"SUBST 命令只能掛載本機磁碟機.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_INVALID_PATH"
+msgstr ""
+"指定的磁碟機或目錄不合法的.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_FAILURE"
+msgstr ""
+"SUBST: 命令列參數錯誤.\n"
+"\n"
+
+msgid "SHELL_STARTUP_TITLE"
+msgstr "歡迎使用 DOSBox-X !"
+
+msgid "SHELL_STARTUP_HEAD1"
+msgstr "[36m輕鬆上手 DOSBox-X:                                                          [37m"
+
+msgid "SHELL_STARTUP_TEXT1"
+msgstr ""
+"輸入 [32mHELP[37m 命令檢視DOS命令清單, 或輸入 [32mINTRO[37m 命令進入 DOSBox-X 的簡短介紹。  \n"
+"您亦可以通過 DOSBox-X 所帶的[33m下拉式選單[37m來完成 DOSBox-X 的各種操作和功能。    \n"
+
+msgid "SHELL_STARTUP_EXAMPLE"
+msgstr "[32m舉例[37m: 您可以試著在 [32m影像[37m 選單中選擇 [33mTTF[37m 或者 [33mOpenGL perfect[37m 輸出選項。       "
+
+msgid "SHELL_STARTUP_HEAD2"
+msgstr "[36m常用的預設快速鍵:                                                           [37m"
+
+msgid "SHELL_STARTUP_TEXT2"
+msgstr ""
+"- 切換視窗和全螢幕模式： [31mF11 [37m+ [31mF[37m [37m                                           \n"
+"- 開啟 [33m組態工具[37m： [31mF11 [37m+ [31mC[37m[37m； [33m按鍵編輯[37m: [31mF11 [37m+ [31mM[37m  [37m                             \n"
+"- 提高或降低模擬速度： [31mF11 [37m+ [31m加號[37m[37m 或 [31mF11 [37m+ [31m減號[37m   [37m                          \n"
+
+msgid "SHELL_STARTUP_CGA"
+msgstr ""
+"支援 CGA 合成模式. 按 [31mCtrl+F8[37m 鍵啟用或停用合成輸出.                         \n"
+"按 [31mCtrl+Shift+[F7/F8][37m 變更色度; 按 [31mCtrl+F7[37m 選擇早期/晚期 CGA 型號.          \n"
+
+msgid "SHELL_STARTUP_HERC"
+msgstr ""
+"按 [31mCtrl+F7[37m 鍵在單色間切換： 白色、琥珀色、綠色.                             \n"
+"按 [31mCtrl+F8[37m 鍵切換水平混合 (僅圖形模式).                                     \n"
+
+msgid "SHELL_STARTUP_HEAD3"
+msgstr "[36m線上 DOSBox-X 專案:                                                         [37m"
+
+msgid "SHELL_STARTUP_TEXT3"
+msgstr ""
+"[32m專案首頁[37m: [33mhttps://dosbox-x.com/                  [36mDOSBox-X提供完整的 DOS 模擬[37m\n"
+"[32m使用指南[37m: [33mhttps://dosbox-x.com/wiki[32m              [36m包括 DOS, Windows 3.x 和 9x[37m\n"
+"[32m問題討論[37m: [33mhttps://github.com/joncampbell123/dosbox-x/issues                 [37m\n"
+
+msgid "SHELL_STARTUP_LAST"
+msgstr "祝您使用 DOSBox-X 愉快!"
+
+msgid "SHELL_CMD_BREAK_HELP"
+msgstr ""
+"設定或清除 CTRL+C 校驗.\n"
+"\n"
+
+msgid "SHELL_CMD_BREAK_HELP_LONG"
+msgstr ""
+"BREAK [ON | OFF]\n"
+"\n"
+"輸入不含參數的 BREAK 命令將顯示目前 BREAK 狀態.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HELP"
+msgstr ""
+"顯示或變更目前目錄.\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HELP_LONG"
+msgstr ""
+"CHDIR [磁碟機:][路徑]\n"
+"CHDIR [..]\n"
+"CD [磁碟機:][路徑]\n"
+"CD [..]\n"
+"\n"
+"  ..   指定您想變更到父目錄.\n"
+"\n"
+"輸入 CD 磁碟機: 顯示指定磁碟機的目前目錄.\n"
+"輸入不含參數的 CD 命令顯示目前磁碟機和目錄.\n"
+"\n"
+
+msgid "SHELL_CMD_CLS_HELP"
+msgstr ""
+"清除螢幕.\n"
+"\n"
+
+msgid "SHELL_CMD_CLS_HELP_LONG"
+msgstr ""
+"CLS\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_HELP"
+msgstr ""
+"顯示檔案或目錄清單.\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_HELP_LONG"
+msgstr ""
+"DIR [磁碟機:][路徑][檔名] [/[W|B]] [/S] [/P] [/A[D|H|S|R|A]] [/O[N|E|G|S|D]]\n"
+"\n"
+"  [磁碟機:][路徑][檔名]\n"
+"              指定要列出的磁碟機, 目錄或檔名.\n"
+"  /W          使用寬格式列出.\n"
+"  /B          使用短格式列出 (無標題資訊或概要).\n"
+"  /S          顯示指定目錄和所有子目錄中的檔案.\n"
+"  /P          顯示完一螢幕後暫停.\n"
+"  /A          顯示帶有指定屬性的檔案.\n"
+"  屬性         D  目錄                 R  唯讀檔案\n"
+"               H  隱藏檔案             A  封存檔案\n"
+"               S  系統檔案             -  前綴表示相反\n"
+"  /O          以排序方式列出檔案.\n"
+"  排列順序     N  按檔名 (字母排列)  S  按檔案大小 (小的在前)\n"
+"               E  按副檔名 (字母排列)  D  按檔案日期時間 (早的在前)\n"
+"               G  先顯示目錄           -  前綴表示相反順序\n"
+"\n"
+"選項可以在 DIRCMD 環境變數中預先設定. 可以用帶-前綴的選項(比如/-W)進行覆蓋.\n"
+"            \n"
+
+msgid "SHELL_CMD_ECHO_HELP"
+msgstr ""
+"顯示資訊,開啟或關閉命令的回顯.\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_HELP_LONG"
+msgstr ""
+"  ECHO [ON | OFF]\n"
+"  ECHO [消息]\n"
+"\n"
+"輸入不含參數的 ECHO 將顯示目前命令回顯狀態.\n"
+"\n"
+
+msgid "SHELL_CMD_EXIT_HELP"
+msgstr ""
+"結束目前的DOS提示字元.\n"
+"\n"
+
+msgid "SHELL_CMD_EXIT_HELP_LONG"
+msgstr ""
+"EXIT\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_HELP"
+msgstr ""
+"顯示 DOSBox-X 命令說明.\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_HELP_LONG"
+msgstr ""
+"HELP [/A 或 /ALL]\n"
+"HELP [命令]\n"
+"\n"
+"   /A 或 /ALL   顯示所有支援的內部命令.\n"
+"   [命令]       顯示指定命令的說明.\n"
+"\n"
+"[0mE.g., [37;1mHELP COPY[0m 或 [37;1mCOPY /?[0m 顯示 COPY 命令的說明資訊.\n"
+"\n"
+"注釋: 外部命令比如 [33;1mMOUNT[0m 和 [33;1mIMGMOUNT[0m 不會被 HELP [/A] 命令列出.\n"
+"      這些命令可以在 Z 碟中作為程式找到 (比如 MOUNT.COM).\n"
+"      輸入 [33;1m命令 /?[0m 或 [33;1mHELP 命令[0m 顯示此命令的說明資訊.\n"
+"\n"
+
+msgid "SHELL_CMD_LS_HELP"
+msgstr ""
+"列出目錄內容.\n"
+"\n"
+
+msgid "SHELL_CMD_LS_HELP_LONG"
+msgstr ""
+"LS [磁碟機:][路徑][檔名] [/A] [/L] [/P] [/Z]\n"
+"\n"
+"  /A     亦列出隱藏檔案和系統檔案.\n"
+"  /L     每行顯示一個檔案或目錄.\n"
+"  /P     顯示完一屏後暫停.\n"
+"  /Z     顯示短檔名,即使長檔名可用.\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_HELP"
+msgstr ""
+"建立目錄.\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_HELP_LONG"
+msgstr ""
+"MKDIR [磁碟機:][路徑]\n"
+"MD [磁碟機:][路徑]\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_HELP"
+msgstr ""
+"刪除目錄.\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_HELP_LONG"
+msgstr ""
+"RMDIR [磁碟機:][路徑]\n"
+"RD [磁碟機:][路徑]\n"
+"\n"
+
+msgid "SHELL_CMD_SET_HELP"
+msgstr ""
+"顯示或變更環境變數.\n"
+"\n"
+
+msgid "SHELL_CMD_SET_HELP_LONG"
+msgstr ""
+"SET [變數名=[字串]]\n"
+"\n"
+"   變數名     指定環境變數的名字.\n"
+"   字串     指定分配到變數的字串.\n"
+"\n"
+"* 如果沒有指定字串, 指定的環境變數將被移除.\n"
+"\n"
+"輸入不含參數的 SET 命令顯示目前環境變數.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_HELP"
+msgstr ""
+"批次檔的條件語句.\n"
+"\n"
+
+msgid "SHELL_CMD_IF_HELP_LONG"
+msgstr ""
+"IF [NOT] ERRORLEVEL 數字 命令\n"
+"IF [NOT] 字串1==字串2 命令\n"
+"IF [NOT] EXIST 檔名 命令\n"
+"\n"
+"  NOT               指定命令僅在條件非真的情況下執行.\n"
+"\n"
+"  ERRORLEVEL 數字   指定條件僅在上個執行程式的返回碼至少達到此數字時為真.\n"
+"\n"
+"  字串1==字串2  指定條件僅在兩個字串相同時為真.\n"
+"\n"
+"  \n"
+
+msgid "SHELL_CMD_GOTO_HELP"
+msgstr ""
+"在批次檔中跳到指定的標籤行.\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_HELP_LONG"
+msgstr ""
+"GOTO 標籤\n"
+"\n"
+"   標籤   在處理檔案中指定一個文字字串作為標籤.\n"
+"\n"
+"標籤將作為單獨一行, 前面加上冒號.\n"
+"\n"
+
+msgid "SHELL_CMD_SHIFT_HELP"
+msgstr ""
+"在批次檔中變更可替換型參數的位置.\n"
+"\n"
+
+msgid "SHELL_CMD_SHIFT_HELP_LONG"
+msgstr ""
+"SHIFT\n"
+"\n"
+
+msgid "SHELL_CMD_FOR_HELP"
+msgstr ""
+"對一系列檔案中的每個檔案執行指定的命令.\n"
+"\n"
+
+msgid "SHELL_CMD_FOR_HELP_LONG"
+msgstr ""
+"FOR %%變數 IN (系列) DO 命令 [命令參數]\n"
+"\n"
+"  %%變數     指定可替換參數.\n"
+"  (系列)    指定包含一個或多個檔案的系列, 可使用萬用字元.\n"
+"  命令      指定將作用於每個檔案的命令.\n"
+"  命令參數  指定命令所使用的參數.\n"
+"\n"
+"如果在批次檔中使用, 請使用 %%%%變數 代替 %%變數.\n"
+"\n"
+
+msgid "SHELL_CMD_LFNFOR_HELP"
+msgstr ""
+"處理 FOR 命令的萬用字元時啟用或停用長檔名.\n"
+"\n"
+
+msgid "SHELL_CMD_LFNFOR_HELP_LONG"
+msgstr ""
+"LFNFOR [ON | OFF]\n"
+"\n"
+"輸入出不含參數的 LFNFOR 命令顯示目前 LFNFOR 設定.\n"
+"\n"
+"此命令僅在長檔名支援啟用的情況下有效.\n"
+"\n"
+
+msgid "SHELL_CMD_TYPE_HELP"
+msgstr ""
+"顯示文字檔案內容.\n"
+"\n"
+
+msgid "SHELL_CMD_TYPE_HELP_LONG"
+msgstr ""
+"TYPE [磁碟機:][路徑][檔名]\n"
+"\n"
+
+msgid "SHELL_CMD_REM_HELP"
+msgstr ""
+"在批次檔中加入注釋.\n"
+"\n"
+
+msgid "SHELL_CMD_REM_HELP_LONG"
+msgstr ""
+"REM [注釋]\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_HELP"
+msgstr ""
+"重新命名檔名或目錄.\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_HELP_LONG"
+msgstr ""
+"RENAME [磁碟機:][路徑][目錄名1 | 檔名1] [目錄名2 | 檔名2]\n"
+"REN [磁碟機:][路徑][目錄名1 | 檔名1] [目錄名2 | 檔名2]\n"
+"\n"
+"注意您不能給目標檔案指定新的磁碟機或路徑.\n"
+"\n"
+"萬用字元 (* 和 ?) 可以在檔名中使用.\n"
+"舉例, 此命令將重新命名所有文字檔案: [37;1mREN *.TXT *.BAK[0m\n"
+"\n"
+
+msgid "SHELL_CMD_DELETE_HELP"
+msgstr ""
+"刪除檔案.\n"
+"\n"
+
+msgid "SHELL_CMD_DELETE_HELP_LONG"
+msgstr ""
+"DEL [/P] [/F] [/Q] 名稱\n"
+"ERASE [/P] [/F] [/Q] 名稱\n"
+"\n"
+"  名稱          指定一個或多個檔案或目錄. 萬用字元可以用來指定刪除多個檔案.\n"
+"                如果指定一個目錄則此目錄中的所有檔案將被刪除.\n"
+"  /P            刪除一個或多個檔案時提示確認.\n"
+"  /F            強制刪除唯讀檔案.\n"
+"  /Q            安靜模式, 刪除目錄下所有檔案時不進行確認.\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_HELP"
+msgstr ""
+"拷貝檔案.\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_HELP_LONG"
+msgstr ""
+"COPY [/Y | /-Y] 源檔案 [+源檔案 [+ ...]] [目標]\n"
+"\n"
+"  源檔案        指定要複製的檔案.\n"
+"  目標          指定要複製到的檔名或目錄.\n"
+"  /Y            覆蓋現存檔案時不進行確認.\n"
+"  /-Y           覆蓋現存檔案時進行確認.\n"
+"\n"
+"選項 /Y 可以在 COPYCMD 環境變數中預先設定. 可以在命令列中使用 /-Y 選項進行覆蓋.\n"
+"\n"
+"要連接檔案, 指定一個檔名作為目標, 同時使用多個檔名作為源檔案 (使用萬用字元或者檔案1+檔案2+檔案3格式).\n"
+"\n"
+
+msgid "SHELL_CMD_CALL_HELP"
+msgstr ""
+"在批次檔中調用批次檔.\n"
+"\n"
+
+msgid "SHELL_CMD_CALL_HELP_LONG"
+msgstr ""
+"CALL [磁碟機:][路徑]檔名 [批次處理參數]\n"
+"\n"
+"批次處理參數  指定批次檔所需的命令列參數.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_HELP"
+msgstr ""
+"將目錄分配給一個磁碟機.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_HELP_LONG"
+msgstr ""
+"SUBST [磁碟機1: [磁碟機2:]路徑]\n"
+"SUBST 磁碟機1: /D\n"
+"\n"
+"  磁碟機1:        指定您想分配路徑的新磁碟機.\n"
+"  [磁碟機2:]路徑  指定已掛載的本機磁碟機和路徑.\n"
+"  /D              刪除已掛載或代替的磁碟機.\n"
+"\n"
+"輸出不含參數的 SUBST 命令顯示已掛載的本機磁碟機清單.\n"
+"\n"
+
+msgid "SHELL_CMD_LOADHIGH_HELP"
+msgstr ""
+"載入程式至上位記憶體 (需要 XMS 和 UMB 記憶體).\n"
+"\n"
+
+msgid "SHELL_CMD_LOADHIGH_HELP_LONG"
+msgstr ""
+"LH              [磁碟機:][路徑]檔名 [參數]\n"
+"LOADHIGH        [磁碟機:][路徑]檔名 [參數]\n"
+"\n"
+
+msgid "SHELL_CMD_CHOICE_HELP"
+msgstr ""
+"等待按鍵並設定 ERRORLEVEL.\n"
+"\n"
+
+msgid "SHELL_CMD_CHOICE_HELP_LONG"
+msgstr ""
+"CHOICE [/C:選擇] [/N] [/S] text\n"
+"  /C[:]選擇  指定允許的按鍵. 預設為: yn.\n"
+"  /N         不在末尾顯示選擇.\n"
+"  /S         啟用大小寫相異選擇模式.\n"
+"  文字       作為提示字元顯示的文字.\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_HELP"
+msgstr ""
+"變更或變更檔案屬性.\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_HELP_LONG"
+msgstr ""
+"ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [磁碟機:][路徑][檔名] [/S]\n"
+"\n"
+"  +   設定屬性.\n"
+"  -   清除屬性.\n"
+"  R   唯讀屬性.\n"
+"  A   封存屬性.\n"
+"  S   系統屬性.\n"
+"  H   隱藏屬性.\n"
+"  [磁碟機:][路徑][檔名]\n"
+"      指定 ATTRIB 命令要處理的檔案或目錄.\n"
+"  /S  處理指定路徑下所有目錄中的檔案.\n"
+"\n"
+
+msgid "SHELL_CMD_PATH_HELP"
+msgstr ""
+"顯示或設定可執行檔案的搜尋路徑.\n"
+"\n"
+
+msgid "SHELL_CMD_PATH_HELP_LONG"
+msgstr ""
+"PATH [[磁碟機:]路徑[;...][;%PATH%]\n"
+"PATH ;\n"
+"\n"
+"輸入 PATH ; 清除所有已設定的搜尋路徑.\n"
+"輸入不含參數的 PATH 命令顯示目前搜尋路徑.\n"
+"\n"
+
+msgid "SHELL_CMD_PUSHD_HELP"
+msgstr ""
+"儲存目前目錄以給 POPD 命令使用, 並切換到指定的目錄.\n"
+"\n"
+
+msgid "SHELL_CMD_PUSHD_HELP_LONG"
+msgstr ""
+"PUSHD [路徑]\n"
+"\n"
+"路徑        指定要作為目前目錄的目錄.\n"
+"\n"
+"輸入不含參數的 PUSHD 命令顯示目前儲存的目錄.\n"
+"\n"
+
+msgid "SHELL_CMD_POPD_HELP"
+msgstr ""
+"切換到 PUSHD 命令儲存的目錄.\n"
+"\n"
+
+msgid "SHELL_CMD_POPD_HELP_LONG"
+msgstr ""
+"POPD\n"
+"\n"
+
+msgid "SHELL_CMD_VERIFY_HELP"
+msgstr ""
+"控制是否校驗檔案已正確寫入磁碟.\n"
+"\n"
+
+msgid "SHELL_CMD_VERIFY_HELP_LONG"
+msgstr ""
+"VERIFY [ON | OFF]\n"
+"\n"
+"輸入不含參數的 VERIFY 命令顯示目前 VERIFY 設定.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_HELP"
+msgstr ""
+"顯示或設定 DOSBox-X 的報告 DOS 版本.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_HELP_LONG"
+msgstr ""
+"VER [/R]\n"
+"VER [SET] 版本號 或 VER SET [主版本號 次版本號]\n"
+"\n"
+"  /R                   　　顯示 DOSBox-X 的 Git 提交版本和生成日期.\n"
+"  [SET] 版本號           　設定指定的版本號為要報告的 DOS 版本.\n"
+"  SET [主版本號 次版本號]  以主版本號+次版本號的格式設定要報告的 DOS 版本.\n"
+"\n"
+"  [0m舉例, [37;1mVER 6.0[0m 或 [37;1mVER 7.1[0m 將 DOS 版本分別設定為 6.0 和 7.1.\n"
+"  另一方面, [37;1mVER SET 7 1[0m 將設定 DOS 版為 7.01 （而不是 7.1）.\n"
+"\n"
+"輸入不含參數的 VER 命令顯示 DOSBox-X 及報告的 DOS 版本.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_VER"
+msgstr ""
+"DOSBox-X 版本 %s (%s). 報告的 DOS 版本 %d.%02d.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_INVALID"
+msgstr ""
+"指定的 DOS 版本不正確.\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_HELP"
+msgstr ""
+"顯示磁碟的標籤號和存在的序列號.\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_HELP_LONG"
+msgstr ""
+"VOL [磁碟機]\n"
+"\n"
+
+msgid "SHELL_CMD_PROMPT_HELP"
+msgstr ""
+"變更命令提示字元.\n"
+"\n"
+
+msgid "SHELL_CMD_PROMPT_HELP_LONG"
+msgstr ""
+"PROMPT [文字]\n"
+"  文字    指定新的命令提示字元.\n"
+"\n"
+"提示字元可以由正常字元和以下特殊代碼組成:\n"
+"  $A   & (&號)\n"
+"  $B   | (管道字元)\n"
+"  $C   ( (左括號)\n"
+"  $D   目前日期\n"
+"  $E   轉義碼 (ASCII 代碼 27)\n"
+"  $F   ) (右括號)\n"
+"  $G   > (大於號)\n"
+"  $H   退格符號 (刪除此前字元)\n"
+"  $L   < (小於號)\n"
+"  $N   目前磁碟機\n"
+"  $P   目前磁碟機和路徑\n"
+"  $Q   = (等號)\n"
+"  $S     (空格)\n"
+"  $T   目前時間\n"
+"  $V   DOS 版本號\n"
+"  $_   Enter 和換行\n"
+"  $$   $ (美元字元)\n"
+"\n"
+
+msgid "SHELL_CMD_ALIAS_HELP"
+msgstr ""
+"定義或顯示別名.\n"
+"\n"
+
+msgid "SHELL_CMD_ALIAS_HELP_LONG"
+msgstr ""
+"ALIAS [名稱[=值] ... ]\n"
+"\n"
+"輸入不含參數的 ALIAS 命令將以如下形式顯示已定義的別名清單:\n"
+"`ALIAS 名稱 = 值'\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_HELP"
+msgstr ""
+"顯示或變更目前 DOS 代碼頁.\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_HELP_LONG"
+msgstr ""
+"CHCP [nnn]\n"
+"\n"
+"  nnn   指定代碼頁.\n"
+"\n"
+"TTF 輸出方式所支援的代碼頁包括:\n"
+"437,808,850,852,853,855,857,858,860,861,862,863,864,865,866,869,872,874\n"
+"\n"
+"以及雙位元組代碼頁,包括: 932, 936, 949, 950\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_ACTIVE"
+msgstr ""
+"活動的代碼頁: %d\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_MISSING"
+msgstr ""
+"TTF 字體中未定義的字元數: %d\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_INVALID"
+msgstr ""
+"不合法的代碼頁 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COUNTRY_HELP"
+msgstr ""
+"顯示或變更目前國家號.\n"
+"\n"
+
+msgid "SHELL_CMD_COUNTRY_HELP_LONG"
+msgstr ""
+"COUNTRY [nnn] \n"
+"\n"
+"  nnn   指定國家代碼.\n"
+"\n"
+"指定的國家代碼將影響顯示的日期和時間格式.\n"
+"\n"
+
+msgid "SHELL_CMD_CTTY_HELP"
+msgstr ""
+"變更控制系統的終端裝置.\n"
+"\n"
+
+msgid "SHELL_CMD_CTTY_HELP_LONG"
+msgstr ""
+"CTTY 裝置名\n"
+"  裝置名        要使用的終端裝置, 比如 CON.\n"
+"\n"
+
+msgid "SHELL_CMD_MORE_HELP"
+msgstr ""
+"分屏顯示輸出.\n"
+"\n"
+
+msgid "SHELL_CMD_MORE_HELP_LONG"
+msgstr ""
+"MORE [磁碟機:][路徑][檔名]\n"
+"MORE < [磁碟機:][路徑]檔名\n"
+"命令名 | MORE [磁碟機:][路徑][檔名]\n"
+"\n"
+
+msgid "SHELL_CMD_TRUENAME_HELP"
+msgstr ""
+"顯示完整的檔名.\n"
+"\n"
+
+msgid "SHELL_CMD_TRUENAME_HELP_LONG"
+msgstr ""
+"TRUENAME [/H] 檔案\n"
+"\n"
+
+msgid "SHELL_CMD_DXCAPTURE_HELP"
+msgstr ""
+"執行程式並啟用影像或音訊擷取.\n"
+"\n"
+
+msgid "SHELL_CMD_DXCAPTURE_HELP_LONG"
+msgstr ""
+"DX-CAPTURE [/V|/-V] [/A|/-A] [/M|/-M] [command] [options]\n"
+"\n"
+"它將啟動影像或音訊擷取, 執行程式, 等程式執行結束時停止擷取.\n"
+"\n"
+
+msgid "SHELL_CMD_DEBUGBOX_HELP"
+msgstr ""
+"執行程式並在其入口調用除錯器.\n"
+"\n"
+
+msgid "SHELL_CMD_DEBUGBOX_HELP_LONG"
+msgstr ""
+"DEBUGBOX [命令] [選項]\n"
+"\n"
+"輸入不含參數的 DEBUGBOX 命令將啟動除錯器.\n"
+"\n"
+
+msgid "SHELL_CMD_COMMAND_HELP"
+msgstr ""
+"啟動 DOSBox-X 命令解釋器.\n"
+"\n"
+"支援以下選項:\n"
+"\n"
+"  /C    執行指定的命令並返回.\n"
+"  /K    執行指定的命令並繼續執行.\n"
+"  /P    載入永久性的命令解釋器.\n"
+"  /INIT 初始化命令列.\n"
+"\n"
+
+msgid "SHELL_STARTUP_HEAD1_PC98"
+msgstr "[36mGetting Started with DOSBox-X:[37m                                    "
+
+msgid "SHELL_STARTUP_TEXT1_PC98"
+msgstr ""
+"Type [32mHELP[37m for shell commands, and [32mINTRO[37m for a short introduction. \n"
+"You could also complete various tasks through the [33mdrop-down menus[37m.\n"
+
+msgid "SHELL_STARTUP_EXAMPLE_PC98"
+msgstr "[32mExample[37m: Try select [33mTrueType font[37m or [33mOpenGL perfect[37m output option."
+
+msgid "SHELL_STARTUP_TEXT2_PC98"
+msgstr ""
+"To launch the [33mConfiguration Tool[37m, use [31mhost+C[37m. Host key is [32mF11[37m.    \n"
+"To activate the [33mMapper Editor[37m for key assignments, use [31mhost+M[37m.    \n"
+"To switch between windowed and full-screen mode, use [31mhost+F[37m.      \n"
+"To adjust the emulated CPU speed, use [31mhost+Plus[37m and [31mhost+Minus[37m.   \n"
+
+msgid "SHELL_STARTUP_INFO_PC98"
+msgstr "[36mDOSBox-X is now running in [32mJapanese NEC PC-98[36m emulation mode.[37m     "
+
+msgid "SHELL_STARTUP_TEXT3_PC98"
+msgstr ""
+"[32mDOSBox-X project [33mhttps://dosbox-x.com/     [36mComplete DOS emulations[37m\n"
+"[32mDOSBox-X guide   [33mhttps://dosbox-x.com/wiki[37m [36mDOS, Windows 3.x and 9x[37m\n"
+"[32mDOSBox-X support [33mhttps://github.com/joncampbell123/dosbox-x/issues[37m\n"
+
+msgid "SHELL_STARTUP_CGA_MONO"
+msgstr ""
+"按 [31mCtrl+F7[37m 鍵在單色間切換： 綠色、琥珀色、白色.                             \n"
+"按 [31mCtrl+F8[37m 鍵變更高對比度/亮度設定.                                         \n"
+
+msgid "MENU:mapper_reset"
+msgstr "重新開始模擬"
+
+msgid "MENU:mapper_reboot"
+msgstr "重開DOS系統"
+
+msgid "MENU:mapper_loadmap"
+msgstr "載入按鍵配置檔案..."
+
+msgid "MENU:mapper_quickrun"
+msgstr "快速啟動程式..."
+
+msgid "MENU:mapper_shutdown"
+msgstr "結束 DOSBox-X"
+
+msgid "MENU:mapper_capmouse"
+msgstr "擷取滑鼠"
+
+msgid "MENU:mapper_fastedit"
+msgstr "快速編輯: 選擇後複製或貼上文字"
+
+msgid "MENU:mapper_copyall"
+msgstr "複製DOS畫面上的所有文字"
+
+msgid "MENU:mapper_paste"
+msgstr "從剪貼簿中複製"
+
+msgid "MENU:mapper_pasteend"
+msgstr "停止剪貼簿複製"
+
+msgid "MENU:mapper_pause"
+msgstr "暫停模擬"
+
+msgid "MENU:mapper_pauseints"
+msgstr "暫停並保持中斷"
+
+msgid "MENU:mapper_gui"
+msgstr "組態工具"
+
+msgid "MENU:mapper_mapper"
+msgstr "按鍵編輯"
+
+msgid "MENU:mapper_fullscr"
+msgstr "切換全螢幕模式"
+
+msgid "MENU:mapper_resetsize"
+msgstr "重置畫面大小"
+
+msgid "MENU:mapper_incsize"
+msgstr "增加 TTF 字體大小"
+
+msgid "MENU:mapper_decsize"
+msgstr "減少 TTF 字體大小"
+
+msgid "MENU:mapper_togmenu"
+msgstr "隱藏/顯示下拉選單"
+
+msgid "MENU:MainMenu"
+msgstr "主選單"
+
+msgid "MENU:MainSendKey"
+msgstr "輸入特殊鍵"
+
+msgid "MENU:MainHostKey"
+msgstr "選擇主機按鍵"
+
+msgid "MENU:WheelToArrow"
+msgstr "滑鼠滑輪動作轉換"
+
+msgid "MENU:SharedClipboard"
+msgstr "剪貼簿功能"
+
+msgid "MENU:CpuMenu"
+msgstr "CPU"
+
+msgid "MENU:CpuCoreMenu"
+msgstr "CPU 核心"
+
+msgid "MENU:CpuTypeMenu"
+msgstr "CPU 類型"
+
+msgid "MENU:CpuSpeedMenu"
+msgstr "模擬 CPU 速度"
+
+msgid "MENU:cpu88-4"
+msgstr "8088 XT 4.77MHz (~240 週期)"
+
+msgid "MENU:cpu286-8"
+msgstr "286 8MHz (~750 週期)"
+
+msgid "MENU:cpu286-12"
+msgstr "286 12MHz (~1510 週期)"
+
+msgid "MENU:cpu286-25"
+msgstr "286 25MHz (~3300 週期)"
+
+msgid "MENU:cpu386-25"
+msgstr "386DX 25MHz (~4595 週期)"
+
+msgid "MENU:cpu386-33"
+msgstr "386DX 33MHz (~6075 週期)"
+
+msgid "MENU:cpu486-33"
+msgstr "486DX 33MHz (~12010 週期)"
+
+msgid "MENU:cpu486-66"
+msgstr "486DX2 66MHz (~23880 週期)"
+
+msgid "MENU:cpu486-100"
+msgstr "486DX4 100MHz (~33445 週期)"
+
+msgid "MENU:cpu486-133"
+msgstr "486DX5 133MHz (~47810 週期)"
+
+msgid "MENU:cpu586-60"
+msgstr "奔騰 60MHz (~31545 週期)"
+
+msgid "MENU:cpu586-66"
+msgstr "奔騰 66MHz (~35620 週期)"
+
+msgid "MENU:cpu586-75"
+msgstr "奔騰 75MHz (~43500 週期)"
+
+msgid "MENU:cpu586-90"
+msgstr "奔騰 90MHz (~52000 週期)"
+
+msgid "MENU:cpu586-100"
+msgstr "奔騰 100MHz (~60000 週期)"
+
+msgid "MENU:cpu586-120"
+msgstr "奔騰 120MHz (~74000 週期)"
+
+msgid "MENU:cpu586-133"
+msgstr "奔騰 133MHz (~80000 週期)"
+
+msgid "MENU:cpu586-166"
+msgstr "奔騰 166MHz MMX (~97240 週期)"
+
+msgid "MENU:VideoMenu"
+msgstr "影像"
+
+msgid "MENU:VideoFrameskipMenu"
+msgstr "跳過影格"
+
+msgid "MENU:frameskip_0"
+msgstr "關閉"
+
+msgid "MENU:frameskip_1"
+msgstr "1 影格"
+
+msgid "MENU:frameskip_2"
+msgstr "2 影格"
+
+msgid "MENU:frameskip_3"
+msgstr "3 影格"
+
+msgid "MENU:frameskip_4"
+msgstr "4 影格"
+
+msgid "MENU:frameskip_5"
+msgstr "5 影格"
+
+msgid "MENU:frameskip_6"
+msgstr "6 影格"
+
+msgid "MENU:frameskip_7"
+msgstr "7 影格"
+
+msgid "MENU:frameskip_8"
+msgstr "8 影格"
+
+msgid "MENU:frameskip_9"
+msgstr "9 影格"
+
+msgid "MENU:frameskip_10"
+msgstr "10 影格"
+
+msgid "MENU:VideoScalerMenu"
+msgstr "縮放器"
+
+msgid "MENU:scaler_forced"
+msgstr "強制使用縮放器"
+
+msgid "MENU:scaler_set_none"
+msgstr "無"
+
+msgid "MENU:scaler_set_normal2x"
+msgstr "Normal 2X"
+
+msgid "MENU:scaler_set_normal3x"
+msgstr "Normal 3X"
+
+msgid "MENU:scaler_set_normal4x"
+msgstr "Normal 4X"
+
+msgid "MENU:scaler_set_normal5x"
+msgstr "Normal 5X"
+
+msgid "MENU:scaler_set_hardware_none"
+msgstr "Hardware None"
+
+msgid "MENU:scaler_set_hardware2x"
+msgstr "Hardware 2X"
+
+msgid "MENU:scaler_set_hardware3x"
+msgstr "Hardware 3X"
+
+msgid "MENU:scaler_set_hardware4x"
+msgstr "Hardware 4X"
+
+msgid "MENU:scaler_set_hardware5x"
+msgstr "Hardware 5X"
+
+msgid "MENU:scaler_set_gray"
+msgstr "Grayscale"
+
+msgid "MENU:scaler_set_gray2x"
+msgstr "Grayscale 2X"
+
+msgid "MENU:scaler_set_tv2x"
+msgstr "TV 2X"
+
+msgid "MENU:scaler_set_tv3x"
+msgstr "TV 3X"
+
+msgid "MENU:scaler_set_scan2x"
+msgstr "Scan 2X"
+
+msgid "MENU:scaler_set_scan3x"
+msgstr "Scan 3X"
+
+msgid "MENU:scaler_set_rgb2x"
+msgstr "RGB 2X"
+
+msgid "MENU:scaler_set_rgb3x"
+msgstr "RGB 3X"
+
+msgid "MENU:scaler_set_advmame2x"
+msgstr "Advanced MAME 2X"
+
+msgid "MENU:scaler_set_advmame3x"
+msgstr "Advanced MAME 3X"
+
+msgid "MENU:scaler_set_hq2x"
+msgstr "HQ 2X"
+
+msgid "MENU:scaler_set_hq3x"
+msgstr "HQ 3X"
+
+msgid "MENU:scaler_set_advinterp2x"
+msgstr "Advanced Interpolation 2X"
+
+msgid "MENU:scaler_set_advinterp3x"
+msgstr "Advanced Interpolation 3X"
+
+msgid "MENU:scaler_set_2xsai"
+msgstr "2xSai"
+
+msgid "MENU:scaler_set_super2xsai"
+msgstr "Super2xSai"
+
+msgid "MENU:scaler_set_supereagle"
+msgstr "SuperEagle"
+
+msgid "MENU:scaler_set_xbrz"
+msgstr "xBRZ"
+
+msgid "MENU:scaler_set_xbrz_bilinear"
+msgstr "xBRZ Bilinear"
+
+msgid "MENU:refresh_rate"
+msgstr "調整更新率..."
+
+msgid "MENU:VideoOutputMenu"
+msgstr "輸出"
+
+msgid "MENU:output_surface"
+msgstr "Surface"
+
+msgid "MENU:output_direct3d"
+msgstr "Direct3D"
+
+msgid "MENU:output_opengl"
+msgstr "OpenGL"
+
+msgid "MENU:output_openglnb"
+msgstr "OpenGL nearest"
+
+msgid "MENU:output_openglpp"
+msgstr "OpenGL perfect"
+
+msgid "MENU:output_ttf"
+msgstr "TTF"
+
+msgid "MENU:doublescan"
+msgstr "雙重掃描"
+
+msgid "MENU:VideoVsyncMenu"
+msgstr "垂直同步"
+
+msgid "MENU:vsync_on"
+msgstr "開啟"
+
+msgid "MENU:vsync_force"
+msgstr "強制"
+
+msgid "MENU:vsync_host"
+msgstr "主機"
+
+msgid "MENU:vsync_off"
+msgstr "關閉"
+
+msgid "MENU:vsync_set_syncrate"
+msgstr "設定同步速率"
+
+msgid "MENU:VideoOverscanMenu"
+msgstr "過掃描"
+
+msgid "MENU:overscan_0"
+msgstr "關閉"
+
+msgid "MENU:overscan_1"
+msgstr "1"
+
+msgid "MENU:overscan_2"
+msgstr "2"
+
+msgid "MENU:overscan_3"
+msgstr "3"
+
+msgid "MENU:overscan_4"
+msgstr "4"
+
+msgid "MENU:overscan_5"
+msgstr "5"
+
+msgid "MENU:overscan_6"
+msgstr "6"
+
+msgid "MENU:overscan_7"
+msgstr "7"
+
+msgid "MENU:overscan_8"
+msgstr "8"
+
+msgid "MENU:overscan_9"
+msgstr "9"
+
+msgid "MENU:overscan_10"
+msgstr "10"
+
+msgid "MENU:VideoTextmodeMenu"
+msgstr "文字模式"
+
+msgid "MENU:clear_screen"
+msgstr "清除畫面"
+
+msgid "MENU:vga_9widetext"
+msgstr "允許9像素寬字體"
+
+msgid "MENU:text_background"
+msgstr "高強度文字: 背景色"
+
+msgid "MENU:text_blinking"
+msgstr "高強度文字: 閃爍文字"
+
+msgid "MENU:line_80x25"
+msgstr "畫面: 80 行 x 25 列"
+
+msgid "MENU:line_80x43"
+msgstr "畫面: 80 行 x 43 列"
+
+msgid "MENU:line_80x50"
+msgstr "畫面: 80 行 x 50 列"
+
+msgid "MENU:line_80x60"
+msgstr "畫面: 80 行 x 60 列"
+
+msgid "MENU:line_132x25"
+msgstr "畫面: 132 行 x 25 列"
+
+msgid "MENU:line_132x43"
+msgstr "畫面: 132 行 x 43 列"
+
+msgid "MENU:line_132x50"
+msgstr "畫面: 132 行 x 50 列"
+
+msgid "MENU:line_132x60"
+msgstr "畫面: 132 行 x 60 列"
+
+msgid "MENU:VideoTTFMenu"
+msgstr "TTF 選項"
+
+msgid "MENU:ttf_showbold"
+msgstr "使用 TTF 顯示粗體文字"
+
+msgid "MENU:ttf_showital"
+msgstr "使用 TTF 顯示斜體文字"
+
+msgid "MENU:ttf_showline"
+msgstr "使用 TTF 顯示加底線文字"
+
+msgid "MENU:ttf_showsout"
+msgstr "使用 TTF 顯示刪除線文字"
+
+msgid "MENU:ttf_wpno"
+msgstr "TTF 字處理軟體: 無"
+
+msgid "MENU:ttf_wpwp"
+msgstr "TTF 字處理軟體: WordPerfect"
+
+msgid "MENU:ttf_wpws"
+msgstr "TTF 字處理軟體: WordStar"
+
+msgid "MENU:ttf_wpxy"
+msgstr "TTF 字處理軟體: XyWrite"
+
+msgid "MENU:ttf_wpfe"
+msgstr "TTF 字處理軟體: FastEdit"
+
+msgid "MENU:ttf_blinkc"
+msgstr "顯示 TTF 閃爍光標"
+
+msgid "MENU:ttf_printfont"
+msgstr "使用目前 TTF 字體進行列印"
+
+msgid "MENU:ttf_dbcs_sbcs"
+msgstr "中日韓: 切換雙位元組/單位元組模式"
+
+msgid "MENU:ttf_autoboxdraw"
+msgstr "中日韓: 自動檢測製表符號"
+
+msgid "MENU:ttf_halfwidthkana"
+msgstr "中日韓: 允許半形日文片假名"
+
+msgid "MENU:VideoPC98Menu"
+msgstr "PC-98 選項"
+
+msgid "MENU:pc98_5mhz_gdc"
+msgstr "5MHz GDC 時鐘"
+
+msgid "MENU:pc98_allow_200scanline"
+msgstr "允許200行掃描線效果"
+
+msgid "MENU:pc98_allow_4partitions"
+msgstr "允許圖像層4個顯示分區"
+
+msgid "MENU:pc98_enable_egc"
+msgstr "啟用 EGC"
+
+msgid "MENU:pc98_enable_grcg"
+msgstr "啟用 GRCG"
+
+msgid "MENU:pc98_enable_analog"
+msgstr "啟用模擬顯示"
+
+msgid "MENU:pc98_enable_analog256"
+msgstr "模擬256色顯示"
+
+msgid "MENU:pc98_enable_188user"
+msgstr "啟用188+使用者CG單元"
+
+msgid "MENU:pc98_clear_text"
+msgstr "清除文字層"
+
+msgid "MENU:pc98_clear_graphics"
+msgstr "清除圖像層"
+
+msgid "MENU:load_d3d_shader"
+msgstr "選擇 Direct3D 像素著色檔案..."
+
+msgid "MENU:load_glsl_shader"
+msgstr "選擇 OpenGL (GLSL) 著色檔案..."
+
+msgid "MENU:load_ttf_font"
+msgstr "選擇 TTF 檔案..."
+
+msgid "MENU:SoundMenu"
+msgstr "聲音"
+
+msgid "MENU:mixer_swapstereo"
+msgstr "變更立體聲"
+
+msgid "MENU:mixer_mute"
+msgstr "靜音"
+
+msgid "MENU:mixer_info"
+msgstr "顯示混音器音量"
+
+msgid "MENU:sb_info"
+msgstr "顯示音效卡組態"
+
+msgid "MENU:midi_info"
+msgstr "顯示 MIDI 裝置組態"
+
+msgid "MENU:DOSMenu"
+msgstr "DOS"
+
+msgid "MENU:enable_a20gate"
+msgstr "啟用 A20 門"
+
+msgid "MENU:change_currentcd"
+msgstr "變更目前光碟映像..."
+
+msgid "MENU:change_currentfd"
+msgstr "變更目前軟碟映像..."
+
+msgid "MENU:DOSMouseMenu"
+msgstr "滑鼠模擬"
+
+msgid "MENU:dos_mouse_enable_int33"
+msgstr "內部模擬"
+
+msgid "MENU:dos_mouse_y_axis_reverse"
+msgstr "反轉Y軸"
+
+msgid "MENU:dos_mouse_sensitivity"
+msgstr "敏感度"
+
+msgid "MENU:DOSVerMenu"
+msgstr "報告的 DOS 版本"
+
+msgid "MENU:dos_ver_330"
+msgstr "3.30"
+
+msgid "MENU:dos_ver_500"
+msgstr "5.00"
+
+msgid "MENU:dos_ver_622"
+msgstr "6.22"
+
+msgid "MENU:dos_ver_710"
+msgstr "7.10"
+
+msgid "MENU:dos_ver_edit"
+msgstr "編輯"
+
+msgid "MENU:DOSLFNMenu"
+msgstr "長檔名支援"
+
+msgid "MENU:dos_lfn_auto"
+msgstr "自動根據 DOS 版本"
+
+msgid "MENU:dos_lfn_enable"
+msgstr "啟用長檔名模擬"
+
+msgid "MENU:dos_lfn_disable"
+msgstr "停用長檔名模擬"
+
+msgid "MENU:DOSPC98Menu"
+msgstr "PC-98 PIT 主時鐘"
+
+msgid "MENU:dos_pc98_pit_4mhz"
+msgstr "4MHz/8MHz PIT 主時鐘"
+
+msgid "MENU:dos_pc98_pit_5mhz"
+msgstr "5MHz/10MHz PIT 主時鐘"
+
+msgid "MENU:DOSEMSMenu"
+msgstr "EMS 記憶體"
+
+msgid "MENU:dos_ems_true"
+msgstr "啟用 EMS 記憶體模擬"
+
+msgid "MENU:dos_ems_board"
+msgstr "EMS 板模擬"
+
+msgid "MENU:dos_ems_emm386"
+msgstr "EMM386 模擬"
+
+msgid "MENU:dos_ems_false"
+msgstr "停用 EMS 記憶體模擬"
+
+msgid "MENU:DOSWinMenu"
+msgstr "主機系統程式"
+
+msgid "MENU:dos_win_autorun"
+msgstr "自動在 Windows 主機中執行"
+
+msgid "MENU:dos_win_transpath"
+msgstr "將路徑轉換為主機系統路徑"
+
+msgid "MENU:dos_win_wait"
+msgstr "等待應用程式 (如果可能)"
+
+msgid "MENU:dos_win_quiet"
+msgstr "安靜模式 - 無啟動資訊"
+
+msgid "MENU:CaptureMenu"
+msgstr "擷取"
+
+msgid "MENU:CaptureFormatMenu"
+msgstr "擷取格式"
+
+msgid "MENU:capture_fmt_avi_zmbv"
+msgstr "AVI + ZMBV"
+
+msgid "MENU:capture_fmt_mpegts_h264"
+msgstr "MPEG-TS + H.264"
+
+msgid "MENU:saveoptionmenu"
+msgstr "儲存/載入選項"
+
+msgid "MENU:saveslotmenu"
+msgstr "選擇儲存位"
+
+msgid "MENU:enable_autosave"
+msgstr "啟用自動儲存功能"
+
+msgid "MENU:noremark_savestate"
+msgstr "儲存狀態時不輸入注釋"
+
+msgid "MENU:force_loadstate"
+msgstr "讀檔時不顯示警告"
+
+msgid "MENU:removestate"
+msgstr "刪除工作狀態"
+
+msgid "MENU:refreshslot"
+msgstr "刷新顯示狀態"
+
+msgid "MENU:lastautosaveslot"
+msgstr "選擇上次的儲存位"
+
+msgid "MENU:usesavefile"
+msgstr "使用存檔"
+
+msgid "MENU:autosavecfg"
+msgstr "設定自動儲存..."
+
+msgid "MENU:browsesavefile"
+msgstr "選擇存檔..."
+
+msgid "MENU:current_page"
+msgstr "目前頁: 1/10"
+
+msgid "MENU:prev_page"
+msgstr "上一頁"
+
+msgid "MENU:next_page"
+msgstr "下一頁"
+
+msgid "MENU:first_page"
+msgstr "切換到第一頁"
+
+msgid "MENU:last_page"
+msgstr "切換到最後一頁"
+
+msgid "MENU:DriveMenu"
+msgstr "磁碟機"
+
+msgid "MENU:drive_mountauto"
+msgstr "自動掛載 Windows 磁碟機"
+
+msgid "MENU:drive_mounthd"
+msgstr "掛載資料夾為硬碟機"
+
+msgid "MENU:drive_mountcd"
+msgstr "掛載資料夾為光碟機"
+
+msgid "MENU:drive_mountfd"
+msgstr "掛載資料夾為軟碟機"
+
+msgid "MENU:drive_mountfro"
+msgstr "選項: 唯讀方式掛載資料夾"
+
+msgid "MENU:drive_mountarc"
+msgstr "掛載壓縮檔 (ZIP/7Z)"
+
+msgid "MENU:drive_mountimg"
+msgstr "掛載磁碟或光碟映像檔"
+
+msgid "MENU:drive_mountimgs"
+msgstr "掛載多個磁碟或光碟映像檔"
+
+msgid "MENU:drive_mountiro"
+msgstr "選項: 唯讀方式掛載映像檔"
+
+msgid "MENU:drive_unmount"
+msgstr "卸載磁碟機"
+
+msgid "MENU:drive_rescan"
+msgstr "重新掃描磁碟機"
+
+msgid "MENU:drive_swap"
+msgstr "變更映像檔"
+
+msgid "MENU:drive_info"
+msgstr "磁碟機資訊"
+
+msgid "MENU:drive_boot"
+msgstr "從此磁碟機開機"
+
+msgid "MENU:drive_bootimg"
+msgstr "從磁碟映像開機"
+
+msgid "MENU:HelpMenu"
+msgstr "說明"
+
+msgid "MENU:help_intro"
+msgstr "DOSBox-X 介紹"
+
+msgid "MENU:help_homepage"
+msgstr "DOSBox-X 首頁"
+
+msgid "MENU:help_wiki"
+msgstr "DOSBox-X 使用者指南"
+
+msgid "MENU:help_issue"
+msgstr "DOSBox-X 支援"
+
+msgid "MENU:help_nic"
+msgstr "網路介面卡清單"
+
+msgid "MENU:help_prt"
+msgstr "印表機清單"
+
+msgid "MENU:help_about"
+msgstr "關於 DOSBox-X"
+
+msgid "MENU:show_console"
+msgstr "顯示記錄主控台"
+
+msgid "MENU:wait_on_error"
+msgstr "主控台遇到錯誤時等待"
+
+msgid "MENU:show_codetext"
+msgstr "顯示代碼概覽"
+
+msgid "MENU:show_logtext"
+msgstr "顯示紀錄內容"
+
+msgid "MENU:save_logas"
+msgstr "另存記錄檔案..."
+
+msgid "MENU:debugger_rundebug"
+msgstr "除錯器選項: 執行除錯器"
+
+msgid "MENU:debugger_runnormal"
+msgstr "除錯器選項: 正常執行方式"
+
+msgid "MENU:debugger_runwatch"
+msgstr "除錯器選項: 監視執行方式"
+
+msgid "MENU:HelpCommandMenu"
+msgstr "DOS 命令"
+
+msgid "MENU:DebugMenu"
+msgstr "除錯"
+
+msgid "MENU:HelpDebugMenu"
+msgstr "記錄主控台"
+
+msgid "MENU:debug_blankrefreshtest"
+msgstr "刷新測試 (空白顯示)"
+
+msgid "MENU:debug_generatenmi"
+msgstr "產生 NMI 中斷"
+
+msgid "MENU:debug_int2fhook"
+msgstr "鉤住 INT 2F 中斷"
+
+msgid "MENU:debug_logint21"
+msgstr "記錄 INT 21 調用"
+
+msgid "MENU:debug_logfileio"
+msgstr "記錄檔案輸入輸出"
+
+msgid "MENU:mapper_speedlock"
+msgstr "開啟或關閉快進模式"
+
+msgid "MENU:mapper_speedlock2"
+msgstr "加速/快進模式"
+
+msgid "MENU:mapper_speednorm"
+msgstr "正常速度"
+
+msgid "MENU:mapper_speedup"
+msgstr "加快速度"
+
+msgid "MENU:mapper_slowdown"
+msgstr "降低速度"
+
+msgid "MENU:mapper_editcycles"
+msgstr "編輯 CPU 週期"
+
+msgid "MENU:mapper_savestate"
+msgstr "儲存工作狀態"
+
+msgid "MENU:mapper_loadstate"
+msgstr "載入工作狀態"
+
+msgid "MENU:mapper_showstate"
+msgstr "顯示工作狀態資訊"
+
+msgid "MENU:mapper_prevslot"
+msgstr "選擇上一個儲存位"
+
+msgid "MENU:mapper_nextslot"
+msgstr "選擇下一個儲存位"
+
+msgid "MENU:mapper_decfskip"
+msgstr "減小跳過影格"
+
+msgid "MENU:mapper_incfskip"
+msgstr "加大跳過影格"
+
+msgid "MENU:mapper_aspratio"
+msgstr "符合長寬比模式"
+
+msgid "MENU:mapper_recwave"
+msgstr "錄製音訊到 WAV"
+
+msgid "MENU:mapper_recmtwave"
+msgstr "錄製音訊到多軌 AVI"
+
+msgid "MENU:mapper_caprawmidi"
+msgstr "錄製 MIDI 輸出"
+
+msgid "MENU:mapper_caprawopl"
+msgstr "錄製 FM (OPL) 輸出"
+
+msgid "MENU:mapper_video"
+msgstr "錄製影像到 AVI"
+
+msgid "MENU:mapper_scrshot"
+msgstr "擷取畫面快照"
+
+msgid "MENU:mapper_debugger"
+msgstr "啟動 DOSBox-X 除錯器"
+
+msgid "MENU:mapper_volup"
+msgstr "提高音量"
+
+msgid "MENU:mapper_voldown"
+msgstr "降低音量"
+
+msgid "MENU:mapper_recvolup"
+msgstr "提高錄音音量"
+
+msgid "MENU:mapper_recvoldown"
+msgstr "降低錄音音量"
+
+msgid "MENU:mapper_sendkey_mapper"
+msgstr "輸入特殊鍵"
+
+msgid "MENU:mapper_cycledown"
+msgstr "減小 CPU 週期"
+
+msgid "MENU:mapper_cycleup"
+msgstr "加大 CPU 週期"
+
+msgid "MENU:mapper_normal"
+msgstr "一般核心"
+
+msgid "MENU:mapper_dynamic"
+msgstr "動態核心 (dynamic_x86)"
+
+msgid "MENU:mapper_simple"
+msgstr "簡單核心"
+
+msgid "MENU:mapper_full"
+msgstr "完全核心"
+
+msgid "MENU:cputype_auto"
+msgstr "自動"
+
+msgid "MENU:cputype_8086"
+msgstr "8086"
+
+msgid "MENU:cputype_8086_prefetch"
+msgstr "8086 (帶預取)"
+
+msgid "MENU:cputype_80186"
+msgstr "80186"
+
+msgid "MENU:cputype_80186_prefetch"
+msgstr "80186 (帶預取)"
+
+msgid "MENU:cputype_286"
+msgstr "286"
+
+msgid "MENU:cputype_286_prefetch"
+msgstr "286 (帶預取)"
+
+msgid "MENU:cputype_386"
+msgstr "386"
+
+msgid "MENU:cputype_386_prefetch"
+msgstr "386 (帶預取)"
+
+msgid "MENU:cputype_486old"
+msgstr "486 (老式)"
+
+msgid "MENU:cputype_486old_prefetch"
+msgstr "486 (老式, 帶預取)"
+
+msgid "MENU:cputype_486"
+msgstr "486"
+
+msgid "MENU:cputype_486_prefetch"
+msgstr "486 (帶預取)"
+
+msgid "MENU:cputype_pentium"
+msgstr "奔騰"
+
+msgid "MENU:cputype_pentium_mmx"
+msgstr "奔騰 MMX"
+
+msgid "MENU:cputype_ppro_slow"
+msgstr "奔騰 Pro"
+
+msgid "MENU:debug_pageflip"
+msgstr "頁面翻轉除錯行"
+
+msgid "MENU:debug_retracepoll"
+msgstr "追溯輪詢除錯行"
+
+msgid "MENU:mapper_swapimg"
+msgstr "變更軟碟映像"
+
+msgid "MENU:mapper_swapcd"
+msgstr "變更光碟映像"
+
+msgid "MENU:mapper_ejectpage"
+msgstr "傳送印表機換頁符號"
+
+msgid "MENU:mapper_rescanall"
+msgstr "刷新所有磁碟機"
+
+msgid "MENU:hostkey_mapper"
+msgstr "按鍵編輯中設定"
+
+msgid "MENU:showdetails"
+msgstr "標題列上顯示速度"
+
+msgid "MENU:restartconf"
+msgstr "重開 DOSBox-X 並調用指定組態檔案..."
+
+msgid "MENU:restartlang"
+msgstr "重開 DOSBox-X 並調用指定語言檔案..."
+
+msgid "MENU:auto_lock_mouse"
+msgstr "自動鎖定滑鼠"
+
+msgid "MENU:clipboard_right"
+msgstr "通過按滑鼠右鍵"
+
+msgid "MENU:clipboard_middle"
+msgstr "通過按滑鼠中鍵"
+
+msgid "MENU:clipboard_arrows"
+msgstr "通過按方向鍵 (Home=開始, End=結束)"
+
+msgid "MENU:screen_to_clipboard"
+msgstr "複製 DOS 畫面上的所有文字"
+
+msgid "MENU:clipboard_device"
+msgstr "啟用 DOS 剪貼簿裝置存取"
+
+msgid "MENU:clipboard_dosapi"
+msgstr "啟用 DOS 剪貼簿應用程式 API"
+
+msgid "MENU:clipboard_biospaste"
+msgstr "使用 BIOS 功能進行剪貼簿貼上"
+
+msgid "MENU:sendkey_winlogo"
+msgstr "輸入 LOGO 鍵"
+
+msgid "MENU:sendkey_winmenu"
+msgstr "輸入 MENU 鍵"
+
+msgid "MENU:sendkey_alttab"
+msgstr "輸入 Alt+Tab"
+
+msgid "MENU:sendkey_ctrlesc"
+msgstr "輸入 Ctrl+Esc"
+
+msgid "MENU:sendkey_ctrlbreak"
+msgstr "輸入 Ctrl+Break"
+
+msgid "MENU:sendkey_cad"
+msgstr "輸入 Ctrl+Alt+Del"
+
+msgid "MENU:hostkey_ctrlalt"
+msgstr "Ctrl+Alt"
+
+msgid "MENU:hostkey_ctrlshift"
+msgstr "Ctrl+Shift"
+
+msgid "MENU:hostkey_altshift"
+msgstr "Alt+Shift"
+
+msgid "MENU:sendkey_mapper_winlogo"
+msgstr "Mapper "輸入特殊鍵": logo key"
+
+msgid "MENU:sendkey_mapper_winmenu"
+msgstr "Mapper "輸入特殊鍵": menu key"
+
+msgid "MENU:sendkey_mapper_alttab"
+msgstr "Mapper "輸入特殊鍵": Alt+Tab"
+
+msgid "MENU:sendkey_mapper_ctrlesc"
+msgstr "Mapper "輸入特殊鍵": Ctrl+Esc"
+
+msgid "MENU:sendkey_mapper_ctrlbreak"
+msgstr "Mapper "輸入特殊鍵": Ctrl+Break"
+
+msgid "MENU:sendkey_mapper_cad"
+msgstr "Mapper "輸入特殊鍵": Ctrl+Alt+Del"
+
+msgid "MENU:wheel_none"
+msgstr "不進行轉換"
+
+msgid "MENU:wheel_updown"
+msgstr "轉換為上下箭頭"
+
+msgid "MENU:wheel_leftright"
+msgstr "轉換為左右箭頭"
+
+msgid "MENU:wheel_pageupdown"
+msgstr "轉換為 PgUp/PgDn 鍵"
+
+msgid "MENU:wheel_ctrlupdown"
+msgstr "轉換為 Ctrl+上下箭頭"
+
+msgid "MENU:wheel_ctrlleftright"
+msgstr "轉換為 Ctrl+左右箭頭"
+
+msgid "MENU:wheel_ctrlpageupdown"
+msgstr "轉換為 Ctrl+PgUp/PgDn 鍵"
+
+msgid "MENU:wheel_ctrlwz"
+msgstr "轉換為 Ctrl+W/Z 鍵"
+
+msgid "MENU:wheel_guest"
+msgstr "啟動客戶系統時亦啟用"
+
+msgid "MENU:doublebuf"
+msgstr "雙重緩衝 (全螢幕)"
+
+msgid "MENU:alwaysontop"
+msgstr "總在最前"
+
+msgid "MENU:highdpienable"
+msgstr "啟用高 DPI 模式"
+
+msgid "MENU:sync_host_datetime"
+msgstr "同步主機日期/時間"
+
+msgid "MENU:shell_config_commands"
+msgstr "組態選項作為命令"
+
+msgid "MENU:quick_reboot"
+msgstr "啟用快速重開"
+
+msgid "MENU:make_diskimage"
+msgstr "建立空白磁碟映像..."
+
+msgid "MENU:list_drivenum"
+msgstr "顯示已分配的磁碟機代號"
+
+msgid "MENU:list_ideinfo"
+msgstr "顯示 IDE 磁碟機狀態"
+
+msgid "MENU:print_textscreen"
+msgstr "列印 DOS 畫面文字"
+
+msgid "MENU:pc98_use_uskb"
+msgstr "使用美式鍵盤配置"
+
+msgid "MAPPER:caprawopl"
+msgstr "錄製 FM/OPL 輸出"
+
+msgid "MAPPER:copyall"
+msgstr "複製畫面文字到剪貼簿"
+
+msgid "MAPPER:cycauto"
+msgstr "切換自動 CPU 週期"
+
+msgid "MAPPER:debugger"
+msgstr "顯示除錯器"
+
+msgid "MAPPER:decsize"
+msgstr "減小 TTF 字體"
+
+msgid "MAPPER:dynamic"
+msgstr "CPU: 動態核心"
+
+msgid "MAPPER:fastedit"
+msgstr "快速編輯模式"
+
+msgid "MAPPER:full"
+msgstr "CPU: 完全核心"
+
+msgid "MAPPER:incsize"
+msgstr "加大 TTF 字體"
+
+msgid "MAPPER:loadmap"
+msgstr "載入按鍵配置檔案"
+
+msgid "MAPPER:nextslot"
+msgstr "下一個儲存位"
+
+msgid "MAPPER:normal"
+msgstr "CPU: 一般核心"
+
+msgid "MAPPER:paste"
+msgstr "貼上剪貼簿文字"
+
+msgid "MAPPER:pasteend"
+msgstr "停止剪貼簿複製"
+
+msgid "MAPPER:pauseints"
+msgstr "暫停並保持中斷"
+
+msgid "MAPPER:prevslot"
+msgstr "上一個儲存位"
+
+msgid "MAPPER:quickrun"
+msgstr "快速啟動程式"
+
+msgid "MAPPER:reboot"
+msgstr "重開 DOS 系統"
+
+msgid "MAPPER:recmtwave"
+msgstr "錄製音訊到多軌 AVI"
+
+msgid "MAPPER:recvoldown"
+msgstr "降低錄音音量"
+
+msgid "MAPPER:recvolup"
+msgstr "提高錄音音量"
+
+msgid "MAPPER:rescanall"
+msgstr "刷新磁碟機"
+
+msgid "MAPPER:reset"
+msgstr "重開 DOSBox-X"
+
+msgid "MAPPER:showstate"
+msgstr "顯示狀態資訊"
+
+msgid "MAPPER:simple"
+msgstr "CPU: 簡單核心"
+
+msgid "MAPPER:togmenu"
+msgstr "開啟或關閉下拉選單"
+

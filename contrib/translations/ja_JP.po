@@ -1,0 +1,3585 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DOSBox-X\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"X-Generator: aybe\n"
+
+# :DOSBOX-X:LANGUAGE:Japanese
+# :DOSBOX-X:CODEPAGE:932
+# :DOSBOX-X:VERSION:0.83.16
+# :DOSBOX-X:REMARK:PC-98, JEGA, DOS/V エミュレーション、または TTF 出力オプションとコード ページ 932 の日本語 TTF フォントを使用して、日本語の表示と印刷を直接サポートします
+
+msgid "AUTOEXEC_CONFIGFILE_HELP"
+msgstr ""
+"このセクションに記載の行は起動時に実行されます。\n"
+"MOUNT したい場合はここに記載できます。\n"
+
+msgid "CONFIGFILE_INTRO"
+msgstr ""
+"# これは DOSBox-X %s の設定ファイルです。 (最新のバージョンのDOSBox-Xを使用してください)\n"
+"# # から始まる行はコメント行で、DOSBox-Xは無視します。\n"
+"# それぞれのオプションの意味(の概要)を説明するために用います。\n"
+"# すべてのオプションを書き出すためには, 'config -all'　コマンドに -wc または -writeconf のオプションを加えて実行してください。\n"
+"\n"
+
+msgid "CONFIG_SUGGESTED_VALUES"
+msgstr "設定可能な値"
+
+msgid "CONFIG_ADVANCED_OPTION"
+msgstr "詳細オプション (設定リファレンスファイル[dosbox-x.reference.full.conf]を参照)"
+
+msgid "CONFIG_TOOL"
+msgstr "DOSBox-X 設定ツール"
+
+msgid "CONFIG_TOOL_EXIT"
+msgstr "設定ツールを終了する"
+
+msgid "MAPPER_EDITOR_EXIT"
+msgstr "マッパーエディター終了する"
+
+msgid "SAVE_MAPPER_FILE"
+msgstr "マッパーファイルを保存"
+
+msgid "WARNING"
+msgstr "注意"
+
+msgid "YES"
+msgstr "はい"
+
+msgid "NO"
+msgstr "いいえ"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "CANCEL"
+msgstr "キャンセル"
+
+msgid "CLOSE"
+msgstr "閉じる"
+
+msgid "UPDATE"
+msgstr "更新"
+
+msgid "ADD"
+msgstr "追加"
+
+msgid "DEL"
+msgstr "削除"
+
+msgid "NEXT"
+msgstr "次"
+
+msgid "SAVE"
+msgstr "保存"
+
+msgid "EXIT"
+msgstr "終了"
+
+msgid "CAPTURE"
+msgstr "キャプチャ"
+
+msgid "SAVE_CONFIGURATION"
+msgstr "設定を保存"
+
+msgid "SAVE_LANGUAGE"
+msgstr "言語ファイルを保存"
+
+msgid "SAVE_RESTART"
+msgstr "保存後に再起動"
+
+msgid "PASTE_CLIPBOARD"
+msgstr "クリップボードを貼付"
+
+msgid "APPEND_HISTORY"
+msgstr "履歴を追加"
+
+msgid "EXECUTE_NOW"
+msgstr "いま実行する"
+
+msgid "ADDITION_CONTENT"
+msgstr "設定内容:"
+
+msgid "CONTENT"
+msgstr "実行する内容:"
+
+msgid "EDIT_FOR"
+msgstr "%s を編集"
+
+msgid "HELP_FOR"
+msgstr "%s のヘルプ"
+
+msgid "CONFIGURATION_FOR"
+msgstr "%s の設定"
+
+msgid "CONFIGURATION"
+msgstr "ファイル"
+
+msgid "SETTINGS"
+msgstr "設定"
+
+msgid "LOGGING_OUTPUT"
+msgstr "DOSBox-Xのログ出力"
+
+msgid "CODE_OVERVIEW"
+msgstr "コードの概要"
+
+msgid "VISIT_HOMEPAGE"
+msgstr "ホームページ"
+
+msgid "GET_STARTED"
+msgstr "始めに"
+
+msgid "CDROM_SUPPORT"
+msgstr "CD-ROM サポート"
+
+msgid "DRIVE_INFORMATION"
+msgstr "ドライブ情報"
+
+msgid "MOUNTED_DRIVE_NUMBER"
+msgstr "マウントされたドライブ数"
+
+msgid "IDE_CONTROLLER_ASSIGNMENT"
+msgstr "IDE コントローラ接続状態"
+
+msgid "HELP_COMMAND"
+msgstr "DOS コマンドのヘルプ"
+
+msgid "CURRENT_VOLUME"
+msgstr "現在の音量ミキサの設定"
+
+msgid "CURRENT_SBCONFIG"
+msgstr "現在の Sound Blaster 設定"
+
+msgid "CURRENT_MIDICONFIG"
+msgstr "現在の MIDI 設定"
+
+msgid "CREATE_IMAGE"
+msgstr "空のディスクイメージ作成"
+
+msgid "NETWORK_LIST"
+msgstr "ネットワークインターフェース一覧"
+
+msgid "PRINTER_LIST"
+msgstr "プリンタデバイス一覧"
+
+msgid "INTRODUCTION"
+msgstr "紹介"
+
+msgid "CONFIGURE_GROUP"
+msgstr "設定するグループを選択:"
+
+msgid "SHOW_ADVOPT"
+msgstr "詳細オプションの表示"
+
+msgid "USE_PRIMARYCONFIG"
+msgstr "プライマリ設定ファイル"
+
+msgid "USE_PORTABLECONFIG"
+msgstr "ポータブル設定ファイル"
+
+msgid "USE_USERCONFIG"
+msgstr "ユーザ設定ファイル"
+
+msgid "CONFIG_SAVETO"
+msgstr "保存する設定ファイルの名前を入力:"
+
+msgid "CONFIG_SAVEALL"
+msgstr "全て(詳細オプション含む)のオプションを設定ファイルに保存"
+
+msgid "LANG_FILENAME"
+msgstr "言語ファイル名を入力:"
+
+msgid "LANG_LANGNAME"
+msgstr "言語ファイル名 (オプション):"
+
+msgid "INTRO_MESSAGE"
+msgstr ""
+"DOSBox-Xへようこそ。無料で完全なDOSエミュレーションパッケージです。\n"
+"DOSBox-Xは一般的なDOSに似たDOSシェルを表示します。\n"
+"DOSマシンからWindows 3.x や 95/98を動作させることもできます。\n"
+
+msgid "DRIVE"
+msgstr "ドライブ"
+
+msgid "TYPE"
+msgstr "タイプ"
+
+msgid "LABEL"
+msgstr "ラベル"
+
+msgid "DRIVE_NUMBER"
+msgstr "ドライブ番号"
+
+msgid "DISK_NAME"
+msgstr "ディスク名"
+
+msgid "IDE_POSITION"
+msgstr "IDE ポジション"
+
+msgid "SWAP_SLOT"
+msgstr "スロットの入替"
+
+msgid "EMPTY_SLOT"
+msgstr "空のスロット"
+
+msgid "SLOT"
+msgstr "スロット"
+
+msgid "PREVIOUS_PAGE"
+msgstr "< 前のページ"
+
+msgid "NEXT_PAGE"
+msgstr "   次のページ >"
+
+msgid "SELECT_EVENT"
+msgstr "設定変更するイベントを選択"
+
+msgid "SELECT_DIFFERENT_EVENT"
+msgstr "イベントを選択または、追加/削除/次ボタンを押してください"
+
+msgid "PRESS_JOYSTICK_KEY"
+msgstr "キー/ボタンを押すか、ジョイスティックを動かします"
+
+msgid "CAPTURE_ENABLED"
+msgstr "キャプチャしています。ESCで終了します。"
+
+msgid "MAPPER_FILE_SAVED"
+msgstr "マッバーファイルを保存しました"
+
+msgid "AUTO_CYCLE_MAX"
+msgstr "自動サイクル設定 [最大]"
+
+msgid "AUTO_CYCLE_AUTO"
+msgstr "自動サイクル設定 [自動]"
+
+msgid "AUTO_CYCLE_OFF"
+msgstr "自動サイクル設定 [無効]"
+
+msgid "PROGRAM_CONFIG_PROPERTY_ERROR"
+msgstr ""
+"セクションまたはプロパティは無効です。\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_NO_PROPERTY"
+msgstr ""
+"プロパティ %s はセクション %s に存在しません。\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_SET_SYNTAX"
+msgstr ""
+"-set オプションの文法に誤りがあります。\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_NOCONFIGFILE"
+msgstr ""
+"Config ファイルが読み込まれていません!\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_PRIMARY_CONF"
+msgstr ""
+"初期の設定ファイル:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_ADDITIONAL_CONF"
+msgstr ""
+"追加の設定ファイル:\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_GLOBAL_CONF"
+msgstr ""
+"\n"
+"グローバル設定ファイル:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_CONFDIR"
+msgstr ""
+"DOSBox-X %s 設定用ディレクトリ:\n"
+"%s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_WORKDIR"
+msgstr ""
+"DOSBox-X's 作業用ディレクトリ:\n"
+"%s\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_FILE_ERROR"
+msgstr ""
+"\n"
+"ファイル %s を開けません。\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_FILE_WHICH"
+msgstr "設定ファイル %s を書き込み中"
+
+msgid "PROGRAM_LANGUAGE_FILE_WHICH"
+msgstr "言語ファイル %s に書き込みました。"
+
+msgid "PROGRAM_CONFIG_USAGE"
+msgstr ""
+"DOSBox-X コマンドライン設定ユーティリティ 設定可能なオプション:\n"
+"-wc (or -writeconf) パラメータなしの場合: primary loaded fileに書き込み。\n"
+"-wc (or -writeconf) ファイル名: ファイルを設定用ディレクトリに書き出す。\n"
+"-wl (or -writelang) ファイル名: 現在の language stringsを書き出す。\n"
+"-ln (or -langname): 言語名を表示(パラメータなしの場合)または指定する。。\n"
+"-wcp [ファイル名]: プログラムディレクトリに書出す(dosbox-x.conf / ファイル名)\n"
+"-wcd: 設定用ディレクトリにデフォルト設定ファイルを書き出す。\n"
+"-all, -mod -wc/-wcp/-wcd と組み合わせ、全て/変更されたオプションを書き出す。\n"
+"-wcboot, -wcpboot, -wcdboot: ファイル書き出し後に DOSBox-X を再起動。\n"
+"-bootconf(or -bc): 指定の設定用ファイル(またはprimary loaded file)を用い再起動\n"
+"-norem -wc/-wcp/-wcd と組み合わせ、オプションのコメントを書き出さない。\n"
+"-l DOSBox-X の設定用パラメータの一覧を表示。\n"
+"-h, -help, -?: このヘルプを表示。"sections"を加えた場合はセクションの一覧。\n"
+"-h, -help, -?: セクション/プロパティ 指定のセクション,プロパティの情報を表示。\n"
+"-axclear: [autoexec] セクションをクリアする。\n"
+"-axadd [line]: [autoexec] セクションに行を追加。\n"
+"-axtype: [autoexec] セクションの内容を表示。\n"
+"-avistart, -avistop: AVI 録画を開始・停止。\n"
+"-securemode: セキュア・モードを有効化(マウント等の機能が無効化されます)\n"
+"-startmapper: DOSBox-X マッパーエディターを起動。\n"
+"-gui: グラフィカルな設定ツールを起動。\n"
+"-get "section property": 指定のプロパティの値を返す(%%CONFIG%%へも)。\n"
+"-set (-setfで強制) "section property=value": 指定のプロパティの値を設定。\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_PROPHLP"
+msgstr ""
+"プロパティの目的 "%s" (含まれるセクション: "%s"):\n"
+"%s\n"
+"\n"
+"設定可能な値: %s\n"
+"デフォルト値: %s\n"
+"現在の値: %s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_LINEHLP"
+msgstr ""
+"セクションの目的 "%s":\n"
+"%s\n"
+"現在の値:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_HLP_NOCHANGE"
+msgstr "実行中はこのプロパティを変更できません。"
+
+msgid "PROGRAM_CONFIG_HLP_POSINT"
+msgstr "正の整数"
+
+msgid "PROGRAM_CONFIG_HLP_SECTHLP"
+msgstr "セクション %s に含まれるプロパティ:"
+
+msgid "PROGRAM_CONFIG_HLP_SECTLIST"
+msgstr "DOSBox-X configuration に含まれるセクション:"
+
+msgid "PROGRAM_CONFIG_SECURE_ON"
+msgstr "セキュア・モードに変更しました。"
+
+msgid "PROGRAM_CONFIG_SECURE_DISALLOW"
+msgstr "セキュア・モードではこの操作はできません。"
+
+msgid "PROGRAM_CONFIG_SECTION_ERROR"
+msgstr "セクション %s は存在しません。"
+
+msgid "PROGRAM_CONFIG_VALUE_ERROR"
+msgstr ""%s" はプロパティ %s の有効な値ではありません。"
+
+msgid "PROGRAM_CONFIG_PROPERTY_DUPLICATE"
+msgstr "他のセクションに同じプロパティ名があるかもしれません。"
+
+msgid "PROGRAM_CONFIG_GET_SYNTAX"
+msgstr "文法が違います: config -get "セクション プロパティ"."
+
+msgid "PROGRAM_CONFIG_PRINT_STARTUP"
+msgstr ""
+"\n"
+"DOSBox-X は以下のコマンドラインパラメータを指定して起動されました:\n"
+"%s\n"
+"\n"
+
+msgid "PROGRAM_CONFIG_MISSINGPARAM"
+msgstr "パラメータが足りません。"
+
+msgid "PROGRAM_MOUSE_INSTALL"
+msgstr "PS/2 ポートに接続。"
+
+msgid "PROGRAM_MOUSE_VERTICAL"
+msgstr "Y軸反転 有効"
+
+msgid "PROGRAM_MOUSE_VERTICAL_BACK"
+msgstr ""
+"Y軸反転 無効\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_UNINSTALL"
+msgstr ""
+"ドライバは常駐解除されました...\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_ERROR"
+msgstr ""
+"すでに PS/2 ポートに接続されています。\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_NOINSTALLED"
+msgstr ""
+"ドライバが読み込まれていません。\n"
+"\n"
+
+msgid "PROGRAM_MOUSE_HELP"
+msgstr ""
+"マウスを有効・無効化.\n"
+"\n"
+"MOUSE [/?] [/U] [/V]\n"
+"  /U: 常駐解除\n"
+"  /V: Y軸反転\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_CDROMS_FOUND"
+msgstr ""
+"見つかったCDROM: %d\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_FORMAT"
+msgstr ""
+"%-5s  %-58s %-12s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_ELTORITO"
+msgstr ""
+"%c ドライブは El Torito 形式のフロッピードライブとしてマウントされました。\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_RAMDRIVE"
+msgstr ""
+"%c ドライブは RAMドライブとしてマウントされました。\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_2"
+msgstr ""
+"%c ドライブに %s をマウントしました\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_STATUS_1"
+msgstr ""
+"現在マウントされているドライブ:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_FORMAT"
+msgstr ""
+"%-5s  %-47s  %-12s  %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_NUMBER_FORMAT"
+msgstr ""
+"%-12s  %-40s  %-12s  %s\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_2"
+msgstr ""
+"現在マウントされているドライブ番号:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_1"
+msgstr ""
+"現在マウントされている FAT/ISOドライブ:\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_STATUS_NONE"
+msgstr ""
+"マウントされたドライブがありません。\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ERROR_1"
+msgstr ""
+"ディレクトリ %s は無効です。\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ERROR_2"
+msgstr ""
+"%s はディレクトリではありません。\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_IMGMOUNT"
+msgstr ""
+"イメージをマウントするためには,  [34;1mMOUNT[0m ではなく[34;1mIMGMOUNT[0m を使ってください。\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ILL_TYPE"
+msgstr ""
+"無効なタイプ %s\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_ALREADY_MOUNTED"
+msgstr "%c ドライブにはすでに %sがマウントされています。"
+
+msgid "PROGRAM_MOUNT_USAGE"
+msgstr ""
+"ホストのディレクトリやドライブをDOSBox-X のドライブとしてマウントします。\n"
+"使用法: [34;1m[32;1mMOUNT[0m [37;1mdrive[0m [36;1mlocal_directory[0m [option][0m\n"
+" [37;1mdrive[0m            ディレクトリまたはドライブをマウントするドライブ\n"
+" [36;1mlocal_directory[0m  マウントするホストシステムのディレクトリまたはドライブ\n"
+" [option]         設定可能なオプション:\n"
+" -t               マウントするドライブのタイプを指定。\n"
+"                  設定可能なタイプ: dir, floppy, cdrom, overlay\n"
+" ('overlay'を指定するとマウントしたドライブへの書き込みを別のディレクトリへ\n"
+" リダイレクトされる)\n"
+" -label [名前]    ドライブのボリュームラベル (すべて大文字とすること)\n"
+" -ro              ドライブを書き込み禁止でマウントする\n"
+" -pr              パスが設定ファイルの位置からの相対位置であることとする。\n"
+" -cd              ホストシステムのCDドライブの"drive #" の値の一覧を表示する。\n"
+" -usecd [drive #] オーディオ再生等の直接ハードウェア・エミュレーション時に指定\n"
+" -ioctl           最もlowレベルなハードウェアアクセスを使用 (-usecd の後に指定)\n"
+" -aspi            インストールされた ASPI レイヤーを使用 (-usecd の後に指定)\n"
+" -freesize [size] ドライブの空容量をMB(フロッピーの時はKB)で指定。\n"
+" -nocachedir      リアルタイム更新を有効化し、ドライブをキャッシュしない。\n"
+" -z drive         仮想ドライブ Z: のドライブ文字を別の文字に変更。\n"
+" -o               ドライブの local, remote の種別を表示。\n"
+" -q               表示を抑制する (メッセージを非表示).\n"
+" -u               ドライブのマウントを解除。\n"
+" [32;1m-examples        使用例を表示[0m\n"
+"マウントされたドライブの一覧を表示するには、オプションなしで MOUNT と入力する\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_EXAMPLE"
+msgstr ""
+"MOUNT コマンドの基本的な使用例:\n"
+"\n"
+"[32;1mMOUNT c %s[0m\n"
+"\n"
+"ディレクトリ %s がDOSBox-Xの C: ドライブとして認識される。\n"
+"ディレクトリは、ホストシステムに存在しなければならない。\n"
+"ディレクトリ名に空白がある場合は、適切にダブルクオーテーションで囲むこと。\n"
+"例: %s\n"
+"\n"
+"MOUNTのその他の使用例:\n"
+"\n"
+"[32;1mMOUNT[0m                             - マウントされたドライブの一覧\n"
+"[32;1mMOUNT -cd[0m                         - ホストのCDドライブの一覧\n"
+"[32;1mMOUNT d %s[0m            - D:ドライブにディレクトリをマウント\n"
+"[32;1mMOUNT c %s -t cdrom[0m      - C:ドライブを CD-ROMドライブとしてマウント\n"
+"[32;1mMOUNT c %s -ro[0m           - C:ドライブを書き込み禁止でマウント\n"
+"[32;1mMOUNT c %s -label TEST[0m   - C:ドライブをボリュームラベルTESTでマウント\n"
+"[32;1mMOUNT c %s -nocachedir [0m  - C:ドライブをキャッシュ無効でマウント\n"
+"[32;1mMOUNT c %s -freesize 128[0m - C:ドライブを空容量128MB 確保してマウント\n"
+"[32;1mMOUNT c %s -u[0m            - C:ドライブがすでにマウントされていても強制\n"
+"                                          的にマウントする\n"
+"[32;1mMOUNT c %s -t overlay[0m  - mount C: with overlay directory on top\n"
+"[32;1mMOUNT c -u[0m                        - C:ドライブのマウントを解除する\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NOT_MOUNTED"
+msgstr ""
+"%c ドライブはマウントされていません。\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_SUCCESS"
+msgstr ""
+"%c ドライブのマウントを解除しました。\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NUMBER_SUCCESS"
+msgstr ""
+"ドライブ番号 %c のマウントを解除しました。\n"
+"\n"
+
+msgid "PROGRAM_MOUNT_UMOUNT_NO_VIRTUAL"
+msgstr "仮想ドライブのマウントを解除することはできません。"
+
+msgid "PROGRAM_MOUNT_WARNING_WIN"
+msgstr "警告: C:\ をマウントすることは推奨されません。"
+
+msgid "PROGRAM_MOUNT_WARNING_OTHER"
+msgstr "警告: / をマウントすることは推奨されません。"
+
+msgid "PROGRAM_MOUNT_PHYSFS_ERROR"
+msgstr "PhysFS ドライブのマウントに失敗しました。"
+
+msgid "PROGRAM_MOUNT_OVERLAY_NO_BASE"
+msgstr "Overlayを追加する前に、通常のディレクトリを MOUNT する必要があります。"
+
+msgid "PROGRAM_MOUNT_OVERLAY_INCOMPAT_BASE"
+msgstr "指定のドライブには overlay は追加できません。"
+
+msgid "PROGRAM_MOUNT_OVERLAY_MIXED_BASE"
+msgstr "Overlayのディレクトリは、追加前のディレクトリと同じアドレス指定方法で指定する必要があります。相対パス・絶対パスの混在はできません。"
+
+msgid "PROGRAM_MOUNT_OVERLAY_SAME_AS_BASE"
+msgstr "Overlay のディレクトリには、追加前のディレクトリと同じものは指定できません。"
+
+msgid "PROGRAM_MOUNT_OVERLAY_ERROR"
+msgstr "Overlayドライブの作成でエラーがありました。"
+
+msgid "PROGRAM_MOUNT_OVERLAY_STATUS"
+msgstr "Overlay %s を %c ドライブにマウントしました。"
+
+msgid "PROGRAM_LOADFIX_ALLOC"
+msgstr "%d kb 確保しました。"
+
+msgid "PROGRAM_LOADFIX_DEALLOC"
+msgstr "%d kb 解放しました。"
+
+msgid "PROGRAM_LOADFIX_DEALLOCALL"
+msgstr "使用していたメモリを解放しました。"
+
+msgid "PROGRAM_LOADFIX_ERROR"
+msgstr "メモリ確保エラー。"
+
+msgid "PROGRAM_LOADFIX_HELP"
+msgstr ""
+"使用可能なコンベンショナルメモリ・XMS/EMSメモリの量を減らします。\n"
+"\n"
+"LOADFIX [-xms] [-ems] [-{ram}] [{program}] [{options}]\n"
+"LOADFIX -f [-xms] [-ems]\n"
+"\n"
+"  -xms        コンベンショナルメモリよりも XMSメモリを確保する\n"
+"  -ems        コンベンショナルメモリよりも EMSメモリを確保する\n"
+"  -{ram}      確保するメモリ量を KB で指定する。\n"
+"                 デフォルトはコンベンショナルメモリ 64kb; XMS/EMS メモリ 1MB\n"
+"  -a          最も低位の64KBメモリを埋めるのに必要なメモリを自動確保\n"
+"  -f (or -d)  確保したメモリを解放\n"
+"  {program}   指定のプログラムを実行\n"
+"  {options}   プログラムのオプション (必要に応じて)\n"
+"\n"
+"例:\n"
+"  [32;1mLOADFIX game.exe[0m     コンベンショナルメモリを 64KB 確保してgame.exeを実行\n"
+"  [32;1mLOADFIX -a[0m           必要なコンベンショナルメモリを自動確保\n"
+"  [32;1mLOADFIX -128[0m         コンベンショナルメモリを128KB 確保\n"
+"  [32;1mLOADFIX -xms[0m         XMSメモリを1MB確保\n"
+"  [32;1mLOADFIX -f[0m           確保したコンベンショナルメモリを解放\n"
+"\n"
+
+msgid "MSCDEX_SUCCESS"
+msgstr "MSCDEX をインストールしました。"
+
+msgid "MSCDEX_ERROR_MULTIPLE_CDROMS"
+msgstr "MSCDEX: エラー: 複数のCD-ROMドライブのドライブ文字は連続させる必要があります。"
+
+msgid "MSCDEX_ERROR_NOT_SUPPORTED"
+msgstr "MSCDEX: エラー: 未サポート"
+
+msgid "MSCDEX_ERROR_PATH"
+msgstr "MSCDEX: エラー: 指定の場所はCD-ROM ドライブではありません。"
+
+msgid "MSCDEX_ERROR_OPEN"
+msgstr "MSCDEX: エラー: ファイルが無効または開けません。"
+
+msgid "MSCDEX_TOO_MANY_DRIVES"
+msgstr "MSCDEX: エラー: CD-ROM ドライブが多すぎます (最大: 5). MSCDEX インストールできませんでした。"
+
+msgid "MSCDEX_LIMITED_SUPPORT"
+msgstr "MSCDEX: サブディレクトリをマウントしました。: 部分的サポート"
+
+msgid "MSCDEX_INVALID_FILEFORMAT"
+msgstr "MSCDEX: エラー: 指定のファイルはISO/CUE イメージでないか、不具合があります。"
+
+msgid "MSCDEX_UNKNOWN_ERROR"
+msgstr "MSCDEX: エラー: 不明なエラー。"
+
+msgid "PROGRAM_RESCAN_SUCCESS"
+msgstr "ドライブキャッシュをクリアしました。"
+
+msgid "PROGRAM_INTRO"
+msgstr ""
+"[2J[32;1mDOSBox-Xへようこそ![0m, 音声・グラフィックスをサポートするオープンソースな x86 エミュレータです。\n"
+"DOSBox-X はDOSと全く同じようなシェルを表示します。\n"
+"\n"
+"[31;1mエラーがあると、DOSBox-X は警告なしに停止・終了することがあります![0m\n"
+"\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_UP"
+msgstr "DOSBox-X の紹介"
+
+msgid "PROGRAM_INTRO_MENU_BASIC"
+msgstr "標準マウント"
+
+msgid "PROGRAM_INTRO_MENU_CDROM"
+msgstr "CD-ROM サポート"
+
+msgid "PROGRAM_INTRO_MENU_USAGE"
+msgstr "使用法"
+
+msgid "PROGRAM_INTRO_MENU_INFO"
+msgstr "情報"
+
+msgid "PROGRAM_INTRO_MENU_QUIT"
+msgstr "終了"
+
+msgid "PROGRAM_INTRO_MENU_BASIC_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[KMOUNT で、実際のハードウェアとDOSBox-XのエミュレートされたPCがつながります[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_CDROM_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[KDOSBox-XにCD-ROMをマウントする時には、追加でオプションを指定する\n"
+"   必要があります。[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_USAGE_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[KDOSBox-Xのコマンドラインオプションの概要[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_INFO_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[KDOSBox-Xに関する情報を得る方法[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MENU_QUIT_HELP"
+msgstr ""
+"\n"
+"[1m   [1m[KDosbox-Xの紹介を終了する[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_TOP"
+msgstr ""
+"[2J[32;1mDOSBox-Xのコマンドラインオプションの概要[0m\n"
+"Windowsでは cmd.exe を用いるか, DOSBox-X.exe のショートカットの編集が必要です\n"
+"\n"
+"dosbox-x [name] [-exit] [-version] [-fastlaunch] [-fullscreen]\n"
+"         [-conf congfigfile] [-lang languagefile] [-machine machinetype]\n"
+"         [-startmapper] [-noautoexec] [-scaler scaler | -forcescaler scaler]\n"
+"         [-noconsole] [-c command] [-set <section property=value>]\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_1"
+msgstr ""
+"[33;1m  name[0m\n"
+"  name がディレクトリの時、それを C: ドライブとしてマウントします。\n"
+"  name が実行ファイルの場合、そのファイルがあるディレクトリをC:ドライブ\n"
+"  としてマウントします。\n"
+"\n"
+"[33;1m  -exit[0m\n"
+"  DOSBox-X はDOSアプリケーション name の終了時に自身も終了します。\n"
+"\n"
+"[33;1m  -version[0m\n"
+"  バージョン情報を表示して終了します。フロントエンド用に使います。\n"
+"\n"
+"[33;1m  -fastlaunch[0m\n"
+"  高速起動モード (BIOS ロゴと Welcome バナーの表示をスキップします)\n"
+"\n"
+"[33;1m  -fullscreen[0m\n"
+"  DOSBox-X を全画面モードで起動します。\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_2"
+msgstr ""
+"[33;1m  -conf[0m configfile\n"
+"  configfile に指定したオプションで DOSBox-X を起動します。\n"
+"  詳しくはドキュメントを参照ください。\n"
+"\n"
+"[33;1m  -lang[0m languagefile\n"
+"  指定した languagefile を用いて、DOSBox-X を起動します。\n"
+"\n"
+"[33;1m  -noconsole[0m (Windows Only)\n"
+"  コンソールウィンドウを表示せずに DOSBox-X を起動します。\n"
+"  出力はstdout.txt と stderr.txtへリダイレクトされます。\n"
+"\n"
+"[33;1m  -machine[0m machinetype\n"
+"  DOSBox-X を指定したタイプのマシンとして起動します。指定可能な選択肢:\n"
+"  hercules, cga, cga_mono, mcga, mda, pcjr, tandy, ega, vga, vgaonly,\n"
+"  pc98, vesa_nolfb, vesa_oldvbe, svga_paradise, svga_s3 (デフォルト)\n"
+"  machinetype によって、ビデオカード・設定可能なサウンドカードが変わります。\n"
+"\n"
+
+msgid "PROGRAM_INTRO_USAGE_3"
+msgstr ""
+"[33;1m  -startmapper[0m\n"
+"  起動時にキーマッパーをに入ります。キーボード関連の不具合がある場合に役立つ\n"
+"  ことがあります。\n"
+"\n"
+"[33;1m  -noautoexec[0m\n"
+"  読み込んだ設定ファイルの [autoexec] セクションを実行しません。\n"
+"\n"
+"[33;1m  -c[0m command\n"
+"  name を実行する前に実行するコマンドを指定します。\n"
+"  複数のコマンドを指定できますが、それぞれの前に -c をつける必要があります。\n"
+"  コマンドは内部プログラム、DOSコマンド、マウントされたドライブの実行ファイル\n"
+"  のいずれかを指定できます。\n"
+"\n"
+"[33;1m  -set[0m <section property=value>\n"
+"  設定用のオプションを指定します (設定ファイルの設定より優先します)。\n"
+"  複数のオプションを指定できますが、それぞれ -set から始める必要があります。\n"
+"\n"
+
+msgid "PROGRAM_INTRO_INFO"
+msgstr ""
+"[32;1m情報:[0m\n"
+"\n"
+"マウントに関する基本的な情報は、[34;1mintro mount[0m と入力\n"
+"CD-ROMサポートに関する情報は、  [34;1mintro cdrom[0m と入力\n"
+"特殊キーに関する情報は、        [34;1mintro special[0m と入力\n"
+"使用法に関する情報は、          [34;1mintro usage[0m と入力\n"
+"\n"
+"DOSBox-Xの最新版はホームページにあります:[34;1m\n"
+"\n"
+"[34;1mhttps://dosbox-x.com/[0m or [34;1mhttp://dosbox-x.software[0m\n"
+"\n"
+"Wikiにも、DOSBox-Xに関する役立つ情報があります:\n"
+"\n"
+"[34;1mhttps://dosbox-x.com/wiki[0m\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MOUNT_START"
+msgstr ""
+"[32;1mこれらは、始めるために知っておくべきコマンドです:[0m\n"
+"ファイルシステムにあるファイルを使えるようにするためには、\n"
+"そのファイルがあるディレクトリをマウントする必要があります。\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_INTRO_MOUNT_EXST_WINDOWS"
+msgstr "[32mmount c c:\dosgames\[37m で、中身が c:\dosgames のC:ドライブが作成されます。"
+
+msgid "PROGRAM_INTRO_MOUNT_EXEN_WINDOWS"
+msgstr "c:\dosgames\[37m は例であり、ご自分のゲームディレクトリを指定してください。[37m "
+
+msgid "PROGRAM_INTRO_MOUNT_EXST_OTHER"
+msgstr "[32mmount c ~/dosgames[37m で、 ~/dosgames を中身とする C ドライブが作成されます。"
+
+msgid "PROGRAM_INTRO_MOUNT_EXEN_OTHER"
+msgstr "[32m~/dosgames[37m は例であり、ご自分のゲームディレクトリを指定してください。[37m  "
+
+msgid "PROGRAM_INTRO_MOUNT_END"
+msgstr ""
+"マウントに成功したら、[34;1mc:[0m でマウントしたC:ドライブに移動できます。\n"
+"[34;1mdir[0m とタイプすると、中身の一覧が表示されます。 \n"
+"[34;1mcd[0m でディレクトリを移動できます(一覧の中で[33;1m[][0mで識別できます)。\n"
+"[31m.exe .bat[0m, [31m.com[0mで終わるプログラム・ファイルは実行可能です。\n"
+"\n"
+
+msgid "PROGRAM_INTRO_CDROM"
+msgstr ""
+"[2J[32;1mDOSBox-Xで実機・仮想CD-ROM ドライブをマウントする方法:[0m\n"
+"DOSBox-X はいくつかのレベルの CD-ROM エミュレーションを提供します。\n"
+"\n"
+"[33m基本[0m レベルは、全てのCD-ROMドライブと通常のディレクトリで動作します。\n"
+"MSCDEX をインストールし、ファイルの属性をを読み込み専用とします。\n"
+"通常は、これでほとんどのゲームで十分です:\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom[0m   or   [34;1mmount d C:\example -t cdrom[0m\n"
+"うまく動作しない場合は、DOSBox-XにCD-ROMラベル情報を設定してみてください:\n"
+"[34;1mmount d C:\example -t cdrom -label CDLABEL[0m\n"
+"\n"
+"[33m次[0m のレベルでは、いくつかの low-level サポートを追加します。\n"
+"よって、CD-ROM ドライブでのみ動作します:\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom -usecd [33m0[0m\n"
+"\n"
+"[33m最後[0m のレベルのサポートは、オペレーティングシステムにより異なります:\n"
+"[1mWindows 2000[0m, [1mWindows XP[0m, [1mLinux[0mの場合:\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom -usecd [33m0 [34m-ioctl[0m\n"
+"[1mWindows 9x[0m (ASPI レイヤーが必要)の場合:\n"
+"[34;1mmount d [0;31mD:\[34;1m -t cdrom -usecd [33m0 [34m-aspi[0m\n"
+"\n"
+"[0;31mD:\[0m はあなたの CD-ROM に合わせて変更してください。.\n"
+"[34;1m-usecd [33m0[0m の [33;1m0[0m は、以下のコマンドをタイプしたときの数字として下さい:\n"
+"[34;1mmount -cd[0m\n"
+"\n"
+
+msgid "PROGRAM_BOOT_NOT_EXIST"
+msgstr ""
+"起動ディスクのファイルが見つかりません。中止します。\n"
+"\n"
+
+msgid "PROGRAM_BOOT_NOT_OPEN"
+msgstr ""
+"起動ディスクのファイルが開けません。中止します。\n"
+"\n"
+
+msgid "PROGRAM_BOOT_WRITE_PROTECTED"
+msgstr ""
+"イメージファイルは書き込み禁止です！ 書き込み禁止モードで起動します。\n"
+"\n"
+
+msgid "PROGRAM_BOOT_PRINT_ERROR"
+msgstr ""
+"このコマンドは DOSBox-X をフロッピーまたはハードディスクイメージから起動します\n"
+"\n"
+"このコマンドは、メニューコマンドで入替可能なフロッピーディスク群を指定できます\n"
+"drive: はマウントされているもののうち、起動するドライブを指定します。\n"
+"ドライブ文字を指定しない場合は、デフォルトでAドライブから起動します。\n"
+"パラメータを指定しない場合、カレントドライブから起動を試みます。\n"
+"起動可能なドライブ文字は A, C, Dです。  ハードディスク(C: D:ドライブ)から起動\n"
+"する場合は、イメージが[34;1mIMGMOUNT[0mコマンドでマウントされている必要があります。\n"
+"\n"
+"このコマンドの用法は以下のいずれかです:\n"
+"\n"
+"[34;1mBOOT [driveletter:][0m\n"
+"\n"
+"[34;1mBOOT diskimg1.img [diskimg2.img ...] [-L driveletter][0m\n"
+"\n"
+"注: イメージファイルの前にコロン (:) をつけると読み取り専用で起動します。\n"
+"    (ただし、"leading colon write protect image" オプションが有効の時)\n"
+"\n"
+"例:\n"
+"\n"
+"[32;1mBOOT A:[0m       - A:ドライブから起動。(マウント済みで起動可能な場合)\n"
+"[32;1mBOOT :DOS.IMG[0m - フロッピーイメージ DOS.IMG を読み取り専用で起動。\n"
+"\n"
+
+msgid "PROGRAM_BOOT_UNABLE"
+msgstr "%cドライブから起動できません。"
+
+msgid "PROGRAM_BOOT_IMAGE_OPEN"
+msgstr "イメージファイルを開きます: %s"
+
+msgid "PROGRAM_BOOT_IMAGE_NOT_OPEN"
+msgstr ""
+"イメージを開けません %s\n"
+"\n"
+
+msgid "PROGRAM_BOOT_CART_WO_PCJR"
+msgstr "PCjr カートリッジが見つかりましたが、マシンがPCjrではありません。"
+
+msgid "PROGRAM_BOOT_CART_LIST_CMDS"
+msgstr "使用可能な PCjr cartridge commandos:%s"
+
+msgid "PROGRAM_BOOT_CART_NO_CMDS"
+msgstr "PCjr cartridge commandos が見つかりません。"
+
+msgid "PROGRAM_LOADROM_HELP"
+msgstr ""
+"指定のROM イメージファイルを読み込みます。\n"
+"\n"
+"LOADROM ROM_file\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_SPECIFY_FILE"
+msgstr ""
+"読み込むROMファイルを指定してください。\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_CANT_OPEN"
+msgstr ""
+"ROM ファイルにアクセスできません。\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_TOO_LARGE"
+msgstr ""
+"ROMファイルが大きすぎます。\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_INCOMPATIBLE"
+msgstr ""
+"Video BIOS がこのマシン・タイプではサポートされていません。\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_UNRECOGNIZED"
+msgstr ""
+"ROM ファイルが認識できません。\n"
+"\n"
+
+msgid "PROGRAM_LOADROM_BASIC_LOADED"
+msgstr ""
+"BASIC ROM を読み込みました。\n"
+"\n"
+
+msgid "PROGRAM_BIOSTEST_HELP"
+msgstr ""
+"CPU tester BIOSを実行するため、BIOSイメージから起動します。\n"
+"\n"
+"BIOSTEST image_file\n"
+"\n"
+
+msgid "VHD_ERROR_OPENING"
+msgstr ""
+"指定の VHDファイルを開けません。\n"
+"\n"
+
+msgid "VHD_INVALID_DATA"
+msgstr ""
+"指定のVHDファイルが壊れているか、開けません。\n"
+"\n"
+
+msgid "VHD_UNSUPPORTED_TYPE"
+msgstr ""
+"指定のVHDファイルは、サポートされていない形式です。\n"
+"\n"
+
+msgid "VHD_ERROR_OPENING_PARENT"
+msgstr ""
+"指定のVHDファイルの親ファイルが見つかりません。\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_DATA"
+msgstr ""
+"指定のVHDファイルの親ファイルが壊れているか、開けません。\n"
+"\n"
+
+msgid "VHD_PARENT_UNSUPPORTED_TYPE"
+msgstr ""
+"指定のVHDファイルの親ファイルは、サポートされていない形式です。\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_MATCH"
+msgstr ""
+"指定のVHDファイルの親ファイルの識別子が違います。\n"
+"\n"
+
+msgid "VHD_PARENT_INVALID_DATE"
+msgstr ""
+"指定のVHDファイルの親ファイルが変更されており、読み込めません。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY_DRIVE"
+msgstr ""
+"イメージをマウントするドライブ文字を指定してください。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY2"
+msgstr ""
+"イメージをマウントするドライブ番号 (0 to %d)を指定してください(0,1=fda,fdb;2,3=hda,hdb)。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_INVALID_IMAGE"
+msgstr ""
+"イメージファイルを読み込めません。\n"
+"イメージへのパスとアクセス権を確認してください。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_DYNAMIC_VHD_UNSUPPORTED"
+msgstr ""
+"ダイナミックVHDファイルはサポートされていません。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_INVALID_GEOMETRY"
+msgstr ""
+"イメージからジオメトリ情報が取得できません。\n"
+"パラメータ -size bps,spc,hpc,cyl でジオメトリ情報を指定してください。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_AUTODET_VALUES"
+msgstr ""
+"イメージのジオメトリの自動検出: -size %u,%u,%u,%u\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_TYPE_UNSUPPORTED"
+msgstr ""
+"マウント形式 "%s" は無効です。"hdd" "floppy" "iso"のいずれかを指定してください。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_FORMAT_UNSUPPORTED"
+msgstr ""
+"フォーマット形式 "%s" は無効です。"fat" "iso" "none"のいずれかを指定してください。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_SPECIFY_FILE"
+msgstr ""
+"マウントするイメージファイルを指定してください。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_FILE_NOT_FOUND"
+msgstr ""
+"イメージファイルが見つかりません。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_DEFAULT_NOT_FOUND"
+msgstr ""
+"イメージファイルが見つかりません: IMGMAKE.IMG.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MOUNT"
+msgstr ""
+"ディレクトリをマウントするためには[34;1mIMGMOUNT[0m ではなく[34;1mMOUNT[0mコマンドを使ってください。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_ALREADY_MOUNTED"
+msgstr ""
+"そのドライブ文字にはすでにマウントされています。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_ALREADY_MOUNTED_NUMBER"
+msgstr ""
+"ドライブ番号 %d はすでにマウントされています。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_CANT_CREATE"
+msgstr ""
+"ファイルからドライブを作成できませんでした。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_CANT_CREATE_PHYSFS"
+msgstr ""
+"PhysFS ドライブを作成できませんでした。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MOUNT_NUMBER"
+msgstr ""
+"ドライブ番号 %d に %s をマウントしました。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_NON_LOCAL_DRIVE"
+msgstr ""
+"イメージはホストかローカルかネットワークドライブにある必要があります。\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_MULTIPLE_NON_CUEISO_FILES"
+msgstr ""
+"複数ファイルの指定は cue/iso イメージのみサポートされています。.\n"
+"\n"
+
+msgid "PROGRAM_IMGMOUNT_HELP"
+msgstr ""
+"フロッピー、ハードディスク、光学ディスクのイメージをマウントします。\n"
+"[32;1mIMGMOUNT[0m [37;1mdrive[0m [36;1mfile[0m [-ro] [-t floppy] [-fs fat] [-size ss,s,h,c]\n"
+"[32;1mIMGMOUNT[0m [37;1mdrive[0m [36;1mfile[0m [-ro] [-t hdd] [-fs fat] [-size ss,s,h,c] [-ide controller]\n"
+"[32;1mIMGMOUNT[0m [37;1mdriveNum[0m [36;1mfile[0m [-ro] [-fs none] [-size ss,s,h,c] [-reservecyl #]\n"
+"[32;1mIMGMOUNT[0m [37;1mdrive[0m [36;1mfile[0m [-t iso] [-fs iso]\n"
+"[32;1mIMGMOUNT[0m [37;1mdrive[0m [-t floppy] -bootcd cdDrive (or -el-torito cdDrive)\n"
+"[32;1mIMGMOUNT[0m [37;1mdrive[0m -t ram -size size\n"
+"[32;1mIMGMOUNT[0m -u [37;1mdrive|driveNum[0m (or [32;1mIMGMOUNT[0m [37;1mdrive|driveNum[0m [36;1mfile[0m [options] -u)\n"
+" [37;1mdrive[0m               イメージをマウントするドライブ文字\n"
+" [37;1mdriveNum[0m            マウントするドライブ番号 0-1 は FDD, 2-5 は HDD\n"
+" [36;1mfile[0m                イメージファイル名, 指定しない場合は [33;1mIMGMAKE.IMG[0m\n"
+" -t iso              光学ディスクのイメージ形式 (iso または cue / bin)\n"
+" -t hdd              ハードディスクのイメージ形式; (VHD または HDI 形式)\n"
+" -t floppy|ram       フロッピー|RAMドライブのイメージ形式\n"
+" -fs iso             ISO 9660ファイルシステム (.iso/.cueの時、自動指定)\n"
+" -fs fat             FATファイルシステム (FAT12, FAT16, FAT32)\n"
+" -fs none            ファイルシステムを検出しない(ドライブ番号指定時、自動指定)\n"
+" -reservecyl #       BIOSにシリンダ数を実際より # 小さい数字で認識させる\n"
+" -ide controller     \n"
+"                 ドライブをマウントするIDEコントローラ (1m, 1s, 2m, 2s) を指定\n"
+" -size size|ss,s,h,c サイズを KB or セクタ・サイズ or CHS ジオメトリで指定\n"
+" -bootcd cdDrive     起動用フロッピーを読み込むCDドライブを指定\n"
+" -ro                 イメージを書込禁止でマウント(または先頭に ':'をつける)\n"
+" -u                  ドライブまたはドライブ番号のマウントを解除する。\n"
+" [32;1m-examples           使用例の表示[0m\n"
+
+msgid "PROGRAM_IMGMOUNT_EXAMPLE"
+msgstr ""
+"IMGMOUNTの使用例:\n"
+"\n"
+"  [32;1mIMGMOUNT[0m                      - マウントされた FAT/ISO ドライブとドライブ番\n"
+"                                  号の一覧表示\n"
+"  [32;1mIMGMOUNT C[0m                    - HDDイメージ [33;1mIMGMAKE.IMG[0m をC:ドライブに\n"
+"                                  マウント\n"
+"  [32;1mIMGMOUNT C c:\image.img[0m       - HDDイメージc:\image.imgをC:ドライブに\n"
+"                                  マウント\n"
+"  [32;1mIMGMOUNT D c:\files\game.iso[0m  - CD イメージc:\files\game.iso をD:ドライブに\n"
+"                                  マウント\n"
+"  [32;1mIMGMOUNT D cdaudio.cue[0m        - cueファイルを用いcue/binファイルをCDドライブ\n"
+"                                  としてマウント\n"
+"  [32;1mIMGMOUNT 0 dos.ima[0m            - FDイメージdos.imaをドライブ番号 0にマウント\n"
+"                                  (起動可能であれば[33;1mBOOT A:[0m で起動する)\n"
+"  [32;1mIMGMOUNT A -ro dos.ima[0m        - FDイメージ dos.ima を A: 読取専用でマウント\n"
+"  [32;1mIMGMOUNT A :dsk1.img dsk2.img[0m - FDイメージ dsk1.img and dsk2.img を A:\n"
+"                                  ドライブに"ディスクの入替"メニューで入替可能\n"
+"                                  とし、dsk1.img 読取専用 (dsk2.imgは書込可能)\n"
+"  [32;1mIMGMOUNT A -bootcd D[0m          - CD ドライブ D:を起動用FD Aとしてマウント\n"
+"  [32;1mIMGMOUNT C -t ram -size 10000[0m - C:ドライブに10MBのRAMドライブをマウント\n"
+"  [32;1mIMGMOUNT C disk.img -u[0m        - C:ドライブにHDイメージ disk.imgを強制的\n"
+"                                  にマウント。必要な場合、先に自動マウント解除\n"
+"  [32;1mIMGMOUNT A -u[0m                 - A:ドライブのマウントを解除\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_SYNTAX"
+msgstr ""
+"フロッピーまたはハードディスクイメージを作成します。\n"
+"使用法: [34;1mIMGMAKE [file] [-t type] [[-size size] | [-chs geometry]] [-spc] [-nofs][0m\n"
+"  [34;1m[-bat] [-fat] [-fatcopies] [-rootdir] [-force] [-source source] [-retries #][0m\n"
+"  file: 作成するイメージ名 (ない場合は[33;1mIMGMAKE.IMG[0m) - [31;1mホスト上のパス[0m\n"
+"  -t: イメージのタイプ\n"
+"    [33;1mフロッピー用テンプレート[0m (容量を指定するための名前 KB or fd=fd_1440):\n"
+"     fd_160 fd_180 fd_200 fd_320 fd_360 fd_400 fd_720 fd_1200 fd_1440 fd_2880\n"
+"    [33;1mハードディスク用テンプレート:[0m\n"
+"     hd_250: 250MB イメージ, hd_520: 520MB イメージ, hd_1gig: 1GB イメージ\n"
+"     hd_2gig: 2GB イメージ, hd_4gig: 4GB イメージ, hd_8gig: 8GB イメージ\n"
+"     hd_st251: 40MB イメージ,hd_st225: 20MB イメージ(古いドライブのジオメトリ)\n"
+"    [33;1mカスタムハードディスクイメージ:[0m hd (-size または -chs が必要)\n"
+"  -size: カスタムハードディスクイメージのサイズ (MBで指定)\n"
+"  -chs: ディスクのジオメトリ シリンダ(1-1023),ヘッド(1-255),セクタ(1-63)\n"
+"  -nofs: ブランクなイメージを作成する場合に指定\n"
+"  -force: 既存のイメージファイルを強制上書きする\n"
+"  -bat: このイメージをIMGMOUNTコマンドでマウントする.bat ファイルを生成する。\n"
+"  -fat: FAT ファイルシステムのタイプ (12, 16, or 32).\n"
+"  -spc: クラスタあたりのセクタを強制指定。 2のべき乗とすること。\n"
+"  -fatcopies: FATテーブル数を強制指定。\n"
+"  -rootdir: ルートディレクトリエントリのサイズ (FAT32では無視される)\n"
+"  -source: ドライブ文字 - 指定された場合、イメージはフロッピーから読み込まれる\n"
+"  -retries: 状態の悪いフロッピーの再読込実施回数(1-99).\n"
+"  [32;1m-examples: 使用例を表示する[0m\n"
+
+msgid "PROGRAM_IMGMAKE_EXAMPLE"
+msgstr ""
+"IMGMAKE の使用例:\n"
+"\n"
+"  [32;1mIMGMAKE -t fd[0m                   - 1.44MB FDイメージを作成 [33;1mIMGMAKE.IMG[0m\n"
+"  [32;1mIMGMAKE -t fd_1440 -force[0m       - FDイメージを強制的に作成 [33;1mIMGMAKE.IMG[0m\n"
+"  [32;1mIMGMAKE dos.img -t fd_2880[0m      - dos.imgという名の2.88MB FDイメージを作成\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd -size 50[0m      - 50MB HDD イメージを作成 c:\disk.img\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd_520 -nofs[0m     - ブランクの520MB HDD イメージを作成\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd_2gig -fat 32[0m  - 2GB FAT32 の HDD イメージを作成\n"
+"  [32;1mIMGMAKE c:\disk.img -t hd -chs 130,2,17[0m - 指定したCHSで HDD イメージを作成\n"
+"  [32;1mIMGMAKE c:\disk.img -source a[0m           - イメージを物理ドライブ A:作成\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FLREAD"
+msgstr ""
+"ディスクのジオメトリ: シリンダ %d, ヘッド %d, セクタ %d, %d Kバイト\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FLREAD2"
+msgstr ""
+"%s =良好, %s =再試行後良好, ! =CRCエラー, x =セクターが見つからない, ? =不明\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_FILE_EXISTS"
+msgstr ""
+"ファイル "%s" は既に存在します。"-force" を指定して上書きできます。\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_CANNOT_WRITE"
+msgstr ""
+"ファイル "%s" は書き込むために開くことができません。\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_NOT_ENOUGH_SPACE"
+msgstr ""
+"イメージファイルを作成するのに必要な空き容量が %u バイト足りません。\n"
+"\n"
+
+msgid "PROGRAM_IMGMAKE_PRINT_CHS"
+msgstr "イメージファイル "%s"を作成しました: シリンダ %u, ヘッド%u, セクタ %u"
+
+msgid "PROGRAM_IMGMAKE_CANT_READ_FLOPPY"
+msgstr ""
+"\n"
+"\n"
+"フロッピーを読み取りできません。\n"
+
+msgid "PROGRAM_KEYB_INFO"
+msgstr ""
+"コードページ %i に設定しました。\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INFO_LAYOUT"
+msgstr ""
+"コードページ %i をキーレイアウト %s用に読み込みました。\n"
+"\n"
+
+msgid "PROGRAM_KEYB_SHOWHELP"
+msgstr ""
+"キーボードを指定の言語に設定します。\n"
+"\n"
+"KEYB [キーボードレイアウト ID [コードページ番号 [コードページファイル]]]\n"
+"\n"
+"使用例:\n"
+"  [32;1mKEYB[0m          読み込まれたコードページを表示\n"
+"  [32;1mKEYB sp[0m       スペイン語(SP)レイアウトを読込み, 適切なコードページを使用\n"
+"  [32;1mKEYB sp 850[0m   スペイン語(SP)レイアウトを読込み, コードページ850を使用\n"
+"  [32;1mKEYB sp 850 mycp.cpi[0m 上記と同じ, ただしmycp.cpiファイルを使用\n"
+"\n"
+
+msgid "PROGRAM_KEYB_NOERROR"
+msgstr ""
+"キーボードレイアウト %s をコードページ %i用に読み込みました。\n"
+"\n"
+
+msgid "PROGRAM_KEYB_FILENOTFOUND"
+msgstr ""
+"キーボードファイル %s が見つかりません。\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INVALIDFILE"
+msgstr ""
+"キーボードファイル %s は無効です。\n"
+"\n"
+
+msgid "PROGRAM_KEYB_LAYOUTNOTFOUND"
+msgstr ""
+"キーボードレイアウト %s はコードページ %i 用ではありません。\n"
+"\n"
+
+msgid "PROGRAM_KEYB_INVCPFILE"
+msgstr ""
+"キーボードファイル %s のためのコードページファイルがないか無効です。\n"
+"\n"
+"\n"
+
+msgid "PROGRAM_MODE_USAGE"
+msgstr ""
+"システムデバイスの設定\n"
+"\n"
+"[34;1mMODE[0m display-type       :設定可能なコード [1mCO80[0m, [1mBW80[0m, [1mCO40[0m, [1mBW40[0m, or [1mMONO[0m\n"
+"[34;1mMODE CON COLS=[0mc [34;1mLINES=[0mn :設定可能なカラム・行 c=80 or 132, n=25, 43, 50, or 60\n"
+"[34;1mMODE CON RATE=[0mr [34;1mDELAY=[0md :設定可能範囲 r=1-32 (32=最速), d=1-4 (1=最小)\n"
+"\n"
+
+msgid "PROGRAM_MODE_INVALID_PARAMETERS"
+msgstr ""
+"無効なパラメータです。\n"
+"\n"
+
+msgid "SHELL_CMD_TREE_ERROR"
+msgstr ""
+"サブディレクトリがありません。\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_TREE"
+msgstr ""
+"ボリューム %s のディレクトリ・パスの一覧\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_DRIVE"
+msgstr ""
+"\n"
+" ドライブ %c のボリューム \n"
+
+msgid "SHELL_CMD_VOL_SERIAL"
+msgstr " ボリューム シリアル番号は "
+
+msgid "SHELL_CMD_VOL_SERIAL_NOLABEL"
+msgstr ""
+"のボリューム ラベルがありません。\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_SERIAL_LABEL"
+msgstr ""
+"は %s\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_PATH"
+msgstr ""
+"ディレクトリの指定が違います。\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_DRIVE"
+msgstr ""
+"無効なドライブの指定です。\n"
+"\n"
+
+msgid "SHELL_CMD_HELP"
+msgstr ""
+"サポートされている内部コマンドの一覧を表示するには [33;1mHELP /ALL[0mと\n"
+"タイプしてください。外部コマンドは Z: ドライブ内のプログラムとして存在します。\n"
+"よく使われるコマンドの一覧:\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_END1"
+msgstr ""
+"[33;1mMOUNT[0m and [33;1mIMGMOUNT[0m 等の外部コマンドは Z: ドライブにあります。\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_END2"
+msgstr ""
+"[33;1mcommand /?[0mまたは[33;1mHELP command[0m でそれらのコマンドのヘルプ情報を表示できます\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_ON"
+msgstr ""
+"ECHO は <ON> です。\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_OFF"
+msgstr ""
+"ECHO は <OFF> です。\n"
+"\n"
+
+msgid "SHELL_ILLEGAL_SWITCH"
+msgstr ""
+"無効なスイッチ - %s\n"
+"\n"
+
+msgid "SHELL_MISSING_PARAMETER"
+msgstr ""
+"パラメータが足りません。\n"
+"\n"
+
+msgid "SHELL_MISSING_FILE"
+msgstr ""
+"ファイルが見つからないか、壊れています: %s\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_ERROR"
+msgstr ""
+"無効なディレクトリ - %s\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT"
+msgstr ""
+"ヒント: ドライブを変更するためには [31m%c:[0mと入力する。\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT_2"
+msgstr ""
+"ディレクトリ名に空白文字が含まれます。\n"
+"[31mcd %s[0m または適切にクオーテーションマークで適切に囲ってください。\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HINT_3"
+msgstr ""
+"現在のドライブはZ:で、指定のディレクトリが見つかりません。\n"
+"マウントしたドライブにアクセスするには、[31mC:[0m等でマウントしたドライブへ変更してください。\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_HELP"
+msgstr ""
+"内部カレンダを表示または変更します。\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_ERROR"
+msgstr ""
+"指定の日付は正しくありません。\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_DAYS"
+msgstr "2日月火水木金土"
+
+msgid "SHELL_CMD_DATE_NOW"
+msgstr "現在の日付: "
+
+msgid "SHELL_CMD_DATE_SETHLP"
+msgstr ""
+"変更する時は 'date %s' と入力してください.\n"
+"\n"
+
+msgid "SHELL_CMD_DATE_HELP_LONG"
+msgstr ""
+"DATE [[/T] [/H] [/S] | date]\n"
+"  date:       新しく指定する日付\n"
+"  /S:         常にホストの日付・時間をDOSの時間として使用\n"
+"  /F:         DOSBox-X の内部時間に戻す(/Sの逆)\n"
+"  /T:         日付の表示のみ\n"
+"  /H:         ホストと同期\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_HELP"
+msgstr ""
+"内部時刻を表示または変更します。\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_ERROR"
+msgstr ""
+"指定の時間は正しくありません。\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_NOW"
+msgstr "現在の時間: "
+
+msgid "SHELL_CMD_TIME_SETHLP"
+msgstr ""
+"変更する時は 'time %s' と入力してください。\n"
+"\n"
+
+msgid "SHELL_CMD_TIME_HELP_LONG"
+msgstr ""
+"TIME [[/T] [/H] | time]\n"
+"  time:       新しく指定する時刻\n"
+"  /T:         時刻の簡易表示\n"
+"  /H:         ホストと同期する\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_EXIST"
+msgstr ""
+"ディレクトリが既に存在します - %s\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_ERROR"
+msgstr ""
+"ディレクトリを作成できませんでした - %s\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_ERROR"
+msgstr ""
+"パスが無効かディレクトリでないか、ディレクトリが空ではありません - %s\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_ERROR"
+msgstr ""
+"ファイル名を変更できませんでした: %s\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_GET_ERROR"
+msgstr ""
+"ファイル属性を取得できませんでした: %s\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_SET_ERROR"
+msgstr ""
+"ファイル属性を設定できませんでした: %s\n"
+"\n"
+
+msgid "SHELL_CMD_DEL_ERROR"
+msgstr ""
+"削除できませんでした - %s\n"
+"\n"
+
+msgid "SHELL_CMD_DEL_SURE"
+msgstr ""
+"ディレクトリ内のすべてのファイルが削除されます!\n"
+"続けますか [Y/N]?\n"
+
+msgid "SHELL_SYNTAXERROR"
+msgstr ""
+"文法のエラー\n"
+"\n"
+
+msgid "SHELL_CMD_SET_NOT_SET"
+msgstr ""
+"環境変数 %s が定義されていません。\n"
+"\n"
+
+msgid "SHELL_CMD_SET_OUT_OF_SPACE"
+msgstr ""
+"環境変数領域の空きが足りません。\n"
+"\n"
+
+msgid "SHELL_CMD_IF_EXIST_MISSING_FILENAME"
+msgstr ""
+"IF EXIST: ファイル名を指定してください。\n"
+"\n"
+
+msgid "SHELL_CMD_IF_ERRORLEVEL_MISSING_NUMBER"
+msgstr ""
+"IF ERRORLEVEL: 数値を指定してください。\n"
+"\n"
+
+msgid "SHELL_CMD_IF_ERRORLEVEL_INVALID_NUMBER"
+msgstr ""
+"IF ERRORLEVEL: 無効な数値\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_MISSING_LABEL"
+msgstr ""
+"GOTO コマンドにラベルを指定してください。\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_LABEL_NOT_FOUND"
+msgstr ""
+"GOTO: ラベル %s が見つかりません。\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_ACCESS_DENIED"
+msgstr ""
+"アクセスが拒否されました - %s\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_NOT_FOUND"
+msgstr ""
+"ファイルが見つかりません - %s\n"
+"\n"
+
+msgid "SHELL_CMD_FILE_EXISTS"
+msgstr ""
+"ファイル %s は既に存在します。\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_INTRO"
+msgstr ""
+" %s のディレクトリ\n"
+"\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_BYTES_USED"
+msgstr ""
+"%5d 個のファイル      %17s バイト\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_BYTES_FREE"
+msgstr ""
+"%5d 個のディレクトリ  %17s バイトの空き領域\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_FILES_LISTED"
+msgstr ""
+"ファイル総数:\n"
+"\n"
+
+msgid "SHELL_EXECUTE_DRIVE_NOT_FOUND"
+msgstr ""
+"%c ドライブが存在しません!\n"
+"最初に [31mmount[0m して下さい。 (詳細は[1;33mintro[0m または [1;33mintro mount[0mを実行)\n"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_CDROM"
+msgstr "DOSBox-X に実際のCD-ROM %c へのアクセスを許可しますか %c [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FLOPPY"
+msgstr "DOSBox-X に実際のフロッピーディスク %c へのアクセスを許可しますか [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_REMOVABLE"
+msgstr "DOSBox-X に実際のリムーバブルドライブ %c へのアクセスを許可しますか [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_NETWORK"
+msgstr "DOSBox-X に実際のネットワークドライブ %c へのアクセスを許可しますか [Y/N]?"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FIXED"
+msgstr ""
+"本当に DOSBox-X に実機のハードディスク %c の全てにアクセスできるように\n"
+"しますか[Y/N]?\n"
+
+msgid "SHELL_EXECUTE_DRIVE_ACCESS_FIXED_LESS"
+msgstr "DOSBox-X に実機のハードディスク %c へのアクセスを許可しますか[Y/N]?"
+
+msgid "SHELL_EXECUTE_ILLEGAL_COMMAND"
+msgstr ""
+"コマンドまたはファイル名が無効です - "%s"\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE"
+msgstr ""
+"続けるには何かキーを押してください . . .\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE_HELP"
+msgstr ""
+"キーを一つ押されたら、続行します。\n"
+"\n"
+
+msgid "SHELL_CMD_PAUSE_HELP_LONG"
+msgstr ""
+"中断\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_FAILURE"
+msgstr ""
+"コピーに失敗しました。 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_SUCCESS"
+msgstr ""
+"   %d 個のファイルをコピーしました。\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_CONFIRM"
+msgstr "%s を上書きしますか (Yes/No/All)?"
+
+msgid "SHELL_CMD_COPY_NOSPACE"
+msgstr ""
+"ディスクの空き容量が足りません - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_ERROR"
+msgstr ""
+"コピーできません - %s\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_DRIVE_LIST"
+msgstr ""
+"現在マウントされているローカルドライブ:\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_NO_REMOVE"
+msgstr ""
+"削除できません。ドライブは使用されていません。\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_IN_USE"
+msgstr ""
+"指定のドライブは既に使用中です。.\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_NOT_LOCAL"
+msgstr ""
+"SUBST はローカルドライブにのみ使用可能です。\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_INVALID_PATH"
+msgstr ""
+"指定のドライブまたはパスは無効です。\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_FAILURE"
+msgstr ""
+"SUBST: コマンドラインにエラーがあります。\n"
+"\n"
+
+msgid "SHELL_STARTUP_TITLE"
+msgstr "DOSBox-Xへようこそ !"
+
+msgid "SHELL_STARTUP_HEAD1_PC98"
+msgstr "[36mDOSBox-X をはじめよう:[37m                                            "
+
+msgid "SHELL_STARTUP_TEXT1_PC98"
+msgstr ""
+"内部コマンドの一覧は [32mHELP[37m, 簡単な紹介は[32mINTRO[37m とタイプして下さい。 \n"
+"[33mドロップダウンメニュー[37mからも様々な設定が可能です。                \n"
+
+msgid "SHELL_STARTUP_EXAMPLE_PC98"
+msgstr "[32m例[37m: 出力オプション[33mTrueType font[37m,[33mOpenGL pixel-perfect[37mを試して下さい"
+
+msgid "SHELL_STARTUP_TEXT2_PC98"
+msgstr ""
+"[33m設定ツール[37mの起動 [31mhost+C[37m. host キーは [32mF11[37m.                         \n"
+"[33mマッパーエディタ[37m(キー設定)の起動 [31mhost+M[37m.                          \n"
+"全画面表示とウィンドウ表示の切替 [31mF11 [37m+ [31mF[37m                          \n"
+"エミュレーション速度の調整      [31mF11 [37m+ [31mプラス[37m[37m または [31mF11 [37m+ [31mマイナス[37m\n"
+
+msgid "SHELL_STARTUP_INFO_PC98"
+msgstr "[36mDOSBox-X は日本の [32mNEC PC-98[36m エミュレーションモードで動作中です。[37m  "
+
+msgid "SHELL_STARTUP_TEXT3_PC98"
+msgstr ""
+"[32mプロジェクト ページ[37m: [33mhttps://dosbox-x.com/ [36mComplete DOS emulations[37m\n"
+"[32mユーザガイドWiki[37m: [33mhttps://dosbox-x.com/wiki[32m [36mDOS,Windows 3.x and 9x[37m\n"
+"[32mバグ報告・提案 [37m: [33mhttps://github.com/joncampbell123/dosbox-x/issues[37m\n"
+
+msgid "SHELL_STARTUP_HEAD1"
+msgstr "[36mDOSBox-X をはじめよう:                                                      [37m"
+
+msgid "SHELL_STARTUP_TEXT1"
+msgstr ""
+"内部コマンドの一覧を表示するには[32mHELP[37m, 簡単な紹介は[32mINTRO[37m とタイプしてください\n"
+"[33mドロップダウンメニュー[37mからも様々な設定が可能です。                          \n"
+
+msgid "SHELL_STARTUP_EXAMPLE"
+msgstr "[32m例[37m: 出力オプション[33mTrueType font[37m または [33mOpenGL pixel-perfect[37m を試してください"
+
+msgid "SHELL_STARTUP_HEAD2"
+msgstr "[36m便利なデフォルトのショートカット                                            [37m"
+
+msgid "SHELL_STARTUP_TEXT2"
+msgstr ""
+"- 全画面表示とウィンドウ表示の切替 [31mF11 [37m+ [31mF[37m                                  [37m\n"
+"- [33m設定ツール[37m の起動 [31mF11 [37m+ [31mC[37m[37m, [33mマッパーエディタ[37m の起動 [31mF11 [37m+ [31mM[37m                [37m\n"
+"- エミュレーション速度の調整 [31mF11 [37m+ [31mプラス[37m[37m または [31mF11 [37m+ [31mマイナス[37m             [37m\n"
+
+msgid "SHELL_STARTUP_CGA"
+msgstr ""
+"コンポジット CGA モード [31mCtrl+F8[37m でコンポジット出力ON/OFFを切り替えます。\n"
+"[31mCtrl+Shift+[F7/F8][37m で色合いを変更します; [31mCtrl+F7[37m early/late CGA モデルを切り替えます。\n"
+
+msgid "SHELL_STARTUP_CGA_MONO"
+msgstr ""
+"[31mCtrl+F7[37m で色を緑・アンバー・白黒を切り替え,                                 \n"
+"[31mCtrl+F8[37m でコントラスト・明るさを設定します。                                \n"
+
+msgid "SHELL_STARTUP_HERC"
+msgstr ""
+"[31mCtrl+F7[37m で色を緑・アンバー・白黒を切り替えます。                            \n"
+"Use [31mCtrl+F8[37m to toggle horizontal blending (only in graphics mode).          \n"
+
+msgid "SHELL_STARTUP_HEAD3"
+msgstr "[36mDOSBox-X プロジェクト Webサイト:                                            [37m"
+
+msgid "SHELL_STARTUP_TEXT3"
+msgstr ""
+"[32mプロジェクト ページ[37m: [33mhttps://dosbox-x.com/           [36mComplete DOS emulations[37m\n"
+"[32mユーザガイド Wiki  [37m: [33mhttps://dosbox-x.com/wiki[32m       [36mDOS, Windows 3.x and 9x[37m\n"
+"[32mバグ報告・提案     [37m: [33mhttps://github.com/joncampbell123/dosbox-x/issues      [37m\n"
+
+msgid "SHELL_STARTUP_LAST"
+msgstr "HAVE FUN WITH DOSBox-X !"
+
+msgid "SHELL_CMD_BREAK_HELP"
+msgstr ""
+"CTRL+Cの押下チェックの動作を設定・解除します。\n"
+"\n"
+
+msgid "SHELL_CMD_BREAK_HELP_LONG"
+msgstr ""
+"BREAK [ON | OFF]\n"
+"\n"
+"BREAKの現在の設定は、パラメータなしで BREAK とタイプして確認できます。\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HELP"
+msgstr ""
+"カレントディレクトリを表示・変更します。\n"
+"\n"
+
+msgid "SHELL_CMD_CHDIR_HELP_LONG"
+msgstr ""
+"CHDIR [drive:][path]\n"
+"CHDIR [..]\n"
+"CD [drive:][path]\n"
+"CD [..]\n"
+"\n"
+"  ..   親ディレクトリへ移動したいときに指定します。\n"
+"\n"
+"CD drive: とタイプすると、指定したドライブのカレントディレクトリを表示します。\n"
+"パラメータなしで CD とタイプすると、カレントドライブとディレクトリを表示します\n"
+"\n"
+
+msgid "SHELL_CMD_CLS_HELP"
+msgstr ""
+"画面をクリアします。\n"
+"\n"
+
+msgid "SHELL_CMD_CLS_HELP_LONG"
+msgstr ""
+"CLS\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_HELP"
+msgstr ""
+"ディレクトリ内のファイルとサブディレクトリの一覧を表示します。\n"
+"\n"
+
+msgid "SHELL_CMD_DIR_HELP_LONG"
+msgstr ""
+"DIR [drive:][path][filename] [/[W|B]] [/S] [/P] [/A[D|H|S|R|A]] [/O[N|E|G|S|D]]\n"
+"\n"
+"  [drive:][path][filename]\n"
+"              一覧を表示したいドライブ・ディレクトリ・ファイルを指定します。\n"
+"  /W          ワイド一覧形式で表示します、\n"
+"  /B          ファイル名のみを表示します (見出しや要約がつきません)\n"
+"  /S          指定されたディレクトリおよびそのサブディレクトリの全てのファイル\n"
+"              を表示します。\n"
+"  /P          1画面毎に停止して表示します。\n"
+"  /A          指定された属性のファイルを表示します。\n"
+"  属性         D  ディレクトリ               R  読み取り専用\n"
+"               H  隠しファイル               A  アーカイブ\n"
+"               S  システムファイル           -  その属性以外\n"
+"  /O          ファイルを並べ替えて表示します。\n"
+"  ソート順     N  名前順 (アルファベット)    S  サイズ順 (小さい方から)\n"
+"               E  拡張子順 (アルファベット)  D  日時順 (古い方から)\n"
+"               G  グループ(ディレクトリから) -  降順\n"
+"\n"
+"環境変数 DIRCMD にスイッチを設定できます。\n"
+"/-Wのように - (ハイフン)を前につけると、そのスイッチは無効になります。\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_HELP"
+msgstr ""
+"メッセージを表示したり、コマンドエコーのONとOFFを切り替えます。\n"
+"\n"
+
+msgid "SHELL_CMD_ECHO_HELP_LONG"
+msgstr ""
+"  ECHO [ON | OFF]\n"
+"  ECHO [message]\n"
+"\n"
+"ECHOの現在の設定は、パラメータなしで ECHO とタイプして確認できます。\n"
+"\n"
+
+msgid "SHELL_CMD_EXIT_HELP"
+msgstr ""
+"コマンドシェルを終了します。\n"
+"\n"
+
+msgid "SHELL_CMD_EXIT_HELP_LONG"
+msgstr ""
+"EXIT\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_HELP"
+msgstr ""
+"DOSBox-X コマンドのヘルプを表示します。\n"
+"\n"
+
+msgid "SHELL_CMD_HELP_HELP_LONG"
+msgstr ""
+"HELP [/A or /ALL]\n"
+"HELP [command]\n"
+"\n"
+"   /A or /ALL   サポートされた内部コマンドの一覧を表示します。\n"
+"   [command]    指定した command のヘルプを表示します。\n"
+"\n"
+"[0m例: [37;1mHELP COPY[0m または [37;1mCOPY /?[0m は COPY コマンドのヘルプ情報を表示します。\n"
+"\n"
+"注: [33;1mMOUNT[0m、[33;1mIMGMOUNT[0m のような外部コマンドは HELP [/A] の一覧に表示されません\n"
+"    これらのコマンドは Z: ドライブにプログラムとして存在します (例: MOUNT.COM)\n"
+"    [33;1mcommand /?[0mまたは[33;1mHELP command[0m でそれらのコマンドのヘルプ情報を表示できます\n"
+"\n"
+
+msgid "SHELL_CMD_LS_HELP"
+msgstr ""
+"ディレクトリの内容を一覧表示します。\n"
+"\n"
+
+msgid "SHELL_CMD_LS_HELP_LONG"
+msgstr ""
+"LS [drive:][path][filename] [/A] [/L] [/P] [/Z]\n"
+"\n"
+"  /A     非表示ファイルとシステムファイルも一覧表示します。\n"
+"  /L     1行に1つずつ名前を一覧表示します。\n"
+"  /P     1画面毎に停止して表示します。\n"
+"  /Z     LFN サポートが利用可能な場合でも短い名前を表示します。\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_HELP"
+msgstr ""
+"ディレクトリを作成します。\n"
+"\n"
+
+msgid "SHELL_CMD_MKDIR_HELP_LONG"
+msgstr ""
+"MKDIR [drive:][path]\n"
+"MD [drive:][path]\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_HELP"
+msgstr ""
+"ディレクトリを削除します。\n"
+"\n"
+
+msgid "SHELL_CMD_RMDIR_HELP_LONG"
+msgstr ""
+"RMDIR [drive:][path]\n"
+"RD [drive:][path]\n"
+"\n"
+
+msgid "SHELL_CMD_SET_HELP"
+msgstr ""
+"環境変数を表示・変更します。\n"
+"\n"
+
+msgid "SHELL_CMD_SET_HELP_LONG"
+msgstr ""
+"SET [variable=[string]]\n"
+"\n"
+"   variable     指定する環境変数名\n"
+"   string       環境変数に設定する文字列\n"
+"\n"
+"* 文字列を指定しない場合、環境変数を削除します。\n"
+"\n"
+"環境変数の一覧を表示するためには、パラメータなしで SET と入力します。\n"
+"\n"
+
+msgid "SHELL_CMD_IF_HELP"
+msgstr ""
+"バッチプログラムで条件分岐します。\n"
+"\n"
+
+msgid "SHELL_CMD_IF_HELP_LONG"
+msgstr ""
+"IF [NOT] ERRORLEVEL number command\n"
+"IF [NOT] string1==string2 command\n"
+"IF [NOT] EXIST filename command\n"
+"\n"
+"  NOT               条件が成立しない場合に、DOSはコマンドを実行します。\n"
+"\n"
+"  ERRORLEVEL number 最後に実行したプログラムの終了コードがnumberと同じか\n"
+"                    大きい数値の時、真(True)を返します。\n"
+"\n"
+"  string1==string2  二つの文字列が一致するときに真(True)を返します。\n"
+"\n"
+"  EXIST filename    ファイル名がfilenameのファイルが存在する時に真(True)を\n"
+"                    返します。\n"
+"\n"
+"  command           条件が成立したときに実行するコマンドを指定します。\n"
+"                    コマンドに続けて、ELSEキーワードの後に条件が不成立の\n"
+"                    時に実行するコマンドを指定できます。\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_HELP"
+msgstr ""
+"バッチプログラムの指定のラベル行へジャンプします。\n"
+"\n"
+
+msgid "SHELL_CMD_GOTO_HELP_LONG"
+msgstr ""
+"GOTO label\n"
+"\n"
+"   label   バッチプログラムで、ラベルとする文字列を指定します。\n"
+"\n"
+"ラベルは行の先頭に、コロン(:)に続けて指定します。\n"
+"\n"
+
+msgid "SHELL_CMD_SHIFT_HELP"
+msgstr ""
+"バッチファイル中の置き換え可能なパラメータの位置を変更します。\n"
+"\n"
+
+msgid "SHELL_CMD_SHIFT_HELP_LONG"
+msgstr ""
+"SHIFT\n"
+"\n"
+
+msgid "SHELL_CMD_FOR_HELP"
+msgstr ""
+"指定されたコマンドをファイルセットの各ファイルに対し実行します。\n"
+"\n"
+
+msgid "SHELL_CMD_FOR_HELP_LONG"
+msgstr ""
+"FOR %%variable IN (set) DO command [command-parameters]\n"
+"\n"
+"  %%variable  置き換え可能なパラメータを指定\n"
+"  (set)      一つ以上のファイルからなるセットを指定 (ワイルドカード使用可能)\n"
+"  command    各ファイルに対して実行するコマンドを指定\n"
+"  command-parameters\n"
+"             指定したコマンドのパラメータまたはスイッチを指定\n"
+"\n"
+"バッチプログラムでコマンドを使用する場合は %%variable を %%%%variable とする\n"
+"\n"
+
+msgid "SHELL_CMD_LFNFOR_HELP"
+msgstr ""
+"FORワイルドカードにロングファイルネームを使うかどうかの設定をします\n"
+"\n"
+
+msgid "SHELL_CMD_LFNFOR_HELP_LONG"
+msgstr ""
+"LFNFOR [ON | OFF]\n"
+"\n"
+"LFNFOR の設定を表示するためには、パラメータなしで LFNFOR とタイプします。\n"
+"\n"
+"このコマンドは LFN サポートが有効な時のみ使用可能です。\n"
+"\n"
+
+msgid "SHELL_CMD_TYPE_HELP"
+msgstr ""
+"テキストファイルの内容を表示します。\n"
+"\n"
+
+msgid "SHELL_CMD_TYPE_HELP_LONG"
+msgstr ""
+"TYPE [drive:][path][filename]\n"
+"\n"
+
+msgid "SHELL_CMD_REM_HELP"
+msgstr ""
+"バッチファイルにコメントを追加します。\n"
+"\n"
+
+msgid "SHELL_CMD_REM_HELP_LONG"
+msgstr ""
+"REM [comment]\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_HELP"
+msgstr ""
+"ファイル名またはディレクトリ名を変更します。\n"
+"\n"
+
+msgid "SHELL_CMD_RENAME_HELP_LONG"
+msgstr ""
+"RENAME [drive:][path][directoryname1 | filename1] [directoryname2 | filename2]\n"
+"REN [drive:][path][directoryname1 | filename1] [directoryname2 | filename2]\n"
+"\n"
+"変更先には、新しいドライブやパスを設定できないことに注意してください。\n"
+"\n"
+"ワイルドカード (* や ?) もサポートされます。 例えば、以下のコマンドは\n"
+"全てのテキストファイルの名前を変更します: [37;1mREN *.TXT *.BAK[0m\n"
+"\n"
+
+msgid "SHELL_CMD_DELETE_HELP"
+msgstr ""
+"一つまたは複数のファイルを削除します。\n"
+"\n"
+
+msgid "SHELL_CMD_DELETE_HELP_LONG"
+msgstr ""
+"DEL [/P] [/F] [/Q] names\n"
+"ERASE [/P] [/F] [/Q] names\n"
+"\n"
+"  names         一つまたは複数のファイルまたはディレクトリを指定します。\n"
+"                ワイルドカードを用いて複数のファイルを削除できます。\n"
+"                ディレクトリを指定した場合、その中のファイルはすべて削除\n"
+"                されます。\n"
+"  /P            各ファイルを削除する前に確認のメッセージを表示します。\n"
+"  /F            書き込み禁止のファイルを強制的に削除します。\n"
+"  /Q            非表示モード。ワイルドカードで一括削除するときの確認\n"
+"  　　　　　　　メッセージを表示しません。\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_HELP"
+msgstr ""
+"一つまたは複数のファイルを別の場所にコピーします。\n"
+"\n"
+
+msgid "SHELL_CMD_COPY_HELP_LONG"
+msgstr ""
+"COPY [/Y | /-Y] source [+source [+ ...]] [destination]\n"
+"\n"
+"  source        コピーするファイル（一つまたは複数）を指定します。\n"
+"  destination   コピー先のディレクトリ・ファイル名を指定します。\n"
+"  /Y            コピー先に同名のファイルが存在する場合、上書きするかの\n"
+"                確認メッセージを表示しません。\n"
+"  /-Y           コピー先に同名のファイルが存在する場合、上書きするかの\n"
+"                確認メッセージを表示します。\n"
+"\n"
+"スイッチ /Y は環境変数 COPYCMD にあらかじめセットしておくことができます。\n"
+"このスイッチはコマンドラインで/-Y を指定することで、無効にできます。\n"
+"\n"
+"ファイルを結合するには、destinationに単一のファイル名を指定し、sourceに\n"
+"複数のファイルを指定します。(ワイルドカードまたはfile1+file2+file3 の\n"
+"ように指定します)\n"
+"\n"
+
+msgid "SHELL_CMD_CALL_HELP"
+msgstr ""
+"バッチファイルから別のバッチファイルを実行します。\n"
+"\n"
+
+msgid "SHELL_CMD_CALL_HELP_LONG"
+msgstr ""
+"CALL [drive:][path]filename [batch-parameters]\n"
+"\n"
+"batch-parameters   バッチファイルの実行に必要なスイッチ・パラメータを\n"
+"                   指定します。\n"
+
+msgid "SHELL_CMD_SUBST_HELP"
+msgstr ""
+"内部のディレクトリを仮想的なドライブに割り当てます。\n"
+"\n"
+
+msgid "SHELL_CMD_SUBST_HELP_LONG"
+msgstr ""
+"SUBST [drive1: [drive2:]path]\n"
+"SUBST drive1: /D\n"
+"\n"
+"  drive1:       パスを割り当てる仮想ドライブを指定します。\n"
+"  [drive2:]path 仮想ドライブに割り当てるローカルドライブとパスを指定します。\n"
+"  /D            drive1の割り当てを解除します。\n"
+"\n"
+"仮想ドライブの一覧を表示するには、パラメータなしで SUBST とタイプします。\n"
+"\n"
+
+msgid "SHELL_CMD_LOADHIGH_HELP"
+msgstr ""
+"プログラムを上位メモリ領域に読み込みます (XMS・UMB メモリが必要)\n"
+"\n"
+
+msgid "SHELL_CMD_LOADHIGH_HELP_LONG"
+msgstr ""
+"LH              [drive:][path]filename [parameters]\n"
+"LOADHIGH        [drive:][path]filename [parameters]\n"
+"\n"
+
+msgid "SHELL_CMD_CHOICE_HELP"
+msgstr ""
+"キーの入力を待ち、ERRORLEVEL を返します。\n"
+"\n"
+
+msgid "SHELL_CMD_CHOICE_HELP_LONG"
+msgstr ""
+"CHOICE [/C:choices] [/N] [/S] text\n"
+"  /C[:]choices  -  入力可能なキーを指定します (デフォルトは: yn)\n"
+"  /N  -  プロンプトの最後に選択肢を表示しない\n"
+"  /S  -  選択肢の大文字小文字を区別する\n"
+"  text  -  プロンプトに表示するテキスト\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_HELP"
+msgstr ""
+"ファイルの属性を表示・変更します。\n"
+"\n"
+
+msgid "SHELL_CMD_ATTRIB_HELP_LONG"
+msgstr ""
+"ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [drive:][path][filename] [/S]\n"
+"\n"
+"  +   属性をセットする\n"
+"  -   属性をクリアする\n"
+"  R   読み取り専用\n"
+"  A   アーカイブ\n"
+"  S   システムファイル\n"
+"  H   隠しファイル\n"
+"  [drive:][path][filename]\n"
+"      ATTRIBコマンドが属性を設定するファイル・ディレクトリを指定\n"
+"  /S  指定のパスのディレクトリ内のすべてのファイルに対して属性を設定\n"
+"\n"
+
+msgid "SHELL_CMD_PATH_HELP"
+msgstr ""
+"実行ファイルを検索するパスを表示・設定します。\n"
+"\n"
+
+msgid "SHELL_CMD_PATH_HELP_LONG"
+msgstr ""
+"PATH [[drive:]path[;...][;%PATH%]\n"
+"PATH ;\n"
+"\n"
+"パスの設定をすべて削除するには、PATH ; とタイプします。\n"
+"現在のパスを表示するには、パラメータなしで PATH とタイプします。\n"
+"\n"
+
+msgid "SHELL_CMD_PUSHD_HELP"
+msgstr ""
+"POPDで復帰するディレクトリを保存し、指定のディレクトリへ移動します\n"
+"\n"
+
+msgid "SHELL_CMD_PUSHD_HELP_LONG"
+msgstr ""
+"PUSHD [path]\n"
+"\n"
+"path        指定したディレクトリをカレントディレクトリにします。\n"
+"\n"
+"保存されているディレクトリを表示するには、パラメータなしでPUSHDとタイプします\n"
+"\n"
+
+msgid "SHELL_CMD_POPD_HELP"
+msgstr ""
+"PUSHDで保存したディレクトリへ移動します。\n"
+"\n"
+
+msgid "SHELL_CMD_POPD_HELP_LONG"
+msgstr ""
+"POPD\n"
+"\n"
+
+msgid "SHELL_CMD_VERIFY_HELP"
+msgstr ""
+"ファイルがディスクに正しく書き込まれたかの照合をするかを指定します\n"
+"\n"
+
+msgid "SHELL_CMD_VERIFY_HELP_LONG"
+msgstr ""
+"VERIFY [ON | OFF]\n"
+"\n"
+"VERIFYの現在の設定は、パラメータなしで VERIFY とタイプして確認できます。\n"
+"\n"
+
+msgid "SHELL_CMD_VER_HELP"
+msgstr ""
+"DOSBox-X自身と、DOSBox-Xが返す DOS バージョンを表示・設定します。\n"
+"\n"
+
+msgid "SHELL_CMD_VER_HELP_LONG"
+msgstr ""
+"VER [/R]\n"
+"VER [SET] number または VER SET [major minor]\n"
+"\n"
+"  /R                 DOSBox-X のGit コミットバージョンとビルド日時を表示\n"
+"  [SET] number       DOSBox-Xが返すDOS のバージョンを 指定の number で指定\n"
+"  SET [major minor]  DOSBox-Xが返すDOS のバージョンを major.minor 形式で指定\n"
+"\n"
+"  [0m例, [37;1mVER 6.0[0m または [37;1mVER 7.1[0m とすると DOS バージョンはそれぞれ 6.0 と 7.1に,\n"
+"  一方, [37;1mVER SET 7 1[0m とすると、DOS バージョンは 7.1 ではなく 7.01 となります。\n"
+"\n"
+"DOSBox-X とDOS のバージョンは、パラメータなしでVERとタイプして確認できます。\n"
+"\n"
+
+msgid "SHELL_CMD_VER_VER"
+msgstr ""
+"DOSBox-X バージョン %s (%s). DOS バージョン %d.%02d.\n"
+"\n"
+
+msgid "SHELL_CMD_VER_INVALID"
+msgstr ""
+"不正な DOS バージョンが指定されました。\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_HELP"
+msgstr ""
+"ボリュームラベルとシリアル番号を表示します(存在する場合)。\n"
+"\n"
+
+msgid "SHELL_CMD_VOL_HELP_LONG"
+msgstr ""
+"VOL [drive]\n"
+"\n"
+
+msgid "SHELL_CMD_PROMPT_HELP"
+msgstr ""
+"コマンドプロンプトを変更します。\n"
+"\n"
+
+msgid "SHELL_CMD_PROMPT_HELP_LONG"
+msgstr ""
+"PROMPT [text]\n"
+"  text    新しいコマンドプロンプトを指定\n"
+"\n"
+"プロンプトは、通常の文字と以下の特殊コードを組み合わせることができます:\n"
+"  $A   & (アンパサンド)\n"
+"  $B   | (パイプ)\n"
+"  $C   ( (括弧開き)\n"
+"  $D   現在の日付\n"
+"  $E   エスケープコード (ASCII コード 27)\n"
+"  $F   ) (括弧閉じ)\n"
+"  $G   > (大なり:不等号)\n"
+"  $H   バックスペース (一文字前を消去)\n"
+"  $L   < (小なり:不等号)\n"
+"  $N   カレントドライブ\n"
+"  $P   カレントドライブ・パス\n"
+"  $Q   = (等号)\n"
+"  $S     (空白)\n"
+"  $T   現在時刻\n"
+"  $V   DOS バージョン番号\n"
+"  $_   行頭復帰(CR)と行送り(LF)\n"
+"  $$   $ (ドル記号)\n"
+"\n"
+
+msgid "SHELL_CMD_ALIAS_HELP"
+msgstr ""
+"エイリアスを定義・表示します。\n"
+"\n"
+
+msgid "SHELL_CMD_ALIAS_HELP_LONG"
+msgstr ""
+"ALIAS [name[=value] ... ]\n"
+"\n"
+"パラメータなしで ALIAS とタイプすると、エイリアスの一覧が表示されます:\n"
+"`ALIAS NAME = VALUE'\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_HELP"
+msgstr ""
+"現在の DOS コードページを表示・変更します。\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_HELP_LONG"
+msgstr ""
+"CHCP [nnn]\n"
+"\n"
+"  nnn   コードページ番号を指定します。\n"
+"\n"
+"TrueType フォント出力への変更をサポートするコードページ:\n"
+"437,808,850,852,853,855,857,858,860,861,862,863,864,865,866,869,872,874\n"
+"\n"
+"932, 936, 949, 950 等の2バイト言語のコードページもサポートします。\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_ACTIVE"
+msgstr ""
+"現在のコードページ: %d\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_MISSING"
+msgstr ""
+"指定の TTF フォント内に文字が定義されていません。: %d\n"
+"\n"
+
+msgid "SHELL_CMD_CHCP_INVALID"
+msgstr ""
+"無効なコードページ番号 - %s\n"
+"\n"
+
+msgid "SHELL_CMD_COUNTRY_HELP"
+msgstr ""
+"国設定を表示・変更します。\n"
+"\n"
+
+msgid "SHELL_CMD_COUNTRY_HELP_LONG"
+msgstr ""
+"COUNTRY [nnn] \n"
+"\n"
+"  nnn   国コードを指定します。\n"
+"\n"
+"日付・時間のフォーマットは指定の国コードにより変わります。\n"
+"\n"
+
+msgid "SHELL_CMD_CTTY_HELP"
+msgstr ""
+"システムの入出力デバイスを変更します。\n"
+"\n"
+
+msgid "SHELL_CMD_CTTY_HELP_LONG"
+msgstr ""
+"CTTY device\n"
+"  device        使用する端末デバイス(例えば CON)\n"
+"\n"
+
+msgid "SHELL_CMD_MORE_HELP"
+msgstr ""
+"画面を1画面ずつ表示します。\n"
+"\n"
+
+msgid "SHELL_CMD_MORE_HELP_LONG"
+msgstr ""
+"MORE [drive:][path][filename]\n"
+"MORE < [drive:][path]filename\n"
+"command-name | MORE [drive:][path][filename]\n"
+"\n"
+
+msgid "SHELL_CMD_TRUENAME_HELP"
+msgstr ""
+"ファイルの完全に展開された物理名を表示します。\n"
+"\n"
+
+msgid "SHELL_CMD_TRUENAME_HELP_LONG"
+msgstr ""
+"TRUENAME [/H] file\n"
+"\n"
+
+msgid "SHELL_CMD_DXCAPTURE_HELP"
+msgstr ""
+"プログラムを映像・音声をキャプチャしながら実行します。\n"
+"\n"
+
+msgid "SHELL_CMD_DXCAPTURE_HELP_LONG"
+msgstr ""
+"DX-CAPTURE [/V|/-V] [/A|/-A] [/M|/-M] [command] [options]\n"
+"\n"
+"映像・音声のキャプチャを開始してからプログラムを実行し、プログラム終了時に\n"
+"キャプチャも終了します。\n"
+"\n"
+
+msgid "SHELL_CMD_DEBUGBOX_HELP"
+msgstr ""
+"プログラムを実行し、エントリ・ポイントでデバッガに入ります。\n"
+"\n"
+
+msgid "SHELL_CMD_DEBUGBOX_HELP_LONG"
+msgstr ""
+"DEBUGBOX [command] [options]\n"
+"\n"
+"パラメータなしで DEBUGBOX と入力すると、デバッガが起動します。\n"
+"\n"
+
+msgid "SHELL_CMD_COMMAND_HELP"
+msgstr ""
+"DOSBox-X コマンド・シェルの起動\n"
+"\n"
+"以下のオプションを使用可能です:\n"
+"\n"
+"  /C    指定のコマンドを実行して、シェルを終了します。\n"
+"  /K    指定のコマンドを実行し、シェルは終了しません。\n"
+"  /P    コマンドシェルを起動し、常駐します。\n"
+"  /INIT コマンドシェルを初期化します。\n"
+"\n"
+
+msgid "MENU:mapper_reset"
+msgstr "仮想マシンのリセット"
+
+msgid "MENU:mapper_reboot"
+msgstr "ゲスト・システムのリセット"
+
+msgid "MENU:mapper_loadmap"
+msgstr "マッパーファイルの読込み..."
+
+msgid "MENU:mapper_quickrun"
+msgstr "クイック起動..."
+
+msgid "MENU:mapper_shutdown"
+msgstr "DOSBox-Xを終了する"
+
+msgid "MENU:mapper_capmouse"
+msgstr "マウスをキャプチャ"
+
+msgid "MENU:mapper_fastedit"
+msgstr "クイック編集: 選択時コピーとテキスト貼付け"
+
+msgid "MENU:mapper_copyall"
+msgstr "DOS画面上のテキストをすべてコピー"
+
+msgid "MENU:mapper_paste"
+msgstr "クリップボードからの貼り付け"
+
+msgid "MENU:mapper_pasteend"
+msgstr "クリップボードからの貼り付けを停止"
+
+msgid "MENU:mapper_pause"
+msgstr "一時停止"
+
+msgid "MENU:mapper_pauseints"
+msgstr "一時停止(割込みは有効)"
+
+msgid "MENU:mapper_gui"
+msgstr "設定ツール"
+
+msgid "MENU:mapper_mapper"
+msgstr "マッパーエディター"
+
+msgid "MENU:mapper_fullscr"
+msgstr "全画面表示との切替"
+
+msgid "MENU:mapper_resetsize"
+msgstr "ウィンドウサイズ初期化"
+
+msgid "MENU:mapper_incsize"
+msgstr "TTFフォントサイズ: 拡大"
+
+msgid "MENU:mapper_decsize"
+msgstr "TTFフォントサイズ: 縮小"
+
+msgid "MENU:mapper_togmenu"
+msgstr "メニューバー表示切替"
+
+msgid "MENU:MainMenu"
+msgstr "メイン"
+
+msgid "MENU:MainSendKey"
+msgstr "特殊キーの送信"
+
+msgid "MENU:MainHostKey"
+msgstr "ホスト・キーの選択"
+
+msgid "MENU:WheelToArrow"
+msgstr "マウスホイールの動作"
+
+msgid "MENU:SharedClipboard"
+msgstr "クリップボード共有設定"
+
+msgid "MENU:CpuMenu"
+msgstr "CPU"
+
+msgid "MENU:CpuCoreMenu"
+msgstr "CPU コア"
+
+msgid "MENU:CpuTypeMenu"
+msgstr "CPU タイプ"
+
+msgid "MENU:CpuSpeedMenu"
+msgstr "CPU スピード調整"
+
+msgid "MENU:cpu88-4"
+msgstr "8088 XT 4.77MHz (～240 サイクル)"
+
+msgid "MENU:cpu286-8"
+msgstr "286 8MHz (～750 サイクル)"
+
+msgid "MENU:cpu286-12"
+msgstr "286 12MHz (～1510 サイクル)"
+
+msgid "MENU:cpu286-25"
+msgstr "286 25MHz (～3300 サイクル)"
+
+msgid "MENU:cpu386-25"
+msgstr "386DX 25MHz (～4595 サイクル)"
+
+msgid "MENU:cpu386-33"
+msgstr "386DX 33MHz (～6075 サイクル)"
+
+msgid "MENU:cpu486-33"
+msgstr "486DX 33MHz (～12010 サイクル)"
+
+msgid "MENU:cpu486-66"
+msgstr "486DX2 66MHz (～23880 サイクル)"
+
+msgid "MENU:cpu486-100"
+msgstr "486DX4 100MHz (～33445 サイクル)"
+
+msgid "MENU:cpu486-133"
+msgstr "486DX5 133MHz (～47810 サイクル)"
+
+msgid "MENU:cpu586-60"
+msgstr "Pentium 60MHz (～31545 サイクル)"
+
+msgid "MENU:cpu586-66"
+msgstr "Pentium 66MHz (～35620 サイクル)"
+
+msgid "MENU:cpu586-75"
+msgstr "Pentium 75MHz (～43500 サイクル)"
+
+msgid "MENU:cpu586-90"
+msgstr "Pentium 90MHz (～52000 サイクル)"
+
+msgid "MENU:cpu586-100"
+msgstr "Pentium 100MHz (～60000 サイクル)"
+
+msgid "MENU:cpu586-120"
+msgstr "Pentium 120MHz (～74000 サイクル)"
+
+msgid "MENU:cpu586-133"
+msgstr "Pentium 133MHz (～80000 サイクル)"
+
+msgid "MENU:cpu586-166"
+msgstr "Pentium 166MHz MMX (～97240 サイクル)"
+
+msgid "MENU:VideoMenu"
+msgstr "ビデオ"
+
+msgid "MENU:VideoFrameskipMenu"
+msgstr "フレームスキップ"
+
+msgid "MENU:frameskip_0"
+msgstr "切"
+
+msgid "MENU:frameskip_1"
+msgstr "1フレーム"
+
+msgid "MENU:frameskip_2"
+msgstr "2フレーム"
+
+msgid "MENU:frameskip_3"
+msgstr "3フレーム"
+
+msgid "MENU:frameskip_4"
+msgstr "4フレーム"
+
+msgid "MENU:frameskip_5"
+msgstr "5フレーム"
+
+msgid "MENU:frameskip_6"
+msgstr "6フレーム"
+
+msgid "MENU:frameskip_7"
+msgstr "7フレーム"
+
+msgid "MENU:frameskip_8"
+msgstr "8フレーム"
+
+msgid "MENU:frameskip_9"
+msgstr "9フレーム"
+
+msgid "MENU:frameskip_10"
+msgstr "10フレーム"
+
+msgid "MENU:VideoScalerMenu"
+msgstr "スケーラ"
+
+msgid "MENU:scaler_forced"
+msgstr "スケーラ強制使用"
+
+msgid "MENU:scaler_set_none"
+msgstr "等倍"
+
+msgid "MENU:scaler_set_normal2x"
+msgstr "Normal 2X"
+
+msgid "MENU:scaler_set_normal3x"
+msgstr "Normal 3X"
+
+msgid "MENU:scaler_set_normal4x"
+msgstr "Normal 4X"
+
+msgid "MENU:scaler_set_normal5x"
+msgstr "Normal 5X"
+
+msgid "MENU:scaler_set_hardware_none"
+msgstr "Hardware 等倍"
+
+msgid "MENU:scaler_set_hardware2x"
+msgstr "Hardware 2X"
+
+msgid "MENU:scaler_set_hardware3x"
+msgstr "Hardware 3X"
+
+msgid "MENU:scaler_set_hardware4x"
+msgstr "Hardware 4X"
+
+msgid "MENU:scaler_set_hardware5x"
+msgstr "Hardware 5X"
+
+msgid "MENU:scaler_set_gray"
+msgstr "グレースケール 等倍"
+
+msgid "MENU:scaler_set_gray2x"
+msgstr "グレースケール 2X"
+
+msgid "MENU:scaler_set_tv2x"
+msgstr "TV 2X"
+
+msgid "MENU:scaler_set_tv3x"
+msgstr "TV 3X"
+
+msgid "MENU:scaler_set_scan2x"
+msgstr "Scan 2X"
+
+msgid "MENU:scaler_set_scan3x"
+msgstr "Scan 3X"
+
+msgid "MENU:scaler_set_rgb2x"
+msgstr "RGB 2X"
+
+msgid "MENU:scaler_set_rgb3x"
+msgstr "RGB 3X"
+
+msgid "MENU:scaler_set_advmame2x"
+msgstr "Advanced MAME 2X"
+
+msgid "MENU:scaler_set_advmame3x"
+msgstr "Advanced MAME 3X"
+
+msgid "MENU:scaler_set_hq2x"
+msgstr "HQ 2X"
+
+msgid "MENU:scaler_set_hq3x"
+msgstr "HQ 3X"
+
+msgid "MENU:scaler_set_advinterp2x"
+msgstr "Advanced Interpolation 2X"
+
+msgid "MENU:scaler_set_advinterp3x"
+msgstr "Advanced Interpolation 3X"
+
+msgid "MENU:scaler_set_2xsai"
+msgstr "2xSai"
+
+msgid "MENU:scaler_set_super2xsai"
+msgstr "Super2xSai"
+
+msgid "MENU:scaler_set_supereagle"
+msgstr "SuperEagle"
+
+msgid "MENU:scaler_set_xbrz"
+msgstr "xBRZ"
+
+msgid "MENU:scaler_set_xbrz_bilinear"
+msgstr "xBRZ Bilinear"
+
+msgid "MENU:refresh_rate"
+msgstr "リフレッシュレート..."
+
+msgid "MENU:VideoOutputMenu"
+msgstr "出力"
+
+msgid "MENU:output_surface"
+msgstr "Surface"
+
+msgid "MENU:output_direct3d"
+msgstr "Direct3D"
+
+msgid "MENU:output_opengl"
+msgstr "OpenGL"
+
+msgid "MENU:output_openglnb"
+msgstr "OpenGL nearest"
+
+msgid "MENU:output_openglpp"
+msgstr "OpenGL perfect"
+
+msgid "MENU:output_ttf"
+msgstr "TrueTypeフォント"
+
+msgid "MENU:doublescan"
+msgstr "ダブルスキャン"
+
+msgid "MENU:VideoVsyncMenu"
+msgstr "垂直同期"
+
+msgid "MENU:vsync_on"
+msgstr "入"
+
+msgid "MENU:vsync_force"
+msgstr "強制"
+
+msgid "MENU:vsync_host"
+msgstr "ホスト"
+
+msgid "MENU:vsync_off"
+msgstr "切"
+
+msgid "MENU:vsync_set_syncrate"
+msgstr "同期レートを設定"
+
+msgid "MENU:VideoOverscanMenu"
+msgstr "オーバースキャン"
+
+msgid "MENU:overscan_0"
+msgstr "切"
+
+msgid "MENU:overscan_1"
+msgstr "1"
+
+msgid "MENU:overscan_2"
+msgstr "2"
+
+msgid "MENU:overscan_3"
+msgstr "3"
+
+msgid "MENU:overscan_4"
+msgstr "4"
+
+msgid "MENU:overscan_5"
+msgstr "5"
+
+msgid "MENU:overscan_6"
+msgstr "6"
+
+msgid "MENU:overscan_7"
+msgstr "7"
+
+msgid "MENU:overscan_8"
+msgstr "8"
+
+msgid "MENU:overscan_9"
+msgstr "9"
+
+msgid "MENU:overscan_10"
+msgstr "10"
+
+msgid "MENU:VideoTextmodeMenu"
+msgstr "テキスト・モード"
+
+msgid "MENU:clear_screen"
+msgstr "スクリーンを消去"
+
+msgid "MENU:vga_9widetext"
+msgstr "9ピクセル 幅広フォントを許可"
+
+msgid "MENU:text_background"
+msgstr "強調: 背景色"
+
+msgid "MENU:text_blinking"
+msgstr "強調: テキスト点滅"
+
+msgid "MENU:line_80x25"
+msgstr "スクリーン: 80 カラム x 25 行"
+
+msgid "MENU:line_80x43"
+msgstr "スクリーン: 80 カラム x 43 行"
+
+msgid "MENU:line_80x50"
+msgstr "スクリーン: 80 カラム x 50 行"
+
+msgid "MENU:line_80x60"
+msgstr "スクリーン: 80 カラム x 60 行"
+
+msgid "MENU:line_132x25"
+msgstr "スクリーン: 132 カラム x 25 行"
+
+msgid "MENU:line_132x43"
+msgstr "スクリーン: 132 カラム x 43 行"
+
+msgid "MENU:line_132x50"
+msgstr "スクリーン: 132 カラム x 50 行"
+
+msgid "MENU:line_132x60"
+msgstr "スクリーン: 132 カラム x 60 行"
+
+msgid "MENU:VideoTTFMenu"
+msgstr "TTFオプション"
+
+msgid "MENU:ttf_showbold"
+msgstr "太字をTTFで表示"
+
+msgid "MENU:ttf_showital"
+msgstr "斜体をTTFで表示"
+
+msgid "MENU:ttf_showline"
+msgstr "下線をTTFで表示"
+
+msgid "MENU:ttf_showsout"
+msgstr "打ち消し線をTTFで表示"
+
+msgid "MENU:ttf_wpno"
+msgstr "TTF ワードプロセッサー: なし"
+
+msgid "MENU:ttf_wpwp"
+msgstr "TTF ワードプロセッサー: WordPerfect"
+
+msgid "MENU:ttf_wpws"
+msgstr "TTF ワードプロセッサー: WordStar"
+
+msgid "MENU:ttf_wpxy"
+msgstr "TTF ワードプロセッサー: XyWrite"
+
+msgid "MENU:ttf_wpfe"
+msgstr "TTF ワードプロセッサー: FastEdit"
+
+msgid "MENU:ttf_blinkc"
+msgstr "TTFでカーソル点滅を表示"
+
+msgid "MENU:ttf_printfont"
+msgstr "現在のTTFフォントを印刷に使用"
+
+msgid "MENU:ttf_dbcs_sbcs"
+msgstr "CJK: DBCS/SBCS モードを切替"
+
+msgid "MENU:ttf_autoboxdraw"
+msgstr "CJK: 罫線文字を自動検出"
+
+msgid "MENU:ttf_halfwidthkana"
+msgstr "CJK: 日本語半角カナ文字を使用"
+
+msgid "MENU:VideoPC98Menu"
+msgstr "PC-98 オプション"
+
+msgid "MENU:pc98_5mhz_gdc"
+msgstr "5MHz GDC クロック"
+
+msgid "MENU:pc98_allow_200scanline"
+msgstr "200-ライン スキャンライン効果有効"
+
+msgid "MENU:pc98_allow_4partitions"
+msgstr "GDCのグラフィック分割領域を4つに拡張"
+
+msgid "MENU:pc98_enable_egc"
+msgstr "EGC有効"
+
+msgid "MENU:pc98_enable_grcg"
+msgstr "GRCG有効"
+
+msgid "MENU:pc98_enable_analog"
+msgstr "アナログディスプレイ"
+
+msgid "MENU:pc98_enable_analog256"
+msgstr "アナログ256色表示"
+
+msgid "MENU:pc98_enable_188user"
+msgstr "ユーザ定義文字数(188以上)有効"
+
+msgid "MENU:pc98_clear_text"
+msgstr "テキスト・レイヤーの消去"
+
+msgid "MENU:pc98_clear_graphics"
+msgstr "グラフィックス・レイヤーの消去"
+
+msgid "MENU:load_d3d_shader"
+msgstr "Direct3D ピクセルシェーダの選択..."
+
+msgid "MENU:load_glsl_shader"
+msgstr "OpenGL (GLSL)シェーダの選択..."
+
+msgid "MENU:load_ttf_font"
+msgstr "TrueTypeフォント(TTF)の選択..."
+
+msgid "MENU:SoundMenu"
+msgstr "サウンド"
+
+msgid "MENU:mixer_swapstereo"
+msgstr "音声の左右入替"
+
+msgid "MENU:mixer_mute"
+msgstr "ミュート"
+
+msgid "MENU:mixer_info"
+msgstr "音量ミキサのボリュームの表示"
+
+msgid "MENU:sb_info"
+msgstr "Sound Blaster設定の表示"
+
+msgid "MENU:midi_info"
+msgstr "MIDIデバイス設定の表示"
+
+msgid "MENU:DOSMenu"
+msgstr "DOS"
+
+msgid "MENU:enable_a20gate"
+msgstr "A20ゲート有効"
+
+msgid "MENU:change_currentcd"
+msgstr "CDイメージの入替..."
+
+msgid "MENU:change_currentfd"
+msgstr "フロッピーイメージの入替..."
+
+msgid "MENU:DOSMouseMenu"
+msgstr "マウスエミュレーション"
+
+msgid "MENU:dos_mouse_enable_int33"
+msgstr "内部エミュレーション"
+
+msgid "MENU:dos_mouse_y_axis_reverse"
+msgstr "Y軸反転"
+
+msgid "MENU:dos_mouse_sensitivity"
+msgstr "感度"
+
+msgid "MENU:DOSVerMenu"
+msgstr "返された DOS バージョン"
+
+msgid "MENU:dos_ver_330"
+msgstr "3.30"
+
+msgid "MENU:dos_ver_500"
+msgstr "5.00"
+
+msgid "MENU:dos_ver_622"
+msgstr "6.22"
+
+msgid "MENU:dos_ver_710"
+msgstr "7.10"
+
+msgid "MENU:dos_ver_edit"
+msgstr "編集"
+
+msgid "MENU:DOSLFNMenu"
+msgstr "ロングファイルネーム サポート"
+
+msgid "MENU:dos_lfn_auto"
+msgstr "DOSのバージョンに応じて自動設定"
+
+msgid "MENU:dos_lfn_enable"
+msgstr "ロングファイルネーム エミュレーション有効"
+
+msgid "MENU:dos_lfn_disable"
+msgstr "ロングファイルネーム エミュレーション無効"
+
+msgid "MENU:DOSPC98Menu"
+msgstr "PC-98 PIT マスタクロック"
+
+msgid "MENU:dos_pc98_pit_4mhz"
+msgstr "システムクロック8MHz系"
+
+msgid "MENU:dos_pc98_pit_5mhz"
+msgstr "システムクロック5MHz系"
+
+msgid "MENU:DOSEMSMenu"
+msgstr "拡張メモリ (EMS)"
+
+msgid "MENU:dos_ems_true"
+msgstr "EMS エミュレーション:有効"
+
+msgid "MENU:dos_ems_board"
+msgstr "EMS ボード エミュレーション"
+
+msgid "MENU:dos_ems_emm386"
+msgstr "EMM386 エミュレーション"
+
+msgid "MENU:dos_ems_false"
+msgstr "EMS エミュレーション:無効"
+
+msgid "MENU:DOSWinMenu"
+msgstr "ホストシステムのアプリケーション"
+
+msgid "MENU:dos_win_autorun"
+msgstr "Windows のホスト上で実行する"
+
+msgid "MENU:dos_win_transpath"
+msgstr "パスをホストシステムパスに変換します"
+
+msgid "MENU:dos_win_wait"
+msgstr "可能であればアプリケーションを待つ"
+
+msgid "MENU:dos_win_quiet"
+msgstr "非表示モード - スタート時のメッセージを非表示"
+
+msgid "MENU:CaptureMenu"
+msgstr "キャプチャ"
+
+msgid "MENU:CaptureFormatMenu"
+msgstr "キャプチャのフォーマット"
+
+msgid "MENU:capture_fmt_avi_zmbv"
+msgstr "AVI + ZMBV"
+
+msgid "MENU:capture_fmt_mpegts_h264"
+msgstr "MPEG-TS + H.264"
+
+msgid "MENU:saveoptionmenu"
+msgstr "セーブ/ロード オプション"
+
+msgid "MENU:saveslotmenu"
+msgstr "セーブスロットを選択"
+
+msgid "MENU:enable_autosave"
+msgstr "自動ステート(状態)保存を有効化"
+
+msgid "MENU:noremark_savestate"
+msgstr "ステート(状態)保存時に確認しない"
+
+msgid "MENU:force_loadstate"
+msgstr "ステート(状態)読込時に警告しない"
+
+msgid "MENU:removestate"
+msgstr "スロットに保存したステート(状態)を削除"
+
+msgid "MENU:refreshslot"
+msgstr "ディスプレイ情報を更新する"
+
+msgid "MENU:lastautosaveslot"
+msgstr "最後にセーブされた自動セーブスロットを選択"
+
+msgid "MENU:usesavefile"
+msgstr "セーブ用スロットの代わりにセーブファイルを使用"
+
+msgid "MENU:autosavecfg"
+msgstr "自動セーブの設定..."
+
+msgid "MENU:browsesavefile"
+msgstr "セーブファイルの一覧..."
+
+msgid "MENU:current_page"
+msgstr "現在のページ: 1/10"
+
+msgid "MENU:prev_page"
+msgstr "前のページへ"
+
+msgid "MENU:next_page"
+msgstr "次のページへ"
+
+msgid "MENU:first_page"
+msgstr "最初のページへ"
+
+msgid "MENU:last_page"
+msgstr "最後のページへ"
+
+msgid "MENU:DriveMenu"
+msgstr "ドライブ"
+
+msgid "MENU:drive_mountauto"
+msgstr "Windowsのドライブを自動マウント"
+
+msgid "MENU:drive_mounthd"
+msgstr "フォルダをHDDとしてマウント"
+
+msgid "MENU:drive_mountcd"
+msgstr "フォルダをCDドライブとしてマウント"
+
+msgid "MENU:drive_mountfd"
+msgstr "フォルダをFDDとしてマウント"
+
+msgid "MENU:drive_mountfro"
+msgstr "オプション: 書込禁止でフォルダをマウント"
+
+msgid "MENU:drive_mountarc"
+msgstr "書庫ファイル(ZIP/7Z)をマウント"
+
+msgid "MENU:drive_mountimg"
+msgstr "ディスクまたはCDイメージをマウント"
+
+msgid "MENU:drive_mountimgs"
+msgstr "複数のディスク/CDイメージをマウント"
+
+msgid "MENU:drive_mountiro"
+msgstr "オプション: 書込禁止でイメージをマウント"
+
+msgid "MENU:drive_unmount"
+msgstr "ドライブのマウント解除"
+
+msgid "MENU:drive_rescan"
+msgstr "ドライブの再スキャン"
+
+msgid "MENU:drive_swap"
+msgstr "ディスクの入替"
+
+msgid "MENU:drive_info"
+msgstr "ドライブ情報"
+
+msgid "MENU:drive_boot"
+msgstr "ドライブからブート"
+
+msgid "MENU:drive_bootimg"
+msgstr "ディスクイメージからブート"
+
+msgid "MENU:HelpMenu"
+msgstr "ヘルプ"
+
+msgid "MENU:HelpDebugMenu"
+msgstr "ログ用コンソール"
+
+msgid "MENU:help_intro"
+msgstr "DOSBox-Xの紹介"
+
+msgid "MENU:help_homepage"
+msgstr "DOSBox-X ホームページ"
+
+msgid "MENU:help_wiki"
+msgstr "DOSBox-X Wiki ガイド"
+
+msgid "MENU:help_issue"
+msgstr "DOSBox-X サポート"
+
+msgid "MENU:help_nic"
+msgstr "ネットワークインターフェースの一覧"
+
+msgid "MENU:help_prt"
+msgstr "プリンタデバイスの一覧"
+
+msgid "MENU:help_about"
+msgstr "DOSBox-Xについて"
+
+msgid "MENU:show_console"
+msgstr "ログ用コンソールを表示"
+
+msgid "MENU:wait_on_error"
+msgstr "エラー時にコンソールを停止"
+
+msgid "MENU:show_codetext"
+msgstr "コードの概要を表示する"
+
+msgid "MENU:show_logtext"
+msgstr "ログテキストを表示する"
+
+msgid "MENU:save_logas"
+msgstr "名前をつけてログを保存..."
+
+msgid "MENU:debugger_rundebug"
+msgstr "デバッガオプション: デバッガを実行"
+
+msgid "MENU:debugger_runnormal"
+msgstr "デバッガオプション: 通常実行"
+
+msgid "MENU:debugger_runwatch"
+msgstr "デバッガオプション: Watchを実行"
+
+msgid "MENU:HelpCommandMenu"
+msgstr "DOS コマンド"
+
+msgid "MENU:DebugMenu"
+msgstr "デバッグ"
+
+msgid "MENU:debug_blankrefreshtest"
+msgstr "リフレッシュのテスト (空白の画面)"
+
+msgid "MENU:debug_generatenmi"
+msgstr "NMI 割り込みを発生"
+
+msgid "MENU:debug_int2fhook"
+msgstr "INT 2Fh コールをフック"
+
+msgid "MENU:debug_logint21"
+msgstr "INT 21h コールを記録"
+
+msgid "MENU:debug_logfileio"
+msgstr "ファイル I/Oを記録"
+
+msgid "MENU:mapper_speedlock"
+msgstr "スピードロックの切替"
+
+msgid "MENU:mapper_speedlock2"
+msgstr "ターボ (Fast Forward)"
+
+msgid "MENU:mapper_speednorm"
+msgstr "通常の速度"
+
+msgid "MENU:mapper_speedup"
+msgstr "スピード:増"
+
+msgid "MENU:mapper_slowdown"
+msgstr "スピード:減"
+
+msgid "MENU:mapper_editcycles"
+msgstr "サイクルを編集"
+
+msgid "MENU:mapper_savestate"
+msgstr "状態保存"
+
+msgid "MENU:mapper_loadstate"
+msgstr "状態読込"
+
+msgid "MENU:mapper_showstate"
+msgstr "状態の情報表示"
+
+msgid "MENU:mapper_prevslot"
+msgstr "前のスロットを選択"
+
+msgid "MENU:mapper_nextslot"
+msgstr "次のスロットを選択"
+
+msgid "MENU:mapper_decfskip"
+msgstr "フレームスキップ:減"
+
+msgid "MENU:mapper_incfskip"
+msgstr "フレームスキップ:増"
+
+msgid "MENU:mapper_aspratio"
+msgstr "アスペクト比に合わせる"
+
+msgid "MENU:mapper_recwave"
+msgstr "音声をWAVに保存"
+
+msgid "MENU:mapper_recmtwave"
+msgstr "音声をmulti-track AVIに保存"
+
+msgid "MENU:mapper_caprawmidi"
+msgstr "MIDI出力を保存"
+
+msgid "MENU:mapper_caprawopl"
+msgstr "FM (OPL) 出力を保存"
+
+msgid "MENU:mapper_video"
+msgstr "動画をAVIに保存"
+
+msgid "MENU:mapper_scrshot"
+msgstr "スクリーンショット"
+
+msgid "MENU:mapper_debugger"
+msgstr "DOSBox-X デバッガの起動"
+
+msgid "MENU:mapper_volup"
+msgstr "ボリューム:上"
+
+msgid "MENU:mapper_voldown"
+msgstr "ボリューム:下"
+
+msgid "MENU:mapper_recvolup"
+msgstr "録音レベル:上"
+
+msgid "MENU:mapper_recvoldown"
+msgstr "録音レベル:下"
+
+msgid "MENU:mapper_sendkey_mapper"
+msgstr "特殊キーを送信"
+
+msgid "MENU:mapper_cycledown"
+msgstr "サイクル:減"
+
+msgid "MENU:mapper_cycleup"
+msgstr "サイクル:増"
+
+msgid "MENU:mapper_normal"
+msgstr "標準コア"
+
+msgid "MENU:mapper_dynamic"
+msgstr "ダイナミックコア (dynamic_x86)"
+
+msgid "MENU:mapper_simple"
+msgstr "簡易コア"
+
+msgid "MENU:mapper_full"
+msgstr "完全コア"
+
+msgid "MENU:cputype_auto"
+msgstr "オート"
+
+msgid "MENU:cputype_8086"
+msgstr "8086"
+
+msgid "MENU:cputype_8086_prefetch"
+msgstr "8086 (プリフェッチ有)"
+
+msgid "MENU:cputype_80186"
+msgstr "80186"
+
+msgid "MENU:cputype_80186_prefetch"
+msgstr "80186 (プリフェッチ有)"
+
+msgid "MENU:cputype_286"
+msgstr "286"
+
+msgid "MENU:cputype_286_prefetch"
+msgstr "286 (プリフェッチ有)"
+
+msgid "MENU:cputype_386"
+msgstr "386"
+
+msgid "MENU:cputype_386_prefetch"
+msgstr "386 (プリフェッチ有)"
+
+msgid "MENU:cputype_486old"
+msgstr "486 (旧)"
+
+msgid "MENU:cputype_486old_prefetch"
+msgstr "486 (旧(プリフェッチ有))"
+
+msgid "MENU:cputype_486"
+msgstr "486"
+
+msgid "MENU:cputype_486_prefetch"
+msgstr "486 (プリフェッチ有)"
+
+msgid "MENU:cputype_pentium"
+msgstr "Pentium"
+
+msgid "MENU:cputype_pentium_mmx"
+msgstr "Pentium MMX"
+
+msgid "MENU:cputype_ppro_slow"
+msgstr "Pentium Pro"
+
+msgid "MENU:debug_pageflip"
+msgstr "デバッグ用ライン表示 (CRTCレジスタ書込み)"
+
+msgid "MENU:debug_retracepoll"
+msgstr "デバッグ用ライン表示 (CRTCステータス読取り)"
+
+msgid "MENU:mapper_swapimg"
+msgstr "フロッピーを入替"
+
+msgid "MENU:mapper_swapcd"
+msgstr "CD ドライブを入替"
+
+msgid "MENU:mapper_ejectpage"
+msgstr "改ページ送信"
+
+msgid "MENU:mapper_rescanall"
+msgstr "すべてのドライブを再スキャン"
+
+msgid "MENU:hostkey_mapper"
+msgstr "Mapper-defined"
+
+msgid "MENU:showdetails"
+msgstr "FPS とRT スピードをタイトルバーに表示"
+
+msgid "MENU:restartconf"
+msgstr "設定ファイルを用いてDOSBox-X を再起動 ..."
+
+msgid "MENU:restartlang"
+msgstr "言語ファイルを用いてDOSBox-X を再起動 ..."
+
+msgid "MENU:auto_lock_mouse"
+msgstr "マウスを自動ロック"
+
+msgid "MENU:clipboard_right"
+msgstr "マウス右クリックにより"
+
+msgid "MENU:clipboard_middle"
+msgstr "マウス中クリックにより"
+
+msgid "MENU:clipboard_arrows"
+msgstr "カーソルキーにより (Home=開始, End=終了)"
+
+msgid "MENU:screen_to_clipboard"
+msgstr "DOS画面のすべてのテキストをコピー"
+
+msgid "MENU:clipboard_device"
+msgstr "DOS のクリップボードアクセスを許可"
+
+msgid "MENU:clipboard_dosapi"
+msgstr "DOS のアプリケーション用clipboard APIの使用を許可"
+
+msgid "MENU:clipboard_biospaste"
+msgstr "クリップボードの貼り付けにBIOS ファンクションを使用"
+
+msgid "MENU:sendkey_winlogo"
+msgstr "Logo キーを送信"
+
+msgid "MENU:sendkey_winmenu"
+msgstr "Menu キーを送信"
+
+msgid "MENU:sendkey_alttab"
+msgstr "Alt+Tabを送信"
+
+msgid "MENU:sendkey_ctrlesc"
+msgstr "Ctrl+Escを送信"
+
+msgid "MENU:sendkey_ctrlbreak"
+msgstr "Ctrl+Breakを送信"
+
+msgid "MENU:sendkey_cad"
+msgstr "Ctrl+Alt+Delを送信"
+
+msgid "MENU:hostkey_ctrlalt"
+msgstr "Ctrl+Alt"
+
+msgid "MENU:hostkey_ctrlshift"
+msgstr "Ctrl+Shift"
+
+msgid "MENU:hostkey_altshift"
+msgstr "Alt+Shift"
+
+msgid "MENU:sendkey_mapper_winlogo"
+msgstr "Mapper "特殊キーを送信": Logo キー"
+
+msgid "MENU:sendkey_mapper_winmenu"
+msgstr "Mapper "特殊キーを送信": Menu キー"
+
+msgid "MENU:sendkey_mapper_alttab"
+msgstr "Mapper "特殊キーを送信": Alt+Tab"
+
+msgid "MENU:sendkey_mapper_ctrlesc"
+msgstr "Mapper "特殊キーを送信": Ctrl+Esc"
+
+msgid "MENU:sendkey_mapper_ctrlbreak"
+msgstr "Mapper "特殊キーを送信": Ctrl+Break"
+
+msgid "MENU:sendkey_mapper_cad"
+msgstr "Mapper "特殊キーを送信": Ctrl+Alt+Del"
+
+msgid "MENU:wheel_none"
+msgstr "ホイール動作をキーに変換しない"
+
+msgid "MENU:wheel_updown"
+msgstr "カーソル上下に変換"
+
+msgid "MENU:wheel_leftright"
+msgstr "カーソル左右に変換"
+
+msgid "MENU:wheel_pageupdown"
+msgstr "PgUp/PgDn キーに変換"
+
+msgid "MENU:wheel_ctrlupdown"
+msgstr "Ctrl+カーソル上下に変換"
+
+msgid "MENU:wheel_ctrlleftright"
+msgstr "Ctrl+カーソル左右に変換"
+
+msgid "MENU:wheel_ctrlpageupdown"
+msgstr "Ctrl+PgUp/PgDn キーに変換"
+
+msgid "MENU:wheel_ctrlwz"
+msgstr "Ctrl+W/Z キーに変換"
+
+msgid "MENU:wheel_guest"
+msgstr "ゲストシステムにも適用"
+
+msgid "MENU:doublebuf"
+msgstr "ダブル・バッファ (全画面表示)"
+
+msgid "MENU:alwaysontop"
+msgstr "常に手前"
+
+msgid "MENU:highdpienable"
+msgstr "高DPI有効"
+
+msgid "MENU:sync_host_datetime"
+msgstr "ホストの日時と同期"
+
+msgid "MENU:shell_config_commands"
+msgstr "オプションをコマンドとして設定"
+
+msgid "MENU:quick_reboot"
+msgstr "高速再起動を有効化"
+
+msgid "MENU:make_diskimage"
+msgstr "空ディスクのイメージを作成..."
+
+msgid "MENU:list_drivenum"
+msgstr "マウントされたドライブ番号を表示"
+
+msgid "MENU:list_ideinfo"
+msgstr "IDE ディスク・CD の状態を表示"
+
+msgid "MENU:print_textscreen"
+msgstr "DOS テキスト画面を印刷"
+
+msgid "MENU:pc98_use_uskb"
+msgstr "USキーボードレイアウトを使用"
+
+msgid "MAPPER:caprawopl"
+msgstr "FM/OPL 出力を保存"
+
+msgid "MAPPER:copyall"
+msgstr "クリップボードにコピー"
+
+msgid "MAPPER:cycauto"
+msgstr "サイクル自動設定 切替"
+
+msgid "MAPPER:debugger"
+msgstr "デバッガーを表示"
+
+msgid "MAPPER:decsize"
+msgstr "TTF サイズ: 縮小"
+
+msgid "MAPPER:dynamic"
+msgstr "CPU:ダイナミックコア"
+
+msgid "MAPPER:fastedit"
+msgstr "クイック編集モード"
+
+msgid "MAPPER:full"
+msgstr "CPU:完全コア"
+
+msgid "MAPPER:incsize"
+msgstr "TTF サイズ: 拡大"
+
+msgid "MAPPER:loadmap"
+msgstr "マッパーファイル読込"
+
+msgid "MAPPER:nextslot"
+msgstr "次のセーブスロット"
+
+msgid "MAPPER:normal"
+msgstr "CPU:標準コア"
+
+msgid "MAPPER:paste"
+msgstr "クリップボードを貼付"
+
+msgid "MAPPER:pasteend"
+msgstr "クリップボード停止"
+
+msgid "MAPPER:pauseints"
+msgstr "一時停止(割込有効)"
+
+msgid "MAPPER:prevslot"
+msgstr "前のセーブスロット"
+
+msgid "MAPPER:quickrun"
+msgstr "クイック起動"
+
+msgid "MAPPER:recmtwave"
+msgstr "M.T. AVI形式で保存"
+
+msgid "MAPPER:reboot"
+msgstr "DOSシステムの再起動"
+
+msgid "MAPPER:recvoldown"
+msgstr "録音レベル: 下"
+
+msgid "MAPPER:recvolup"
+msgstr "録音レベル: 上"
+
+msgid "MAPPER:rescanall"
+msgstr "ドライブを再スキャン"
+
+msgid "MAPPER:reset"
+msgstr "DOSBox-Xを再起動"
+
+msgid "MAPPER:showstate"
+msgstr "ステートの情報表示"
+
+msgid "MAPPER:simple"
+msgstr "CPU:簡易コア"
+
+msgid "MAPPER:togmenu"
+msgstr "メニューバー表示切替"
+
